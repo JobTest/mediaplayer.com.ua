@@ -15,12 +15,12 @@
 		var opt = $.extend({
 			wrapper: 'form',
 			idSuffix: '-styler',
-			filePlaceholder: 'Файл не выбран',
-			fileBrowse: 'Обзор...',
+			filePlaceholder: 'Файл не вибраний',
+			fileBrowse: 'Огляд...',
 			selectSearch: true,
 			selectSearchLimit: 10,
-			selectSearchNotFound: 'Совпадений не найдено',
-			selectSearchPlaceholder: 'Поиск...',
+			selectSearchNotFound: 'Збігів не знайдено',
+			selectSearchPlaceholder: 'Пошук...',
 			selectVisibleOptions: 0,
 			singleSelectzIndex: '100',
 			selectSmartPositioning: true

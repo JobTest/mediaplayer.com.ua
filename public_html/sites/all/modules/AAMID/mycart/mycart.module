@@ -10,12 +10,12 @@ function mycart_menu() {
     'title' => 'Курс валют',
     'description' => 'Настройки валют относительно грн.',
     'page callback' => 'drupal_get_form',
-    'page arguments' => array('mycart_set_course_form'), 
+    'page arguments' => array('mycart_set_course_form'),
     'access arguments' => array('mycart administer course'),
     'type' => MENU_NORMAL_ITEM,
     'weight' => -100,
     'file' => 'includes/mycart.admin.inc',
-  ); 
+  );
 
   return $items;
 }
@@ -26,7 +26,7 @@ function mycart_menu() {
  * Implements hook_menu_alter().
  */
 
-function mycart_menu_alter(&$items) { 	
+function mycart_menu_alter(&$items) {
   $items['cart/checkout']['page callback'] = 'mycart_checkout_callback';
   $items['cart/checkout']['file'] = 'mycart.page-checkout.inc';
   $items['cart/checkout']['file path'] = drupal_get_path('module', 'mycart');
@@ -51,28 +51,28 @@ function mycart_admin_paths() {
 function mycart_permission() {
   return array(
     'mycart administer course' => array(
-      'title' => 'Администрування курса валют',
+      'title' => 'Адміністрація курсу валют',
     ),
   );
 }
- 
- 
+
+
 
 
 
 //Блок формы корзины
 function mycart_block_info() {
   $blocks['mycart_form'] = array(
-     'info' => 'Форма козины', 
+     'info' => 'Форма кошика',
 	 'cache' => DRUPAL_NO_CACHE,
   );
   return $blocks;
 }
- 
+
 function mycart_block_view($delta = '') {
   $block = array();
   if ($delta == 'mycart_form') {
-    $block['subject'] = 'Корзина';
+    $block['subject'] = 'Кошик';
     $block['content'] =  mycart_form_content();
   }
   return $block;
@@ -85,9 +85,9 @@ function mycart_form_content() {
       $cart_form = drupal_get_form('uc_cart_view_form', $items);
       $ountput .=  render($cart_form);
    } else {
-	  $ountput .=  'В Вашей корзине нет товаров.';
+	  $ountput .=  'У Вашому кошику нема товарів.';
    }
-   $ountput .= '</div></div>';   
+   $ountput .= '</div></div>';
    return $ountput;
 }
 
@@ -98,26 +98,26 @@ function mycart_form_content() {
 
 ////////////////////////////////////////////////////////////////////
 
-function mycart_tapir_table_alter(&$table, $table_id) { 
+function mycart_tapir_table_alter(&$table, $table_id) {
   if ($table_id != 'uc_cart_view_table') return;
- 
-  $table['#columns']['image']['weight'] = 1; 
-  $table['#columns']['desc']['weight'] = 2; 
-  $table['#columns']['price']['weight'] = 3; 
-  $table['#columns']['qty']['weight'] = 4; 
-  $table['#columns']['total']['weight'] = 5; 
-  $table['#columns']['remove']['weight'] = 6; 
-  
-  $table['#columns']['image']['cell'] = 'Товар'; 
-  $table['#columns']['desc']['cell'] = ''; 
-  $table['#columns']['price']['cell'] = 'Цена'; 
-  $table['#columns']['qty']['cell'] = 'Кол-во'; 
-  $table['#columns']['total']['cell'] = 'Сумма'; 
-  $table['#columns']['remove']['cell'] = 'Удалить'; 
-  
+
+  $table['#columns']['image']['weight'] = 1;
+  $table['#columns']['desc']['weight'] = 2;
+  $table['#columns']['price']['weight'] = 3;
+  $table['#columns']['qty']['weight'] = 4;
+  $table['#columns']['total']['weight'] = 5;
+  $table['#columns']['remove']['weight'] = 6;
+
+  $table['#columns']['image']['cell'] = 'Товар';
+  $table['#columns']['desc']['cell'] = '';
+  $table['#columns']['price']['cell'] = 'Цена';
+  $table['#columns']['qty']['cell'] = 'Кол-во';
+  $table['#columns']['total']['cell'] = 'Сумма';
+  $table['#columns']['remove']['cell'] = 'Удалить';
+
   $total = 0;
   $total_bez_skidki = 0;
-  foreach (element_children($table) as $key) {	 
+  foreach (element_children($table) as $key) {
     if (empty($table[$key]['nid']['#value'])) continue;
 	$node = $table[$key]['#entity'];
 	$total += $table[$key]['#total'];
@@ -133,24 +133,24 @@ function mycart_tapir_table_alter(&$table, $table_id) {
 	);
 	if (isset($node->promoactions) && $node->promoactions) {
 	   foreach ($node->promoactions as $action) {
-		  $table[$key]['desc']['#markup'] .= '<br /><span class="promo">(Акция! '.$action->title.')</span>';
+		  $table[$key]['desc']['#markup'] .= '<br /><span class="promo">(Акція! '.$action->title.')</span>';
 		  $table[$key]['desc']['#cell_attributes']['class'][] = 'promoaction';
-		  
+
  	   }
     }
   }
-  
-  $table = array_reverse($table);	
+
+  $table = array_reverse($table);
   $table[0]['total']['#prefix'] = '<div class="total">';
   if ($total != $total_bez_skidki) {
 	  $table[0]['total']['#prefix'] .= '<span class="skidka">Итого: '.theme('uc_price', array('price' => $total_bez_skidki)).
 	                                   ' - скидка '.theme('uc_price', array('price' => ($total_bez_skidki-$total))).' = </span>';
   }
-  
+
   $table[0]['total']['#suffix'] = '</div>';
-  $table = array_reverse($table);  
-  
- 
+  $table = array_reverse($table);
+
+
 }
 
 /**
@@ -160,8 +160,8 @@ function mycart_uc_order($op, &$order, $arg2) {
   switch ($op) {
     case 'presave':
 	  if ($order->order_status == 'in_checkout') {
-		////  
-		if (isset($order->products)) { 
+		////
+		if (isset($order->products)) {
 		  unset($order->field_order_promoaction['und']);
 		  foreach ($order->products as $product) {
 			if (isset($product->promoactions) && $product->promoactions) {
@@ -190,17 +190,17 @@ function mycart_uc_order($op, &$order, $arg2) {
 
 
 function mycart_form_uc_cart_checkout_form_alter(&$form, &$form_state, $form_id) {
-	
-		  //записать в сесию выбор способа доставки  
+
+		  //записать в сесию выбор способа доставки
 		  if (!isset($_SESSION['my_quote_method']) || !$_SESSION['my_quote_method']) {
               $_SESSION['my_quote_method'] = 'flatrate_1';
-		  }	
-          if (isset($form_state['values']['panes']['quotes']['quotes']['quote_option']) && $form_state['values']['panes']['quotes']['quotes']['quote_option']) {  
+		  }
+          if (isset($form_state['values']['panes']['quotes']['quotes']['quote_option']) && $form_state['values']['panes']['quotes']['quotes']['quote_option']) {
 	           $quote_method = $form_state['values']['panes']['quotes']['quotes']['quote_option'];
 			   $quote_method = str_replace('---0', '', $quote_method);
 			   $_SESSION['my_quote_method'] = $quote_method;
           }
-		  
+
 		  //удаляем не нужные способы оплаты, зависимо от способа доставки
           switch ($_SESSION['my_quote_method']) {
 			  case 'flatrate_1':
@@ -213,29 +213,29 @@ function mycart_form_uc_cart_checkout_form_alter(&$form, &$form_state, $form_id)
 	            $form['panes']['payment']['payment_method']['#default_value'] = 'nalichka';
 				break;
 			  case 'flatrate_3':
-	            unset($form['panes']['payment']['payment_method']['#options']['nalichka']);			  
+	            unset($form['panes']['payment']['payment_method']['#options']['nalichka']);
 	            //unset($form['panes']['payment']['payment_method']['#options']['liqpay']);
 	            $form['panes']['payment']['payment_method']['#default_value'] = 'nalognuj';
 				break;
-	      }		  
-			
+	      }
+
 		  // dsm($form);
 	      $form['#prefix']  = '<div id="wraper-uc-cart-checkout-form">';
 	      $form['#prefix'] .= '<h2 class="title title-2-line"><span>Оформление </span> Доставки</h2>';
 	      $form['#suffix']  = '</div>';
-		  
+
 		  //cart
 		  //unset($form['panes']['cart']);
-		  
+
 		  //customer
 		  $form['panes']['customer']['#type']         = 'item';
-		  $form['panes']['customer']['#description']  = '';  
+		  $form['panes']['customer']['#description']  = '';
 		  $form['panes']['customer']['#title']        = '';
           global $user;
           if($user->uid){
               unset($form['panes']['customer']['email_text']);
           }
-		  
+
 		  //billing
 		  $form['panes']['billing']['#type']          = 'item';
           $form['panes']['billing']['#description']   = '';
@@ -248,50 +248,50 @@ function mycart_form_uc_cart_checkout_form_alter(&$form, &$form_state, $form_id)
 	      //quotes
 		  //dsm($form['panes']['quotes']);
 	      unset($form['panes']['quotes']['quote_button']);
-		  $form['panes']['quotes']['#type']          = 'item';	     
+		  $form['panes']['quotes']['#type']          = 'item';
 		  $form['panes']['quotes']['#description']   = '';
-	      $form['panes']['quotes']['#title']         = 'Вид доставки';
+	      $form['panes']['quotes']['#title']         = 'Спосіб доставки';
 		  $form['panes']['quotes']['quotes']['quote_option']['#title'] = '';
 		  foreach ($form['panes']['quotes']['quotes']['quote_option']['#options'] as $key=>$val) {
 			  $form['panes']['quotes']['quotes']['quote_option']['#options'][$key] = preg_replace("/(:[a-zа-я 0-9;:.,]*грн)/iu", '', $val);
 			  if ($key == 'flatrate_3---0') {
-				   $form['panes']['quotes']['quotes']['quote_option']['#options'][$key] .= ' ('.l('Подробнее', 'node/106').')';
+				   $form['panes']['quotes']['quotes']['quote_option']['#options'][$key] .= ' ('.l('Докладніше', 'node/106').')';
 			  }
 		  }
 		  $form['panes']['quotes']['quotes']['quote_option']['#ajax'] = array(
 		     'event' => 'change',
              'callback' => 'mycart_ajax_quotes_update_billing',
-		  ); 	  
-		
-		  
+		  );
+
+
 		  //payment
-		  
-		  $form['panes']['payment']['#type']                       = 'item'; 
-		  $form['panes']['payment']['#description']                = ''; 
-		  $form['panes']['payment']['#title']                      = '';	  
+
+		  $form['panes']['payment']['#type']                       = 'item';
+		  $form['panes']['payment']['#description']                = '';
+		  $form['panes']['payment']['#title']                      = '';
 		  //$form['panes']['payment']['payment_method']['#required'] = TRUE;
-		  $form['panes']['payment']['payment_method']['#title']    = 'Способ оплаты';
+		  $form['panes']['payment']['payment_method']['#title']    = 'Спосіб сплати';
 		  //unset($form['panes']['payment']['details']);
 		  //$_SESSION['uc_liqpay_currency'] = 'UAH';
 		  unset($form['panes']['payment']['details']);
 		  //$form['panes']['payment']['details']['uc_liqpay_currency']['#value'] = 'UAH';
-		
+
 		  unset($form['panes']['payment']['line_items']);
 		  unset($form['panes']['payment']['payment_method']['#title_display']);
 		  unset($form['panes']['payment']['payment_method']['#ajax']);
-		  	
-						   
+
+
 		  //comments
-		  $form['panes']['comments']['#type']                       = 'item'; 
-		  $form['panes']['comments']['#description']                = ''; 
+		  $form['panes']['comments']['#type']                       = 'item';
+		  $form['panes']['comments']['#description']                = '';
 		  $form['panes']['comments']['#title']                      = '';
-		  $form['panes']['comments']['comments']['#resizable'] = FALSE;	
-		  $form['panes']['comments']['comments']['#title'] = 'Ваш отзыв';
-          
+		  $form['panes']['comments']['comments']['#resizable'] = FALSE;
+		  $form['panes']['comments']['comments']['#title'] = 'Ваш відгук';
+
 		  //actions
 		  unset($form['actions']['cancel']);
-		  $form['actions']['continue']['#value'] = 'Оформить заказ';
-	      ///		
+		  $form['actions']['continue']['#value'] = 'Оформити замовлення';
+	      ///
 
           $form['#validate'][] = 'my_uc_cart_checkout_form_validate';
 
@@ -305,7 +305,7 @@ function my_uc_cart_checkout_form_validate($form, $form_state) {
   if (isset($form_state['values']['panes']['billing']['billing_phone'])) {
     $phone = $form_state['values']['panes']['billing']['billing_phone'];
     if (!preg_match('/^\d{10}$/', $phone)) {
-      form_set_error('billing_phone', 'Поле Телефон заполнено не верно. Пример правильного заполнения: 0991110077');
+      form_set_error('billing_phone', 'Поле Телефон заповнено неправильно. Приклад правильного заповнення: 0991110077');
     }
   }
 }
@@ -331,12 +331,12 @@ function mycart_ajax_quotes_update_billing($form, $form_state) {
     $commands[] = ajax_command_insert('#payment-pane', drupal_render($form['panes']['payment']));
     //$commands[] = ajax_command_insert('#ajax_dani', mycart_quotes_value());
     //$commands[] = ajax_command_invoke('#uc-cart-view-form #edit-update', 'click');
-	return array('#type' => 'ajax', '#commands' => $commands);	
+	return array('#type' => 'ajax', '#commands' => $commands);
 }
 
 
 function form_pre_render_asress_billing($element) {
-	if ( !isset($_SESSION['my_quote_method']) || !$_SESSION['my_quote_method'] ) return $element;	
+	if ( !isset($_SESSION['my_quote_method']) || !$_SESSION['my_quote_method'] ) return $element;
     $quote_method = $_SESSION['my_quote_method'];
     switch ($quote_method) {
       case 'flatrate_1':
@@ -353,7 +353,7 @@ function form_pre_render_asress_billing($element) {
       case 'flatrate_3':
 	    $element['billing_city']['#access']      = TRUE;
 	    $element['billing_street1']['#access']   = TRUE;
-		$element['billing_street1']['#title']      = 'Номер склада Новой Почты';
+		$element['billing_street1']['#title']      = 'Номер складу Нової Пошти';
         break;
     }
 	return $element;
@@ -370,21 +370,21 @@ function mycart_form_alter(&$form, &$form_state, $form_id) {
     //  dsm($form);
 	 $form['#action'] = '/cart/checkout';
      $form['title-top'] = array(
-	   '#type' => 'item', 
+	   '#type' => 'item',
 	   '#title' => '',
-       '#markup' => '<div class="title-form-cart"><h2 class="title title-2-line"><span>Ваша </span> Корзина</h2></div>',
+       '#markup' => '<div class="title-form-cart"><h2 class="title title-2-line"><span>Ваш </span> Кошик</h2></div>',
 	   '#weight' => -50,
      );
 	 //$form['actions']['#weight'] = -30;
-     break;	 
- }	
+     break;
+ }
  $forms = array('uc_product_add_to_cart_form'); // 'uc_catalog_buy_it_now_form'
  foreach ($forms as $id) {
     if ( drupal_substr($form_id, 0, drupal_strlen($id)) == $id ) {
-		 $node = $form['node']['#value'];		 	 
+		 $node = $form['node']['#value'];
          if ($node->type == 'aksessuar') {
 			/* теперь можно купить акксесуар
-			$nid = $node->nid; 
+			$nid = $node->nid;
             $query = db_select('uc_cart_products', 'c');
 			$query->leftJoin('node', 'n', "c.nid = n.nid");
             $query->fields('c', array('cart_item_id'));
@@ -393,8 +393,8 @@ function mycart_form_alter(&$form, &$form_state, $form_id) {
             $cart_item_id = $query->execute()->fetchField();
 			if (!$cart_item_id) {
 				$form['actions'] = array(
-                   '#markup' => '<div class="aksessuar-not">Извините, аксессуары отдельно не продаются, только в комплекте с медиаплеером.
-				    <br />'.l('Подобрать медиаплеер', 'product').'</div>',
+                   '#markup' => '<div class="aksessuar-not">Вибачте, аксесуари не продаються окремо, тільки в комплекті з медіаплеєром.
+				    <br />'.l('Підібрати медіаплеєр', 'product').'</div>',
                 );
 			}
 			*/
@@ -410,7 +410,7 @@ function mycart_form_alter(&$form, &$form_state, $form_id) {
               $class[] = 'no';
               $class[] = 'no-'.$nalichie_value;
 			  unset($form['actions']['submit']);
-			  $form['actions']['not'] =  array('#markup' => '<span class="not-to-cart">Нет в наличии</span>');
+			  $form['actions']['not'] =  array('#markup' => '<span class="not-to-cart">Немає в наявності</span>');
               break;
            case 1:
               $class[] = 'yes';
@@ -420,10 +420,10 @@ function mycart_form_alter(&$form, &$form_state, $form_id) {
               $class[] = 'no';
               $class[] = 'no-'.$nalichie_value;
 			  unset($form['actions']['submit']);
-			  $form['actions']['not'] =  array('#markup' => '<span class="not-to-cart">Нет в наличии</span>');
+			  $form['actions']['not'] =  array('#markup' => '<span class="not-to-cart">Немає в наявності</span>');
               break;
          }
-		 		 
+
 		 ////////////////////////////////
 	}
  }
@@ -463,23 +463,23 @@ function mycart_uc_cart_item_delete($entity) {
 
 function mycart_init() {
   if ($_GET['q'] == 'admin/modules/update') {
-	 drupal_set_message('<p>Если Вы собрались обновить модуль <strong>Ubercart (uc_flatrate)</strong>, 
-	 тогда после его обновления, ОБЕЗАТЕЛЬНО нужно его пропатчить (function uc_flatrate_quote): <br />
-	 <em>добавить "drupal_alter(\'uc_flatrate_quote_method\', $method);", после "if ($method = db_query("SELECT * FROM {uc_flatrate_methods} WHERE mid = :mid", array(\':mid\' => $mid))->fetchObject()) {"</em></p>', 'warning');  
+	 drupal_set_message('<p>Якщо Ви зібралися оновити модуль <strong>Ubercart (uc_flatrate)</strong>,
+	 тоді після його оновлення, ОБОВ'ЯЗКОВО потрібно його пропатчити (function uc_flatrate_quote): <br />
+	 <em>добавить "drupal_alter(\'uc_flatrate_quote_method\', $method);", после "if ($method = db_query("SELECT * FROM {uc_flatrate_methods} WHERE mid = :mid", array(\':mid\' => $mid))->fetchObject()) {"</em></p>', 'warning');
   }
 }
 */
 
 /*
-Бесплатна доставка, нужно было пропачить модуль uc_flatrate:
-добавить "drupal_alter('uc_flatrate_quote_method', $method);", после "if ($method = db_query("SELECT * FROM {uc_flatrate_methods} WHERE mid = :mid", array(':mid' => $mid))->fetchObject()) {"
+Безкоштовна доставка, потрібно було відгадати модуль uc_flatrate:
+додати "drupal_alter('uc_flatrate_quote_method', $method);", після "if ($method = db_query("SELECT * FROM {uc_flatrate_methods} WHERE mid = :mid", array(':mid' => $mid))->fetchObject()) {"
 */
 /*
 function mycart_uc_flatrate_quote_method_alter($method) {
     $total_cart_no_actions = mycart_get_total_cart_no_actions();
     if ($total_cart_no_actions >= (int) variable_get('mycart_uc_flatrate_quote_method_free', '500') ) {
 	   $method->base_rate = 0;
-	}	
+	}
 }
 */
 ////////////////////////////////////////////////////////////////////
@@ -494,11 +494,11 @@ function mycart_uc_flatrate_quote_method_alter($method) {
 */
 function mycart_node_load($nodes, $types) {
   $product_types = array_intersect(uc_product_types(), $types);
-  if (empty($product_types)) { 
-      return; 
+  if (empty($product_types)) {
+      return;
   }
   foreach ($nodes as $n) {
-     $node =& $nodes[$n->nid]; 
+     $node =& $nodes[$n->nid];
 	 if ($node->type == 'product') {
         $query = db_select('node', 'n');
         $query->leftJoin('field_data_field_promoaction_product', 'p', "n.nid = p.entity_id AND p.entity_type = 'node' AND p.deleted = '0'");
@@ -516,7 +516,7 @@ function mycart_node_load($nodes, $types) {
 		unset($node->promoaction);
         if ($promoactions) {
 	      $node->promoactions = $promoactions;
-	    } 
+	    }
 	 }
   }
 }
@@ -526,12 +526,12 @@ function mycart_node_load($nodes, $types) {
 
 
 function mycart_get_course_usd($node) {
-  $course = variable_get('mycart_course_usd', 1);	
-  if (!empty($node->field_product_brand['und'][0]['tid'])) {	
+  $course = variable_get('mycart_course_usd', 1);
+  if (!empty($node->field_product_brand['und'][0]['tid'])) {
     $tid_brand = $node->field_product_brand['und'][0]['tid'];
 	$term_brand = taxonomy_term_load($tid_brand);
 	if (!empty($term_brand->field_brand_provider['und'][0]['tid'])) {
-	  $tid_provider = $term_brand->field_brand_provider['und'][0]['tid'];	
+	  $tid_provider = $term_brand->field_brand_provider['und'][0]['tid'];
 	  $term_provider = taxonomy_term_load($tid_provider);
 	  if (!empty($term_provider->field_provider_usd['und'][0]['value'])) {
 		$course = (float) $term_provider->field_provider_usd['und'][0]['value'];
@@ -540,7 +540,7 @@ function mycart_get_course_usd($node) {
   }
   return $course;
 }
-	
+
 
 
 

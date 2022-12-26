@@ -9,7 +9,7 @@ function myoption_settings_form() {
   }
   $form['settings']['myoption_taxonomy_vid'] = array(
     '#type' => 'select',
-    '#title' => 'Словарь категорий',
+    '#title' => 'Словник категорій',
     '#options' => $options,
     '#default_value' => variable_get('myoption_taxonomy_vid', ''),
   );
@@ -21,7 +21,7 @@ function myoption_settings_form() {
 function myoption_admin_myoptions($term) {
    $vid = variable_get('myoption_taxonomy_vid', '');
    if ($term->vid != $vid) {
-	  drupal_not_found(); 
+	  drupal_not_found();
    }
    $header = array(
     'id' => array('data' => t('Id'), 'field' => 'o.id'),
@@ -54,7 +54,7 @@ function myoption_admin_myoptions($term) {
       'created' => format_date($myoption->created, 'short'),
       'changed' => format_date($myoption->changed, 'short'),
     );
- 
+
     // Формируем список доступных операций над текущим продуктом.
     $operations = array();
     if (myoption_access('update', $myoption, NULL, 'myoption')) {
@@ -71,7 +71,7 @@ function myoption_admin_myoptions($term) {
         'query' => $destination,
       );
     }
- 
+
     $rows[$myoption->id]['operations'] = array();
     if (count($operations) > 1) {
       // Выводим операции в виде списка.
@@ -95,7 +95,7 @@ function myoption_admin_myoptions($term) {
       );
     }
   }
- 
+
   $page = array();
   $page['myoptions'] = array(
     '#theme' => 'table',
@@ -103,7 +103,7 @@ function myoption_admin_myoptions($term) {
     '#rows' => $rows,
     '#empty' => t('No myoptions available.'),
   );
- 
+
   $page['pager'] = array('#markup' => theme('pager'));
   return $page;
 }

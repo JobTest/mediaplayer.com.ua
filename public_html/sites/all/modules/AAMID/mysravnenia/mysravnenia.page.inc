@@ -2,16 +2,16 @@
 
 function mysravnenia_page_callback() {
    drupal_add_library('system', 'drupal.ajax');
-   drupal_add_library('system', 'jquery.form');	
+   drupal_add_library('system', 'jquery.form');
    $output = '<div id="mysravnenia-page-content">
              '.mysravnenia_page_content().'
               </div>';
-  return $output;	
+  return $output;
 }
 
 function mysravnenia_page_content($cat_dedault = '') {
 
-  drupal_page_is_cacheable(FALSE);	
+  drupal_page_is_cacheable(FALSE);
   global $user;
   $uid = intval($user->uid);
   $sid = flag_get_sid();
@@ -26,8 +26,8 @@ function mysravnenia_page_content($cat_dedault = '') {
   $nids = array();
   if (!$cat_dedault) {
     if (isset($_GET['cats'])) {
-	  $cat_dedault = $_GET['cats'];  
-    } 
+	  $cat_dedault = $_GET['cats'];
+    }
   }
   $cats = array();
   foreach ($result as $value) {
@@ -36,15 +36,15 @@ function mysravnenia_page_content($cat_dedault = '') {
 	$node = node_load($nid);
 	if (!$node->nid) continue;
 	$course = mycart_get_course_usd($node);
-	
+
     //
     $categorie_tid = $node->field_category['und'][0]['tid'];
 	if (!$cat_dedault) {
 		$cat_dedault = $categorie_tid;
     }
     $categorie_term = taxonomy_term_load($categorie_tid);
-    $cats[$categorie_tid] = $categorie_term;	
-	$cats[$categorie_tid]->count += 1; 
+    $cats[$categorie_tid] = $categorie_term;
+	$cats[$categorie_tid]->count += 1;
 	if ($categorie_tid != $cat_dedault) {
 		continue;
 	}
@@ -53,50 +53,50 @@ function mysravnenia_page_content($cat_dedault = '') {
     $add_to_cart = drupal_render($form);
 	if (!$add_to_cart) continue;
 	//
-	
+
 	//
 	$rows[0]['title'] = array(
-	   'label' => '<span>Сравнение </span> товаров',
-	   'weight' => -9999, 
-	   'show' => TRUE, 
+	   'label' => '<span>Порівняння </span> товаров',
+	   'weight' => -9999,
+	   'show' => TRUE,
 	);
 	$sort['title'] = -9999;
 	$rows[$nid]['title'] = l(myapi_title2line($node->title), 'node/'.$nid, array('html' => TRUE));
 	$image = '';
 	if(isset($node->uc_product_image['und'][0]['uri'])) {
 		$image = theme('image_style', array(
-                'style_name' => 'sravnenija', 
+                'style_name' => 'sravnenija',
 				'path' => $node->uc_product_image['und'][0]['uri'],
-				'alt' => $node->title, 
+				'alt' => $node->title,
                 'title' => $node->title,
-		));	
+		));
 		$image = l($image, 'node/'.$nid, array('html' => TRUE));
 	}
 	//
 	$rows[0]['foto'] = array(
 	   'label' => 'Фото',
-	   'weight' => -9998, 
-	   'show' => TRUE, 
+	   'weight' => -9998,
+	   'show' => TRUE,
 	);
 	$sort['foto'] = -9998;
-	$rows[$nid]['foto'] = '<div class="linka-foto"><div class="linka">'.l('Удалить из сравнения', 'ajax/sravnenija/flag/delete/'.$nid.'/'.$cat_dedault, array(
+	$rows[$nid]['foto'] = '<div class="linka-foto"><div class="linka">'.l('Видалити із порівняння', 'ajax/sravnenija/flag/delete/'.$nid.'/'.$cat_dedault, array(
        'attributes' => array(
          'class' => array('use-ajax'),
        )
     )).'</div><div class="image">'.$image.'</div></div>';
 	//
 	$rows[0]['sell_price'] = array(
-	   'label' => 'Стоимость',
-	   'weight' => -9997, 
-	   'show' => TRUE, 
+	   'label' => 'Вартість',
+	   'weight' => -9997,
+	   'show' => TRUE,
 	);
 	$sort['sell_price'] = -9997;
 	$rows[$nid]['sell_price'] = theme('uc_price', array('price' => $node->sell_price*$course));
 	//
 	$rows[0]['add_to_cart'] = array(
 	   'label' => '',
-	   'weight' => -9996, 
-	   'show' => TRUE, 
+	   'weight' => -9996,
+	   'show' => TRUE,
 	);
 	$sort['add_to_cart'] = -9996;
 	$rows[$nid]['add_to_cart'] = $add_to_cart;
@@ -114,12 +114,12 @@ function mysravnenia_page_content($cat_dedault = '') {
 	        );
 		    $sort[$field_name] = (int) $myoption_fields[$field_name]['display']['default']['weight'];
 		    if (!isset($line['und'][0]['value'])) {
-		  	  $line['und'][0]['value'] = ''; 
+		  	  $line['und'][0]['value'] = '';
 		    } else {
 			  $rows[0][$field_name]['show'] = TRUE;
 			}
 	        $rows[$nid][$field_name] = $line['und'][0]['value'];
-	      }	
+	      }
         }
 	  }
 	}
@@ -127,16 +127,16 @@ function mysravnenia_page_content($cat_dedault = '') {
     //
 	$rows[0]['sell_price2'] = array(
 	   'label' => 'Стоимость',
-	   'weight' => 9998, 
-	   'show' => TRUE, 
+	   'weight' => 9998,
+	   'show' => TRUE,
 	);
 	$sort['sell_price2'] = 9998;
 	$rows[$nid]['sell_price2'] = theme('uc_price', array('price' => $node->sell_price*$course));
 	//
 	$rows[0]['add_to_cart2'] = array(
 	   'label' => '',
-	   'weight' => 9999, 
-	   'show' => TRUE, 
+	   'weight' => 9999,
+	   'show' => TRUE,
 	);
 	$sort['add_to_cart2'] = 9999;
 	$rows[$nid]['add_to_cart2'] = $add_to_cart;
@@ -146,15 +146,15 @@ function mysravnenia_page_content($cat_dedault = '') {
   $table = '';
   if ($rows) {
       $table_rows = array();
-	  $i = 0; 
+	  $i = 0;
 	  $header = $rows[0];
       array_multisort($sort, SORT_NUMERIC, $header);
 	  foreach ($header as $name => $value) {
 		if (!isset($value['show']) || !$value['show']) continue;
-		$j = 0;  
+		$j = 0;
 		foreach ($rows as $row) {
 		  if (!isset($row[$name])) $row[$name] = '';
-		  if ($j == 0 && $row[$name]) $row[$name] = '<span class="col-1">'.$row[$name]['label'].'</span>';	
+		  if ($j == 0 && $row[$name]) $row[$name] = '<span class="col-1">'.$row[$name]['label'].'</span>';
 		  $table_rows[$i][] = $row[$name];
 		  $j++;
 		}
@@ -163,7 +163,7 @@ function mysravnenia_page_content($cat_dedault = '') {
 	  $table = theme('table', array(
 		'header' => array(),
 		'rows' => $table_rows,
-	  )); 
+	  ));
   }
   ////////////////////////////////
   $form = drupal_get_form('mysravnenia_form_select', $cat_dedault);
@@ -176,11 +176,11 @@ function mysravnenia_page_content($cat_dedault = '') {
     $links = array();
 	foreach ($cats as $cat) {
 	  if ($cat->tid == $cat_dedault) {
-		 $selected	= array('selected'); 
+		 $selected	= array('selected');
 	  }	else {
-		 $selected	= array(); 
+		 $selected	= array();
 	  }
-	  $query = array('cats' => $cat->tid); 
+	  $query = array('cats' => $cat->tid);
 	  $links[] = array(
 	    'data' => l('<strong>'.$cat->name.' <span>('.$cat->count.')</span></strong>', 'sravnenija', array('html'=>TRUE, 'query' => $query)),
 		'tabindex' => '-1',
@@ -191,9 +191,9 @@ function mysravnenia_page_content($cat_dedault = '') {
   }
   $output .= '<div style = "clear: both;"></div>';
   $output .= '</div>';
-  
+
   $output .= '<div id="mysravnenia_table">'.$table.'</div>';
-  return $output;	
+  return $output;
 }
 
 function mysravnenia_form_select($form, &$form_state, $cat) {
@@ -211,12 +211,12 @@ function mysravnenia_form_select($form, &$form_state, $cat) {
   $query->orderBy('n.created', 'DESC');
   $result = $query->execute();
   $options = array();
-  $options[0] = 'Добавить модель';
+  $options[0] = 'Додати модель';
   foreach ($result as $value) {
-	$options[$value->nid] = $value->title; 
+	$options[$value->nid] = $value->title;
   }
   $form['cat'] = array(
-    '#type' => 'value', 
+    '#type' => 'value',
 	'#value' => $cat,
   );
   if (count($options)>1) {
@@ -228,7 +228,7 @@ function mysravnenia_form_select($form, &$form_state, $cat) {
        '#description' => '',
 	   '#ajax' => array(
              'callback' => 'mysravnenia_form_select_ajax',
-	   ),  	  
+	   ),
      );
    }
    return $form;
@@ -240,7 +240,7 @@ function mysravnenia_flag_ajax_callback($nid, $cat) {
 	flag('unflag', 'sravnenia', $nid);
 	$content = mysravnenia_page_content($cat);
 	$commands[] = ajax_command_html('#mysravnenia-page-content', $content);
-	return array('#type' => 'ajax', '#commands' => $commands);		
+	return array('#type' => 'ajax', '#commands' => $commands);
 }
 
 function mysravnenia_form_select_ajax($form, $form_state) {
@@ -250,5 +250,5 @@ function mysravnenia_form_select_ajax($form, $form_state) {
 	flag('flag', 'sravnenia', $nid);
 	$content = mysravnenia_page_content($cat);
 	$commands[] = ajax_command_html('#mysravnenia-page-content', $content);
-	return array('#type' => 'ajax', '#commands' => $commands);	
+	return array('#type' => 'ajax', '#commands' => $commands);
 }

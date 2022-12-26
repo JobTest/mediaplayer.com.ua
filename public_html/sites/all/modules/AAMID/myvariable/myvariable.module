@@ -2,7 +2,7 @@
 function myvariable_permission() {
   return array(
     'myvariable edit' => array(
-      'title' => t('Редактировать variable'),
+      'title' => t('Редагувати variable'),
     ),
   );
 }
@@ -30,8 +30,8 @@ function myvariable_variable_realm_info() {
  */
 function myvariable_menu() {
   $items['admin/config/system/myvariable'] = array(
-    'title' => 'Переменные сайта',
-    'description' => 'Настройки переменных сайта.',
+    'title' => 'Змінні сайту',
+    'description' => 'Налаштування змінних сайту.',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('variable_group_form', 'myvariable'),
     'access arguments' => array('myvariable edit'),

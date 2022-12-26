@@ -5,35 +5,35 @@
  */
 function my_node_message_menu() {
   $items['admin/myapi/my_node_message'] = array(
-    'title' => 'Рассылка нод',
-    'description' => 'Рассылка нод',
+    'title' => 'Розсилання нод',
+    'description' => 'Розсилання нод',
     'page callback' => 'my_node_message_table_callback',
     'access arguments' => array('view my_node_message table'),
     'type' => MENU_NORMAL_ITEM,
     'file' => 'my_node_message.admin.inc',
   );
   $items['admin/myapi/my_node_message/table'] = array(
-    'title' => 'Рассылка нод',
+    'title' => 'Розсилання нод',
     'access arguments' => array('view my_node_message table'),
     'type' => MENU_DEFAULT_LOCAL_TASK,
     'weight' => 1,
   );
   $items['admin/myapi/my_node_message/add'] = array(
-    'title' => 'Добавить рассылку для типа нод',
+    'title' => 'Додати розсилку для типу нод',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('my_node_message_add_form'),
     'access arguments' => array('administer my_node_message'),
     'type' => MENU_LOCAL_ACTION,
     'file' => 'my_node_message.admin.inc',
-  );  
+  );
   $items['admin/myapi/my_node_message/add/%my_node_message'] = array(
-    'title' => 'Редакатировать рассылку для типа нод',
+    'title' => 'Редагувати розсилку для типу нод',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('my_node_message_add_form', 4),
     'access arguments' => array('administer my_node_message'),
     'type' => MENU_CALLBACK,
     'file' => 'my_node_message.admin.inc',
-  );  
+  );
   $items['admin/myapi/my_node_message/delete/%my_node_message'] = array(
     'title' => 'Delete',
     'page callback' => 'drupal_get_form',
@@ -41,7 +41,7 @@ function my_node_message_menu() {
     'access arguments' => array('administer my_node_message'),
     'type' => MENU_CALLBACK,
     'file' => 'my_node_message.admin.inc',
-  );  
+  );
   return $items;
 }
 
@@ -73,7 +73,7 @@ function my_node_message_load($type) {
   if (!isset($utm[$type])) {
     $utm[$type] = db_query("SELECT * FROM {my_node_message} WHERE type = :type", array(':type' => $type))->fetchObject();
   }
-  return $utm[$type]; 
+  return $utm[$type];
 }
 
 function my_node_message_types_load() {
@@ -81,7 +81,7 @@ function my_node_message_types_load() {
   if (!isset($types)) {
     $types = db_query("SELECT type FROM {my_node_message}")->fetchCol();
   }
-  return $types; 
+  return $types;
 }
 
 
@@ -89,7 +89,7 @@ function my_node_message_types_load() {
  * Implements hook_node_type_delete().
  */
 function my_node_message_node_type_delete($info) {
-  db_query('DELETE FROM {my_node_message} WHERE type = :type', array(':type' => $info->type));  
+  db_query('DELETE FROM {my_node_message} WHERE type = :type', array(':type' => $info->type));
 }
 
 /**
@@ -102,7 +102,7 @@ function my_node_message_form_alter(&$form, $form_state, $form_id) {
 	if ($type) {
       $form['my_node_message_send'] = array(
         '#type' => 'checkbox',
-        '#title' => 'Отправить новость партнерам на почту',
+        '#title' => 'Надіслати новину партнерам на пошту',
 		'#weight' => 99,
       );
 	}
@@ -114,7 +114,7 @@ function my_node_message_form_alter(&$form, $form_state, $form_id) {
  * Implements hook_node_insert().
  */
 function my_node_message_node_insert($node) {
-  if (isset($node->my_node_message_send) && $node->my_node_message_send) {	
+  if (isset($node->my_node_message_send) && $node->my_node_message_send) {
     $message = my_node_message_load($node->type);
     if ($message) {
 	  my_node_message_send_mail($message, $node);
@@ -127,7 +127,7 @@ function my_node_message_node_insert($node) {
  * Implements hook_node_update().
  */
 function my_node_message_node_update($node) {
-  if (isset($node->my_node_message_send) && $node->my_node_message_send) {	
+  if (isset($node->my_node_message_send) && $node->my_node_message_send) {
     $message = my_node_message_load($node->type);
     if ($message) {
 	  my_node_message_send_mail($message, $node);
@@ -158,8 +158,8 @@ function my_node_message_send_mail($message, $node) {
 		  $to = trim($to);
 		  $mes['to'] = $to;
           if (!$system->mail($mes)) {
-            watchdog('my_node_message', 'Ошибка, сообщение не отправлено.');
-          }                       
+            watchdog('my_node_message', 'Помилка, повідомлення не надіслано.');
+          }
 		}
 }
 

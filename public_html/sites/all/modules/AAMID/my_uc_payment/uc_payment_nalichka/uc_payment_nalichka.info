@@ -1,5 +1,5 @@
 name = uc_payment_nalichka
-description = Наличными
+description = Готівкою
 dependencies[] = uc_payment
 package = AMID-payment
 core = 7.x

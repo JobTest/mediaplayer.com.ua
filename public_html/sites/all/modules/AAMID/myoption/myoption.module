@@ -10,10 +10,10 @@
 function myoption_entity_info() {
   $info = array(
     'myoption' => array(
-      'label' => t('myoption'), 
-      'entity class' => 'Entity', 
-      'controller class' => 'EntityAPIController', 
-      'base table' => 'myoption', 
+      'label' => t('myoption'),
+      'entity class' => 'Entity',
+      'controller class' => 'EntityAPIController',
+      'base table' => 'myoption',
 	  'access callback' => 'myoption_access',
       'fieldable' => TRUE,
       'entity keys' => array(
@@ -27,17 +27,17 @@ function myoption_entity_info() {
       'bundles' => array(),
       'view modes' => array(
         'full' => array(
-          'label' => t('Full'), 
+          'label' => t('Full'),
           'custom settings' => TRUE,
         ),
 	  ),
       'module' => 'myoption',
-    ),	
+    ),
   );
-  
+
   $vid = variable_get('myoption_taxonomy_vid', '');
   if ($vid) {
-    $tree = taxonomy_get_tree($vid); 
+    $tree = taxonomy_get_tree($vid);
     foreach ($tree as $term) {
       $info['myoption']['bundles'][$term->tid] = array(
         'label' => $term->name,
@@ -48,7 +48,7 @@ function myoption_entity_info() {
           'access arguments' => array('configure myoptions settings'),
         ),
       );
-    } 
+    }
   }
   return $info;
 }
@@ -102,7 +102,7 @@ function myoption_permission() {
 
 
 function myoption_access($op, $myoption, $account, $entity_type) {
-  $rights = &drupal_static(__FUNCTION__, array()); 
+  $rights = &drupal_static(__FUNCTION__, array());
   if (!in_array($op, array('view', 'update', 'delete', 'create'), TRUE)) {
     return FALSE;
   }
@@ -152,15 +152,15 @@ function myoption_load($myoption_id) {
   $myoptions = myoption_load_multiple(array($myoption_id), array());
   return $myoptions ? reset($myoptions) : FALSE;
 }
- 
+
 function myoption_load_multiple($myoption_ids = array(), $conditions = array(), $reset = FALSE) {
   return entity_load('myoption', $myoption_ids, $conditions, $reset);
 }
- 
+
 function myoption_delete($myoption_id) {
   myoption_delete_multiple(array($myoption_id));
 }
- 
+
 function myoption_delete_multiple($myoption_ids) {
   entity_delete_multiple('myoption', $myoption_ids);
 }
@@ -183,17 +183,17 @@ function myoption_save($myoption) {
     }
     $myoption->changed = REQUEST_TIME;
     if ($myoption->is_new) {
-	  $myoption->uid = $user->uid;	
+	  $myoption->uid = $user->uid;
       drupal_write_record('myoption', $myoption);
       $op = 'insert';
     } else {
       drupal_write_record('myoption', $myoption, 'id');
       $op = 'update';
     }
-	
 
 
-	
+
+
     // Save fields.
     $function = "field_attach_$op";
     $function('myoption', $myoption);
@@ -218,12 +218,12 @@ function myoption_theme() {
     ),
   );
 }
- 
+
 function template_preprocess_myoption(&$variables) {
   $variables['view_mode'] = $variables['elements']['#view_mode'];
   $variables['myoption'] = $variables['elements']['#myoption'];
   $myoption = $variables['myoption'];
-  $variables['date'] = format_date($myoption->created); 
+  $variables['date'] = format_date($myoption->created);
   $variables['page'] = $variables['view_mode'] == 'full';
   $variables = array_merge((array) $myoption, $variables);
   $variables += array('content' => array());
@@ -247,7 +247,7 @@ function myoption_view_multiple($myoptions, $view_mode = 'full', $langcode = NUL
   $build['myoptions']['#sorted'] = TRUE;
   return $build;
 }
- 
+
 
 
 function myoption_view($myoption, $view_mode = 'full', $langcode = NULL) {
@@ -261,7 +261,7 @@ function myoption_view($myoption, $view_mode = 'full', $langcode = NULL) {
   $build = $myoption->content;
   // Скрываем данные, что бы избежать их дублирования при выводе $myoption->content.
   unset($myoption->content);
- 
+
   $build += array(
     '#theme' => 'myoption',
     '#myoption' => $myoption,
@@ -270,13 +270,13 @@ function myoption_view($myoption, $view_mode = 'full', $langcode = NULL) {
   );
   return $build;
 }
- 
+
 
 function myoption_build_content($myoption, $view_mode = 'full', $langcode = NULL) {
   if (!isset($langcode)) {
     global $language;
     $langcode = $language->language;
-  } 
+  }
   // Удаляем существующий конент, если существует.
   $myoption->content = array();
   field_attach_prepare_view('myoption', array($myoption->id => $myoption), $view_mode, $langcode);
@@ -298,14 +298,14 @@ function myoption_build_content($myoption, $view_mode = 'full', $langcode = NULL
 function myoption_menu() {
 
   $items['admin/structure/taxonomy/myoption_type_settings'] = array(
-    'title' => 'Настройки характеристик',
+    'title' => 'Налаштування характеристик',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('myoption_settings_form'),
     'access arguments' => array('configure myoptions settings'),
 	'weight' => 100,
     'file' => 'myoption.admin.inc',
 	'type' => MENU_LOCAL_TASK,
-  );   
+  );
 
   // Страница список.
   $items['taxonomy/term/%taxonomy_term/myoption_list'] = array(
@@ -316,11 +316,11 @@ function myoption_menu() {
     'access arguments' => array(2),
     'type' => MENU_LOCAL_TASK,
     'file' => 'myoption.admin.inc',
-	'weight' => 80,	
+	'weight' => 80,
   );
   // Страница создания.
   $items['taxonomy/term/%taxonomy_term/myoption_list/add'] = array(
-    'title' => 'Добавить характеристику',
+    'title' => 'Додати характеристику',
     'page callback' => 'myoption_page_add',
 	'page arguments' => array(2),
     'access callback' => 'myoption_access',
@@ -348,7 +348,7 @@ function myoption_menu() {
     'access arguments' => array('delete', 1, NULL, 'myoption'),
     'file' => 'myoption.pages.inc',
   );
- 
+
   return $items;
 }
 
@@ -357,7 +357,7 @@ function myoption_list_access_callback($term){
   if ($term->vid == $vid) {
 	 return user_access("list myoption") || user_access('administer myoptions');
   }
-  return FALSE; 
+  return FALSE;
 }
 
 /**
@@ -380,7 +380,7 @@ function myoption_admin_paths() {
 function myoption_taxonomy_term_delete($term) {
   $vid = variable_get('myoption_taxonomy_vid', '');
   if ($term->vid == $vid) {
-    $myoption_ids = myoption_get_option_ids_by_tid($term->tid);	
+    $myoption_ids = myoption_get_option_ids_by_tid($term->tid);
     myoption_delete_multiple($myoption_ids);
     field_attach_delete_bundle('myoption', $term->tid);
 	drupal_flush_all_caches();
