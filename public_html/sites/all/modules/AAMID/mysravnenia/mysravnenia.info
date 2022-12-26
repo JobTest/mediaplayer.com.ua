@@ -1,0 +1,5 @@
+; $Id$
+name = mysravnenia
+description = my sravnenia API
+package = AMID
+core = 7.x

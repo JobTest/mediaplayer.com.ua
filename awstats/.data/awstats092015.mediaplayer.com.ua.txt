@@ -1,0 +1,361 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201509 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2686                
+POS_VISITOR 7233                
+POS_DAY 9101                
+POS_DOMAIN 3409                
+POS_LOGIN 3639                
+POS_ROBOT 3794                
+POS_WORMS 4367                
+POS_EMAILSENDER 4498                
+POS_EMAILRECEIVER 4641                
+POS_SESSION 9652                
+POS_SIDER 9852                
+POS_FILETYPES 4776                
+POS_OS 4862                
+POS_BROWSER 5006                
+POS_SCREENSIZE 5559                
+POS_UNKNOWNREFERER 5633                
+POS_UNKNOWNREFERERBROWSER 5720                
+POS_ORIGIN 5852                
+POS_SEREFERRALS 5988                
+POS_PAGEREFS 6143                
+POS_SEARCHWORDS 6348                
+POS_KEYWORDS 6500                
+POS_MISC 2349                
+POS_ERRORS 6559                
+POS_CLUSTER 3495                
+POS_SIDER_404 6669                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151001003734 50 10543 9359214234004
+FirstTime 20150901233732
+LastTime 20150930133911
+LastUpdate 20151001013620 50 0 49 0 0
+TotalVisits 68                  
+TotalUnique 46                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 46                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 83 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 60734 12 14 23851
+1 0 0 0 35 35 111914
+2 0 0 0 24 24 132894
+3 6 6 27467 23 23 102678
+4 0 0 0 9 10 18197
+5 2 2 49563 13 15 21946
+6 0 0 0 19 20 52074
+7 1 1 4832 21 22 58679
+8 2 2 51070 29 30 76509
+9 5 5 105463 14 17 48625
+10 1 1 6339 12 14 24353
+11 6 6 65526 11 16 19411
+12 4 4 99125 17 19 56559
+13 6 6 148687 26 29 90045
+14 17 17 289979 31 45 122592
+15 9 9 154737 35 41 236546
+16 10 10 170973 12 17 25418
+17 11 11 175977 12 21 23399
+18 9 9 166195 31 40 56206
+19 11 11 221715 22 27 35349
+20 8 8 173407 30 36 59963
+21 6 6 153210 11 14 21455
+22 4 4 100632 7 8 18641
+23 17 17 251564 22 26 65553
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 139 139 2477195
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+googlebot 194 549022 20150930183845 41
+wordpress 117 28426 20150930235310 0
+mj12bot 57 474055 20150930150754 16
+yandex 25 59868 20150930235309 9
+bot[\s_+:,\.\;\/\\-] 20 85077 20150925013024 5
+favicon 10 48319 20150928145913 0
+no_user_agent 9 114746 20150927180443 0
+mail\.ru 6 10858 20150927134740 4
+surveybot 4 10261 20150922135531 2
+facebook 2 12840 20150922143642 0
+netcraft 1 18420 20150908183801 0
+msnbot\-media 2 686 20150925011343 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 96 598607 0 0
+woff 43 1878588 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+linuxandroid 20
+blackberry 2
+winxp 21
+java 1
+winnt 12
+win2000 1
+winvista 6
+linux 7
+macosx 20
+win2008 49
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 1
+chrome45.0.2454.85 16
+chrome40.0.2214.94 2
+chrome45.0.2454.99 9
+firefox40.0 13
+up\. 2
+android 9
+chrome43.0.2357.124 2
+chrome44.0.2403.155 4
+safari6.0 3
+firefox18.0 4
+chrome42.0.2311.111 3
+chrome28.0.1550.1 1
+iphone 8
+chrome45.0.2454.94 6
+chrome19.0.1084.5409 2
+chrome44.0.2403.157 2
+chrome45.0.2454.93 22
+chrome42.0.2311.135 4
+msie7.0 2
+msie10.0 1
+chrome37.0.2062.120 2
+firefox41.0 6
+firefox0.9.3 1
+safari8.0 2
+firefox36.0 1
+Unknown 1
+safari 3
+firefox0.9.1 2
+firefox3.6.13 3
+chrome30.0.0.0 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Apache-HttpClient/4.1.1_(java_1.5) 20150911145758
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 55 55
+From1 4 4
+From2 2 2
+From3 15 15
+From4 63 63
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.facebook.com 11 11
+http://m.facebook.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+405 2 582
+404 6 58197
+301 25 10259
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/2015/05/30/%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BF%D0%BB%D0%B5%D0%B5%D1%80%D0%B0-dune/ 1 -
+/ 3 -
+/apple-app-site-association 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 46
+95.67.123.146 17 17 241539 20150923113346
+212.90.40.52 14 14 307015 20150928201657
+178.151.116.236 6 6 69756 20150915171033
+109.86.116.126 6 6 108786 20150923235036
+176.38.149.36 5 5 68542 20150923172427
+91.213.149.93 4 4 63748 20150925105245
+92.226.150.36 4 4 60678 20150906165457
+78.181.142.210 4 4 14060 20150925233233
+176.38.3.13 4 4 62203 20150922191131
+217.69.133.169 4 4 19327 20150930113232
+5.1.10.123 2 2 49562 20150921171159
+95.158.43.197 2 2 51070 20150922195015
+212.90.62.77 2 2 49563 20150904052443
+213.174.2.123 2 2 51070 20150922211121
+176.36.6.8 2 2 51051 20150922202315
+216.145.11.94 2 2 2166 20150913035940
+193.110.163.194 2 2 49543 20150924142529
+194.0.150.66 2 2 49562 20150930133911
+212.90.63.98 2 2 49563 20150911123547
+178.63.89.147 1 1 4832 20150903235511
+185.70.187.45 2 2 23135 20150930033206
+91.193.128.151 2 2 51070 20150923092710
+91.196.148.35 3 3 89748 20150922153910
+92.244.100.122 2 2 51070 20150923002924
+193.161.14.233 2 2 51070 20150922214518
+178.154.243.106 2 2 9662 20150928203032
+178.123.108.204 1 1 18420 20150910140333
+193.34.173.137 2 2 49562 20150915182857
+65.52.240.20 1 1 6339 20150922141118
+109.86.59.145 2 2 51070 20150923233820
+78.98.200.123 2 2 49563 20150909141107
+94.179.20.32 2 2 49563 20150912135805
+85.254.186.159 2 2 49543 20150926153427
+77.88.207.69 3 3 57372 20150922193122
+109.108.236.215 2 2 51070 20150922213552
+95.158.24.122 2 2 51070 20150922194802
+88.224.123.88 3 3 10615 20150924150516
+46.151.251.25 2 2 51070 20150922221211
+95.67.61.11 2 2 49563 20150901233733
+95.108.199.71 2 2 49562 20150928204259
+195.88.242.35 1 1 18420 20150911145758
+37.73.230.73 3 3 57372 20150922145120
+77.52.189.14 2 2 49563 20150908162614
+92.60.179.116 2 2 51070 20150923085801
+178.216.79.69 1 1 4831 20150919144813
+64.246.165.180 2 2 2166 20150928032555
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20150901 2 2 49563 1
+20150903 1 1 4832 1
+20150904 2 2 49563 1
+20150906 4 4 60678 1
+20150908 3 3 67983 2
+20150909 3 3 54395 2
+20150910 1 1 18420 1
+20150911 3 3 67983 2
+20150912 2 2 49563 1
+20150913 2 2 2166 1
+20150914 3 3 28084 3
+20150915 6 6 82478 5
+20150917 10 10 209418 2
+20150918 2 2 49562 1
+20150919 4 4 59224 2
+20150921 2 2 49562 1
+20150922 39 39 806518 17
+20150923 22 22 394249 9
+20150924 5 5 60158 2
+20150925 5 5 20399 2
+20150926 2 2 49543 1
+20150928 11 11 165326 7
+20150930 5 5 77528 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+2mn-5mn 2
+30s-2mn 2
+15mn-30mn 1
+0s-30s 60
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 50 309510 42 22
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.woff 43 1878588 0 30
+/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5/ 24 169394 20 7
+/wp-login.php 8 28950 2 3
+/2015/07/31/%d1%87%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b5%d1%81%d0%bb%d0%b8-dune-hd-tv-102-%d0%b3%d1%80%d0%b5%d0%b5%d1%82%d1%81%d1%8f/ 7 59251 0 4
+/comments/feed/ 4 4332 2 2
+/tag/dune-hd/ 2 8310 1 0
+/author/admin/ 1 18860 1 0
+END_SIDER

@@ -1,0 +1,14 @@
+Platon Payment Gateway Drupal 7 (Ubercart 3) Connector
+Installation & Configuring
+
+First of all, configure your Platon Callback URL to this one: http://{DRUPAL_URL}/cart/platon/complete
+
+Then:
+
+1. Go to Drupal admin panel, choose Modules-> Install or update module, choose uc_platon-ubercart-7.x.zip in a file dialog and press Install.
+2. Go back to Modules, check "Enabled"  near Platon  row under "Ubercart - Payment" section and click "Save configuration".
+3. Go to Store->Configuration->Payment settings, then  click "Settings" near Platon.
+4. Fill your credentials received from Platon (Client key and Password). You can also change the Gateway URL or Payment method title if required. Click "Save configuration".
+5. Go back to Store->Configuration->Payment settings, set the checkbox left to Platon payment method and click "Save configuration" if ready.
+
+That's it, enjoy!

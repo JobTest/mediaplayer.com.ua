@@ -1,0 +1,10 @@
+name = myvariable
+description = myvariable Variable API.
+dependencies[] = variable
+dependencies[] = variable_store
+package = AMID
+core = 7.x
+files[] = myvariable.variable.inc
+
+
+

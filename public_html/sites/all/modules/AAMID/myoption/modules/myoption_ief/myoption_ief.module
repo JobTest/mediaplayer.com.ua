@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_entity_info_alter().
+ */
+function myoption_ief_entity_info_alter(&$entity_info) {
+  if (isset($entity_info['myoption'])) {
+    $entity_info['myoption']['inline entity form'] = array(
+      'controller' => 'MyoptionInlineEntityFormController', 
+    );
+  }
+}
+
+ 

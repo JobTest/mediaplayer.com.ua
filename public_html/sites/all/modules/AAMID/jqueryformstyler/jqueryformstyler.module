@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * JavaScript based scrollable containers
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function jqueryformstyler_menu() {
+  $items['admin/config/jqueryformstyler'] = array(
+    'title' => 'jQueryFormStyler settings',
+    'description' => 'Administration settings for the jQueryFormStyler module.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('jqueryformstyler_settings_form'),
+    'access arguments' => array('administer jqueryformstyler'),
+    'file' => 'includes/jqueryformstyler.admin.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function jqueryformstyler_permission() {
+  return array(
+    'administer jqueryformstyler' => array(
+      'title' => t('Administer jQueryFormStyler'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_init().
+ */
+function jqueryformstyler_init() {
+  $path = drupal_get_path('module', 'jqueryformstyler');
+  drupal_add_js(array('jqueryformstyler' => array('class' => variable_get('jqueryformstyler_class', '.jqueryformstyler'))), 'setting');
+  drupal_add_css($path . '/css/jquery.formstyler.css');
+  drupal_add_js($path . '/js/jquery.formstyler.js');
+  drupal_add_js($path . '/js/script.js');
+}

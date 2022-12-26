@@ -1,0 +1,5 @@
+; $Id$
+name = mykomplekt
+description = my komplekt API
+package = AMID
+core = 7.x

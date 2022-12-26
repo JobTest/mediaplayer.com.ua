@@ -1,0 +1,167 @@
+<?php
+/**
+ * @file
+ * Variable API module
+ */
+
+
+function variable_file_init() {
+ include_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'variable') . '/variable.form.inc';
+}
+
+/**
+ * Implements hook_help().
+ */
+function variable_file_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#variable_file':
+      $output = file_get_contents(drupal_get_path('module', 'variable_file') . '/README.txt');
+      return nl2br($output);
+  }
+}
+
+/**
+ * Implements hook_variable_type_info().
+ */
+function variable_file_variable_type_info() {
+  $type['uploadfile'] = array(
+    'title'          => t('File'),
+    'element'        => array('#type' => 'managed_file'),
+    'build callback' => 'variable_file_build_managed_file',
+    'token'          => TRUE,
+  );
+
+  return $type;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function variable_file_theme() {
+  $return = array();
+
+  $return['file_managed_file__variable_file'] = array(
+    'render element' => 'element',
+  );
+
+  return $return;
+}
+
+/**
+ * Custom theme for managed_file to display thumbnail image.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - element: A render element representing the file.
+ *
+ * @return string
+ *   Return markup of custom managed_file for variable file.
+ */
+function theme_file_managed_file__variable_file($variables) {
+  $element = $variables['element'];
+  $thumbnail = '';
+  if ($element['fid']['#value'] != 0) {
+    $_file = file_load($element['fid']['#value']);
+    if ($_file->filemime == 'image/jpeg' || $_file->filemime == 'image/png') {
+      $thumbnail = theme('image_style', array(
+          'style_name' => 'thumbnail',
+          'path'       => $_file->uri,
+          'getsize'    => FALSE,
+        )
+      );
+    }
+  }
+  $attributes = array();
+  if (isset($element['#id'])) {
+    $attributes['id'] = $element['#id'];
+  }
+  if (!empty($element['#attributes']['class'])) {
+    $attributes['class'] = (array) $element['#attributes']['class'];
+  }
+  $attributes['class'][] = 'form-managed-file';
+
+  // This wrapper is required to apply JS behaviors and CSS styling.
+  $output = '';
+  $output .= '<div' . drupal_attributes($attributes) . '>';
+  $output .= drupal_render_children($element);
+  $output .= '</div>';
+  if (!empty($thumbnail)) {
+    $output = '<div class="variable_file">' . $thumbnail . $output . "</div>";
+  }
+
+  return $output;
+}
+
+/**
+ * Build struct for variable file.
+ *
+ * @param array $variable
+ *   An associative array containing:
+ *   - element: A render element.
+ * @param array $options
+ *   Options data.
+ *
+ * @return array
+ *   Array struct of variable.
+ */
+function variable_file_build_managed_file($variable, $options) {
+  if (isset($variable['upload_validators'])) {
+    $variable['element']['#upload_validators'] = $variable['upload_validators'];
+  }
+  $variable['element']['#upload_location'] = isset($variable['upload_location']) ? $variable['upload_location'] : 'public://vfile';
+  $variable['element']['#theme'] = array('file_managed_file__variable_file');
+
+  return $variable;
+}
+
+/**
+ * Implements hook_variable_settings_form_alter().
+ */
+function variable_file_variable_settings_form_alter(&$form, &$form_state, $form_id) {
+  array_unshift($form['#submit'], 'variable_file_variable_settings_form_submit');
+}
+
+/**
+ * Remove old file with element key.
+ *
+ * @param string $element_key
+ *   An associative string of variable name.
+ */
+function _variable_file_remove_old_file($element_key) {
+  $fid = variable_get_value($element_key);
+  $file = $fid ? file_load($fid) : FALSE;
+  if ($file) {
+    file_usage_delete($file, 'variable_file', 'variable_file', 1);
+    file_delete($file);
+  }
+}
+
+/**
+ * Handle variable settings form submit for managed_file type.
+ *
+ * @param array $form
+ *   An associative array of form variables.
+ *
+ * @param array $form_state
+ *   An associative array of form state variables.
+ */
+function variable_file_variable_settings_form_submit($form, $form_state) {
+  global $user;
+  foreach (element_children($form) as $element_key) {
+    if ($form[$element_key]['#type'] == 'managed_file') {
+      if (is_numeric($form_state['values'][$element_key]) && $form_state['values'][$element_key] > 0) {
+        $file = file_load($form_state['values'][$element_key]);
+        if ($file && !$file->status) {
+          // Remove old file.
+          _variable_file_remove_old_file($element_key);
+          $file->status = FILE_STATUS_PERMANENT;
+          file_save($file);
+          file_usage_add($file, 'variable_file', 'variable_file', $user->uid);
+        }
+      }
+      else {
+        _variable_file_remove_old_file($element_key);
+      }
+    }
+  }
+}

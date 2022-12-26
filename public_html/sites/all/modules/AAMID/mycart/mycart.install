@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+ * Implements hook_install().
+*/
+function mycart_install() {
+  db_update('system')
+    ->fields(array('weight' => 888))
+    ->condition('name', 'mycart')
+    ->execute();
+}
+

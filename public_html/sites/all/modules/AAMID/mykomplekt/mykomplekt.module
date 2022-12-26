@@ -1,0 +1,322 @@
+<?php
+/**
+ * Implements hook_menu().
+*/
+function mykomplekt_menu() {
+  $items['ajax/mykomplekt/add_komplekt'] = array(
+    'page callback' => 'mykomplekt_ajax_callback',
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+function mykomplekt_ajax_callback() {
+  $cacheEnabled = variable_get('cache', 0);
+  if ($cacheEnabled > 0 && !$user->uid) {
+    $page = request_uri();
+    global $base_root;
+    cache_clear_all($base_root . 'uc_ajax_cart/show', 'cache_page');
+    cache_clear_all($base_root . 'uc_ajax_cart/remove', 'cache_page');
+    cache_clear_all($base_root . 'uc_ajax_cart/show-cart-view', 'cache_page');
+    cache_clear_all($base_root . 'uc_ajax_cart/update', 'cache_page');
+    cache_clear_all($base_root . 'uc_ajax_cart/link', 'cache_page');
+  }
+  if (!isset($_POST['form_id'])) { return ; }
+  if (!isset($_POST['qty'])) { $_POST['qty'] = 1; }
+  $formID = explode('_', $_POST['form_id']);
+  $nid2 = array_pop($formID);
+  $nid1 = array_pop($formID);
+  $formID = implode('_', $formID);
+  $formValues = array(
+     'values' => $_POST,
+	 'triggering_element' => array('#name' => '')	
+  );
+  drupal_form_submit($formID, $formValues, $nid1, $nid2);
+  print theme('status_messages');
+
+}
+
+
+/**
+ * Implements hook_js_alter().
+*/
+function mykomplekt_js_alter(&$javascript) {
+	$javascript['sites/all/modules/uc_ajax_cart/js/uc_ajax_cart.js']['data'] = drupal_get_path('module', 'mykomplekt') . '/uc_ajax_cart.js';
+}
+
+/**
+ * Implements hook_uc_cart_pane().
+*/
+function mykomplekt_uc_cart_pane($items) { 
+  $body = '';
+  $arg = arg();
+  
+  if ( !(isset($arg[1]) && !isset($arg[2]) && $arg[0] == 'cart' && $arg[1] == 'checkout') &&
+       !(isset($arg[1]) && !isset($arg[2]) && $arg[0] == 'uc_ajax_cart' && $arg[1] == 'show-cart-view' && myapi_referer() == 'cart/checkout') 
+  ) {  
+    if ($items) {
+	  $nids = array(); 
+      foreach ($items as $item) {
+		 if ($item->type != 'product') continue;
+		 $nids[] = $item->nid;
+	  }
+	  
+	  if ($nids) {
+	     $body .= '<div id="mycart-komplect-wrapper">'.views_embed_view('komplect', 'block_1', implode('+', $nids)).'</div>';	  
+	  }
+    }   
+  }
+  $body = array(
+     '#markup' => $body,
+  );	
+  $panes['mycart_komplect'] = array(
+    'title' => 'В комплекте дешевле',
+    'enabled' => TRUE,
+    'weight' => 5,
+    'body' => $body,
+  );
+  return $panes;
+}
+
+
+/**
+ * Implements hook_forms().
+*/
+function mykomplekt_forms($form_id, $args) {
+  $forms = array(); 
+  if (isset($args[0]) && is_numeric($args[0])) {
+  if (isset($args[1]) && is_numeric($args[1])) {
+      $nid1 = $args[0];
+      $nid2 = $args[1];
+	  $type1 = myapi_get_TypeNode_by_NidNode($nid1);
+	  $type2 = myapi_get_TypeNode_by_NidNode($nid2);
+	  $node_info = array_keys(uc_product_node_info());
+      if (in_array($type1, $node_info)) {
+      if (in_array($type2, $node_info)) {
+        $forms['mykomplekt_add_to_cart_form_'.$nid1.'_'.$nid2] = array('callback' => 'mykomplekt_add_to_cart_form');
+	  }
+	  }
+  }
+  }
+  return $forms;
+}
+
+
+
+function mykomplekt_add_to_cart_form($form, &$form_state, $nid1, $nid2) {
+  $form = array();	  
+  $form['mykomplekt'] = array('#type' => 'value', '#value' => 'mykomplekt_'.$nid1.'_'.$nid2);
+  $form['nid1'] = array('#type' => 'value', '#value' => $nid1);
+  $form['nid2'] = array('#type' => 'value', '#value' => $nid2);
+  $form['qty'] = array('#type' => 'hidden', '#value' => 1);
+  $form['actions'] = array('#type' => 'actions');
+  $form['actions']['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Add to cart'),
+    '#id' => 'edit-submit-'.$nid1.'-'.$nid2,
+    '#attributes' => array(
+      'class' => array('node-add-to-cart', 'ajax-cart-submit-form-button'),
+    ),
+  );
+  $form['#attributes']['class'][] = 'ajax-mykomplekt-submit-form';
+  uc_form_alter($form, $form_state, __FUNCTION__);
+  return $form;
+}
+
+function mykomplekt_add_to_cart_form_submit($form, &$form_state) {
+  $nid1 = $form_state['values']['nid1']; 	
+  $nid2 = $form_state['values']['nid2'];
+  $qty = $form_state['values']['qty'];
+  //Проверка если в корзине уже група, если есть - кладем только Товар, а Аксессуар сам обновить
+  $is_cart_komplect = FALSE;
+  $is_cart_product = FALSE;
+  $items = uc_cart_get_contents();
+  foreach ($items as $item) {
+	if (isset($item->data['mykomplekt']) && $item->data['mykomplekt']['nid1'] == $nid1 && $item->data['mykomplekt']['nid2'] == $nid2) {
+       $is_cart_komplect = TRUE;
+	} elseif ($nid1 == $item->nid && !isset($item->data['mykomplekt'])) {
+       $is_cart_product = $item->cart_item_id;
+	}
+  }
+  
+  //Если в корзине есть товар, и добавляем групу с этим товаром, то сам товар удаляем
+  if ($is_cart_product) {
+	   entity_delete_multiple('uc_cart_item', array($is_cart_product));
+  }
+
+  uc_cart_add_item(
+     $nid1, 
+	 $qty,  
+     module_invoke_all('uc_add_to_cart_data', $form_state['values']), 
+	 NULL, 
+	 variable_get('uc_cart_add_item_msg', TRUE)
+  );  
+  
+  if (!$is_cart_komplect) {
+    uc_cart_add_item(
+      $nid2, 
+	  $qty,  
+      module_invoke_all('uc_add_to_cart_data', $form_state['values']), 
+	  NULL, 
+	  variable_get('uc_cart_add_item_msg', TRUE)
+    );
+  }
+  
+}
+
+/**
+ * Implements hook_uc_add_to_cart_data().
+ */
+function mykomplekt_uc_add_to_cart_data($form_values) {
+  //dsm($form_values);
+  $data_arr = array();	
+  if (isset($form_values['mykomplekt'])) {
+	$data_arr['mykomplekt']['nid1'] = $form_values['nid1'];
+	$data_arr['mykomplekt']['nid2'] = $form_values['nid2'];
+  } 
+  return $data_arr;
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function mykomplekt_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'uc_cart_view_form':
+	   foreach (element_children($form['items']) as $key) {
+		  if (isset($form['items'][$key]['data']['#value']) && $form['items'][$key]['data']['#value']) { 
+		    $data = unserialize($form['items'][$key]['data']['#value']);
+			$nid = $form['items'][$key]['nid']['#value'];
+			if (isset($data['mykomplekt']['nid2']) && $data['mykomplekt']['nid2'] == $nid) {
+			   $form['items'][$key]['remove']['#type'] = 'markup';
+			   $form['items'][$key]['remove']['#value'] = ' ';
+			   $form['items'][$key]['qty']['#disabled'] = TRUE;
+			}
+		  }
+	   }
+	  break;
+  }
+}
+
+
+
+/**
+ * Implements hook_uc_cart_item_update().
+*/
+function mykomplekt_uc_cart_item_update($entity) {
+  $nid = $entity->nid;
+  $cid = $entity->cart_id;
+  $qty = $entity->qty;
+  $cart_item_id = $entity->cart_item_id;
+  if ( isset($entity->data['mykomplekt']) && $entity->data['mykomplekt']['nid1'] == $nid ) {
+	$nid2 = $entity->data['mykomplekt']['nid2'];
+	$items = uc_cart_get_contents();
+	foreach ($items as $item) {
+	  if ($item->cart_item_id == $cart_item_id) continue;
+	  if (isset($item->data['mykomplekt']) && $item->data['mykomplekt'] == $entity->data['mykomplekt'] && $item->nid == $nid2) {
+        db_update('uc_cart_products')
+           ->fields(array('qty' => $qty))
+           ->condition('cart_item_id', $item->cart_item_id)
+           ->execute();
+	  }
+    }
+ }
+}
+
+/**
+ * Implements hook_uc_cart_item_delete().
+*/
+function mykomplekt_uc_cart_item_delete($entity) {
+  $nid = $entity->nid;
+  $cid = $entity->cart_id;
+  $qty = $entity->qty;
+  $cart_item_id = $entity->cart_item_id;
+  if ( isset($entity->data['mykomplekt']) && $entity->data['mykomplekt']['nid1'] == $nid ) {
+	$nid2 = $entity->data['mykomplekt']['nid2'];
+	$items = uc_cart_get_contents();
+	foreach ($items as $item) {
+	  if ($item->cart_item_id == $cart_item_id) continue;
+	  if (isset($item->data['mykomplekt']) && $item->data['mykomplekt'] == $entity->data['mykomplekt'] && $item->nid == $nid2) {
+		uc_cart_remove_item($item->nid, $cid, $item->data);  
+	  }
+    }
+ }
+}
+
+
+/**
+ * Implements hook_form_alter().
+*/
+function mykomplekt_tapir_table_alter(&$table, $table_id) { 
+  if ($table_id != 'uc_cart_view_table') return;
+  foreach (element_children($table) as $key) {	 
+    if (empty($table[$key]['nid']['#value'])) continue;
+	$node = $table[$key]['#entity'];
+	if (isset($node->data['mykomplekt']) && $node->data['mykomplekt']) {
+	  $table[$key]['#attributes']['class'][] = 'mykomplekt'; 
+	  $table[$key]['#attributes']['class'][] = 'mykomplekt_'.$node->data['mykomplekt']['nid1'].'_'.$node->data['mykomplekt']['nid2']; 
+	  if (isset($node->data['mykomplekt']['nid1']) && $node->data['mykomplekt']['nid1'] == $node->nid) {
+	    $table[$key]['#attributes']['class'][] = 'mykomplekt1'; 
+	  } elseif (isset($node->data['mykomplekt']['nid2']) && $node->data['mykomplekt']['nid2'] == $node->nid) {
+	    $table[$key]['#attributes']['class'][] = 'mykomplekt2'; 
+	  }
+
+	}
+  }
+}
+
+function mykomplekt_get_price_by_nodes($node1, $node2) {
+  $nid1 = $node1->nid; 
+  $nid2 = $node2->nid; 
+  $price2 = '';
+  if (isset($node1->field_product_aksesuar['und'])) {
+	foreach ($node1->field_product_aksesuar['und'] as $value) {
+  	  $collection = field_collection_item_revision_load($value['revision_id']);
+	  if (isset($collection->field_k_aksesuar['und'][0]['nid']) && $collection->field_k_aksesuar['und'][0]['nid'] == $nid2) {
+		 if (isset($collection->field_k_prise['und'][0]['value']) && $collection->field_k_prise['und'][0]['value']) {
+		    $price2 = $collection->field_k_prise['und'][0]['value'];
+		 } elseif (isset($collection->field_k_skidka['und'][0]['value']) && $collection->field_k_skidka['und'][0]['value']) {
+		    $price2 = $node2->sell_price - $node2->sell_price*$collection->field_k_skidka['und'][0]['value']/100;  
+		 }
+		 break; 
+	  }
+    } 
+  }
+  if (!$price2) { return false; }
+  
+  $price2 = round($price2, 2);
+  return $price2;	
+} 
+
+/**
+ * Implements hook_uc_product_alter().
+ */
+function mykomplekt_uc_product_alter(&$node) {
+  //dsm($node);
+  $nid = $node->nid;
+  if (isset($node->data['mykomplekt']) && $node->data['mykomplekt']) {
+	 $mykomplekt = $node->data['mykomplekt'];
+	 if ($nid == $mykomplekt['nid2']) {
+       $node1 = node_load($mykomplekt['nid1']); 
+       if ($node1->nid) {    
+         $node2 = $node;
+	     //$node->sell_price = $mykomplekt['price2'];  // Здесь пусть будет цена что раньше 
+	     $node->price = mykomplekt_get_price_by_nodes($node1, $node2); 
+	   }
+     }
+  }
+  
+  
+  
+  $course = mycart_get_course_usd($node);
+  $node->price *= $course;	
+  $node->sell_price *= $course;	
+  $node->cost *= $course;	
+  
+}
+
+
+////////////////////////////////////////////////////////////////////
+
+

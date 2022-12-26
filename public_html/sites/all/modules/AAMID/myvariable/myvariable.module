@@ -1,0 +1,41 @@
+<?php
+function myvariable_permission() {
+  return array(
+    'myvariable edit' => array(
+      'title' => t('Редактировать variable'),
+    ),
+  );
+}
+
+
+
+/**
+ * Implements hook_variable_realm_info()
+ */
+function myvariable_variable_realm_info() {
+  $realm['example'] = array(
+    'title' => t('My variable'),
+    'weight' => 10,
+    'store class' => 'VariableStoreRealmStore',
+    'keys' => array(
+      'first' => t('First'),
+      'second' => t('Second'),
+    ),
+  );
+  return $realm;
+}
+
+/**
+ * Implements hook_menu().
+ */
+function myvariable_menu() {
+  $items['admin/config/system/myvariable'] = array(
+    'title' => 'Переменные сайта',
+    'description' => 'Настройки переменных сайта.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('variable_group_form', 'myvariable'),
+    'access arguments' => array('myvariable edit'),
+  );
+  return $items;
+}
+

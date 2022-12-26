@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_feeds_plugins().
+ */
+function feeds_myoption_processor_feeds_plugins() {
+  $path = drupal_get_path('module', 'feeds_myoption_processor');
+  $info = array();
+  $info['FeedsMyoptionProcessor'] = array(
+    'name' => 'Myoption processor',
+    'description' => 'Create and update myoptions.',
+    'help' => 'Create and update myoptions from parsed content.',
+    'handler' => array(
+      'parent' => 'FeedsProcessor',
+      'class' => 'FeedsMyoptionProcessor',
+      'file' => 'FeedsMyoptionProcessor.inc',
+      'path' => $path,
+    ),
+  );
+  return $info;
+}
+

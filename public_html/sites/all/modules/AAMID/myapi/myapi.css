@@ -1,0 +1,27 @@
+/*modul admin*/
+body.admin-expanded div#admin-toolbar span.admin-toggle 
+{
+margin-top: 30px !important;
+}
+div#admin-toolbar.vertical
+{
+top: 30px !important;	
+}
+
+#myapi-settings-contacts-form
+{
+  overflow:hidden;	
+}
+#myapi-settings-contacts-form .form-type-textarea
+{
+  width:45%;
+  height:250px;	
+  float:left;
+  margin-left:1%;
+  margin-top:0px;
+  margin-bottom:40px;
+}
+#myapi-settings-contacts-form textarea
+{
+  height:250px;	
+}

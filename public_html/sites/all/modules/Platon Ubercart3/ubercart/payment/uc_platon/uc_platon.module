@@ -1,0 +1,175 @@
+<?php
+
+/**
+ * @file
+ * Integrates Platon payment gateway.
+ */
+
+/** Just authorize an amount on a credit card account. */
+define('UC_PLATON_GATEWAY_URL', 'https://secure.platononline.com/payment/auth');
+
+/**
+ * Make sure anyone can complete their Platon orders.
+ */
+function uc_platon_completion_access() {
+    return TRUE;
+}
+
+/**
+ * Implements hook_menu().
+ */
+function uc_platon_menu() {
+  $items = array();
+
+  $items['cart/platon/complete'] = array(
+    'title' => 'Order complete',
+    'page callback' => 'uc_platon_complete',
+    'access callback' => 'uc_platon_completion_access',
+    'type' => MENU_CALLBACK,
+    'file' => 'uc_platon.pages.inc',
+  );
+
+  $items['cart/platon/return'] = array(
+    'title' => 'Order complete',
+    'page callback' => 'uc_platon_return',
+    'access callback' => 'uc_platon_completion_access',
+    'type' => MENU_CALLBACK,
+    'file' => 'uc_platon.pages.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_init().
+ */
+function uc_platon_init() {
+  global $conf;
+  $conf['i18n_variables'][] = 'uc_platon_method_title';
+}
+
+/**
+ * Implements hook_ucga_display().
+ */
+function uc_platon_ucga_display() {
+  // Tell UC Google Analytics to display the e-commerce JS on the custom
+  // order completion page for this module.
+  if (arg(0) == 'cart' && arg(1) == 'platon' && arg(2) == 'complete') {
+    return TRUE;
+  }
+}
+
+/**
+ * Implements hook_uc_payment_method().
+ *
+ * @see uc_payment_method_platon()
+ */
+function uc_platon_uc_payment_method() {
+    $path = base_path() . drupal_get_path('module', 'uc_platon');
+    $title = variable_get('uc_platon_method_title', t('Platon:'));
+    $title .= '<br /><img src="' . $path . '/platon_logo.png" style="position: relative; left: 2.2em;" />';
+
+    $methods[] = array(
+        'id' => 'platon',
+        'name' => t('Platon'),
+        'title' => $title,
+        'review' => t('Credit card'),
+        'desc' => t('Redirect to Platon to pay by credit card.'),
+        'callback' => 'uc_payment_method_platon',
+        'redirect' => 'uc_platon_form',
+        'weight' => 3,
+        'checkout' => TRUE,
+        'no_gateway' => TRUE,
+    );
+
+    return $methods;
+}
+
+/**
+ * Adds Platon settings to the payment method settings form.
+ *
+ * @see uc_platon_uc_payment_method()
+ */
+function uc_payment_method_platon($op, &$order, $form = NULL, &$form_state = NULL) {
+    switch ($op) {
+        case 'settings':
+            $form['uc_platon_key'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Client Key'),
+                '#description' => t('Client Key from Platon'),
+                '#default_value' => variable_get('uc_platon_key', '')
+            );
+            $form['uc_platon_password'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Password'),
+                '#description' => t('Password for order verification.'),
+                '#default_value' => variable_get('uc_platon_password', '')
+            );
+            $form['uc_platon_gateway_url'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Gateway URL'),
+                '#description' => t('Gateway URL, change only if it required'),
+                '#default_value' => variable_get('uc_platon_gateway_url', UC_PLATON_GATEWAY_URL)
+            );
+
+            $form['uc_platon_method_title'] = array(
+                '#type' => 'textfield',
+                '#title' => t('Payment method title'),
+                '#default_value' => variable_get('uc_platon_method_title', t('Platon')),
+            );
+            return $form;
+        case 'cart-review':
+            $review[] = array('title' => t('Payment Gateway'), 'data' => 'PLATON');
+            return $review;
+    }
+}
+
+/**
+ * Form to build the submission to Platon.com.
+ */
+function uc_platon_form($form, &$form_state, $order) {
+     /* Prepare product data for coding */
+    $data = base64_encode(
+            json_encode(
+                    array(
+                        'amount' => sprintf("%01.2f", $order->order_total),
+                        'name' => t('Order from ') . variable_get('uc_store_name', 'Ubercart Shop'),
+                        'currency' => variable_get('uc_currency_code', 'USD')
+                    )
+            )
+    );
+    
+    $url = url('cart/platon/return/'.uc_cart_get_id(), array('absolute' => TRUE));
+    $key = variable_get('uc_platon_key', '');
+
+    /* Calculation of signature */
+    $sign = md5(
+            strtoupper(
+                    strrev($key) .
+                    strrev($data) .
+                    strrev($url) .
+                    strrev(variable_get('uc_platon_password', ''))
+            )
+    );
+
+    $fields = array(
+        'order' => $order->order_id,
+        'key' => $key,
+        'url' => $url,
+        'data' => $data,
+        'sign' => $sign
+    );
+
+    $form['#action'] = variable_get('uc_platon_gateway_url', UC_PLATON_GATEWAY_URL);
+
+    foreach ($fields as $name => $value) {
+        $form[$name] = array('#type' => 'hidden', '#value' => $value);
+    }
+    
+    $form['actions'] = array('#type' => 'actions');
+    $form['actions']['submit'] = array(
+      '#type' => 'submit',
+      '#value' => t('Submit order'),
+    );
+    return $form;
+}

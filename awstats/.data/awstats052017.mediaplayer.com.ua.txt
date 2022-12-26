@@ -1,0 +1,2237 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2693                
+POS_VISITOR 35179               
+POS_DAY 69679               
+POS_DOMAIN 3681                
+POS_LOGIN 3915                
+POS_ROBOT 4070                
+POS_WORMS 4946                
+POS_EMAILSENDER 5077                
+POS_EMAILRECEIVER 5220                
+POS_SESSION 70609               
+POS_SIDER 70823               
+POS_FILETYPES 5355                
+POS_OS 5582                
+POS_BROWSER 5803                
+POS_SCREENSIZE 11641               
+POS_UNKNOWNREFERER 11715               
+POS_UNKNOWNREFERERBROWSER 12836               
+POS_ORIGIN 13541               
+POS_SEREFERRALS 13691               
+POS_PAGEREFS 13874               
+POS_SEARCHWORDS 16275               
+POS_KEYWORDS 16886               
+POS_MISC 2357                
+POS_ERRORS 17407               
+POS_CLUSTER 3771                
+POS_SIDER_404 17561               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170601000413 1668 454224 18004809651404
+FirstTime 20170501002902
+LastTime 20170531235703
+LastUpdate 20170601013155 1668 0 1667 0 0
+TotalVisits 1631                
+TotalUnique 867                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 877                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 209 209 2580913 498 512 3998877
+1 303 306 4416977 853 860 14899046
+2 256 256 5519327 827 829 149163618
+3 169 178 2230549 917 920 21550888
+4 192 192 2793455 1358 1360 23280961
+5 171 171 2568804 866 876 7442215
+6 372 372 5145923 484 490 4426389
+7 281 281 6187268 365 365 3705680
+8 295 295 3891287 418 421 177190433
+9 316 318 4267400 1413 1414 14405591
+10 340 340 5784675 821 826 10452720
+11 492 499 153013728 654 676 5238820
+12 347 350 4528718 312 312 2787168
+13 822 843 12909426 457 466 3939576
+14 460 485 163612771 736 754 7227719
+15 493 500 107329098 726 741 6343704
+16 485 495 5712568 658 678 5708052
+17 339 340 5099820 884 888 12899353
+18 389 403 4613238 774 777 12853713
+19 393 393 6611721 427 429 7643145
+20 323 324 4243975 881 888 8009718
+21 370 375 104904072 707 713 5586535
+22 310 311 102534183 763 765 11607188
+23 311 311 181069631 1077 1083 9824841
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 8438 8547 901569527
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+mj12bot 5011 250803998 20170531222825 0
+bot[\s_+:,\.\;\/\\-] 1282 150523384 20170531184740 0
+yandex 870 12163625 20170519103706 0
+slurp 578 7548330 20170531224355 0
+crawl 576 7962262 20170531072234 0
+googlebot 498 6922963 20170531230612 0
+robot 364 7922925 20170531210147 0
+favicon 55 841441 20170531124103 0
+no_user_agent 51 4636309 20170524160523 0
+msnbot\-media 39 512085 20170515160351 0
+exabot 2 31253 20170530191538 0
+ia_archiver 29 1753570 20170527203144 0
+[\s_+:,\.\;\/\\-]bot 1 15640 20170524061218 0
+facebook 3 36682 20170524154946 0
+python 1 15628 20170521154101 0
+surveybot 2 31417 20170520145412 0
+checker 35 480254 20170529012000 0
+wget 1 108038 20170510053145 0
+netcraft 1 108038 20170510214308 0
+nutch 1 15776 20170504153832 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 117 1778634 0 0
+png 53 1372875 0 0
+dff 9 779828341 0 0
+woff 479 8217004 0 0
+php 612 17325659 0 0
+xml 9 72694 0 0
+jpg 47 172327 0 0
+Unknown 7207 92501196 0 0
+svg 14 300797 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 15
+linuxandroid 460
+winlong 42
+winxp 644
+win2000 52
+winnt 1009
+win98 1
+linuxubuntu 13
+linux 97
+winvista 881
+macosx 1586
+winunknown 1
+win2003 24
+Unknown 396
+bsdopenbsd 284
+win2008 3057
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 294
+safari7.0.3 307
+chrome56.3.8333.4605 2
+chrome52.0.2743.116 41
+firefox3.6 1
+chrome53.8.3009.8371 2
+chrome56.3.8349.4611 2
+chrome56.2.7101.1839 2
+chrome56.3.8568.4830 2
+msie11 322
+chrome53.7.3385.8657 2
+safari10.0.1 3
+msie8.0 254
+chrome11.0.696.34 5
+chrome57.4.9834.5106 2
+chrome53.0.2785.124 1
+firefox52.57.04 4
+chrome56.4.9245.4517 2
+chrome56.3.8201.4574 2
+chrome49.0.2623.91 3
+chrome57.4.0754.5027 2
+chrome57.4.0083.5356 2
+firefox52.55.17 2
+firefox52.51.98 2
+firefox40.0 64
+chrome0. 9
+chrome54.8.4213.9585 2
+firefox38.0 1
+firefox52.57.10 2
+chrome56.2.6555.1283 2
+chrome30.0.1599.69 3
+chrome57.5.0689.4317 2
+chrome53.6.1056.6328 2
+firefox25.0 1
+chrome17.0.963.84 8
+chrome56.3.7965.2693 2
+chrome56.2.6888.1515 2
+chrome57.5.0720.4458 2
+safari7.0 5
+safari10.1 17
+chrome54.8.3713.8085 2
+chrome48.0.2564.116 1
+chrome53.7.3928.8290 2
+chrome40.0.2214.117 1
+chrome57.5.9565.4293 2
+firefox24.0 10
+chrome57.0.2987.98 42
+iphone 75
+chrome39.0.0.0 4
+chrome46.0.2490.76 1
+chrome33.0.0.0 12
+chrome44.0.2403.121 1
+chrome57.4.9432.4160 2
+chrome57.5.0083.6355 2
+chrome54.8.3769.8031 2
+msie9.0 2
+chrome54.8.3090.9362 2
+safari4.6.1 12
+chrome44.0.2403.128 5
+chrome53.0.2785.143 66
+chrome56.2.7640.2378 2
+chrome41.0.2226.0 314
+chrome55.0.5936.0764 2
+chrome10.0.639.0 136
+chrome54.8.4386.9658 2
+chrome45.0.2454.94 4
+safari5.2.7 8
+chrome53.7.3445.8717 2
+chrome56.2.7256.2983 2
+msie 1
+chrome56.1.6259.1987 2
+firefox45.60.17 2
+firefox3.6.8 6
+msie6.0 272
+firefox52.58.01 2
+chrome55.1.5688.0316 1
+chrome55.0.5620.0357 2
+chrome57.4.9303.5676 2
+firefox18.0 2
+firefox45.73.26 2
+chrome53.6.1377.6640 2
+chrome58.0.3029.110 1482
+chrome56.2.6696.1323 2
+chrome51.0.2704.81 3
+chrome57.4.9927.4655 2
+chrome53.0.2785.146 6
+firefox43.0 5
+chrome56.2.7229.1057 2
+chrome60.0.3107.5 3
+firefox40.1 2
+firefox41.0 2
+chrome57.5.0873.5500 2
+firefox45.62.15 2
+chrome39.0.2146.0 7
+chrome57.4.9307.4670 2
+chrome56.2.7456.2183 2
+chrome53.7.2698.8960 2
+firefox52.44.91 2
+safari5.6.1 2
+chrome55.0.2883.87 2
+firefox53.0 255
+chrome54.8.3112.8484 2
+chrome56.0.1750.154 2
+firefox48.0 2
+firefox3.0.16 1
+chrome56.3.9812.4184 2
+chrome49.0.2623.75 4
+chrome60.0.3088.4 5
+firefox47.0 5
+firefox3.5.5 1
+chrome57.0.2987.133 143
+chrome55.1.6551.0389 2
+netscape4.0 1
+firefox45.59.06 2
+firefox3.6.3 1
+chrome55.1.6735.1463 2
+chrome44.0.2403.133 2
+chrome57.4.9937.4209 2
+chrome57.5.9526.4253 2
+chrome55.0.2883.91 7
+chrome57.4.9106.5479 2
+chrome57.5.0060.4898 2
+firefox45.65.18 2
+firefox52.43.90 4
+firefox45.76.28 2
+chrome47.0.2526.111 1
+chrome45.0.2454.93 16
+chrome43.0.2357.93 5
+chrome57.4.0128.5490 2
+chrome56.4.9736.4908 2
+Unknown 363
+chrome30.0.0.0 12
+chrome57.5.0782.5055 2
+firefox17.0 1
+chrome53.6.0537.5265 2
+safari5.4.8 2
+chrome53.5.0109.5837 2
+chrome41.0.2272.118 11
+chrome27.0.1453.110 1
+safari10.1.1 29
+chrome57.6.1147.6419 2
+chrome57.5.0693.6965 2
+safari9.0 7
+chrome45.0.2454.101 19
+chrome55.1.6550.0288 2
+netscape7.02 1
+safari4.7.2 18
+chrome48.0.2564.97 7
+chrome44.0.2403.124 1
+firefox45.69.12 2
+chrome34.0.1847.137 22
+chrome57.5.1287.6559 2
+chrome44.0.2403.130 3
+chrome56.1.6158.1886 2
+chrome54.8.3776.8049 2
+firefox54.0 4
+chrome31.0.1650.57 6
+chrome31.0.1650.63 9
+chrome56.0.2950.1 3
+firefox2.0.0.13 1
+msie7.0 4
+safari5.5.1 6
+chrome27.0.1453 3
+opera9.64 1
+safari5.4.9 4
+chrome50.0.2661.75 2
+chrome45.0.2454.95 1
+chrome57.5.0759.6021 1
+firefox50.0 4
+chrome37.0.2049.0 283
+chrome57.5.0362.6634 2
+chrome40.0.2214.124 2
+firefox13.0 1
+chrome40.0.2214.114 1
+chrome56.3.9368.4630 2
+netscape6.2.3 1
+firefox33.0 290
+netscape5.0 6
+chrome52.0.2743.98 3
+safari5.3.7 4
+chrome41.0.2228.0 309
+firefox3.1 15
+safari 28
+chrome55.1.6490.1128 2
+chrome21.0.1180.90 7
+chrome57.5.0791.6063 2
+android 27
+chrome38.0.1025.166 18
+firefox52.0 39
+chrome28.0.1500.95 9
+chrome36.0.1985.125 287
+safari5.3.8 14
+opera9.80 16
+safari8.0.6 4
+firefox3.5.0 1
+chrome57.4.9166.4894 2
+chrome57.4.9236.4964 2
+firefox45.63.16 6
+philips 15
+chrome34.0.1847.116 1
+chrome58.0.3029.96 318
+chrome56.2.7603.2330 2
+firefox52.46.93 2
+chrome55.1.6901.1639 2
+chrome57.0.2987.132 20
+firefox32.0 2
+firefox52.59.96 2
+chrome56.1.6064.1891 2
+safari10.0.2 3
+chrome57.4.0570.5842 2
+chrome56.3.8812.4184 2
+chrome51.0.2704.79 19
+chrome56.0.2924.180 3
+firefox52.61.14 2
+firefox52.54.17 2
+chrome56.2.7405.1133 2
+chrome38.0.2125.102 8
+chrome56.3.8135.4407 2
+firefox52.54.07 2
+chrome51.0.2704.106 6
+chrome57.5.1681.6953 2
+chrome56.3.7658.2386 2
+chrome43.0.2357.134 5
+firefox2.0.0.16 1
+chrome57.4.9271.4543 2
+chrome53.6.0487.5114 2
+chrome54.8.3046.9318 2
+chrome55.0.5698.0326 2
+chrome40.0.2214.115 1
+safari10.1.2 3
+chrome56.2.7941.2678 2
+chrome28.0.1500.94 10
+chrome57.4.9913.4285 2
+firefox52.67.10 2
+chrome57.4.9424.4151 2
+chrome39.0.2171.95 2
+firefox52.41.99 2
+chrome57.0.2987.110 1
+firefox52.57.94 2
+chrome55.0.5336.0064 2
+chrome37.0.2062.120 37
+chrome57.5.0844.5582 2
+chrome50.0.2661.102 1
+chrome56.2.6759.1487 2
+chrome44.0.2403.140 2
+chrome53.6.0361.5099 2
+firefox45.64.01 2
+chrome56.2.7042.2770 2
+chrome56.2.7160.1898 2
+chrome49.0.2623.112 35
+firefox52.59.06 2
+chrome41.0.2224.3 1
+firefox52.52.09 2
+chrome58.0.3029.83 245
+chrome49.0.2623.105 1
+safari6.0 282
+firefox29.0 272
+firefox45.67.14 4
+firefox45.62.10 2
+firefox2.0.0.6 1
+chrome55.1.6450.1188 2
+safari4.6.2 4
+mozilla 111
+chrome55.1.6438.0166 2
+chrome26.0.1410.63 3
+chrome45.0.2454.84 3
+firefox19.0 1
+chrome58.0.3029.114 30
+chrome57.5.0618.5346 2
+chrome58.0.3029.81 133
+firefox45.69.22 2
+chrome57.5.0239.5501 2
+chrome56.0.2924.87 163
+chrome56.2.6245.1973 2
+firefox45.77.29 2
+firefox45.64.17 4
+firefox45.70.23 2
+chrome3.0.195.21 3
+chrome55.1.5072.0700 2
+chrome57.5.0127.5499 2
+firefox52.49.97 2
+chrome55.0.2883.95 1
+safari8.0 3
+chrome57.0.2987.137 4
+safari10.0 214
+chrome56.2.7855.2583 2
+firefox46.0 5
+chrome55.1.6827.0555 2
+chrome41.0.2272.104 9
+firefox37.0 3
+chrome48.0.2564.109 1
+chrome44.0.2403.119 2
+msie10.0 378
+safari5.1 10
+chrome56.2.6929.1657 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 27
+WhatsApp/2.17.190_A 20170525175517
+Trident/4.0; 20170516175039
+}__test|O:21:\ 20170506202856
+Center 20170519112507
+10_6_2; 20170519050648
+XML-RPC.NET 20170521171626
+AOLBuild 20170519023310
+Mozilla/5.0_(Android_7.1.1;_Mobile;_rv:53.0)_Gecko/53.0_Firefox/53.0 20170529154956
+ltx71_-_(http://ltx71.com/) 20170520061051
+America 20170518105310
+MSIE 20170520154814
+PocketParser/2.0_(_https://getpocket.com/pocketparser_ua) 20170525074548
+2.0.50727) 20170517193131
+NT 20170519010921
+Disqus/1.0 20170516131508
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170512010605
+(compatible; 20170519161658
+CLR 20170516121407
+Mozilla/5.0_(compatible;_ips-agent) 20170519221212
+Mozilla/4.0 20170519053058
+Opera/9.80_(S60;_SymbOS;_Opera_Mobi/498;_U;_sv)_Presto/2.4.18_Version/10.00 20170510120147
+Mozilla/5.0 20170519040905
+Mechanize/2.7.5_Ruby/2.3.3p222_(http://github.com/sparklemotion/mechanize/) 20170524092738
+Gecko) 20170519011658
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20170511231912
+U; 20170522200306
+(KHTML, 20170516180543
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 20
+WhatsApp/2.17.190_A 20170525175517
+Trident/4.0; 20170516175039
+}__test|O:21:\ 20170506202856
+Center 20170519112507
+10_6_2; 20170519050648
+XML-RPC.NET 20170521171626
+AOLBuild 20170519023310
+ltx71_-_(http://ltx71.com/) 20170520061051
+America 20170518105310
+PocketParser/2.0_(_https://getpocket.com/pocketparser_ua) 20170525074548
+2.0.50727) 20170517193131
+NT 20170519010921
+Windows 20170516194216
+Disqus/1.0 20170516131508
+(compatible; 20170519161658
+CLR 20170516121407
+Gecko) 20170519011658
+Mechanize/2.7.5_Ruby/2.3.3p222_(http://github.com/sparklemotion/mechanize/) 20170524092738
+U; 20170522200306
+(KHTML, 20170516180543
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3156 3156
+From1 2 2
+From2 309 309
+From3 394 394
+From4 4577 4686
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 103 103
+bing 1 1
+yandex 205 205
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 54
+http://m.facebook.com 159 159
+http://protv.net.ua/viewtopic.php 64 64
+https://www.facebook.com 24 24
+http://protv.net.ua/index.php 13 13
+http://yandex.ua/clck/jsredir 11 11
+http://mediaplayer.ssve.ru/SEO 10 10
+http://hotline.ua/av-mediacentry/dune-hd-kartina-relax/ 7 7
+http://www.yandex.ua/clck/jsredir 7 7
+http://protv.net.ua 7 7
+http://protv.net.ua/viewforum.php 6 6
+http://pizza-tycoon.com 1 1
+http://bit.ly/2qaVQtr 1 1
+http://freelinkbuilding.website.tk 1 1
+http://www.protv.net.ua/index.php 1 1
+http://exmo.me 1 1
+https://yandex.ua/search/touch/ 2 2
+http://hotline.ua/av-akusticheskie-kolonki/monitor-audio-bronze-2-walnut/prices/ 2 2
+http://www.webviki.ru/mediaplayer.com.ua 2 2
+http://l.instagram.com 2 2
+http://payeer.com/ru/business/ 1 1
+http://hotline.ua/sr/ 2 2
+http://hotline.ua/av-mediacentry/dune-hd-tv-102w/prices/ 1 1
+https://yandex.ua/clck/jsredir 4 4
+http://burger-imperia.com 4 4
+http://hotline.ua/av-mediacentry/dune-hd-kartina-relax/prices/ 2 2
+http://hotline.ua/av-av-resivery/yamaha-rx-v481-black/prices/ 2 2
+https://m.facebook.com 3 3
+http://dunehd.com.ua/gde-kupit/ 1 1
+http://hotline.ua/av/mediacentry/301065/ 1 1
+https://www.facebook.com 1 1
+http://hotline.ua/av-mediacentry/dune-hd-duo-4k/prices/ 6 6
+http://lm.facebook.com/l.php 2 2
+http://www.protv.net.ua/viewforum.php 1 1
+http://hotline.ua/av-mediacentry/dune-hd-base-3d/prices/ 2 2
+http://www.yandex.by/clck/jsredir 1 1
+http://protv.net.ua/memberlist.php 4 4
+http://mail.allcorn.com.ua/appsuite/ 1 1
+http://keddr.com/2016/10/sravnenie-tv-pristavok-xiaomi-mi-tv-box-3-enhanced-i-z68-android-tv-box/ 3 3
+http://www.protv.net.ua/viewtopic.php 1 1
+http://new.protv.ua/viewtopic.php 1 1
+http://away.vk.com/away.php 5 5
+http://thewebsite.com 1 1
+http://www.protv.net.ua 3 3
+http://hotline.ua/av-mediacentry/inext-hd1-w/prices/ 1 1
+http://findsites.tech 1 1
+http://hotline.ua/av-mediacentry/dune-hd-solo-lite/prices/ 1 1
+http://hotline.ua/av-mediacentry/dune-hd-tv-102/prices/ 2 2
+http://hotline.ua/av-mediacentry/dune-hd-duo-4k//prices/ 2 2
+http://protv.net.ua/ucp.php 1 1
+http://pma.protv.ua/viewtopic.php 2 2
+http://hotline.ua/av-mediacentry/dune-hd-tv-303d/prices/ 5 5
+http://burger-imperia.com 1 1
+https://yandex.ua/maps/143/kyiv/ 3 3
+http://technopoint.ru/catalog/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+fs.to+%d0%b4%d0%bb%d1%8f+dune+hd 1
+dune+solo+4k+%d0%ba%d0%b0%d0%ba+%d1%81%d0%ba%d0%b0%d1%87%d0%b8%d0%b2%d0%b0%d1%82%d1%8c+%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%d1%8b+%d1%82%d0%be%d1%80%d1%80%d0%b5%d0%bd%d1%82 1
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c+%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0%d0%bf%d0%bb%d0%b5%d0%b5%d1%80+%d0%b4%d0%bb%d1%8f+%d1%82%d0%b5%d0%bb%d0%b5%d0%b2%d0%b8%d0%b7%d0%be%d1%80%d0%b0+%d0%b4%d1%8e%d0%bd%d0%b0+%d0%b2+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+%d0%b4%d0%bb%d1%8f 2
+dune 2
+4k 1
+%d1%82%d0%be%d1%80%d1%80%d0%b5%d0%bd%d1%82 1
+hd 1
+%d1%82%d0%b5%d0%bb%d0%b5%d0%b2%d0%b8%d0%b7%d0%be%d1%80%d0%b0 1
+%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0%d0%bf%d0%bb%d0%b5%d0%b5%d1%80 1
+%d0%b2 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 1
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c 1
+%d1%81%d0%ba%d0%b0%d1%87%d0%b8%d0%b2%d0%b0%d1%82%d1%8c 1
+%d1%84%d0%b8%d0%bb%d1%8c%d0%bc%d1%8b 1
+%d0%ba%d0%b0%d0%ba 1
+fs.to 1
+%d0%b4%d1%8e%d0%bd%d0%b0 1
+solo 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 89 1211864
+302 1887 1228318
+500 4 30344
+404 2592 71920626
+301 4046 3361180
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 443
+/product/vollekraft.html 1 -
+/wp-content/plugins/zen-mobile-app-native/readme.txt 1 -
+/cache/list.php 1 mediaplayer.com.ua
+/tag_17143.html 1 -
+/sites/default/files/03_dune_hd_tv_102_left_back.png 1 http://mediaplayer.com.ua/node/276/edit
+/admin.php 5 -
+/libraries/joomla/wl.php 1 -
+/comments/feed 2 -
+/sites/default/files/node/product/diskstation-ds114_5.jpg 1 -
+/product/gemeinden/guenselsdorf.html 1 -
+/books/far-from-the-tree 1 -
+/tag_308993.html 1 -
+/category/myagkie-okna 1 -
+/product/gemeinden/traiskirchen.html 1 -
+/images/logo_img.php 1 -
+/tag_121839.html 1 -
+/Homes-for-sale 1 -
+/Aurora-homes-for-sale.aspx 1 -
+/product/service/archiv.html 1 -
+/product/startseite.html 1 -
+/bibl/marshrut/crimia.htm 1 -
+/artikles/artikles_prazdniki.htm 1 -
+/sites/default/files/02_dune_hd_tv_102_front_2_0.png 2 http://mediaplayer.com.ua/node/276/edit
+/sqlbak.php 1 mediaplayer.com.ua
+/sites/default/files/pictures/20150402024930.jpg 1 -
+/product/contactUs 1 -
+/category/mebel-na-zakaz 1 -
+/communitysearch.aspx 1 -
+/tag_378294.html 1 -
+/category/khudozhestvennyy-parket 1 -
+/tag_41193.html 1 -
+/artikles/7artikles.htm 1 -
+/cache/defau1t.php 2 mediaplayer.com.ua
+/sites/default/files/pictures/20150402030325.jpg 1 -
+/item_13363.html 1 -
+/services.aspx 1 -
+/tag_196693.html 1 -
+/sites/default/files/pictures/20150402102339.jpg 2 -
+/product/invoker/JMXInvokerServlet 3 -
+/contacts.htm 1 -
+/sites/default/files/pictures/tv_102_firmware_foto.jpg 1 -
+/codd.php 3 mediaplayer.com.ua
+//wp-login.php 1 -
+/tag_29677.html 1 -
+/bibl/snar/spisok.htm 1 -
+/books/far-and-awa 1 -
+/sites/default/files/pictures/20150402024940.jpg 2 -
+/tag_129081.html 1 -
+/lakeside-park-real-estate-for-sale.aspx 1 -
+/tag_124298.html 1 -
+/sites/default/files/node/product/proshivka/dune_firmware_tv102_140610_0131_b8.dff_.zip 2 http://mediaplayer.com.ua/product/mediapleer-dune-hd-tv-102w
+/tag_143624.html 1 -
+/hh.php 1 -
+/wp-content/languages/plugins/gugu.php 1 mediaplayer.com.ua
+/apple-touch-icon-152x152-precomposed.png 1 -
+/product/nas-server-synology-ds-214se-x1-hdd 1 -
+/wp-login.php 1663 -
+/.ssh/id_dsa 3 -
+/calend.htm 1 -
+/archives/events 1 -
+/tag_160474.html 1 -
+/id_rsa 3 -
+/cv.php 1 -
+/wp-content/plugins/wp-lg2.php 1 mediaplayer.com.ua
+/wp-content/plugins/revslider/release_log.txt 2 -
+/bibl/rukovodstva.htm 1 -
+/humor.htm 1 -
+/page/mailform.php 2 -
+/images/stories/webroot.php 1 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/feed 10 -
+/archives/articles 1 -
+/tag_332452.html 1 -
+/kuda/kuda_rossia.htm 1 -
+/sites/all/themes/mytheme/js/ie8.js 1 -
+/wp-data.php 1 mediaplayer.com.ua
+/media/404.php 2 mediaplayer.com.ua
+/artikles/artikles_obraz.htm 1 -
+/artikles/2artikles.htm 1 -
+/Lawrenceburg-homes-for-sale.aspx 1 -
+/index.htm 1 -
+/wp-admin 5 http://mediaplayer.com.ua/wp-login.php
+/images/defau1t.php 1 mediaplayer.com.ua
+/category/mezhkomnatnye-dveri 1 -
+/product/gemeinden/badvslau.html 1 -
+/hotels/hotels.htm 1 -
+/albom/albom.htm 1 -
+/bibl/maps/maps.htm 1 -
+/media/jss.php 1 -
+/product/gemeinden/klausen-leopoldsdorf.html 1 -
+/sign-up-for-the-newsletter 1 -
+/product/gemeinden/blumau-neurihof.html 1 -
+/shootme.php 5 mediaplayer.com.ua
+/featured-properties.aspx 1 -
+/Union-condos-KY.aspx 1 -
+/books/a-stone-boat 1 -
+/Verwaltung-Politik/Stadtpolitik 1 -
+/express.htm 1 -
+/bibl/okrmir.htm 1 -
+/Verwaltung-Politik/Was-erledige-ich-wo-/Formulare-Onlinedienste 1 -
+/zeubda.php 1 -
+/buyorsell.aspx 1 -
+/artikles/3artikles.htm 1 -
+/sites/default/files/dune_hd_connect_vs_acc.jpg 1 -
+/css.php 1 -
+/id_dsa 3 -
+/artikles/8artikles.htm 1 -
+/category/keramogranit 1 -
+/poisk.htm 1 -
+/mmytc.php 1 mediaplayer.com.ua
+/bibl/books.htm 1 -
+/Verwaltung-Politik/Stadtpolitik/B%C3%BCrgerbeteiligung 1 -
+/florence-newest-listings.aspx 1 -
+/sites/default/files/pictures/dune-hd-tv-102_aw_interface.jpg 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front.png 1 -
+/wp-includes/css/admin-bar-rtl.php 1 -
+/sites/default/files/pictures/20150402024949.jpg 2 -
+/lakeside-park-homes-for-sale.aspx 1 -
+/Verwaltung-Politik/Preisr%C3%A4tsel 1 -
+/florence-real-estate-for-sale.aspx 1 -
+/artikles/13artikles.htm 1 -
+/wp-content/plugins/sfn.php 1 mediaplayer.com.ua
+/florence-homes-for-sale.aspx 1 -
+/Union-realtors-KY.aspx 1 -
+/sites/default/files/novost.jpg 2 http://mediaplayer.com.ua/node/275/edit
+/assets/images/iran78fzfzz.php 1 mediaplayer.com.ua
+/oferta.php 1 -
+/tmp/pz.php 1 -
+/lou-bna.php 1 -
+/sites/default/files/node/product/duo4k_mediaplayer.jpg 1 -
+/kuda/kuda_afrika.htm 1 -
+/product/nas-server-synology-ds114-x1-hdd 3 -
+/category/naturalnyy-linoleum 1 -
+/functions.php 1 mediaplayer.com.ua
+/submit.php 1 -
+/category/khimiya-dlya-pola 1 -
+/wp-content/plugins/Analyser.php 3 mediaplayer.com.ua
+/tag_229821.html 1 -
+/kuda/kuda_ostrova.htm 1 -
+/active.php 1 -
+/artikles/11artikles.htm 1 -
+/configurationbak.php.suspected 3 mediaplayer.com.ua
+/news.htm 1 -
+/wp-content/plugins/caches.php 1 mediaplayer.com.ua
+/books 1 -
+/kuda/kuda_sport.htm 1 -
+/item_13359.html 1 -
+/product/gemeinden/pfaffsttten.html 1 -
+/taxonomy/term/61%253Fpage%3D0%25252C0 2 -
+/category/3d-paneli 1 -
+/kuda/kuda_general.htm 1 -
+/sites/default/files/pictures/dune_hd_tv102-2.jpg 1 -
+/abad.aspx 1 -
+/tag_166778.html 1 -
+/product/gemeinden/leobersdorf.html 1 -
+/forum 37 -
+/item_13343.html 1 -
+/category/probkovoe-pokrytie 1 -
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5 7 -
+/zebda.php 1 -
+/category/vinilovye-poly 1 -
+/product/team/mandatare.html 1 -
+/product/gemeinden/soo.html 1 -
+/sites/default/files/pictures/20150402102243.jpg 1 -
+/wp-content/plugins/wp-lg3.php 2 mediaplayer.com.ua
+/kuda/kuda_ukraina.htm 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front3.png 1 -
+/luxury.aspx 1 -
+/author/admin 1 -
+/product/index.php 1 -
+/goog1es.php 1 mediaplayer.com.ua
+/sites/default/files/pictures/20150402102207.jpg 2 -
+/sites/default/files/node/product/proshivka/dune_firmware_base3d_140610_0131_b8.dff_.zip 1 -
+/page/index.php 53 -
+/taxonomy/term/61%253Fpage%3D0%25252C1%25252C0 2 -
+/administrator 5 -
+/tesl.php 1 mediaplayer.com.ua
+/Verwaltung-Politik/Was-erledige-ich-wo-/index.php 2 -
+/media/tmp.php 2 mediaplayer.com.ua
+/sqldebug.php 2 mediaplayer.com.ua
+/category/keramicheskaya-plitka 1 -
+/category/dekorativnye-reshetki 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_back.png 1 -
+/action/akcionnoe-predlozhenie-dlya-uchastnikov-proekta-ukrayinci-razom 8 -
+/florence-condos.aspx 1 -
+/wp-content/plugins/SocketIontrol.php 2 mediaplayer.com.ua
+/Downtown-Cincinnati-Homes-for-Sale.aspx 1 -
+/Fort-Thomas-homes-for-sale.aspx 1 -
+/libraries/lol.php 1 -
+/logs.asp 1 mediaplayer.com.ua
+/apple-touch-icon.png 5 -
+/Hyde-Park-Homes-for-Sale.aspx 1 -
+/flag/invoker/JMXInvokerServlet 1 -
+/kuda/kuda_vostok.htm 1 -
+/product/gemeinden/tattendorf.html 1 -
+/category/podlozhka 1 -
+/books/the-irony-tower 1 -
+/tag_220691.html 1 -
+/Union-real-estate-for-sale-KY.aspx 1 -
+/artikles/12artikles.htm 1 -
+/media/css.php 1 -
+/category/inzhenernaya-doska 1 -
+/sites/default/files/dune_hd_connect_front.jpg 1 -
+/B/add_com.php 1 -
+/sites/default/files/04_dune_hd_tv_102_front_up_0.png 2 http://mediaplayer.com.ua/node/276/edit
+/product/service/foerderungen.html 1 -
+/apple-touch-icon-precomposed.png 4 -
+/thecompany.aspx 1 -
+/libraries/joomla/zipy.php 1 -
+/news.php 1 mediaplayer.com.ua
+/bibl/marshrut/kamchatka.htm 1 -
+/product/gemeinden/reisenberg.html 1 -
+/kuda/kuda_evropa.htm 1 -
+/bibl/marshrut/arhyz.htm 1 -
+/kuda/kuda_podmoskovie.htm 1 -
+/auctions.aspx 1 -
+/terms.aspx 1 -
+/elements.php 1 mediaplayer.com.ua
+/zwiedzamy-belgi%C4%99 1 -
+/sites/default/files/03_dune_hd_tv_102_left_back_0.png 2 http://mediaplayer.com.ua/node/276/edit
+/artikles/4artikles.htm 1 -
+/images/stories/alfa.php 1 -
+/wp-content/uploads/2015/07/screenshot1.png 1 http://mediaplayer.com.ua/
+/artikles/6artikles.htm 1 -
+/sites/default/files/dune_hd_connect_up.jpg 1 -
+/administrator/dbconfig.php 1 mediaplayer.com.ua
+/tag_247117.html 1 -
+/product/teilorganisationen.html 1 -
+/tag_47858.html 1 -
+/Verwaltung-Politik/Arbeitgeberin-Stadt-Landau-in-der-Pfalz 1 -
+/homewarranty.aspx 1 -
+/sites/default/files/node/product/podpiska4.jpg 7 -
+/components/com_jdownloads/jdownloads.js 1 -
+/anderson-township-homes-for-sale.aspx 1 -
+/marsh.htm 1 -
+/product/gemeinden/enzesfeld-lindabrunn.html 1 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8 10 -
+/sftp-config.json 1 -
+/product/gemeinden/alland.html 1 -
+/wiadomosci/motoryzacja/nowa-op%C5%82ata-za-zanieczyszczanie-samochodowe-w-antwerpii 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://mediaplayer.com.ua/modules/mod_simplefileuploadv1.3/elements/udd.php
+/invoker/JMXInvokerServlet 5 -
+/product/dunehd-solo-lite 27 -
+/incidente_plata.php 1 -
+/sites/default/files/02_dune_hd_tv_102_front_2.png 1 http://mediaplayer.com.ua/node/276/edit
+/B/add_opp.php 2 -
+/images/1ndex.php 2 mediaplayer.com.ua
+/relocation.aspx 1 -
+/images/w0rm.php 1 -
+/kuda/kuda_amerika.htm 1 -
+/tmp.php 1 mediaplayer.com.ua
+/category/massivnaya-doska 1 -
+/product/dunehd-solo-4k-lite 63 -
+/Verwaltung-Politik/Gleichstellungsstelle 1 -
+/coverage 1 -
+/product/gemeinden/altenmarkt-triesting.html 1 -
+/nowayfile.php 1 -
+/product/gemeinden/berndorf.html 1 -
+/joinhuff.aspx 1 -
+/wp-content/advanced-cache.php 3 mediaplayer.com.ua
+/tag_287689.html 1 -
+/modules/mod_simplefileuploadv1.3/elements/HESOvl.php 1 -
+/tag_180171.html 1 -
+/Verwaltung-Politik/%C3%96ffentliche-Informationen 1 -
+/greater-cincinnati-home-searches.aspx 1 -
+/Abbrevsprl.php 1 mediaplayer.com.ua
+/taxonomy/term/61%253Fpage%3D0%25252C1%25252C1 2 -
+/tmpos.php 1 mediaplayer.com.ua
+/wp-content/b374k-2.8.php 1 mediaplayer.com.ua
+/product/gemeinden/baden.html 1 -
+/apple-touch-icon-152x152.png 1 -
+/taxonomy/term/61%253Fpage%3D0%25252C0%25252C0 2 -
+/artikles/1artikles.htm 1 -
+/product/gemeinden/furth-triesting.html 1 -
+/sites/default/files/node/product/proshivka/dune_firmware_tv303d_140610_0131_b8.dff_.zip 1 -
+/artikles/14artikles.htm 1 -
+/wp-content/plugins/wp-footers.php 1 mediaplayer.com.ua
+/.ssh/id_rsa 3 -
+/category/vkhodnye-dveri 1 -
+/product/pult-upravleniya-kompanii-dune-hd 2 -
+/category/laminat 1 -
+/kuda/kuda_kraskra.htm 1 -
+/product/service/sprechstunden.html 1 -
+/tag_299699.html 1 -
+/product/gemeinden/ebreichsdorf.html 1 -
+/images/sym.php 1 -
+/category/plintus 1 -
+/Lakeside-Park-Homes-for-Sale.aspx 1 -
+/product/product/mediapleer-dune-hd-base-3d 2 -
+/lakeside-park-condos.aspx 1 -
+/sites/default/files/pictures/dune-hd-tv-102_aw.jpg 1 -
+/express/20091013.htm 1 -
+/sites/default/files/dune_hd_connect_up_left.jpg 1 -
+/product/gemeinden/pottendorf.html 1 -
+/sites/default/files/05_dune_hd_tv_102_back_0.png 2 http://mediaplayer.com.ua/node/276/edit
+/category/shtuchnyy-parket 1 -
+/js/mage/cookies.js 2 mediaplayer.com.ua
+/product/footer/impressum.html 1 -
+/page/rep_company.php 5 -
+/mortgage.aspx 1 -
+/florence-real-estate-agent.aspx 1 -
+/wp-content/plugins/morepaddy.php 2 mediaplayer.com.ua
+/error-logs.php 1 mediaplayer.com.ua
+/libraries/joomla/jmails.php 2 mediaplayer.com.ua
+/Greendale-homes-for-sale.aspx 1 -
+/product/dune-solo-4k 1 -
+/injctory.php 1 mediaplayer.com.ua
+/sites/default/files/node/product/duo4k_mediaplayer_rear_0.jpg 2 -
+/assets/b374k-2.8.php 1 mediaplayer.com.ua
+/wp-content/uploads/Fbrrchive.php 1 mediaplayer.com.ua
+/item_13334.html 1 -
+/loading 2 http://mediaplayer.com.ua/video
+/item_13353.html 1 -
+/administrator/index.php 7 http://mediaplayer.com.ua/administrator
+/page/acc_graphics.php 2 -
+/images/interface.php 1 mediaplayer.com.ua
+/insurance.aspx 1 -
+/wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/qtip/qtip.js 1 -
+//blog/robots.txt 1 -
+/disclaimer.aspx 1 -
+/tmp/upxx.php 1 -
+/events-new 1 -
+/Union-newest-listings-KY.aspx 1 -
+/images/loading--big@2x.gif 1 http://mediaplayer.com.ua/news/besplatnoe-kino-na-pleerah-dune-hd
+/front%253Fpage%253D0%2525252C0%2525252C1 18 -
+/images/jdownloads/screenshots/zedan.gif 1 -
+/category/parketnaya-doska 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F/feed 10 -
+/resd.php 1 mediaplayer.com.ua
+/sites/default/files/05_dune_hd_tv_102_back.png 1 http://mediaplayer.com.ua/node/276/edit
+/wp-content/plugins/wpfootes.php 3 mediaplayer.com.ua
+/sitemap.xml 8 -
+/product/gemeinden/hirtenberg.html 1 -
+/product/gemeinden/oberwaltersdorf.html 1 -
+/images/stories/s.php 1 -
+/product/gemeinden/trumau.html 1 -
+/cache/wcache7675n.PHP 1 mediaplayer.com.ua
+/Verwaltung-Politik/Leichte-Sprache 1 -
+/wp-content/plugins/myshe.php 1 mediaplayer.com.ua
+/2015/05/30/%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BF%D0%BB%D0%B5%D0%B5%D1%80%D0%B0-dune 2 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front2.png 1 -
+/cart/invoker/JMXInvokerServlet 1 -
+/product/gemeinden/kottingbrunn.html 1 -
+/Verwaltung-Politik/Was-erledige-ich-wo- 1 -
+/sites/default/files/resize/node/product/duo4k_mediaplayer_rear_0-600x350.jpg 14 http://mediaplayer.com.ua/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k
+/maill.php 1 mediaplayer.com.ua
+/sites/default/files/04_dune_hd_tv_102_front_up.png 1 http://mediaplayer.com.ua/node/276/edit
+/press/audio-video 1 -
+/images/stories/3xp.php 1 -
+/privacypolicy.aspx 1 -
+/product/262.htm 1 -
+/product/gemeinden/hernstein.html 1 -
+/SessionController.php 1 mediaplayer.com.ua
+/tag_23992.html 1 -
+/webform 11 -
+/tag_203464.html 1 -
+/artikles/5artikles.htm 1 -
+/sites/default/files/pictures/20150402102320.jpg 2 -
+/al277.php 2 mediaplayer.com.ua
+/category 1 -
+/product/gemeinden/heiligenkreuz.html 1 -
+/product/gemeinden/teesdorf.html 1 -
+/category/karaoke-sistemy%20mediaplayer.com.ua%09new 1 -
+/sites/default/files/pictures/dune-hd-tv-102_aw_rear.jpg 1 -
+/Verwaltung-Politik/Presse-Kontakt 1 -
+/sites/default/files/dune_blue.jpg 2 http://mediaplayer.com.ua/node/187/edit
+/product/260.htm 1 -
+/page/rep_prod_serv.php 68 -
+/kuda/kuda_oae.htm 1 -
+/wiadomosci/motoryzacja/polacy-znaj%C4%85-si%C4%99-na-samochodach-mniej,-ni%C5%BC-im-si%C4%99-wydaje-najcz%C4%99stszym-b%C5%82%C4%99dem-s%C4%85-zaniedbania-w-kwestii-serwisowania 1 -
+/item_13348.html 1 -
+/kuda.htm 1 -
+/images/google-assist.php 1 mediaplayer.com.ua
+/booking-agent 1 -
+/tag_60929.html 1 -
+/apple-touch-icon-120x120.png 1 -
+/media/1ndex.php 2 mediaplayer.com.ua
+/Montgomery-Homes-for-Sale.aspx 1 -
+/kuda/kuda_turkey.htm 1 -
+/site/tmp/cTivrC.php 1 mediaplayer.com.ua
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed 9 -
+/tag_184050.html 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/cli/40dd1d.php 1 mediaplayer.com.ua
+/books/the-noonday-demon 1 -
+/robots.txt.php 2 mediaplayer.com.ua
+/sites/default/files/node/product/dsc_0137.png 1 -
+/wp-content/plugins/wp-cache.php 1 mediaplayer.com.ua
+/product/gemeinden/schoenau-triesting.html 1 -
+/kuda/kuda_deti.htm 1 -
+/product/team/geschaeftsstelle.html 1 -
+/page/acc_web_new.php 2 -
+/images/laj.php 1 mediaplayer.com.ua
+/sites/default/files/novost_2.jpg 2 http://mediaplayer.com.ua/node/275/edit
+/images/al277.php 1 mediaplayer.com.ua
+/sites/default/files/dune_hd_connect_back.jpg 1 -
+/Verwaltung-Politik/Lokale-Agenda 1 -
+/images/404.php 1 mediaplayer.com.ua
+/index_3.htm 1 -
+/front%253Fpage%253D0%2525252C1 18 -
+/Verwaltung-Politik/Beh%C3%B6rdennummer-115 1 -
+/sites/default/files/pictures/base_3d.jpg 2 -
+/bibl/hibiny.htm 1 -
+/info.php 1 -
+/artikles/9artikles.htm 1 -
+/artikles/10artikles.htm 1 -
+/te_ro.php 1 -
+/wp-content/plugins/Fbrrchive.php 1 mediaplayer.com.ua
+/sites/default/files/pictures/dune-hd-tv-102_aw_dune_store.jpg 1 -
+/selling.aspx 1 -
+/dcodzu.php 2 mediaplayer.com.ua
+/product/gemeinden/seibersdorf.html 1 -
+/blog/robots.txt 5 -
+/r3x.php 1 mediaplayer.com.ua
+/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D1%8B-%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB-%D0%91-57-4664.html 10 -
+/product/gemeinden/mitterndorf-fischa.html 1 -
+/product/mesyachnyy-premiuim-abonement-kartinatv 1 -
+/buying.aspx 1 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 -
+/bibl/sovety.htm 1 -
+/wp-admin/network/rnnvhs.php 1 mediaplayer.com.ua
+/sites/default/files/node/product/podpiska3.jpg 5 -
+/product/sondpad 2 -
+/tag_414980.html 1 -
+/wp-content/plugins/formcraft/js/form.js 2 -
+/EBTH.aspx 1 -
+/literary-agent 1 -
+/press/interviews 1 -
+/title.aspx 1 -
+/tag_119132.html 1 -
+/product/service/mitmachen.html 1 -
+/webconfig.txt.php.suspected 1 mediaplayer.com.ua
+/product/gemeinden/weissenbach-triesting.html 1 -
+/sites/default/files/pictures/20150402024918.jpg 1 -
+/bibl/nashe/nashe.htm 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F 3 -
+/tag_376507.html 1 -
+/product/kontakt.html 1 -
+/sites/default/files/pictures/20150402025002.jpg 2 -
+/keep.php 2 mediaplayer.com.ua
+/product/gemeinden/pottenstein.html 1 -
+/item_13338.html 1 -
+/kuda/kuda_zdorov.htm 1 -
+/tag_278941.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 877
+176.121.14.121 2583 2583 433987447 20170531235703
+212.90.40.52 1162 1207 12032723 20170531203636
+77.121.248.91 416 416 4276198 20170529214224
+35.184.189.105 255 255 3373098 20170520061051
+91.223.133.21 137 137 1459715 20170501060948
+91.204.252.232 116 116 1561406 20170529205229
+89.169.36.32 89 89 1207763 20170529164453
+46.4.89.220 83 83 1100732 20170529192725
+91.204.252.230 71 71 926698 20170529211001
+5.188.211.70 66 66 3057190 20170520022429
+213.110.133.200 3 3 33545 20170530062335
+66.249.82.117 1 1 536 20170514165838
+176.102.63.155 1 1 12178 20170526083832
+217.77.212.161 9 9 86479 20170525211530
+91.226.254.72 3 3 33639 20170501081708
+69.58.178.56 10 10 524154 20170519221212
+91.196.150.154 1 1 12168 20170525095005
+128.72.219.30 2 2 29959 20170521125307
+94.154.220.171 7 7 55996 20170526153007
+178.54.9.72 21 21 152858 20170524161040
+52.2.10.94 47 47 618335 20170504220343
+212.90.63.208 1 1 12173 20170525095601
+84.108.248.212 3 3 33464 20170523001926
+93.74.237.241 1 1 12171 20170526081734
+91.196.92.171 5 5 54466 20170515160821
+176.241.133.177 1 1 12172 20170526080657
+217.69.133.169 1 1 15640 20170518232226
+94.45.55.10 1 1 12324 20170525103018
+91.231.160.144 13 13 126814 20170527192414
+195.211.23.207 1 1 14958 20170504200111
+93.115.97.118 3 3 244919 20170514015442
+77.120.227.198 1 1 12174 20170526080730
+89.162.145.210 2 2 32955 20170522103122
+178.74.224.228 3 3 36086 20170521120210
+62.183.124.108 3 3 36010 20170526165734
+37.73.165.27 1 1 12170 20170526180317
+89.149.85.156 4 4 48719 20170518090204
+176.195.222.37 2 2 29962 20170518103033
+217.69.143.217 1 1 15420 20170511234154
+178.211.101.2 3 3 30048 20170525070220
+46.219.223.36 16 16 129287 20170528113805
+176.195.108.202 1 1 15202 20170501173723
+52.87.86.158 1 1 15720 20170507045945
+217.117.64.207 3 3 33480 20170521161229
+188.18.109.214 3 3 30448 20170506133556
+128.68.38.193 2 2 15170 20170520010929
+185.137.19.137 3 3 29912 20170529211418
+109.68.46.150 1 1 12172 20170526093850
+88.135.200.67 7 7 58519 20170522160630
+178.140.118.44 2 2 16975 20170513055721
+94.244.187.115 1 1 12164 20170527225407
+91.231.206.100 6 6 60110 20170530120038
+188.244.38.239 36 36 244583 20170520161228
+212.117.27.207 3 3 30421 20170522231539
+137.74.254.198 1 1 40478 20170519161658
+178.140.155.35 2 2 13105 20170512030210
+66.249.83.87 8 8 63836 20170501160452
+134.249.73.191 1 1 12177 20170527112123
+66.102.8.213 6 6 76962 20170529020418
+185.86.150.134 3 3 30023 20170526095932
+195.211.23.217 1 1 15827 20170511231743
+130.180.220.80 1 1 15509 20170526125030
+119.28.21.109 1 1 39787 20170528023012
+109.183.4.122 4 4 56848480 20170508144929
+46.133.218.128 3 3 30047 20170526101015
+188.32.169.237 3 3 30325 20170527174915
+176.105.205.137 3 3 33463 20170523154125
+176.36.22.24 1 1 12177 20170526100742
+93.73.90.84 13 13 132312 20170526203153
+193.93.195.43 1 1 18531 20170522101305
+212.40.47.14 3 3 33291 20170515142721
+185.137.17.86 3 3 30419 20170531120350
+31.134.191.116 5 5 52609 20170509210731
+188.168.27.167 1 1 15500 20170529105540
+78.39.195.11 1 1 15772 20170504203347
+62.205.136.163 3 3 30025 20170525122855
+188.166.72.23 5 5 44592 20170527073910
+83.102.217.215 1 1 12492 20170528060654
+91.232.159.242 1 1 12170 20170526220826
+159.224.188.184 1 1 11354 20170508183757
+95.208.59.125 4 4 45818 20170525175825
+199.30.24.167 1 1 26010 20170521120804
+162.243.252.228 1 1 15637 20170519231634
+178.137.156.60 6 6 67150 20170531192919
+5.188.211.24 12 12 841853 20170514193129
+104.168.141.15 1 1 15742 20170508072307
+202.46.52.179 1 1 15518 20170528131044
+82.145.222.136 3 3 30428 20170530191637
+46.211.248.48 1 1 12167 20170526103536
+176.14.37.74 20 20 264221 20170529014039
+89.178.7.11 2 2 31628 20170524072549
+202.46.52.19 1 1 15779 20170501020827
+46.133.175.160 1 1 16190 20170501085506
+37.204.34.141 7 7 99948 20170522062630
+176.195.246.140 3 3 32667 20170505105840
+81.163.113.47 2 2 32837 20170528232828
+37.57.235.65 3 3 30055 20170526153053
+109.86.72.163 1 1 74835 20170523082619
+150.70.188.170 1 1 78486 20170501103316
+163.121.188.3 1 1 108038 20170505160709
+92.244.101.46 6 6 70897 20170517124933
+46.165.230.5 1 1 46160 20170518105310
+146.185.144.64 1 1 15728 20170507134532
+46.23.35.150 1 1 12176 20170526120420
+95.67.52.97 3 3 30048 20170524165821
+188.32.40.153 2 2 27777 20170513203248
+92.244.101.214 1 1 12172 20170525230554
+46.33.249.19 0 1 14956 
+187.45.112.5 1 1 15507 20170525024139
+119.28.21.50 1 1 105014 20170520015425
+91.219.196.65 3 3 33624 20170505193703
+31.43.149.160 3 3 30044 20170524193518
+109.87.139.90 7 7 74589 20170526045546
+185.86.57.17 0 2 16153 
+199.30.25.2 1 1 26010 20170531030807
+194.126.180.5 1 1 12177 20170526120617
+82.193.98.64 5 5 47376 20170524154308
+109.87.210.214 3 3 33751 20170509202448
+185.86.57.24 0 1 8077 
+66.102.8.215 4 4 59088 20170529020415
+94.242.21.138 3 3 30333 20170528193149
+193.93.195.188 1 1 14753 20170522092140
+192.162.33.244 3 3 36124 20170501123023
+95.134.206.107 2 2 32994 20170526114300
+217.66.105.234 17 17 127898 20170526135159
+46.211.129.5 3 3 31052 20170525132911
+213.240.205.160 3 3 30511 20170531134622
+46.73.60.246 1 2 33796 20170516201232
+128.68.211.136 9 9 129410 20170501220702
+62.16.3.74 3 3 30017 20170525143455
+95.221.62.113 3 3 35130 20170529073455
+37.48.68.247 1 1 104860 20170529023604
+130.180.212.227 3 3 29899 20170518034936
+85.174.57.172 1 1 15414 20170515194846
+162.243.166.137 1 1 15505 20170528163911
+91.212.56.117 1 1 12169 20170525083356
+91.196.92.168 1 1 536 20170515205935
+202.46.51.38 1 1 15749 20170509030105
+188.191.144.145 3 3 29143 20170512235940
+176.193.151.121 5 5 62659 20170502091854
+213.5.193.14 3 3 33506 20170531113319
+37.187.78.81 3 3 46946 20170523053032
+23.229.22.67 2 2 31234 20170530214423
+37.201.229.26 5 5 42447 20170518005144
+195.211.23.206 1 1 15763 20170511231912
+66.102.9.2 18 19 245327 20170530110628
+52.71.155.178 3 3 40410 20170528134258
+62.212.73.49 1 1 15756 20170505093844
+199.30.25.77 1 1 26010 20170525072628
+89.173.232.9 3 3 30371 20170529161702
+178.151.84.56 3 3 30049 20170525125818
+5.188.211.11 42 42 1898384 20170519130814
+92.249.113.137 3 3 30051 20170524213131
+176.120.102.136 5 5 45718 20170508174917
+5.228.8.173 1 1 102070 20170513205147
+115.28.76.22 1 1 797 20170521171626
+86.110.117.74 1 1 15383 20170517163517
+176.15.205.231 21 21 254994 20170529032626
+176.193.175.224 3 3 30484 20170502092224
+82.208.137.101 1 1 104860 20170526200223
+123.207.29.152 1 1 797 20170506103946
+106.14.146.46 1 1 15758 20170511080057
+212.115.234.29 8 8 57052 20170515001945
+94.77.148.234 3 3 30449 20170509220726
+188.131.99.100 1 1 15612 20170517075455
+46.243.173.97 1 1 16227 20170522101430
+80.93.120.33 5 5 48508 20170511202849
+194.8.210.2 1 1 15416 20170515144155
+94.76.83.191 1 1 12176 20170526075603
+82.144.212.133 5 5 54390 20170525222304
+178.122.101.189 3 3 30345 20170527231545
+178.150.73.106 5 5 40312 20170518000610
+94.45.57.114 3 3 30051 20170526160501
+95.28.198.176 5 5 58293 20170501164535
+93.72.208.109 4 4 42229 20170526111029
+188.244.45.43 2 2 12569 20170501031329
+188.40.47.78 2 2 32908 20170510134907
+176.14.254.240 1 1 15202 20170518224615
+46.242.71.240 2 2 27806 20170502032529
+82.145.221.59 1 1 12555 20170531172419
+77.88.219.118 1 1 12268 20170530145338
+95.67.71.74 5 5 49800 20170511141501
+188.163.6.189 8 8 60071 20170516010802
+178.212.194.210 1 1 12171 20170524162123
+46.219.232.29 1 1 12173 20170526083929
+123.31.26.56 2 2 102487 20170514204806
+46.133.23.68 1 1 12169 20170525113911
+178.215.80.132 3 3 30336 20170528131024
+178.137.83.166 1 1 15774 20170504082701
+77.37.157.93 2 2 216164 20170504163243
+46.46.67.108 3 3 74620 20170501220350
+119.28.67.247 4 4 273063 20170529152255
+109.173.57.250 2 2 16924 20170526005651
+46.42.135.188 3 3 28932 20170514114517
+185.86.57.23 0 1 8078 
+185.86.57.21 0 1 8078 
+193.187.79.18 1 1 12178 20170526164328
+94.179.147.128 3 3 33379 20170526091735
+37.73.165.33 6 6 68053 20170524102228
+188.163.18.59 3 3 33500 20170520224745
+95.221.201.81 3 3 33388 20170525123849
+176.36.30.76 1 1 12173 20170526235814
+188.191.237.76 3 3 33641 20170505234633
+213.111.254.227 13 13 106361 20170509171425
+82.193.101.230 7 7 67485 20170514080234
+77.244.42.189 7 7 68194 20170505135538
+176.14.34.104 2 2 17876 20170530054657
+91.209.55.69 1 1 15645 20170522152909
+202.46.48.92 1 1 15630 20170520094455
+91.244.33.113 3 3 28862 20170501013713
+46.120.87.217 3 3 34387 20170531101438
+93.75.5.56 25 25 216790 20170515154703
+150.70.173.53 1 1 49635 20170527145627
+46.211.123.184 5 5 48674 20170518110225
+176.38.126.11 1 1 12173 20170525101409
+46.216.216.252 1 1 18856 20170529163437
+192.151.150.43 1 1 104860 20170525093400
+178.215.173.138 1 1 12174 20170525134021
+199.30.24.178 1 1 26010 20170508222057
+176.122.119.245 3 3 33611 20170509000020
+198.96.155.3 1 1 105014 20170519011658
+188.162.193.134 3 3 28937 20170516124025
+37.53.240.232 3 3 33379 20170529114347
+37.55.2.220 3 3 48576 20170519214543
+178.92.8.190 5 5 50153 20170514193921
+193.105.70.89 8 8 58529 20170505133103
+31.41.89.27 2 2 36201 20170530095636
+93.76.193.11 3 3 34316 20170512212540
+85.114.203.111 1 1 12173 20170525125536
+178.150.236.223 4 4 33087 20170514151814
+185.86.57.25 0 1 8077 
+193.34.169.109 0 1 8077 
+176.37.35.116 3 3 30044 20170528153845
+109.162.56.62 3 3 33517 20170517181248
+134.249.51.227 3 3 33473 20170524013434
+31.28.245.0 3 3 36087 20170523113637
+13.66.219.160 1 1 104860 20170526220128
+79.134.43.174 1 1 12178 20170527004024
+88.128.80.206 3 3 30052 20170526085900
+146.185.223.87 3 3 63766 20170520082551
+46.0.129.108 3 3 28850 20170528000347
+92.242.107.6 3 3 30936 20170520131516
+217.77.220.23 7 7 66952 20170515125537
+192.42.116.16 1 1 15623 20170523034948
+193.93.195.122 1 1 11462 20170522093739
+81.97.134.17 3 3 30224 20170524171533
+31.23.164.168 3 3 30340 20170528155306
+52.41.142.203 4 4 204974 20170513103820
+95.24.237.185 1 1 15202 20170501215637
+176.193.158.88 4 4 55614 20170501192332
+199.30.25.163 2 2 17497 20170523023955
+66.249.82.121 2 2 35586 20170514165838
+109.251.123.113 3 3 34272 20170526223107
+195.211.23.212 1 1 15862 20170511231247
+195.38.18.5 9 9 62374 20170512184314
+46.242.65.100 1 1 16455 20170511014717
+116.8.57.178 1 1 105014 20170521104751
+95.133.238.137 3 3 36844 20170511203201
+82.144.193.158 3 3 30046 20170527172019
+109.173.217.102 2 2 24352 20170528194554
+109.251.206.26 3 3 33604 20170509171052
+66.102.6.25 1 1 17312 20170528100852
+185.69.186.162 2 2 32973 20170521211833
+81.1.242.33 14 14 120409 20170529044727
+95.28.202.42 2 2 27811 20170505111240
+91.124.104.182 3 3 33383 20170524235525
+46.133.14.56 1 1 12242 20170531063846
+113.161.194.198 3 3 30451 20170507121731
+212.90.60.223 3 3 29223 20170509184315
+176.10.99.206 1 1 38509 20170516180543
+199.30.24.160 1 1 43081 20170506062551
+176.37.65.18 6 6 49422 20170503203501
+82.193.99.40 6 6 49800 20170507100933
+5.188.211.72 1 1 10665 20170520070116
+89.237.38.225 1 1 14486 20170514203106
+193.105.70.217 3 3 34876 20170516184245
+136.243.35.158 1 1 57306 20170514140554
+77.123.2.4 1 1 15615 20170518173825
+37.229.250.231 3 3 34713 20170501202128
+91.230.25.121 3 3 36131 20170505214926
+52.89.135.38 3 3 244081 20170519040905
+212.114.99.36 1 1 39697 20170505160634
+95.221.195.104 1 1 12573 20170514012500
+176.115.97.86 3 3 33758 20170505132233
+134.249.174.88 2 2 13080 20170530121644
+91.224.8.183 8 8 71955 20170514130126
+188.32.233.254 8 8 106319 20170505101925
+195.162.89.120 1 1 12175 20170526122512
+46.242.10.73 3 3 30448 20170511203614
+5.164.120.9 1 1 15202 20170511014724
+37.113.49.78 1 1 77614 20170506110549
+46.160.142.124 4 4 42949 20170521214037
+46.133.117.71 1 1 12176 20170526190614
+144.76.139.84 1 1 11060 20170506175459
+176.193.139.29 1 1 16312 20170516190735
+212.90.182.66 5 5 45289 20170531112409
+131.107.174.230 3 3 36866 20170510132647
+149.172.76.101 15 15 150048 20170530191407
+5.58.61.13 1 1 12170 20170526081941
+109.63.241.98 2 2 31499 20170515145310
+188.191.239.253 1 1 15619 20170517160326
+52.16.119.121 9 9 100914 20170503064027
+88.201.148.163 8 8 85727 20170525144247
+86.105.51.253 1 1 15517 20170528175728
+78.25.120.85 3 3 36160 20170501011351
+176.97.3.159 3 3 30050 20170526162403
+212.90.178.202 1 1 12178 20170526200122
+176.193.165.1 1 1 16450 20170514012500
+212.66.32.190 3 3 29141 20170508203901
+195.211.23.221 1 1 16116 20170511231824
+37.229.73.117 11 11 93017 20170521172139
+85.159.2.233 3 3 33295 20170512140600
+46.48.13.161 12 12 187296 20170527014538
+109.162.125.75 1 1 12173 20170526090352
+217.23.78.30 3 3 30422 20170518072603
+95.91.200.241 4 4 46156 20170503191357
+176.195.243.220 2 2 27807 20170505074414
+89.107.100.189 1 1 12173 20170525055410
+195.14.124.5 7 7 65502 20170504202514
+37.115.212.220 17 17 138204 20170510163903
+82.145.222.69 3 3 30328 20170529131426
+91.198.127.115 1 1 11517 20170522101536
+91.227.46.248 1 1 12175 20170526084753
+119.28.78.252 3 3 264470 20170520015428
+94.100.216.135 5 30 871209 20170516143143
+176.193.115.157 3 3 35219 20170522043119
+194.126.181.127 26 26 591959 20170531110913
+193.84.184.11 3 3 36125 20170512121127
+92.39.220.75 3 3 36154 20170501230317
+92.112.203.67 3 3 34012 20170501142111
+212.9.238.78 1 1 12177 20170526151425
+188.244.46.138 1 1 12570 20170518065609
+5.228.20.189 2 2 13100 20170505135513
+93.73.192.150 7 7 55406 20170525003251
+109.173.56.251 2 2 11207 20170505051804
+128.72.216.192 1 1 14683 20170529065956
+104.45.18.178 1 1 46946 20170527004321
+37.73.217.86 2 2 17876 20170525103035
+178.95.195.42 2 2 30980 20170529000228
+27.145.43.39 5 5 50330 20170515093857
+176.195.107.156 1 1 15412 20170514061342
+66.249.88.56 4 4 45982 20170522011510
+85.90.211.227 25 25 193442 20170531215654
+213.160.144.114 3 3 34011 20170519203120
+46.149.186.5 3 3 34510 20170502213334
+185.127.149.101 10 10 148384 20170531052624
+199.249.224.44 1 1 40604 20170520154814
+64.140.169.42 63 63 3611417 20170506132544
+82.144.193.226 3 3 30048 20170526092839
+46.219.242.52 3 3 30023 20170524161957
+95.52.162.88 3 3 30448 20170510222713
+88.198.140.4 2 2 31367 20170517133721
+202.46.55.148 1 1 15421 20170512025856
+78.159.55.188 1 1 12180 20170526144113
+93.72.233.5 1 1 12172 20170525124728
+188.32.24.87 7 7 85840 20170529031831
+82.117.250.34 11 11 98299 20170504111328
+5.165.242.21 2 2 13614 20170502165511
+94.45.81.87 1 1 15627 20170531000639
+5.165.254.14 4 4 59775 20170529005030
+109.108.83.129 6 6 42613 20170526165142
+190.104.245.39 1 1 47904 20170517193131
+188.230.46.174 1 1 12177 20170526200844
+89.109.193.88 3 3 30338 20170527145518
+193.107.134.153 4 4 30585 20170527062458
+69.118.46.250 4 4 42189 20170526062715
+188.191.98.68 3 3 30050 20170526153015
+121.61.96.211 2 2 38297 20170526222824
+95.67.124.102 3 3 33500 20170523210055
+91.243.207.140 1 1 12176 20170525014919
+194.28.176.142 1 1 11295 20170502183710
+37.53.30.155 1 1 15616 20170517213759
+91.231.206.7 1 1 12178 20170526121559
+79.110.128.145 3 3 30453 20170506171953
+104.236.28.46 1 1 105014 20170518040051
+94.178.92.80 3 3 29139 20170519001211
+5.83.17.228 11 11 97451 20170513231642
+78.26.162.174 9 10 81340 20170516161320
+46.211.92.55 1 1 12165 20170526212308
+37.204.34.146 2 2 29914 20170514104446
+2.95.127.106 5 5 43257 20170527175925
+93.74.251.180 1 1 12172 20170526075110
+37.73.249.163 1 1 12172 20170527100314
+130.180.211.74 3 3 33384 20170527141434
+147.75.210.233 1 1 12172 20170525161226
+93.79.102.88 3 3 30022 20170526082303
+93.126.97.52 3 3 30022 20170526184301
+95.28.141.41 1 1 15506 20170529230237
+213.135.86.110 3 3 33923 20170529190530
+87.252.225.138 3 3 30448 20170518183819
+93.186.10.40 3 3 30451 20170516201437
+178.159.232.157 5 5 56204 20170501103742
+83.69.220.83 3 3 36092 20170519152705
+193.161.15.121 3 3 30046 20170525141208
+5.188.219.33 1 1 14471 20170522092514
+5.188.211.40 3 3 199337 20170517073638
+176.36.3.39 1 1 12175 20170525130808
+195.114.136.192 3 3 28937 20170506233334
+2.132.84.168 1 1 12173 20170526083342
+97.77.104.18 1 1 40612 20170519023310
+95.165.131.246 2 2 27736 20170522173155
+93.72.36.26 3 3 30050 20170527011329
+94.154.211.196 3 3 64796 20170529130208
+89.31.57.5 1 1 46160 20170519010921
+80.77.36.12 1 1 12173 20170527112222
+188.32.247.241 5 5 64212 20170529023813
+46.56.189.130 19 19 140158 20170515110112
+31.8.180.147 3 3 81354 20170527115700
+46.219.220.24 3 3 34242 20170528115431
+109.254.48.62 3 3 29227 20170519134948
+108.16.27.204 4 4 49470 20170504060504
+202.46.55.11 1 1 15706 20170531232749
+78.27.135.16 1 1 12171 20170526164744
+185.11.28.214 1 1 15745 20170508203508
+66.249.83.88 4 4 17999 20170501160338
+178.93.3.159 3 3 34631 20170526214948
+37.73.229.206 15 15 159223 20170514210825
+185.86.57.18 0 1 8077 
+91.216.94.2 2 2 29134 20170526161304
+109.251.123.73 1 1 12170 20170527125240
+188.32.193.234 3 3 30450 20170508141641
+46.211.124.99 9 9 74341 20170505222100
+46.219.216.132 6 6 64200 20170522114623
+2.233.125.199 1 1 104987 20170520105121
+178.137.83.79 2 2 108499 20170505103208
+178.94.208.252 3 3 30023 20170526153026
+46.211.204.146 5 5 48945 20170517180946
+176.59.192.66 3 3 28936 20170515110608
+91.215.26.54 4 4 42226 20170524235730
+93.191.10.140 3 3 30409 20170520170236
+46.219.246.37 3 3 29141 20170517220244
+193.106.237.219 26 26 217074 20170513141238
+5.165.246.95 2 2 29957 20170522022953
+193.34.168.15 0 1 8077 
+91.219.198.73 3 3 33539 20170529235002
+46.219.220.61 1 1 12174 20170526081918
+130.180.211.42 3 3 29054 20170525041749
+176.37.28.218 3 3 29136 20170518210839
+46.211.66.80 1 1 12174 20170524185105
+46.187.68.252 7 7 62834 20170501203458
+199.30.24.210 1 1 26010 20170509212056
+94.154.233.26 6 6 42562 20170524161936
+188.163.104.50 5 5 43528 20170509210702
+46.30.167.233 3 3 30026 20170526084644
+139.162.175.118 1 1 15720 20170510074511
+202.46.49.207 1 1 15437 20170516095812
+176.195.207.62 4 4 63364 20170502091500
+188.138.144.194 3 3 30419 20170510211714
+128.69.224.57 2 2 30626 20170513050207
+66.249.88.57 3 3 18384 20170522011510
+188.134.21.71 5 5 177649283 20170515230457
+78.26.138.15 3 3 30054 20170524163046
+217.20.190.33 1 1 15619 20170522090830
+94.112.154.25 1 1 108082 20170502083311
+176.37.128.135 3 3 33494 20170519181451
+46.211.104.60 5 5 44755 20170525141610
+176.36.119.64 3 3 30051 20170526101835
+82.145.220.168 22 22 175203 20170511210417
+54.169.147.189 1 1 105014 20170519103107
+91.197.51.178 3 3 33380 20170529014757
+46.133.113.32 1 1 12169 20170526015824
+213.87.150.176 1 1 12178 20170526084348
+195.250.62.253 4 4 42226 20170526165630
+94.248.19.56 3 3 33283 20170511230630
+128.68.41.36 4 4 55392 20170529094450
+202.46.58.124 1 1 15409 20170513013024
+149.62.49.134 5 5 49368 20170522054018
+178.150.242.6 3 3 36138 20170507132922
+193.110.157.151 1 1 105014 20170519050648
+95.221.61.127 3 3 35143 20170528120523
+193.200.205.232 3 3 36118 20170503113544
+91.197.252.47 1 1 15643 20170530214854
+37.53.29.135 2 2 30968 20170527105818
+46.219.218.221 1 1 12177 20170527203036
+134.249.168.5 3 3 31315 20170531072427
+93.171.64.12 3 3 36005 20170529104858
+46.173.76.62 1 1 12177 20170526180303
+88.153.5.79 3 3 30423 20170514051516
+176.193.105.82 1 1 15202 20170530114458
+109.173.125.248 8 8 224826 20170531180137
+62.76.103.179 31 31 3272719 20170531070134
+5.62.152.161 1 1 16551 20170522092702
+80.91.174.154 13 13 84616 20170523113845
+93.72.156.237 3 3 33880 20170526205043
+92.244.109.42 3 3 33494 20170521094422
+131.107.159.20 6 6 62057 20170516133908
+95.28.196.78 1 1 15202 20170518065614
+159.224.131.166 1 1 12174 20170526011201
+176.212.57.91 1 1 18812 20170504173400
+212.86.109.70 1 1 105014 20170521074037
+178.150.127.224 3 3 36688 20170502211403
+195.245.221.54 14 14 115020 20170509134658
+93.72.16.63 3 3 30020 20170526211035
+93.198.166.199 3 8 87826 20170516210432
+117.192.131.139 1 1 102043 20170514104452
+50.255.76.254 2 2 31472 20170506202856
+89.178.0.38 5 5 55792 20170518083329
+46.242.79.221 19 19 228891 20170529095628
+31.43.130.72 1 1 12177 20170525080516
+217.66.157.108 3 3 30302 20170529154956
+188.231.188.116 1 1 12177 20170526082622
+178.63.60.13 3 3 222111 20170504165947
+104.131.19.173 3 3 30366 20170524155659
+91.234.76.201 1 1 15427 20170511182142
+193.93.195.194 1 1 12962 20170522093328
+178.95.104.205 17 17 138597 20170504160609
+130.180.217.0 9 9 88838 20170511213124
+176.193.146.76 2 2 29998 20170501020657
+188.255.99.141 6 6 72507 20170526070554
+104.154.58.143 2 2 216164 20170505094601
+91.90.20.186 9 11 103011 20170526180643
+178.212.237.26 3 3 33519 20170530161908
+94.244.165.184 17 17 123686 20170507235656
+176.195.192.168 1 1 15202 20170518042224
+31.134.124.246 3 3 30054 20170525132005
+54.205.76.212 3 3 31749 20170518040137
+93.73.107.68 9 9 87941 20170510003344
+185.24.68.67 3 3 30046 20170528140053
+95.133.161.77 3 3 33395 20170526155324
+128.68.218.122 10 10 145543 20170529120520
+46.211.204.239 3 3 30201 20170527185907
+104.236.70.228 19 19 144997 20170516163802
+104.154.58.95 36 36 436925 20170509154725
+188.163.76.28 3 3 30482 20170531225132
+159.224.177.107 3 3 33622 20170508002416
+31.43.99.241 6 6 55337 20170526074726
+31.172.136.222 1 1 12173 20170526084630
+193.138.87.10 1 1 12176 20170526092838
+8.37.230.53 2 2 16253 20170531221736
+176.36.180.174 1 1 12174 20170526104351
+93.170.189.222 6 6 61379 20170505165806
+81.182.55.13 3 3 30453 20170517125152
+46.81.234.174 3 3 33630 20170525185424
+192.36.27.7 1 1 40569 20170522200306
+92.60.190.83 10 10 93429 20170518104014
+66.102.9.5 18 19 182224 20170530110628
+213.111.173.30 3 3 33645 20170502004521
+212.21.150.222 3 3 34015 20170514144223
+202.46.54.71 1 1 15767 20170504190643
+46.219.253.173 1 1 12176 20170526092535
+65.19.167.131 1 1 15773 20170501181247
+81.95.190.161 1 1 12178 20170526092520
+195.200.91.26 3 3 36127 20170511140644
+82.145.220.169 5 5 49130 20170508143812
+91.247.38.54 16 16 161893 20170531150342
+95.133.50.94 1 1 13113 20170502110657
+40.77.178.6 1 1 58034 20170507195926
+79.135.232.6 3 3 30372 20170524205742
+95.158.44.162 3 3 31211 20170525132409
+185.4.43.78 5 5 51470 20170507184458
+46.219.223.179 22 22 176969 20170529085359
+202.46.52.161 1 1 15502 20170524233420
+52.27.2.86 1 1 104860 20170530062452
+45.116.76.97 4 4 3188 20170506035851
+66.249.83.89 6 6 48290 20170501160454
+91.196.230.66 1 1 40611 20170519003608
+178.136.120.65 1 1 12176 20170526232054
+91.218.74.208 3 3 30373 20170524223604
+46.133.179.117 1 1 12176 20170524175202
+89.252.8.218 3 3 28936 20170511220035
+207.154.239.161 1 1 12179 20170525053424
+94.158.95.23 1 1 12176 20170525230122
+62.76.108.170 3 3 28933 20170517193952
+172.245.10.85 2 2 31519 20170506181919
+176.36.74.174 1 1 12178 20170526232958
+213.87.147.248 3 3 36009 20170525193731
+37.147.243.23 3 3 30326 20170527173621
+109.63.194.233 2 2 26582 20170501094201
+46.0.185.51 3 3 30452 20170513204652
+95.24.120.24 2 2 30084 20170526224521
+188.32.247.248 9 9 108731 20170529085617
+95.28.193.159 2 2 28690 20170529035430
+46.73.247.188 3 3 30334 20170529021420
+5.165.243.163 3 3 32668 20170501162329
+131.253.27.79 1 1 16961 20170528222346
+104.156.231.254 1 1 105014 20170518132956
+176.65.112.226 3 3 30422 20170521213755
+83.218.228.247 5 5 52266 20170530135751
+93.72.109.148 2 2 31465 20170520124359
+37.57.183.147 17 17 114375 20170528133237
+176.37.106.68 1 1 12322 20170526231012
+66.102.6.211 3 3 35190 20170514130553
+193.107.132.130 7 7 59202 20170508015937
+212.69.56.109 5 5 43532 20170507194458
+94.244.148.143 3 3 36114 20170512200923
+79.139.130.183 1 1 59117 20170507163218
+176.38.15.81 3 3 30022 20170524181222
+94.244.135.91 1 1 12174 20170526114209
+85.25.246.248 1 1 108038 20170510120147
+46.98.167.97 35 35 236672 20170502223747
+95.158.43.68 1 1 12172 20170527001318
+176.193.190.111 2 2 27697 20170528115939
+54.234.255.154 3 3 31755 20170518040148
+81.95.178.14 1 1 12175 20170526091826
+23.101.61.176 3 3 251086 20170529100015
+178.57.65.117 1 1 15748 20170522094147
+195.137.167.35 9 9 86802 20170519121526
+199.30.24.51 1 1 26010 20170529013211
+46.118.236.211 5 5 34043 20170520091016
+77.120.217.161 1 1 12174 20170526082359
+193.201.230.56 7 7 57929 20170508213710
+91.225.166.108 3 3 30020 20170526122412
+5.248.137.156 4 4 48849 20170526174314
+46.133.76.112 1 1 12179 20170526011616
+134.249.67.8 1 1 12177 20170526082808
+46.150.80.89 3 3 36087 20170518053319
+91.196.194.84 1 1 12168 20170526093326
+85.30.248.113 1 1 15202 20170523094016
+5.188.211.41 42 42 1898384 20170520172933
+37.57.176.242 1 1 12172 20170526100103
+84.124.187.143 3 3 36133 20170507230742
+188.163.9.218 15 15 121101 20170512233432
+94.127.88.211 4 4 47489531 20170511113035
+5.188.211.35 24 24 1153406 20170519195859
+109.86.63.82 3 3 36111 20170513210459
+128.0.173.121 3 3 33507 20170530160904
+5.188.211.16 23 23 1097144 20170521153555
+46.175.28.193 5 5 42990 20170523234838
+46.211.115.116 2 2 30325 20170525100151
+46.62.9.133 3 3 36086 20170524001924
+85.238.100.190 3 3 28397 20170524165536
+93.74.179.83 1 1 12175 20170528003214
+89.252.29.90 1 1 12171 20170525095554
+77.91.162.42 1 1 12175 20170527111521
+89.162.147.194 1 1 15611 20170522164609
+91.196.90.145 1 1 12176 20170527082230
+178.140.113.163 2 2 25874 20170505031611
+37.115.253.241 3 3 33622 20170510212947
+37.110.147.98 7 7 92328 20170529092734
+150.70.173.6 1 1 78486 20170501103405
+82.207.91.246 18 18 213272 20170526135535
+31.134.122.115 4 4 45498 20170526171745
+49.255.191.50 1 1 102070 20170513023930
+46.219.221.48 1 1 12174 20170526102624
+37.53.81.173 3 3 33268 20170512144205
+136.243.95.186 1 1 66751 20170509105019
+131.107.159.171 11 11 101103 20170506193600
+46.133.11.16 1 1 12178 20170526154128
+188.32.79.137 3 3 30479 20170501221907
+31.41.71.51 3 3 34105 20170526014716
+46.242.121.148 1 1 16417 20170523094008
+176.193.139.97 7 7 104782 20170502031304
+217.117.64.203 2 2 16131 20170521161740
+92.37.156.197 1 1 11176 20170525085902
+199.30.24.99 1 1 26010 20170504065801
+93.72.220.136 3 3 30053 20170527115124
+46.63.4.248 3 3 34030 20170503130045
+176.36.181.84 3 3 30024 20170529220943
+212.90.46.122 3 3 30055 20170526093545
+128.72.208.208 2 2 29883 20170526061521
+128.72.217.198 2 2 30013 20170530195259
+185.137.19.41 3 3 30044 20170525081803
+90.141.107.219 1 1 15617 20170524092738
+89.19.111.62 3 3 30049 20170527195730
+92.60.179.40 1 1 12175 20170526092656
+85.140.77.63 3 3 33610 20170507162204
+93.126.124.224 0 1 9563 
+5.167.127.200 2 2 29967 20170518063720
+46.200.163.157 4 4 49091 20170522182017
+212.90.63.193 3 3 33491 20170521011757
+46.133.232.189 3 3 30050 20170526100231
+192.99.9.164 1 1 15518 20170527061925
+87.158.146.221 3 3 34326 20170503234544
+94.45.70.103 1 1 12178 20170526083508
+178.214.192.210 6 6 60939 20170504162840
+107.170.3.218 1 1 536 20170519000809
+138.68.99.173 3 3 30048 20170526060657
+95.135.178.22 1 1 15666 20170525140619
+202.46.56.39 1 1 15511 20170529080242
+93.183.235.128 1 1 12177 20170527054308
+91.220.151.120 3 3 30052 20170524162337
+176.193.175.211 2 2 27235 20170504074321
+109.86.32.97 13 13 108783 20170524000912
+81.95.185.211 1 1 12172 20170526083446
+176.193.142.251 2 2 27775 20170522025420
+77.87.46.9 1 1 12178 20170526130530
+176.38.87.95 13 13 101502 20170504232551
+95.27.238.255 3 3 30441 20170505051247
+109.68.46.238 2 2 24350 20170526142944
+185.89.101.152 1 1 14766 20170521025120
+178.151.11.119 1 1 12173 20170526222440
+195.211.63.132 5 5 44745 20170509014755
+93.80.52.105 3 3 43006 20170518042209
+54.188.197.180 1 1 46758 20170507194826
+131.253.27.129 1 1 16961 20170521174342
+188.163.78.12 3 3 33381 20170525185955
+85.248.227.164 1 1 15497 20170525205625
+66.102.8.217 11 11 150391 20170529020418
+212.90.63.188 27 30 96180 20170528014533
+176.195.205.85 2 2 31628 20170518062813
+147.75.210.239 1 1 17340 20170525161232
+46.133.117.255 3 3 29947 20170517202822
+193.161.14.33 1 1 12175 20170526223545
+188.239.76.57 1 1 12179 20170526171830
+54.161.245.75 3 3 31761 20170518040101
+213.133.161.138 3 3 30045 20170526080657
+176.241.128.64 17 17 120178 20170525080943
+202.46.53.117 1 1 15643 20170524071446
+91.218.75.122 1 1 12174 20170526230842
+176.193.100.37 2 2 19346 20170504093059
+64.233.172.129 2 2 11301 20170521090824
+46.118.123.228 1 1 15442 20170516052148
+82.144.193.241 1 1 12174 20170526092732
+95.28.207.33 2 2 27808 20170502065933
+46.133.115.177 2 2 30616 20170515165431
+46.101.45.231 1 1 12170 20170526211450
+95.67.116.210 6 8 118368 20170515160744
+5.165.252.190 2 2 27739 20170508000233
+5.189.203.32 1 1 108038 20170511003048
+109.87.186.140 1 1 15608 20170530133152
+46.211.99.13 1 1 12169 20170526074230
+176.195.102.19 2 2 31648 20170514085513
+109.174.115.164 3 3 30412 20170516210217
+195.114.242.180 3 3 36089 20170518195612
+202.46.53.159 1 1 15724 20170505165117
+185.8.239.148 2 2 1588 20170517030915
+109.192.228.149 2 2 31235 20170531143354
+66.102.6.209 2 2 17876 20170507120205
+134.119.213.82 5 5 77919 20170529212336
+188.166.69.83 3 3 30054 20170526081419
+176.193.107.74 3 3 35259 20170530054653
+185.11.28.81 11 11 100939 20170511231951
+162.243.127.7 5 5 43351 20170528125524
+64.233.172.159 1 1 17340 20170521090823
+188.0.83.128 3 3 37282 20170529235420
+212.90.63.6 1 1 12178 20170525101929
+176.36.180.112 1 1 12179 20170525132438
+95.28.15.5 3 3 30301 20170528130016
+93.75.2.182 1 1 12177 20170526222703
+109.165.40.19 3 3 37391 20170516192637
+131.253.25.252 1 1 536 20170522022350
+46.133.252.42 14 14 122857 20170501064753
+95.221.58.45 2 2 28689 20170529080959
+93.78.96.228 3 3 30334 20170526223828
+95.47.56.200 3 3 34330 20170507124046
+91.197.217.52 1 1 15928 20170503170217
+54.147.206.1 1 1 12494 20170525074548
+95.112.186.242 4 4 42871 20170525175517
+109.86.104.186 3 3 33623 20170526164554
+94.76.117.104 3 3 33280 20170513192720
+46.211.70.162 1 1 12166 20170526114606
+89.162.240.123 7 7 55991 20170523184944
+5.188.211.26 2 2 141984 20170513105836
+31.43.130.66 3 3 30199 20170524223338
+128.68.215.162 1 1 12666 20170517061447
+178.150.41.231 1 1 12172 20170526050534
+185.117.154.30 1 1 108038 20170509165312
+66.102.6.21 2 2 41084 20170528100851
+46.211.136.220 1 1 12173 20170526081725
+176.14.220.21 4 4 98453764 20170526224304
+94.45.200.235 3 3 82123 20170512014053
+167.114.209.28 12 12 630691 20170512010607
+95.221.220.46 3 3 37360 20170518070957
+68.64.160.14 1 1 108082 20170503154401
+5.188.211.15 2 2 141984 20170516015928
+46.211.145.64 1 1 12173 20170527094753
+62.16.9.192 3 3 30053 20170524203950
+192.99.13.206 1 1 15617 20170524153644
+188.239.9.65 1 1 12173 20170526140129
+178.62.95.158 2 2 16473 20170531221741
+95.135.44.197 17 17 216327 20170521220514
+176.195.220.225 2 2 13607 20170504030223
+82.145.222.135 3 3 29144 20170506092811
+95.29.96.6 4 4 59296 20170528102243
+202.46.49.146 1 1 15648 20170517191524
+176.36.44.104 4 4 42813 20170525235155
+52.50.187.70 7 7 51746 20170502060926
+84.242.196.13 1 1 15513 20170525024146
+109.95.53.13 3 3 30458 20170531201107
+108.168.151.15 1 1 49983 20170516131508
+94.244.130.5 3 3 29909 20170529161150
+62.102.148.67 1 1 47904 20170519053058
+66.102.6.213 1 1 536 20170514130554
+66.102.9.8 23 23 216193 20170530110626
+188.115.173.44 7 7 70498 20170504070017
+92.100.198.29 3 3 30450 20170505235658
+2.92.194.202 18 18 258408 20170529094136
+124.124.14.93 3 3 33603 20170509101654
+93.73.198.117 9 9 88756 20170505141516
+37.204.105.36 1 1 15202 20170523010231
+93.75.61.47 1 1 12179 20170525163444
+5.62.43.51 23 23 350299 20170509164105
+185.137.17.77 5 5 48739 20170531204503
+37.73.233.176 1 1 12173 20170526083150
+93.72.3.55 1 1 12170 20170526074533
+176.11.193.19 1 1 12170 20170525095642
+37.57.213.149 13 13 103776 20170511144218
+91.235.102.251 3 3 31479 20170522222525
+109.122.27.131 1 1 12173 20170527024853
+95.28.199.184 1 1 13572 20170522005745
+89.234.68.90 6 6 358839 20170510151442
+81.21.14.141 3 3 29141 20170513234118
+31.223.231.217 3 3 34356 20170505123147
+37.115.201.212 1 1 15513 20170528144119
+82.193.104.96 3 3 30447 20170527110043
+2.92.240.200 2 2 30604 20170513032848
+176.241.143.176 3 3 36135 20170508142249
+5.228.21.27 12 12 148858 20170529110821
+83.102.216.9 2 2 27692 20170529005710
+46.211.144.183 3 3 30025 20170526091401
+46.133.139.105 4 4 46315 20170505150425
+178.42.35.187 1 1 12174 20170525154143
+46.44.47.201 1 1 12576 20170505205134
+94.244.142.31 2 2 24344 20170526184526
+95.143.27.131 2 2 27776 20170514162919
+176.193.174.182 2 2 27770 20170521131222
+95.143.219.65 5 5 55150 20170528011019
+176.124.138.86 1 1 12176 20170526214616
+46.219.219.43 1 1 15934 20170501130213
+212.33.248.155 3 3 30422 20170531093736
+202.46.52.147 1 1 15628 20170521172849
+178.64.47.96 3 3 28936 20170521195718
+23.96.179.202 1 1 12172 20170524230917
+82.193.115.78 9 9 90138 20170525141422
+5.188.211.13 21 21 949192 20170520210724
+77.37.181.176 2 2 27837 20170531215051
+138.68.107.169 1 1 12174 20170526093321
+202.46.53.165 1 1 15728 20170508092950
+137.74.167.224 1 1 40567 20170516194216
+5.228.254.162 6 6 61007 20170507112152
+5.188.211.62 24 24 1149087 20170518191300
+119.28.63.134 1 1 39941 20170520015428
+46.185.69.1 1 1 79329 20170529070427
+109.173.60.201 6 6 86159 20170529102305
+178.54.47.153 5 5 44588 20170529201310
+176.193.96.59 2 2 26260 20170513112310
+5.58.90.197 36 45 377206 20170517171848
+77.222.143.148 3 3 36739 20170527235743
+195.211.212.16 1 1 15741 20170509175651
+123.30.238.16 1 1 40364 20170519112507
+66.249.93.55 3 3 34335 20170507152105
+178.151.160.86 1 1 12164 20170526210306
+188.163.1.3 3 3 33572 20170507181727
+82.193.117.145 3 3 30052 20170526081222
+93.72.139.183 9 9 75880 20170502221423
+176.97.7.7 10 10 129732 20170513122207
+185.11.28.88 3 3 30052 20170527112026
+146.247.33.43 3 3 36128 20170509144727
+178.74.237.96 3 3 33278 20170515192547
+131.107.147.116 6 6 69614 20170511233245
+188.239.4.207 4 4 42232 20170526081220
+212.9.226.158 1 1 12171 20170526085959
+46.37.197.204 3 3 29910 20170511093818
+178.74.224.79 3 3 36117 20170514005506
+178.151.146.13 1 1 12177 20170526074512
+91.205.167.227 1 1 14871 20170522160833
+37.46.130.5 1 1 71665 20170528012223
+93.76.33.247 5 5 54584 20170501145437
+82.193.99.137 3 3 30045 20170527133024
+147.75.210.230 1 1 536 20170525161232
+128.72.212.252 3 3 34540 20170505144959
+146.158.83.16 1 1 74987 20170501141457
+185.106.104.195 1 1 14689 20170522093202
+85.115.243.54 2 2 30983 20170525172209
+178.216.188.153 1 1 12175 20170525085624
+185.93.184.52 17 17 150485 20170529015502
+91.214.84.163 1 1 12173 20170526110452
+109.227.116.229 3 3 33377 20170529113728
+62.176.13.190 3 3 30331 20170527130315
+95.211.230.94 1 1 15639 20170531063229
+81.17.135.166 35 36 427844 20170517151016
+188.166.79.38 2 2 13273 20170529002626
+131.107.159.161 2 2 32749 20170513063823
+94.158.149.35 22 22 215731 20170515160813
+46.219.84.150 8 8 92088 20170522223515
+82.193.98.132 5 5 52455 20170518095239
+37.57.176.114 1 1 12178 20170526084951
+93.170.97.34 3 3 29164 20170504190635
+178.203.186.161 3 3 36860 20170509172309
+178.158.212.50 1 1 12174 20170524165101
+88.232.28.1 2 2 24090 20170516032440
+91.213.149.95 1 1 15724 20170511133607
+195.214.198.226 9 11 69694 20170517094942
+93.73.100.7 1 1 12174 20170526081213
+212.86.114.152 1 1 12575 20170522104304
+194.44.124.94 2 2 16284 20170501212839
+93.73.103.160 1 1 12174 20170526082147
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20170501 320 321 4024643 76
+20170502 143 144 1709313 48
+20170503 54 55 807549 20
+20170504 136 137 1710220 33
+20170505 184 186 2357439 45
+20170506 179 181 5057426 30
+20170507 108 109 1413142 47
+20170508 95 96 58068466 37
+20170509 129 130 2083116 36
+20170510 125 125 1709501 40
+20170511 217 217 49806403 53
+20170512 98 98 1770851 32
+20170513 89 89 1917429 37
+20170514 135 135 2172830 49
+20170515 256 259 180886522 47
+20170516 344 395 5212733 44
+20170517 228 256 3049404 53
+20170518 152 154 2777951 55
+20170519 179 179 6051732 50
+20170520 357 357 108246244 41
+20170521 391 391 105871412 65
+20170522 603 603 8208817 75
+20170523 555 555 7428923 25
+20170524 560 562 6343061 53
+20170525 605 606 7695480 91
+20170526 562 564 105302836 159
+20170527 244 244 3166905 77
+20170528 152 155 1665913 50
+20170529 272 272 3641475 100
+20170530 293 293 3677170 30
+20170531 673 679 207734621 33
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 71
+5mn-15mn 48
+15mn-30mn 48
+30s-2mn 80
+2mn-5mn 43
+0s-30s 1280
+30mn-1h 61
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 200
+/uc_ajax_cart/show 1190 644001 31 472
+/ 600 17317621 311 181
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.woff 479 8217004 22 66
+/webform/kupit-v-odin-klik 453 5128394 44 52
+/user/login 351 3640119 175 176
+/news/besplatnoe-kino-na-pleerah-dune-hd 274 3775180 227 143
+/category/mediapleery-i-tv-pristavki 219 3379400 22 14
+/webform/perezvonite-mne 207 3672251 22 20
+/category/akustika-dlya-doma 133 2647586 2 3
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.eot 117 1778634 12 103
+/js/admin_menu/cache/58aff90d06b55e48712b8b57113ad702 4 50497 0 0
+/js/admin_menu/cache/f0cb560ebc915e53cd8ff1cbdd0cc280 18 227379 0 0
+/category/soputstvuyushchie-tovary 100 1846048 3 2
+/page/kontakty 51 1142773 10 6
+/product/stoyki-m-26 26 332648 3 3
+/admin/structure/taxonomy/category 1 6562 0 0
+/xmlrpc.php 11 7621 6 7
+/news/moya-kollekciya-novyy-servis-ot-kompanii-dune-hd 53 738222 36 4
+/product/kolonkidlyadomashnegokinoteatra-jamo-s506-hcs3 27 442527 3 1
+/node/315/edit 2 53674 0 0
+/node/275/edit 13 165977 0 0
+/node/353/edit 9 209593 1 0
+/product/hdmikabel-mt-power 71 1055682 37 10
+/js/admin_menu/cache/e31fe8b8a35987556eb18b44261ef88e 84 1061279 0 1
+/js/admin_menu/cache/b928fe8b8661e9ab116897a6c23d2155 20 252566 0 0
+/product/mediapleer-dune-kartina-relax 54 909891 22 4
+/aksessuar/nastroyka-oborudovaniya 21 263131 1 2
+/product/mediapleer-inext-4k 39 542144 4 1
+/video/loading 1 12059 0 0
+/product/vinchester-western-digital-green-3tb 18 248222 3 4
+/product/karaoke-sistema-ast-50-komplekt 34 604028 3 3
+/flag/flag/sravnenia/344 1 969 0 0
+/news/uznavaemyy-millionami-fayloobmennik-opyat-s-nami 13 143927 1 0
+/node/6/edit 1 11544 0 0
+/taxonomy/term/17/myoption_list/fields 1 21731 0 0
+/node/59/edit 1 26928 0 0
+/product/akusticheskiykabel-mt-power 31 449469 7 2
+/node/354/edit 4 57542 0 0
+/categoryhotline/akusticheskie-sistemy-kolonki 1 11195 1 0
+/js/admin_menu/cache/74da1d9efa25ae518700893477d61fa2 25 315978 1 2
+/product/monitoraudio-cwt-160 38 615355 8 11
+/webform/est-voprosy 2 87186 0 2
+/action/akcionnoepredlozhenie-dlya-vladelcev-kartki-socialnogo-proekta-ukrayinci-razom 7 106561 0 0
+/category/proektory-dlya-domashnego-kino 43 817088 1 2
+/product/mediapleer-inext-tv 50 842237 6 5
+/category/karaoke-sistemy 46 930644 1 6
+/news/musical-fidelity-encore-225-shveycarskiy-nozh-audiofila 20 249396 2 2
+/colorbox/cart 2 7766 0 2
+/product/musiccast-wx-030 31 600638 3 5
+/product/mediapleer-dune-hd-duo-4k 111 1872419 54 9
+/sites/default/files/node/news/dune_firmware_solo4k_160831_0236_r11.dff 7 580055321 0 4
+/brand/monitor-audio 108 1238560 1 2
+/brand/paradigm 35 384327 2 1
+/product/kolonka-planshet-sondpad 7 232144 3 2
+/product/mediapleer-xiaomi-mi-box-3 46 763656 5 3
+/product/mediapleer-dune-hd-tv-303d 25 651455 14 5
+/news/proekt-mediaplayer-prisoedinilsya-k-socialnomu-proektu-socialnoy-kartke-ukrayinci-razom 4 49482 0 0
+/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k 28 338378 10 1
+/taxonomy/term/51/edit 1 11947 0 0
+/admin/structure/types/manage/news 1 10385 1 0
+/product/monitoraudio-bronze-2 30 497423 4 5
+/news/klipsch-predstavila-lineyku-aktivnoy-akustiki-reference-premiere-hd-wireless-s-besprovodnoy 12 136243 0 1
+/system/ajax 8 17038 0 3
+/js/admin_menu/cache/5bc6cdc543997cfb880580a876fdbc71 58 732963 1 1
+/news/proekt-mediaplayer-prisoedinilsya-k-memorandumu-ukrayinci-razom 3 36558 0 0
+/sravnenija 1 9972 0 0
+/product/karaoke-sistema-ast-mini-komplekt 37 806418 9 4
+/video/kak-skachat-film-s-resursa-fsto 40 454070 25 9
+/product/mediapleer-inext-3d-kid-w 44 798692 10 6
+/news 47 1084275 4 3
+/product/nas-server-synology-ds115j-x1-hdd 20 327390 3 2
+/category/av-resivery 58 1128937 6 4
+/action/akcionnoe-predlozhenie-dlya-vladelcev-kartki-socialnogo-proekta-ukrayinci-razom 1 15234 0 0
+/file/ajax/field_promo_img/und/0/form-9fc_qv_jlJ7sZ35gnaf9biY144HopkSTMzFqGmrCfzw 2 5379 0 0
+/news/s-16072016-internet-magazin-mediaplayer-stal-oficialnym-partnerom-ottvod-servisa-divan-tv 15 160971 2 1
+/product/monitoraudio-bronze-lcr 28 468847 3 2
+/block_refresh/views/sravnenia-block_1/taxonomy/term/17/block_refresh 15 18768 0 0
+/product/montazhnyekorobki-kompanii-paradigm 28 385458 3 1
+/admin/structure/taxonomy/provider 8 45696 0 0
+/admin/structure/taxonomy/provider/add 2 21281 0 0
+/product/kabeldlyasabvufera-mt-power 35 501355 2 3
+/product/nas-server-synology-ds213j-h2-hdd 17 292700 4 1
+/product/paradigm-pv-60r 28 454623 4 2
+/video/obzor-dune-hd-base-3d-dorogaya-deka-dlya-sovremennogo-cheloveka 18 311558 4 0
+/page/o-kompanii 22 342304 4 4
+/uc_ajax_cart/add/item 3 1858 1 0
+/news/proekt-mediaplayer-prisoedinilsya-k-memorandumu-ukraincy-vmeste 7 85829 0 0
+/category/vstraivaemaya-akustika 51 1013925 4 6
+/product/monitoraudio-bronze-6 28 458163 1 2
+/product/mediapleer-dune-hd-solo-lite 45 847357 9 3
+/news/kartinatv-primer-internet-tv-ott 10 117488 0 0
+/image_captcha 20 30823 0 2
+/video/nachalnaya-nastroyka-mediapleera-dune-hd-na-baze-dune-hd-tv-102 23 243268 2 1
+/product/wi-fi-modul-air-dune-hd 23 303563 3 2
+/admin/structure/menu/parents 1 450 0 0
+/admin/structure/block/manage/block/8/configure 5 58306 0 0
+/provider/nuklon 1 11613 0 0
+/product/inext-4k 3 77668 1 1
+/product/cifrovoykabel-mt-power 26 393477 3 2
+/category/setevye-hranilishcha-nas 50 1055359 3 6
+/node/11/submission/202 1 16762 1 0
+/product/pult-upravleniya-dlya-dune-hd 29 407604 4 4
+/news/izgotovlenie-pylezashchitnyh-kryshek-dlya-proigryvatelya-vinilovyh-diskov-po-predzakazu 32 353206 18 7
+/product/stoyki-sp-100 29 376517 3 3
+/node/187/edit 1 15953 0 0
+//xmlrpc.php 1 417 1 0
+/product/sabvufer-jamo-360-sub 54 847502 25 3
+/admin/content 24 303484 0 0
+/flag/flag/sravnenia/347 1 968 0 0
+/promo/duo-4k 1 11579 0 0
+/product/ustanovochnayakorobka-russound-s1-18-r 30 395739 5 1
+//product/mediapleer-dune-hd-tv-102w 3 55336 0 0
+/video/kak-skachat-film-s-resursa-fsto-0 10 113874 0 0
+/category/vinilovyy-proigryvatel 52 975080 5 5
+/node/286/edit 2 50398 0 0
+/video/vozvrashchenie-izvestnogo-fayloobmennika-fsto 21 227708 2 1
+/node/add/product 1 21320 0 0
+/product/monitoraudio-bronze-w-10 32 514218 2 0
+/sites/default/files/node/product/proshivka/dune_firmware_solo4k_160831_0240_r11.dff 2 199773020 0 0
+/video/obzor-provayderskoy-modeli-mediapleera-dune-hd-tv-102 14 185645 3 0
+/user 92 984798 26 17
+/product/kryshkaotpyli-pod-zakaz 42 673855 3 5
+/node/316/edit 1 26662 0 0
+/node/356/edit 6 81216 0 0
+/product/vinchester-western-digital-blue-1tb 25 331711 2 1
+/node/96/edit 1 13732 0 0
+/product/mtpower-rfw-60-rv2 23 337847 2 1
+/node/96/delete 1 4561 0 0
+/taxonomy/term/80/edit 3 32719 0 0
+/video/null 1 11821 0 1
+/news/kompaniya-dune-hd-vypustila-ocherednoy-reliz-proshivki-na-solo-4-k 1 13113 1 1
+/js/admin_menu/cache/4af3f94c98c61877ef40c0a84edf3789 31 391564 0 2
+/video/obzor-podklyucheniya-i-raboty-kartinatv-upnp-bittorrent 20 239157 2 0
+/category/zhestkie-diski-i-nakopiteli 55 995457 1 1
+/video/kak-pravilno-rasstavit-kolonki-v-komnate 15 262875 0 2
+/js/admin_menu/cache/d2cfc1da06ea7c838f8839692a0f77bb 20 252465 1 1
+/category/kabelnaya-produkciya 71 1300457 4 5
+/node/347/edit 3 76853 0 0
+/taxonomy/term/17/edit 1 11035 0 0
+/news/karaoke-sistema-ast-50-komplekt-uzhe-v-prodazhe 15 166148 1 5
+/video/torrent-klient-na-solo-4k 113 1454718 80 16
+/video 39 866383 3 3
+/node/355/edit 9 109612 0 0
+/video/dune-hd-base-3d-laureat-premii-pc-magazine-v-kategorii-setevoe-multimedia 19 228385 2 0
+/views/ajax 3 7592 0 0
+/brand/filmoscope 12 127740 1 2
+/file/ajax/field_img/und/0/form-zDu3PVOCCamLx1TJ-lKrq3bceddda10l5Qn89GSkLTk 1 3271 0 0
+/news/dune-solo-lite-novyy-pleer-skoro-v-prodazhe 26 285734 5 4
+/js/admin_menu/cache/01765c14df2962b559849f5a6f26b276 14 176823 0 0
+/product/abonementy-divantv-na-20-deshevle 29 475515 6 3
+/actions 2 20989 0 0
+/file/ajax/uc_product_image/und/form-k0qCiITthmPl1Jw_47oXWYsof-aQslOO7ut741lBrok 3 11816 0 0
+/category/televizory 44 854137 3 1
+/news/sertifikat-specialista-dlya-kompanii-mediaplayer-ot-kompanii-kramer-electronics 34 429090 3 5
+/product/mediapleer-inext-hd1-w 45 836056 3 2
+/product/nas-server-synology-ds216play 29 440131 1 1
+/product/av-resiver-yamaha-rx-v381 32 641677 2 2
+/category/besprovodnoy-multirum 69 1304779 5 9
+/node/276/edit 1 21568 0 0
+/product/airscope-asw-6 26 381550 4 4
+/video/my-testiruem-mediapleer-dune-hd-tv-102w 18 269186 2 4
+/taxonomy/term/89/edit 1 10872 0 0
+/product/mediapleer-dune-hd-tv-102w 80 1638361 38 10
+/product/mediapleer-dune-hd-base-3d 68 1599651 22 14
+/admin/structure/taxonomy/brand 5 37633 1 0
+/action/akcionnoe-predlozhenie-dlya-uchastnikov-proekta-ukrayinci-razom 17 240893 1 0
+/node/332/edit 4 103036 0 0
+/product/av-resiver-yamaha-rx-v481 30 572148 4 0
+/page/dostavka 31 696978 2 2
+/file/ajax/field_img/und/0/form-Mo9VHivtZfuty9-ZoNnZja8W-AuxHugqmeO9K7iQAdA 1 3268 0 0
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.svg 14 300797 10 10
+/node/add/news 3 36445 0 0
+/flag/flag/sravnenia/353 1 971 0 0
+/news/besprovodnoy-multirum-yamaha-wx-030 15 173138 2 2
+/page/uslugi-ustanovki-oborudovaniya 50 1048390 8 6
+/imce 49 245513 0 0
+/users/admin 11 233363 1 0
+/news/pervyy-muzykalnyy-zapustil-4-kanala 13 140005 1 0
+/product/sabvufer-jamo-c-660-sub 22 368225 2 2
+/product/monitoraudio-bronze-1 30 532815 4 4
+/product/monitoraudio-bronze-fx 27 436003 3 2
+/video/kompaniya-dune-hd-vypustila-ocherednoy-reliz-proshivki-na-solo-4-k 17 195802 1 2
+/js/admin_menu/cache/e886db7bff52e317d934ec73889fa2cc 64 808402 0 0
+/node/add 1 4401 0 0
+/product/mediapleer-dune-hd-solo-4k 82 1880816 36 6
+/product/fonokorrektor-avid-pellar 21 326607 1 1
+/file/ajax/field_img/und/0/form-14hkp1l7cz60yP-TFqvgF1wrnoDSqUmz6K3_AVoMjcA 1 3280 0 0
+/cart 28 750867 0 11
+/product/monitoraudio-bronze-5 40 666514 4 4
+/product/televizor-lg-55uh620v 21 320730 1 0
+/product/proektor-pt-ae8000ea 25 445906 3 5
+/taxonomy/term/17/myoption_list 1 5224 0 0
+/node/352/edit 3 43032 0 0
+/news/prilozhenie-fsto-brbto-adaptirovano-pod-serialy 28 345029 14 5
+/product/mediapleer-inext-tv2 35 623996 4 2
+/file/ajax/field_promo_img/und/0/form-lmp_JVRCnQjNeS-osWQgECUDnpPY7EANkBeMdgpQnxo 1 3000 0 0
+/admin/structure/block 6 85996 0 0
+/node/308/edit 6 147041 0 0
+/file/ajax/uc_product_image/und/form-tiLB5mbKj6_SW6_rfZcYkAm-UjROu3azhWzLHKi1p_M 6 21816 0 0
+/node/add/promo 2 23298 0 0
+END_SIDER

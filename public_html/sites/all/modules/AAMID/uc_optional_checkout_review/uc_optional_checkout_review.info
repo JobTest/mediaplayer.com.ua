@@ -1,0 +1,5 @@
+name = Optional Checkout Review
+description = Set whether checkout review is required.
+dependencies[] = uc_cart
+core = 7.x
+package = Ubercart - extra

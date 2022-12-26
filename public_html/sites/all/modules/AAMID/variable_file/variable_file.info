@@ -1,0 +1,5 @@
+name = Variable File
+description = Add uploadfile type for variable
+dependencies[] = variable
+package = Variable
+core = 7.x

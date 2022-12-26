@@ -1,0 +1,604 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201602 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2674                
+POS_VISITOR 13186               
+POS_DAY 16208               
+POS_DOMAIN 3440                
+POS_LOGIN 3670                
+POS_ROBOT 3825                
+POS_WORMS 4327                
+POS_EMAILSENDER 4458                
+POS_EMAILRECEIVER 4601                
+POS_SESSION 16775               
+POS_SIDER 16981               
+POS_FILETYPES 4736                
+POS_OS 4886                
+POS_BROWSER 5008                
+POS_SCREENSIZE 5570                
+POS_UNKNOWNREFERER 5644                
+POS_UNKNOWNREFERERBROWSER 5731                
+POS_ORIGIN 5813                
+POS_SEREFERRALS 5951                
+POS_PAGEREFS 6121                
+POS_SEARCHWORDS 6291                
+POS_KEYWORDS 6443                
+POS_MISC 2336                
+POS_ERRORS 6502                
+POS_CLUSTER 3526                
+POS_SIDER_404 6639                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160301013044 65 13631 9495516988778
+FirstTime 0
+LastTime 20160229225024
+LastUpdate 20160301013918 65 0 64 0 0
+TotalVisits 88                  
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 78                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 293 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 52556 76 83 519198
+1 6 6 57502 82 86 405504
+2 2 2 6958 69 70 240510
+3 2 2 24196 60 61 227059
+4 2 2 6365 59 59 228850
+5 9 10 66335 292 292 2866636
+6 46 46 164900 44 44 183290
+7 43 44 202774 50 52 312721
+8 3 3 16777 42 51 161477
+9 11 11 128721 60 78 360125
+10 4 4 58179 66 86 319262
+11 10 10 154064 57 79 251598
+12 24 25 242284 72 98 302089
+13 9 9 139712 51 70 289647
+14 3 3 31244 85 96 307135
+15 8 8 164111 48 64 130670
+16 13 14 48925 79 92 566447
+17 12 12 133374 61 81 223458
+18 5 5 61863 69 86 275708
+19 5 5 48794 60 78 324080
+20 5 5 17534 68 88 298358
+21 25 25 208362 69 94 368594
+22 5 5 98084 62 78 371127
+23 1 1 332 78 89 474149
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 259 263 2133946
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+mj12bot 524 2968557 20160228225600 165
+googlebot 375 794856 20160229235808 201
+wordpress 90 39247 20160229170310 0
+yandex 55 98698 20160229152400 27
+bot[\s_+:,\.\;\/\\-] 46 229936 20160229175804 23
+no_user_agent 14 83932 20160228190154 0
+surveybot 4 11162 20160221041851 2
+libwww 2 876 20160223190650 0
+favicon 1 5087 20160202201251 0
+netcraft 1 19109 20160207212400 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+eot 6 230994 0 0
+php 234 1139260 0 0
+ttf 1 44657 0 0
+html 1 332 0 0
+xml 4 3064 0 0
+woff 17 715639 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 10
+linuxandroid 145
+winxp 19
+winnt 8
+win98 1
+linux 1
+winvista 19
+win2008 60
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 31
+msie6.0 2
+chrome44.0.2403.125 1
+firefox4.0.1 1
+firefox40.0 2
+firefox44.0 18
+chrome48.0.2564.95 5
+chrome43.0.2357.124 1
+android 140
+chrome48.0.2564.116 6
+chrome5.0.375.99 1
+chrome48.0.2564.82 7
+chrome28.0.1500.95 4
+firefox29.0 2
+chrome31.0.1650.57 4
+chrome31.0.1650.63 4
+firefox38.0 1
+firefox30.0 2
+chrome47.0.2526.73 2
+msie8.0 8
+safari9.0 4
+mozilla 1
+firefox25.0 1
+chrome47.0.2526.106 2
+chrome48.0.2564.109 13
+chrome26.0.1410.64 2
+msie10.0 13
+firefox6.0 1
+firefox0.9.3 1
+msie9.0 1
+safari 4
+chrome48.0.2564.97 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62 62
+From1 3 3
+From2 37 41
+From3 1 1
+From4 156 156
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 12 12
+yandex 25 29
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://yandex.ua 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 3 1824
+500 1 620
+405 1 507
+404 372 5533489
+301 273 144626
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 205
+/wp-admin/link-delete.php 1 -
+/4f06f293-1415-428f-9ce2-9d016eab902a 1 -
+/wp-includes/xr.php 1 -
+/admin.php 1 -
+/wp-admin/images/Cteaboer.php 1 -
+/sys.php 1 -
+/wp-content/themes/twentytwelve/page-templates/wp-index.php 1 -
+/wp-content/themes/twentythirteen/fonts/generfonts.php 1 -
+/mote.php 1 -
+/wp-stere.php 1 -
+/wp-content/themes/u-design/scripts/script.js 1 -
+/wp-includes/ID3/deal.php 1 -
+/wp-includes/class-wp-upgrade.php 2 -
+/tmp.php 1 -
+/wp-content/uploads/2015/09/new_up.php 1 -
+/todotldtg.php 1 -
+/wp-admin/link-parse-tags.php 1 -
+/wp_stkkn.php 1 -
+/wp-recn.php 1 -
+/wp-includes/SimplePie/mil.php 1 -
+/_int.php 1 -
+/wp-admin/beng.php 1 -
+/wp-includes/ID3/xr.php 1 -
+/_deal.php 1 -
+/wp-eaun.php 1 -
+/wp-includes/indexs.php 1 -
+/wp-includes/deal.php 1 -
+/will.php 1 -
+/wp-content/joomla.php 1 -
+/wp-content/uploads/2013/06/wp-index.php 1 -
+/wp-content/uploads/2013/07/wp-index.php 1 -
+/wp-indeks.php 1 -
+/administrator/ 1 -
+/wp-content/uploads/2014/03/wp-index.php 1 -
+/wp-content/themes/twentytwelve/page-templates/wp-templates.php 1 -
+/wp-includes/SimplePie/Net/IPv7.php 1 -
+/wp-includes/mvp.php 1 -
+/wp-admin/inter.php 1 -
+/week.php 1 -
+/upload.php 1 -
+/wp-feeds.php 1 -
+/wp-xr.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 1 -
+/wp-admin/ms-head.php 1 -
+/2015/07/31/%25D1%2587%25D1%2582%25D0%25BE-%25D0%25B4%25D0%25B5%25D0%25BB%25D0%25B0%25D1%2582%25D1%258C-%25D0%25B5%25D1%2581%25D0%25BB%25D0%25B8-dune-hd-tv-102-%25D0%25B3%25D1%2580%25D0%25B5%25D0%25B5%25D1%2582%25D1%2581%25D1%258F/ 21 http://mediaplayer.com.ua/2015/07/31/%25D1%2587%25D1%2582%25D0%25BE-%25D0%25B4%25D0%25B5%25D0%25BB%25D0%25B0%25D1%2582%25D1%258C-%25D0%25B5%25D1%2581%25D0%25BB%25D0%25B8-dune-hd-tv-102-%25D0%25B3%25D1%2580%25D0%25B5%25D0%25B5%25D1%2582%25D1%2581%25D1%258F/
+/yume.php 1 -
+/wp-content/wp-keep.php 1 -
+/wp-seem.php 1 -
+/c1857ddaa0de.htm 72 -
+/c1857ddaa0de.html 69 -
+/inits.php 1 -
+/wp-includes/will.php 1 -
+/wp-content/beng.php 1 -
+/js/indexs.php 1 -
+/wp-includes/Text/Diff/Engine/cache.php 4 -
+/wp-admin/includes.php 1 -
+/wp-fonun.php 1 -
+/wp-admin/edit-link-class.php 1 -
+/wp-content/uploads/wp-index.php 1 -
+/wp-admin/interface.php 1 -
+/beng.php 1 -
+/wp-content/sitemap.php 1 -
+/wp-content/uploads/2014/07/wp-index.php 1 -
+/_xr.php 1 -
+/licens.php 1 -
+/wp-content/systemfiles.php 1 -
+/wp-content/indexs.php 1 -
+/wp-content/plugins/acismittop/akismet.php 1 -
+/wp-content/uploads/2014/05/wp-index.php 1 -
+/indes.php 1 -
+/int.php 1 -
+/www.zip 1 -
+/wp-trce.php 1 -
+/wp-content/uploads/2013/04/wp-index.php 1 -
+/wp-gonnm.php 1 -
+/wp-keep.php 1 -
+/wp-includes/css/indexs.php 1 -
+/wp-admin/edit-error-tags.php 1 -
+/sb.php 1 -
+/wp-admin/int.php 1 -
+/op.php 1 -
+/up.php 1 -
+/input.php 1 -
+/up.php.suspected 1 -
+/qw.php 1 -
+/52b5b252-2755-4c14-a2f6-e2ff2bf8a64a 1 -
+/wp-content/wp-ins.php 1 -
+/wp-content/plugins/wp-index.php 1 -
+/htecass.php 1 -
+/wp-user.php 1 -
+/wp-content/deal.php 1 -
+/wp-content/up.php 1 -
+/wp-session.php 1 -
+/site.php 1 -
+/wp-csss.php 1 -
+/bitrix/admin/ 1 -
+/wp-content/uploads/2014/04/wp-index.php 1 -
+/wp-content/upgrade/wp-index.php 1 -
+/2bb70d32-0c3c-4805-9df0-6ec245653b38 1 -
+/wp-admin/image-import.php 1 -
+/solo.php 1 -
+/wp-content/uploads/2013/03/wp-index.php 1 -
+/ea3228088916.htm 4 -
+/wp-content/ty.php 1 -
+/wp-cron-post.php 1 -
+/defualt.php 1 -
+/wp-content/uploads/2013/05/wp-index.php 1 -
+/wp-admin/edit-form-tags.php 1 -
+/wp-gration.php 1 -
+/wp-content/inter.php 1 -
+/admin/login.php 1 -
+/runl.php 1 -
+/wp-includes/images/interface.php 1 -
+/_inter.php 1 -
+/wp-content/plugins/hello.php 1 -
+/wp-admin/wp-editors.php 1 -
+/wp-content/uploads/2014/06/wp-index.php 1 -
+/wp-conflg.php 1 -
+/wp-ins.php 1 -
+/wp-admin/will.php 1 -
+/wp-admin/up.php 1 -
+/ins.php 1 -
+/xml.php 1 -
+/wp-admin/maint/cmds.php 1 -
+/wp-includes/ID3/inter.php 1 -
+/backup.zip 1 -
+/wp-includes/sites.php 1 -
+/images/mvp.php 1 -
+/sites.php 1 -
+/wp-admin/ms-table.php 1 -
+/in.php 1 -
+/fix.php 1 -
+/wp-content/mote.php 1 -
+/wp-content/uploads/banner.php 1 -
+/wp-includes/ID3/int.php 1 -
+/wp-admin/advanced-tag-head.php 1 -
+/wp-admin/includes/image-import.php 1 -
+/Cteaboer.php 1 -
+/indexs.php 1 -
+/wp-admin/indexs.php 1 -
+/wp-admin/media-parse-new.php 1 -
+/wp-content/uploads/2015/08/new_up.php 1 -
+/yuser.php 1 -
+/diy.php 1 -
+/wp-content/mvp.php 1 -
+/_beng.php 1 -
+/wp-content/xr.php 1 -
+/wp-slink.php 1 -
+/wp-content/uploads/wysija/themes/wp/sql.php 1 -
+/apple-touch-icon.png 1 -
+/404.php 1 -
+/wp-content/sys.php 1 -
+/wp-includes/up.php 1 -
+/inter.php 1 -
+/robots.php 1 -
+/xr.php 1 -
+/deal.php 1 -
+/wp-content/bb.php 1 -
+/wp-admin/head.php 1 -
+/wp-admin/js/mssqli.php 1 -
+/configuriation.php 1 -
+/init_includes.php 2 -
+/thanks.php 1 -
+/mvp.php 1 -
+/wp-content/themes/twentythirteen/fonts/wp-index.php 1 -
+/wp-includes/theme-compat/theme-compat.php 1 -
+/thank-you.php 1 -
+/wp-content/uploads/wysija/temp/temp.php 1 -
+/readline.php 1 -
+/wp-includes/int.php 1 -
+/wp-content/upgrade/wp-upgrade.php 1 -
+/wp-content/interface.php 1 -
+/wp-includes/interface.php 1 -
+/ins.php.suspected 1 -
+/wp-emails.php 1 -
+/images/indexs.php 1 -
+/apple-touch-icon-precomposed.png 1 -
+/wp-includes/entry.php 1 -
+/user/ 1 -
+/wp-content/int.php 1 -
+/wp-content/themes/Minimal/Minimal.php 1 -
+/wp-cesnd.php 1 -
+/wp-content/uploads/wysija/wp-index.php 1 -
+/wp-dmon.php 1 -
+/ty.php 1 -
+/wp-content/uploads/uploads.php 1 -
+/wp-includes/inter.php 1 -
+/wp-content/themes/twentyeleven/twentyeleven.php 1 -
+/wp-content/uploads/deal.php 1 -
+/wp-admin/xr.php 1 -
+/support.php 1 -
+/wp-content/uploads/wysija/temp/wp-index.php 1 -
+/interface.php 1 -
+/includes.php 1 -
+/2015/07/31/%25d1%2587%25d1%2582%25d0%25be-%25d0%25b4%25d0%25b5%25d0%25bb%25d0%25b0%25d1%2582%25d1%258c-%25d0%25b5%25d1%2581%25d0%25bb%25d0%25b8-dune-hd-tv-102-%25d0%25b3%25d1%2580%25d0%25b5%25d0%25b5%25d1%2582%25d1%2581%25d1%258f/ 1 http://mediaplayer.com.ua/2015/07/31/%25d1%2587%25d1%2582%25d0%25be-%25d0%25b4%25d0%25b5%25d0%25bb%25d0%25b0%25d1%2582%25d1%258c-%25d0%25b5%25d1%2581%25d0%25bb%25d0%25b8-dune-hd-tv-102-%25d0%25b3%25d1%2580%25d0%25b5%25d0%25b5%25d1%2582%25d1%2581%25d1%258f/
+/wp-admin/deal.php 1 -
+/joomla.php 1 -
+/ea3228088916.html 1 -
+/face.php 1 -
+/wp-includes/images/upload.php 1 -
+/vr.php 1 -
+/_cron.php 1 -
+/site.zip 1 -
+/wp-content/jiekou.php 1 -
+/Unzipi.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 78
+188.3.65.39 63 63 227573 20160228070830
+212.90.40.52 21 21 294567 20160222154218
+46.2.198.107 18 18 63796 20160215065315
+91.124.97.214 12 12 111997 20160223210843
+31.206.10.118 11 11 38725 20160228215354
+5.18.102.83 7 7 84581 20160208134727
+193.109.199.143 5 5 17929 20160229093130
+31.206.92.185 5 5 17544 20160221120926
+81.198.190.115 5 5 66412 20160212171910
+46.2.204.36 5 5 17544 20160224074128
+37.204.89.211 1 1 1248 20160216121523
+109.86.116.126 3 3 54905 20160207161557
+109.75.192.174 1 1 5087 20160228102748
+188.32.52.254 1 1 3332 20160215054602
+176.77.24.143 1 1 722 20160216121529
+54.90.67.151 1 1 19241 20160201131227
+78.183.202.31 2 2 6958 20160207000845
+89.19.105.110 4 4 64656 20160229173229
+128.69.189.154 0 1 766 
+46.242.117.158 0 1 766 
+46.242.52.42 1 1 5087 20160215053901
+78.184.16.66 2 2 7016 20160229225024
+37.204.96.208 1 1 3274 20160216121538
+85.103.83.52 2 2 6919 20160201164414
+54.227.22.119 1 1 19109 20160202034151
+176.77.6.232 0 1 766 
+46.242.91.219 1 1 722 20160216165402
+62.212.73.49 1 1 5087 20160226110347
+85.97.175.191 2 2 6958 20160224162226
+37.247.96.66 4 4 14194 20160203211831
+95.25.99.65 2 2 43586 20160216115625
+37.57.189.21 2 2 49818 20160228152006
+89.178.69.88 1 1 3332 20160217105835
+79.165.175.168 1 1 1248 20160216165402
+46.188.121.164 3 3 91068 20160215225916
+193.200.59.36 2 2 7571 20160208131111
+85.100.44.175 2 2 6958 20160228125909
+213.108.78.15 2 2 10116 20160224120406
+107.167.110.12 1 1 19109 20160202125707
+176.77.42.243 1 1 1248 20160215000650
+5.248.86.176 2 2 51392 20160227130712
+78.171.242.255 2 2 6958 20160211113243
+176.77.106.169 1 1 722 20160215000657
+38.127.167.45 2 2 38218 20160223190650
+46.242.127.247 2 2 43686 20160216121547
+193.201.227.106 1 1 5129 20160213052148
+64.246.187.42 1 1 1278 20160227050441
+92.53.120.196 1 1 5087 20160204035001
+64.246.165.170 1 1 1278 20160211043007
+37.204.115.35 1 1 722 20160215054601
+85.100.162.208 2 2 6958 20160223181842
+88.243.177.117 2 2 6958 20160226163134
+78.172.223.112 2 2 6958 20160225011719
+199.30.24.11 1 1 44657 20160224174206
+193.109.199.76 3 3 10615 20160229170323
+188.3.73.222 2 2 6958 20160228014607
+37.204.40.99 1 1 3332 20160216165402
+213.159.208.200 1 1 19109 20160201123611
+91.135.246.144 2 2 6958 20160216141628
+109.86.72.163 3 3 75202 20160208144742
+46.242.116.72 1 1 5187 20160215054603
+88.235.126.149 2 2 6958 20160220200549
+95.84.233.42 0 1 766 
+193.109.118.129 2 2 49818 20160201114320
+95.25.76.145 1 1 5087 20160226042451
+78.174.85.93 2 2 6958 20160201025851
+176.77.45.224 1 1 5087 20160216161650
+95.26.212.156 2 2 43586 20160226055223
+188.32.239.17 1 1 6661 20160203163909
+37.204.199.56 1 1 1248 20160215054600
+5.165.249.125 2 2 43586 20160226114913
+62.72.184.171 3 3 54847 20160211120939
+83.149.44.131 1 1 5087 20160221094154
+95.26.154.213 1 1 5087 20160217181850
+46.242.120.94 2 2 43586 20160215011131
+176.77.106.239 2 2 43628 20160215000700
+195.69.221.37 3 3 57872 20160223150850
+188.244.43.200 1 1 5187 20160216165402
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20160201 8 8 102045 5
+20160202 3 3 38550 3
+20160203 11 11 130491 4
+20160204 3 3 15145 2
+20160206 6 6 114416 2
+20160207 4 4 18706 3
+20160208 10 10 150942 6
+20160211 11 11 127988 5
+20160212 5 5 66412 1
+20160213 1 1 5129 1
+20160215 34 35 265419 12
+20160216 14 16 116582 11
+20160217 2 3 9185 2
+20160220 2 2 6958 1
+20160221 6 6 22631 2
+20160222 2 2 49760 1
+20160223 19 19 215045 4
+20160224 10 10 79275 4
+20160225 2 2 6958 1
+20160226 8 8 104304 5
+20160227 3 3 52670 2
+20160228 81 81 335119 6
+20160229 14 14 100216 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 3
+2mn-5mn 1
+0s-30s 74
+30s-2mn 7
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 15
+/wp-login.php 142 505964 22 22
+/ 45 298039 32 20
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.woff 17 715639 0 8
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/ 14 128330 11 7
+/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5/ 7 83596 1 2
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.eot 6 230994 0 6
+/2015/07/31/%d1%87%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b5%d1%81%d0%bb%d0%b8-dune-hd-tv-102-%d0%b3%d1%80%d0%b5%d0%b5%d1%82%d1%81%d1%8f/ 6 54565 0 3
+/author/admin/ 5 25819 5 3
+/xmlrpc.php 4 2888 4 4
+/feed/ 4 13270 4 4
+/comments/feed/ 2 2556 2 2
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.ttf 1 44657 1 1
+/ea3228088916.html 1 332 1 1
+/2015/07/31/ 1 19241 1 1
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed/ 4 4992 4 4
+END_SIDER

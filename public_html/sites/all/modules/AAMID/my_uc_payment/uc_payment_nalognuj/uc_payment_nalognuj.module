@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_uc_payment_method().
+ */
+function uc_payment_nalognuj_uc_payment_method() {
+  $methods['nalognuj'] = array(
+    'name'       => t('Nalognuj payment'),
+    'title'      => t('Nalognuj payment'),
+    'desc'       => t('A nalognuj payment method type.'),
+    'callback'   => 'uc_payment_method_nalognuj',
+    'weight'     => 10,
+    'checkout'   => FALSE,
+    'no_gateway' => TRUE,
+  );
+  return $methods;
+}
+
+
+
+/**
+ * Payment method callback for the generic payment method "nalognuj".
+ */
+function uc_payment_method_nalognuj($op, &$order) {	
+  switch ($op) {	  
+  }
+}
+

@@ -1,0 +1,5 @@
+; $Id$
+name = mycart
+description = my cart API
+package = AMID
+core = 7.x

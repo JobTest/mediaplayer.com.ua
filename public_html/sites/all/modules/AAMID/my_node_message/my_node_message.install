@@ -1,0 +1,59 @@
+<?php
+
+/**
+ * Implements hook_schema()
+ */
+function my_node_message_schema() {
+  $schema['my_node_message'] = array(   
+    'fields' => array(
+      'type' => array(
+        'description' => 'The primary identifier',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+      ),
+      'name_from' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'name_from',
+      ), 	  
+      'title_from' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'title_from',
+      ), 	  
+      'mail_from' => array(
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'mail_from',
+      ), 	  
+      'mail_to' => array(
+        'type' => 'text',
+        'not null' => TRUE,
+        'size' => 'big',
+        'description' => 'mail_to',
+      ), 	  
+      'body' => array(
+        'type' => 'text',
+        'not null' => TRUE,
+        'size' => 'big',
+        'description' => 'body',
+      ), 	  
+    ),	
+    'primary key' => array('type'),
+  );
+  return $schema;
+}
+
+/**
+ * Implements hook_install()
+ */
+function my_node_message_install() {
+  db_update('system')
+    ->fields(array('weight' => 999))
+    ->condition('name', 'my_node_message')
+    ->execute();
+}

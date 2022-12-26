@@ -1,0 +1,37 @@
+/*
+
+#block-block-5
+{
+  position:relative;	
+  behavior: url(/sites/all/themes/mytheme/css/PIE.htc);
+}
+*/
+
+
+
+.view-aksessuar.view-display-id-page_1  > .view-content > .views-row:hover > div,
+.view-product.view-display-id-page_1  > .view-content > .views-row:hover > div,
+.view-product.view-display-id-block_5  > .view-content > .views-row:hover > div {
+box-shadow: 0px 0px 10px #ccc;
+border:1px solid #dddddd;
+filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#dddddd', Direction=45, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#dddddd', Direction=135, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#dddddd', Direction=225, Strength=4)
+        progid:DXImageTransform.Microsoft.Shadow(color='#dddddd', Direction=315, Strength=4);
+zoom: 1;		
+position: relative;
+top: -9px;
+left: -8px;
+margin: -10px -21px -178px;
+}
+
+
+/*
+.view-product.view-display-id-page_1 .views-row img,
+.view-product.view-display-id-block_5 .views-row img {
+box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+position: relative;
+behavior: url(/sites/all/themes/mytheme/css/PIE.htc);
+}
+*/

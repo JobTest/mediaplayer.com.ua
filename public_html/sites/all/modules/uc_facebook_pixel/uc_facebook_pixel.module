@@ -1,0 +1,201 @@
+<?php
+
+/**
+ * @file
+ * {@inheritdoc}
+ */
+
+/**
+ * Implements hook_permission().
+ */
+function uc_facebook_pixel_permission() {
+  return array(
+    'administer uc facebook pixel' => array(
+      'title' => t('Administer Facebook Pixel'),
+      'description' => t('Perform maintenance tasks for Ubercart Facebook Pixel.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function uc_facebook_pixel_menu() {
+  $items = array();
+
+  $items['admin/config/system/uc_facebook_pixel'] = array(
+    'title' => 'Facebook Pixel',
+    'description' => 'Configure Facebook Pixel tracking behavior.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('uc_facebook_pixel_admin_settings_form'),
+    'access arguments' => array('administer uc facebook pixel'),
+    'type' => MENU_NORMAL_ITEM,
+    'file' => 'uc_facebook_pixel.admin.inc',
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_user_insert().
+ */
+function uc_facebook_pixel_user_insert(&$edit, $account, $category) {
+  uc_facebook_pixel_add_event('CompleteRegistration:' . $account->uid);
+}
+
+/**
+ * Implements hook_node_view().
+ */
+function uc_facebook_pixel_node_view($node, $view_mode, $langcode) {
+  if ($view_mode == 'full' && node_is_page($node)) {
+    uc_facebook_pixel_add_event('ViewContent:' . $node->nid);
+  }
+}
+
+/**
+ * Implements hook_ctools_render_alter().
+ */
+function uc_facebook_pixel_ctools_render_alter(&$info, &$page, &$context) {
+  if ($page && !empty($context['handler']->task) && $context['handler']->task == 'node_view') {
+    $nid = reset($context['args']);
+    uc_facebook_pixel_add_event('ViewContent:' . $nid);
+  }
+}
+
+/**
+ * Implements hook_uc_add_to_cart().
+ */
+function uc_facebook_pixel_uc_add_to_cart($nid, $qty, $data) {
+  uc_facebook_pixel_add_event('AddToCart:' . $nid);
+}
+
+/**
+ * Implements hook_uc_cart_checkout_start().
+ */
+function uc_facebook_pixel_uc_cart_checkout_start($order) {
+  uc_facebook_pixel_add_event('InitiateCheckout:' . $order->order_id);
+}
+
+/**
+ * Implements hook_uc_checkout_complete().
+ */
+function uc_facebook_pixel_uc_checkout_complete($order, $account) {
+  uc_facebook_pixel_add_event('Purchase:' . $order->order_id);
+}
+
+/**
+ * Add event to session.
+ */
+function uc_facebook_pixel_add_event($event) {
+  if (variable_get('uc_facebook_pixel_id')) {
+    if (!isset($_SESSION['uc_facebook_pixel'])) {
+      $_SESSION['uc_facebook_pixel'] = array();
+    }
+    $_SESSION['uc_facebook_pixel'][$event] = $event;
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function uc_facebook_pixel_preprocess_page(&$variables) {
+  global $user;
+
+  if (variable_get('uc_facebook_pixel_exclude_admin_paths', 1) && path_is_admin(current_path()) || !uc_facebook_pixel_user_visibility($user)) {
+    return;
+  }
+
+  if ($pixel_id = variable_get('uc_facebook_pixel_id')) {
+    $script = "
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '$pixel_id');
+fbq('track', 'PageView');
+";
+
+    if (isset($_SESSION['uc_facebook_pixel']) && is_array($_SESSION['uc_facebook_pixel'])) {
+      foreach ($_SESSION['uc_facebook_pixel'] as $event) {
+
+        if (strpos($event, ':') !== FALSE) {
+          list($event, $entity_id) = explode(':', $event);
+        }
+
+        if (!empty($entity_id) && function_exists('uc_facebook_pixel_data_' . $event)) {
+          $data = call_user_func('uc_facebook_pixel_data_' . $event, $entity_id);
+          drupal_alter('uc_facebook_pixel_data_' . $event, $data, $entity_id);
+          $script .= "fbq('track', '$event', " . drupal_json_encode($data) . ");\n";
+        }
+        else {
+          $script .= "fbq('track', '$event');\n";
+        }
+      }
+      unset($_SESSION['uc_facebook_pixel']);
+    }
+
+    $script .= "</script>
+<noscript><img height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=$pixel_id&ev=PageView&noscript=1' /></noscript>
+<!-- End Facebook Pixel Code -->
+";
+
+    $element = array(
+      '#type' => 'markup',
+      '#markup' => $script,
+      '#weight' => 1000,
+    );
+    drupal_add_html_head($element, 'uc_facebook_pixel');
+  }
+}
+
+/**
+ * Return details for the Purchase tag.
+ */
+function uc_facebook_pixel_data_Purchase($order_id) {
+  $order = uc_order_load($order_id);
+
+  $ids = array();
+  foreach($order->products as $value) {
+    $ids[] = $value->nid;
+  }
+
+  $data = array(
+    'value' => $order->order_total,
+    'currency' => $order->currency,
+    'content_type' => 'product',
+    'content_ids' => $ids,
+  );
+  return $data;
+}
+
+/**
+ * Return details for the ViewContent tag.
+ */
+function uc_facebook_pixel_data_ViewContent($nid) {
+  $data = array(
+    'content_type' => 'product',
+    'content_ids' => $nid,
+  );
+  return $data;
+}
+
+/**
+ * Tracking visibility check for a user.
+ */
+function uc_facebook_pixel_user_visibility($user) {
+  $visible = TRUE;
+  $roles = variable_get('uc_facebook_pixel_roles', array());
+  if (array_sum($roles) > 0) {
+    foreach (array_keys($user->roles) as $rid) {
+      if (isset($roles[$rid]) && $rid == $roles[$rid]) {
+        $visible = FALSE;
+        break;
+      }
+    }
+  }
+  return $visible;
+}

@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+ * Implements hook_install().
+*/
+function mysravnenia_install() {
+  db_update('system')
+    ->fields(array('weight' => 9999))
+    ->condition('name', 'mysravnenia')
+    ->execute();
+}
+

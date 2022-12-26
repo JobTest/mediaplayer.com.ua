@@ -1,0 +1,76 @@
+<?php
+
+
+/**
+ * Implements hook_menu().
+ */
+function mybatch_menu() {
+  $items = array();
+  $items['admin/myapi/mybatch'] = array(
+    'title' => 'Экспорт/Импорт',
+    'page callback' => 'system_admin_menu_block_page',
+    'access arguments' => array('administer mybatch'),
+    'type' => MENU_NORMAL_ITEM,
+	'weight' => 10,
+    'file' => 'system.admin.inc',
+    'file path' => drupal_get_path('module', 'system'),
+  );
+  // Hotline
+  $items['admin/myapi/mybatch/hotline'] = array(
+    'title' => 'Экспорт товаров для hotline',
+    'page callback' => 'drupal_get_form',
+	'page arguments' => array('mybatch_export_hotline_form'),
+    'access arguments' => array('export mybatch'),
+    'type' => MENU_NORMAL_ITEM,
+	'weight' => 12,
+	'file path' => drupal_get_path('module', 'mybatch') . '/includes',
+    'file' => 'mybatch.hotline_export.inc',
+  );
+  $items['admin/myapi/mybatch/hotline/export'] = array(
+    'title' => 'Экспорт товаров для hotline',             
+    'type' => MENU_DEFAULT_LOCAL_TASK, 
+  );   
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function mybatch_permission() {
+  return array(
+    'administer mybatch' => array(
+      'title' => 'Администрування модуля mybatch',
+    ),
+    'export mybatch' => array(
+      'title' => 'Экспорт mybatch',
+    ),
+    'import mybatch' => array(
+      'title' => 'Импорт mybatch',
+    ),
+  );
+}
+
+
+function _mybatch_iconv_array($inputArray, $newEncoding){
+  $outputArray = array();
+  if ($newEncoding != ''){
+    if (!empty($inputArray)){
+      foreach ($inputArray as $key => $element){
+        if (!is_array($element)){
+          $element = iconv(mb_detect_encoding($element), $newEncoding, $element);
+        } else {
+          $element = $this->iconvArray($element, $newEncoding);
+        }
+        $outputArray[$key] = $element;
+      }
+    }
+  }
+  return $outputArray;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,983 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201605 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2007                
+POS_TIME 2677                
+POS_VISITOR 24139               
+POS_DAY 29316               
+POS_DOMAIN 3572                
+POS_LOGIN 3805                
+POS_ROBOT 3960                
+POS_WORMS 4552                
+POS_EMAILSENDER 4683                
+POS_EMAILRECEIVER 4826                
+POS_SESSION 30125               
+POS_SIDER 30334               
+POS_FILETYPES 4961                
+POS_OS 5164                
+POS_BROWSER 5326                
+POS_SCREENSIZE 6190                
+POS_UNKNOWNREFERER 6264                
+POS_UNKNOWNREFERERBROWSER 6453                
+POS_ORIGIN 6569                
+POS_SEREFERRALS 6713                
+POS_PAGEREFS 6890                
+POS_SEARCHWORDS 7366                
+POS_KEYWORDS 7518                
+POS_MISC 2340                
+POS_ERRORS 7577                
+POS_CLUSTER 3661                
+POS_SIDER_404 7752                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160601000549 216 52243 17462673216831
+FirstTime 0
+LastTime 20160531213134
+LastUpdate 20160601013708 216 0 215 0 0
+TotalVisits 172                 
+TotalUnique 127                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 131                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 73 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 19530 136 143 2848603
+1 11 11 171720 90 92 1601439
+2 2 2 6958 69 73 3954568
+3 6 6 196310 67 68 2366094
+4 300 300 11470570 101 116 1811621
+5 0 0 0 66 67 2889925
+6 188 216 1166718 136 137 3278079
+7 160 184 1911385 147 148 2485593
+8 112 145 1267910 82 89 2787587
+9 68 69 436900 197 252 2687420
+10 90 130 2312601 191 226 2702718
+11 182 206 4104075 78 106 3087688
+12 245 279 3294160 125 165 3124926
+13 192 226 4608982 72 81 1955470
+14 109 109 851580 104 110 2807413
+15 272 311 7107658 114 116 1696812
+16 159 163 3421808 101 113 1961227
+17 24 24 543953 79 92 3529013
+18 240 254 2506988 153 265 2376334
+19 301 302 4449998 168 500 3011901
+20 214 217 3263966 91 132 1663407
+21 42 45 649621 88 104 1995010
+22 74 80 2054502 272 273 5062698
+23 247 248 8695532 85 92 2457459
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3241 3530 64513425
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+mj12bot 414 5962876 20160531232738 60
+no_user_agent 357 42252532 20160531220719 0
+googlebot 334 1636345 20160530043402 137
+yandex 84 671258 20160531233845 17
+bot[\s_+:,\.\;\/\\-] 67 715702 20160526141502 2
+crawl 59 808905 20160531225618 0
+wordpress 50 21767 20160515162359 0
+favicon 14 174170 20160531214650 0
+mail\.ru 5 11657 20160511120707 3
+surveybot 3 18167 20160527022448 1
+[\s_+:,\.\;\/\\-]bot 1 12575 20160520204551 0
+netcraft 1 19109 20160510180627 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+eot 4 130699 0 0
+php 1371 43259274 0 0
+png 208 3219973 0 0
+xml 3 2298 0 0
+jpg 78 291731 0 0
+woff 119 1428345 0 0
+Unknown 1746 16164144 0 0
+svg 1 16961 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxandroid 1012
+winlong 1
+winxp 107
+unix 3
+winnt 67
+linuxubuntu 1
+linux 17
+winvista 36
+macosx 67
+Unknown 4
+win2008 2215
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 49
+safari7.0.3 3
+msie6.0 1
+chrome50.0.2661.89 24
+firefox44.0 1
+chrome49.0.2623.110 24
+android 988
+firefox18.0 2
+chrome31.0.1650.57 2
+chrome31.0.1650.63 3
+curl 1
+opera9.80 4
+msie8.0 10
+firefox6.0.2 1
+chrome50.0.2661.94 44
+chrome43.0.2357.81 14
+chrome52.0.2727.0 3
+firefox43.0 1
+chrome47.0.2526.111 3
+msie7.0 1
+chrome37.0.2062.120 6
+chrome50.0.2661.102 2039
+chrome27.0.1453 7
+safari8.0 2
+msie9.0 1
+firefox3.6.10 1
+chrome49.0.2623.112 6
+firefox20.6.14 128
+Unknown 2
+firefox27.0 2
+chrome39.0.2171.71 1
+chrome45.0.2454.99 1
+chrome49.0.2623.87 3
+chrome37.0.2049.0 1
+safari6.1.3 1
+safari6.0 11
+chrome46.0.2490.71 2
+chrome28.0.1500.71 2
+firefox46.0 5
+safari9.0 23
+mozilla 13
+firefox25.0 1
+chrome45.0.2454.101 96
+chrome26.0.1410.64 2
+netscape5.0 2
+msie10.0 26
+chrome46.0.2486.0 5
+chrome46.0.2490.86 1
+firefox3.6.3 1
+safari 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+curl/7.35.0 20160524034255
+Go-http-client/1.1 20160515200202
+Mozilla/4.0_(compatible;) 20160517135832
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20160515200202
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 164 164
+From1 1 1
+From2 33 36
+From3 18 18
+From4 3025 3311
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 9 9
+bing 2 2
+yandex 22 25
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://hotline.ua/av-mediacentry/dune-hd-solo-4k/prices/ 7 7
+http://burger-imperia.com 4 4
+http://hotline.ua/av-mediacentry/dune-hd-tv-102w/prices/ 2 2
+http://hotline.ua/av-mediacentry/dune-hd-base-3d/prices/ 2 2
+http://pizza-imperia.com 1 1
+http://pizza-tycoon.com 1 1
+http://hotline.ua/cabinet/25959/expand-price-initial/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 33 904843
+302 358 190977
+503 208 1066653
+405 1 465
+500 22 18261
+404 1144 9427622
+301 299 157530
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 229
+/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5/ 1 -
+/images/dbc-24.html 7 -
+/sites/default/files/20150223034812.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8 10 -
+/admin.php 19 -
+/sites/default/files/resize/pictures/20150622235250-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-content/themes/simply-vision/css/bootstrap.min.css 1 -
+/wp-content/plugins/wp-post-frontend/js/plupload-2.1.2/examples/upload.php 10 -
+/sites/default/files/2.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/wp-admin/install.php 1 -
+/inc.php 1 -
+/sites/default/files/6.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/comments/feed 5 
+/sites/default/files/pictures/dune_hd_204_4.jpg 4 http://mediaplayer.com.ua/news/prezentovan-set-top-boks-dune-hd-204-s-podderzhkoy-h265-hevc
+/sites/default/files/pictures/20150517232104.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/sites/default/files/4.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/dunebase3d/ 2 -
+/sites/default/files/20150219024613.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/wp-content/plugins/db-backup/download.php 10 -
+/sites/default/files/pictures/20150402024930.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/wp-content/themes/simply-vision/js/bootstrap.min.js 1 -
+/wp-content/uploads/2015/07/Dune-SMB-server2-1024x576.png 1 -
+/sites/default/files/pictures/20150402030325.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/wp-content/themes/simply-vision/js/scripts.js 1 -
+/sites/default/files/20150223035519.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/wp-includes/pomo/pomo.php 1 -
+/sites/default/files/pictures/20150513091754.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/sites/default/files/pictures/20150402102339.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/wp-content/themes/s/plugins/dzs-piecemaker/admin/dzsuploader/upload.php 1 -
+/sites/default/files/resize/pictures/20150517234652-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-xmlrpc.php 1 -
+/sites/default/files/resize/pictures/20150517234654-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-content/plugins/dzs-videogallery/admin/upload.php 1 -
+/sites/default/files/pictures/20150402024940.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/wp-content/plugins/wp-editor/js/wpeditor.js 1 -
+/admin/structure/taxonomy/category%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%20%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%20%D0%BF%D0%BE%D0%BB%D1%8F%20%D1%81%D0%BF%D0%B5%D1%86%D1%8B 1 -
+/viva.php 1 -
+/error.php 2 -
+/bitrix/admin 1 http://mediaplayer.com.ua/bitrix/admin
+/wp-content/themes/Video/functions/theme_options.css 1 -
+/administrator/ 1 -
+/wp-content/uploads/2015/07/Dune-SMB-server1-1024x576.png 2 -
+/contaeect/ 1 -
+/wp-login.php 20 -
+/sites/default/files/error404.png 2 http://mediaplayer.com.ua/node/36/delete
+/wp-content/plugins/dzs-portfolio/upload.php 1 -
+/sites/default/files/resize/pictures/20150517232104-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/product/pult-upravleniya-dune-hd 2 -
+/sites/default/files/20150219024743.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/wp-feeds.php 1 -
+/wp-content/uploads/2015/07/screenshot1-1024x576.png 1 -
+/wp-content/themes/simply-vision/style.css 1 -
+/sql.php 1 -
+/sites/default/files/pictures/20150513091756.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/feed 14 -
+/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5 1 http://mediaplayer.com.ua/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5
+/wp-includes/class.wp-date.php 1 -
+/wp-content/plugins/malapascua-agency/js/plupload/examples/upload.php 10 -
+/wp-content/uploads/2015/07/Dune-SMB-server4.png 1 -
+/sites/default/files/pictures/20150513091811.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/sites/default/files/pictures/20150517234652.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 21 -
+/sites/default/files/20150223035512.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/sites/default/files/pictures/20150623133604_0.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/sites/default/files/node/promo/akciya_978x350_b_0.jpg 5 http://mediaplayer.com.ua/
+/wp-admin/admin-ajax.php 21 -
+/sites/default/files/20150219024602.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/wp-log.php 1 -
+/sites/default/files/node/promo/padenie_cen.jpg 5 http://mediaplayer.com.ua/
+/author/admin/&amp 4 -
+/wp-content/themes/infocus/lib/scripts/dl-skin.php 10 -
+/wp-content/plugins/custom-contact-forms/css/custom-contact-forms.css 1 -
+/wp-content/themes/simply-vision/js/supersubs.js 1 -
+/system.php 1 -
+/file/upload.php 11 -
+/wp-content/plugins/wp-db-backup-made/system.php 1 -
+/ms-media.php 1 -
+/product/dune-solo-4k 4 -
+/setup.php 2 -
+/sites/default/files/20150219024722.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/wp-content/themes/simply-vision/js/superfish.js 1 -
+/product/mediapleer-kartina-relax 4 -
+/wp-content/uploads/2015/07/DSC_0068_3-650x300.png 3 -
+/css.php 1 -
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.php 1 -
+/administrator/index.php 15 -
+/opts.php 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/2015/07/31/%d0%ba%d0%b0%d0%ba-%d0%bf%d0%be%d0%b4%d0%ba%d0%bb%d1%8e%d1%87%d0%b8%d1%82%d1%8c-%d0%b4%d0%b2%d0%b5-dune-%d0%b2-%d0%be%d0%b4%d0%bd%d1%83-%d0%b4%d0%be%d0%bc%d0%b0%d1%88%d0%bd%d1%8e%d1%8e-%d1%81%d0%b5/#more-19 1 -
+/sites/default/files/5.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/sites/default/files/pictures/20150517234654.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/sites/default/files/20150219024658.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/sites/default/files/20150219025719.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/wp-content/themes/twentyfourteen/404.php 1 -
+/sites/default/files/pictures/20150622200454.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/sites/default/files/20150219025753.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/lndex.php 1 -
+/wp-content/themes/churchope/lib/downloadlink.php 10 -
+/bitrix/admin/ 1 -
+/sites/default/files/node/promo/dune-hd_connect.jpg 5 http://mediaplayer.com.ua/
+/sites/default/files/pictures/20150517235119.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-content/plugins/dzs-calendar/admin/upload.php 1 -
+/sites/default/files/pictures/20150402024949.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/sites/default/files/logo.gif 208 http://mediaplayer.com.ua/
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F/feed 16 -
+/2015/07/31/%d1%87%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b5%d1%81%d0%bb%d0%b8-dune-hd-tv-102-%d0%b3%d1%80%d0%b5%d0%b5%d1%82%d1%81%d1%8f/ 1 -
+/wp-blogs.php 1 -
+/wp-content/uploads/2015/07/Dune-SMB-server3-1024x576.png 1 -
+/wso.php 1 -
+/sites/default/files/20150223035526.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/2015/05/30/%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BF%D0%BB%D0%B5%D0%B5%D1%80%D0%B0-dune 1 -
+/wp-content/uploads/2015/07/Dune-SMB-server1.png 3 -
+/sites/default/files/pictures/20150623133638.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/options.php 1 -
+/admin/login.php 1 -
+/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/server/php/index.php 10 -
+/wp-admin/tools.php 11 -
+/wp-content/plugins/hello.php 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 10 -
+/plugin-change.php 1 -
+/wp-content/plugins/front-end-upload/lib/plupload/examples/upload.php 10 -
+/sites/default/files/pictures/applemint.jpg 34 http://mediaplayer.com.ua/
+/sites/default/files/pictures/20150513091753.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/php_ygallery/admin/upload.php 1 -
+/sites/default/files/20150219024619.jpg 1 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd
+/sites/default/files/pictures/20150402102320.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/error_log.php 1 -
+/9854dc21-0b97-40f8-9f60-559461055da4 1 -
+/sites/default/files/8.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/xml.php 1 -
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5 27 -
+/wp-content/uploads/2015/07/screenshot2.png 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 9 -
+/sites/default/logo_big.png 1 -
+/bitrix/admin/index.php 13 -
+/sites/default/files/pictures/dune_hd_204_2.jpg 4 http://mediaplayer.com.ua/news/prezentovan-set-top-boks-dune-hd-204-s-podderzhkoy-h265-hevc
+/sites/default/files/pictures/20150402102243.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/sites/default/files/resize/pictures/20150517235119-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/m 5 -
+/sites/default/files/1_0.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/cache.php 1 -
+/php_ygallery/source/admin/upload.php 1 -
+/wp-content/plugins/akismet/akismet.php 1 -
+/sites/default/files/20150223035505.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/sites/default/files/pictures/20150402102207.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/sites/default/files/resize/pictures/20150622200454-600x338.jpg 1 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/php_mediagallery/admin/upload.php 1 -
+/wp-content/themes/twentyten/404.php 1 -
+/sites/default/files/logo_big.png 1 -
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed 16 -
+/wp-content/themes/s/admin/dzsuploader/upload.php 1 -
+/node/36/delete 1 http://mediaplayer.com.ua/node/36/delete
+/wp-content/themes/twentyeleven/404.php 1 -
+/sites/default/files/pictures/20150513092355.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/wp-content/plugins/wp-db-ajax-made/wp-ajax.php 1 -
+/custom_rapista/upload.php 1 -
+/sites/default/files/pictures/dune_hd_204_3.jpg 4 http://mediaplayer.com.ua/news/prezentovan-set-top-boks-dune-hd-204-s-podderzhkoy-h265-hevc
+/x.php 1 -
+/sites/default/files/pictures/20150513092442.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/mobile 5 -
+/wp-content/plugins/wpshop/includes/ajax.php 10 -
+/apple-touch-icon.png 1 -
+/404.php 1 -
+/wp-content/uploads/2015/07/screenshot3.png 1 -
+/wp-content/themes/royale/plugins/dzs-portfolio/upload.php 1 -
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css 1 -
+/sites/default/files/pictures/20150622235250.jpg 4 http://mediaplayer.com.ua/news/rti-radio-v-formate-radiotelevision
+/wp-content/uploads/2015/07/screenshot2-1024x576.png 1 -
+/sites/default/files/3.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/wp-content/uploads/2015/07/Dune-SMB-server6-1024x576.png 1 -
+/wp-content/uploads/2015/07/DSC_0068_3-70x70.png 3 -
+/sites/default/files/20150223034754.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/wp-admin/admin.php 10 -
+/dunebase3d 14 -
+/wp-content/uploads/2015/07/Dune-SMB-server4-1024x576.png 2 -
+/sites/default/files/20150223035418.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/wp-content/plugins/ninja-forms/readme.txt 2 http://mediaplayer.com.ua/wp-content/plugins/ninja-forms/readme.txt
+/html5uploader/upload.php 1 -
+/images/404.php 1 -
+/sites/default/files/20150223035544.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/wp-content/themes/twentytwelve/404.php 2 -
+/config.php 1 -
+/wp-content/themes/sketch/404.php 1 -
+/wp-content/themes/elegance/lib/scripts/dl-skin.php 9 -
+/wp-includes/js/wp-emoji-release.min.js 1 -
+/sites/default/files/pictures/base_3d.jpg 4 http://mediaplayer.com.ua/video/dune-hd-base-3d-laureat-premii-pc-magazine-v-kategorii-setevoe-multimedia
+/info.php 1 -
+/sites/default/files/pictures/001.jpg 2 http://mediaplayer.com.ua/page/kontakty
+/owhtohw 1 -
+/wtaclej23y.html 1 -
+/wp-content/themes/royale/plugins/dzs-wall/admin/dzsuploader/upload.php 1 -
+/sites/default/files/pictures/20150623133635.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/sites/default/files/pictures/20150623133552_0.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/f046b18b-1296-4ea8-b60f-03d1a6d1308d 1 -
+/wp-content/uploads/2015/07/Dune_TV_102-inside.jpg 1 https://www.google.co.in/
+/sites/default/files/pictures/20150513091617_0.jpg 4 http://mediaplayer.com.ua/news/hd-fashion-i-id-fashion-na-dune-hd
+/apple-touch-icon-precomposed.png 1 -
+/user/ 1 -
+/wp-content/plugins/use-your-drive/includes/jquery-file-upload/server/php/index.php 10 -
+/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D1%8B-%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB-%D0%91-57-4664.html 20 -
+/wp-content/wso2.php 1 mediaplayer.com.ua/wp-content/wso2.php
+/test 11 -
+/wp-admin/wp-manage.php 1 mediaplayer.com.ua/wp-admin/wp-manage.php
+/wp-content/plugins/the-viddler-wordpress-plugin/js/plupload/examples/upload.php 10 -
+/wp-content/plugins/Tevolution/js/script.js 1 -
+/wp-apps.php 1 -
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 10 -
+/support.php 2 -
+/sites/default/files/pictures/20150402024918.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/xml1-wp2.php 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F 3 https://www.google.ru/
+/ajax.php 1 -
+/author/admin/feed 1 -
+/sites/default/files/pictures/20150402025002.jpg 12 http://mediaplayer.com.ua/news/pervyy-muzykalnyy-zapustil-4-kanala
+/wp-logs.php 1 -
+/wp-content/uploads/2015/07/Dune-SMB-server3.png 4 https://www.google.com.ua/
+/c84fa063-9a4d-4a56-8851-303fe837e9e0 1 -
+/wp-content/uploads/2015/07/screenshot1.png 5 -
+/wp-content/themes/simply-vision/js/settings.js 1 -
+/wp-content/themes/royale/admin/upload.php 1 -
+/sites/default/files/20150223034741.jpg 5 http://mediaplayer.com.ua/node/251/edit
+/wp-content/uploads/2015/07/Dune-SMB-server5-1024x576.png 1 -
+/sites/default/files/7.jpg 2 http://mediaplayer.com.ua/node/169/edit
+/wp-admin/user/wp-user.php 1 -
+/sites/default/files/pictures/dune_hd_204_1.jpg 4 http://mediaplayer.com.ua/news/prezentovan-set-top-boks-dune-hd-204-s-podderzhkoy-h265-hevc
+/wp-content/plugins/ultimate-product-catalogue/product-sheets/wp-classes.php 4 -
+/author/admin/wp-admin/admin-ajax.php 5 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/index.php 7 -
+/wp-admin/network/system.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 131
+212.90.40.52 1730 1969 20029262 20160527150047
+89.46.100.148 211 211 7401419 20160521231819
+88.225.233.151 181 181 6348999 20160528040902
+78.161.32.242 152 152 5322723 20160528153531
+94.102.56.228 128 128 4485163 20160530190836
+176.41.145.66 109 109 4788958 20160516043856
+78.171.253.129 81 81 2837759 20160522111925
+88.238.88.152 73 73 2555709 20160531164750
+193.238.96.12 56 56 635729 20160519193243
+31.206.249.178 54 54 1891285 20160530224004
+85.101.206.113 2 2 6958 20160512111300
+195.60.201.35 6 6 95186 20160517135855
+109.90.217.157 2 2 17848 20160529144017
+176.195.27.92 2 2 27762 20160525174435
+46.1.50.18 9 9 32006 20160514174705
+78.161.48.11 26 26 910019 20160531125617
+217.69.133.169 2 2 17647 20160524174732
+194.183.182.147 11 13 95427 20160524160847
+46.188.22.89 2 2 43587 20160508081137
+88.229.55.88 5 5 17909 20160502222430
+80.246.133.60 5 5 46577 20160524153820
+95.67.87.226 9 21 105722 20160523134705
+207.244.70.35 1 1 1053 20160503161840
+88.252.79.194 2 2 6958 20160508213902
+66.249.93.111 1 1 17340 20160520120633
+5.134.218.222 3 3 28058 20160519145323
+78.46.116.95 1 1 43917 20160519145203
+176.15.55.83 2 2 17876 20160529014347
+208.42.251.123 1 1 12561 20160529151932
+95.25.18.151 1 1 12567 20160525105827
+95.132.9.215 5 5 47935 20160531091908
+78.181.124.26 4 4 14194 20160510013823
+2.92.137.96 1 1 722 20160501194314
+216.163.188.237 1 1 19109 20160507081946
+95.24.60.126 1 1 1248 20160501194309
+107.167.110.12 1 1 19109 20160501081436
+5.254.65.250 2 2 51392 20160501205850
+85.102.232.216 4 4 13916 20160506021957
+65.55.210.97 2 2 17497 20160526141528
+95.25.98.218 1 1 5088 20160508073315
+66.249.93.103 1 1 12565 20160520120632
+188.163.110.120 1 1 34631 20160521010052
+185.100.84.82 1 1 5088 20160512160541
+40.78.146.128 2 2 69946 20160525201329
+82.193.126.88 8 11 87455 20160516203922
+46.242.78.131 1 1 3332 20160501194319
+176.114.120.208 2 2 51392 20160512181148
+109.228.170.78 1 1 5087 20160506165317
+37.110.109.80 1 1 459 20160519104414
+54.152.104.79 1 1 19241 20160506131048
+136.243.72.96 1 1 72657 20160524034255
+176.77.76.146 2 2 5809 20160501182457
+195.245.112.158 2 2 17653 20160530070053
+216.163.188.236 1 1 72205 20160521073213
+109.86.72.163 4 4 92760 20160514112459
+150.70.173.52 1 1 72225 20160529160042
+37.112.225.193 1 1 722 20160509165214
+78.160.96.56 2 2 6958 20160503121155
+5.248.143.172 9 15 114895 20160526222817
+5.228.17.50 3 3 30445 20160521152324
+66.102.9.21 0 1 13669 
+176.77.12.167 0 1 766 
+78.174.139.82 8 8 28427 20160514224524
+144.76.106.214 1 1 42741 20160521073038
+176.195.157.70 1 1 1248 20160509165204
+109.86.116.126 16 16 158071 20160515203711
+176.37.203.27 6 6 55063 20160525202621
+54.211.79.90 1 1 19109 20160511134205
+5.153.238.138 2 2 73405 20160524034257
+93.80.223.147 0 1 766 
+217.27.159.56 3 3 25613 20160523134029
+178.17.174.99 1 1 5087 20160504114429
+94.19.204.21 2 2 17876 20160524040714
+83.233.72.144 1 1 34631 20160525010939
+54.197.29.255 1 1 19109 20160506161813
+88.253.72.31 2 2 6958 20160503180215
+45.33.20.249 1 1 12569 20160529154247
+78.176.61.209 2 2 6958 20160505163612
+46.242.91.219 1 1 3332 20160501182457
+46.133.252.218 11 12 107620 20160524113155
+128.69.177.18 2 2 43586 20160501155239
+188.32.238.235 3 3 30434 20160522041738
+176.77.74.228 0 1 766 
+104.250.155.178 3 3 54905 20160501160232
+94.178.240.182 16 16 96671 20160520164841
+46.211.136.178 2 2 13074 20160531095741
+74.220.215.220 1 1 19109 20160510010714
+185.16.107.32 1 1 536 20160525194836
+64.246.161.30 1 1 1278 20160501041259
+37.115.4.36 1 1 252598 20160514044751
+213.108.78.15 21 21 64905 20160505095554
+91.218.212.92 6 6 51263 20160520120627
+78.180.187.127 2 2 6958 20160514132833
+109.86.145.192 7 7 76439 20160509212007
+176.77.44.214 2 2 17876 20160526192740
+77.88.219.118 5 5 40760 20160525201312
+178.125.1.57 2 2 17876 20160530203345
+66.102.9.32 1 1 12556 20160520132613
+78.184.170.39 4 4 14291 20160514152614
+94.231.133.222 4 4 102784 20160514085501
+37.229.45.145 1 1 290530 20160524174929
+93.80.110.132 1 1 1248 20160501182452
+176.7.86.23 2 2 17876 20160531213134
+93.74.94.254 3 3 36040 20160523143214
+185.86.148.32 1 1 5088 20160513233429
+88.253.11.28 27 27 1184925 20160515231811
+104.132.8.75 3 3 30436 20160527150514
+128.69.190.121 1 1 3274 20160509165218
+91.121.83.118 1 1 12572 20160530005747
+149.202.98.160 1 1 5088 20160513035548
+178.140.87.205 2 2 45160 20160501031414
+94.231.134.178 1 1 6661 20160514214823
+95.67.69.190 23 23 76698 20160527122625
+95.79.123.192 1 1 72225 20160529110853
+176.195.102.70 3 3 30427 20160521040820
+195.242.80.24 2 2 505196 20160511132342
+74.91.28.19 1 1 12562 20160524224347
+64.74.215.1 2 2 10174 20160506200414
+46.201.248.58 28 33 266508 20160531133342
+65.19.167.130 1 1 5088 20160513112756
+95.27.245.189 2 2 51279 20160502010817
+66.249.93.115 1 1 536 20160520120633
+93.79.97.132 7 24 193492 20160530113144
+37.112.231.69 1 1 5088 20160509170702
+92.124.66.189 3 3 36007 20160523162307
+159.224.248.230 5 5 42555 20160516092833
+208.184.112.74 2 2 144450 20160529154232
+85.102.232.145 28 28 980095 20160522103725
+66.102.9.10 2 2 17876 20160520132615
+5.164.86.64 1 1 6661 20160513133413
+93.74.213.157 5 5 46208 20160525135354
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20160501 19 21 237740 14
+20160502 7 7 69188 2
+20160503 5 5 14969 3
+20160504 3 3 54847 2
+20160505 24 24 76950 3
+20160506 8 8 62440 6
+20160507 3 3 295993 3
+20160508 5 5 55633 3
+20160509 11 12 87537 5
+20160510 6 6 38391 3
+20160511 3 3 276795 3
+20160512 7 7 109784 4
+20160513 8 8 123136 6
+20160514 28 28 414461 10
+20160515 574 585 7617692 3
+20160516 268 343 7840353 5
+20160517 42 42 447411 4
+20160518 82 85 852319 4
+20160519 430 482 4792411 10
+20160520 350 423 3947850 12
+20160521 220 220 7611868 6
+20160522 114 114 3863333 4
+20160523 18 30 203382 4
+20160524 252 284 2249315 12
+20160525 29 29 336205 9
+20160526 22 28 231072 5
+20160527 31 31 156799 4
+20160528 333 333 11671722 3
+20160529 10 10 349754 7
+20160530 193 210 6612954 7
+20160531 136 141 3811121 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+5mn-15mn 6
+2mn-5mn 15
+15mn-30mn 3
+30s-2mn 20
+0s-30s 118
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 271
+/user/ 1057 38239434 0 13
+/uc_ajax_cart/show 490 268939 5 54
+/ 238 3618711 74 38
+/admin/content 101 1153067 0 1
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.woff 92 936304 5 5
+/js/admin_menu/cache/551f91c147c1decf004f289155671267 48 575765 0 0
+/wp-login.php 46 162491 15 15
+/js/admin_menu/cache/f2084025a7a184d92af0c7180ab08e8e 34 404589 0 0
+/js/admin_menu/cache/d4335d7d692fe2548549b966055dd207 31 383267 0 0
+/category/mediapleery-i-tv-pristavki 30 371298 0 0
+/node/36/edit 1 13375 0 0
+/admin/config 1 6666 1 0
+/node/43/edit 5 127540 0 0
+/admin/config/search/metatags/config/global%3Afrontpage 1 8304 0 0
+/file/ajax/uc_product_image/und/form-xQtGIKzF-hFDq_60Zl8FbOdxtjiUHtr0kYprDaT3WuU 3 11788 0 0
+/admin/structure/taxonomy/category/edit 2 10421 0 0
+/file/ajax/uc_product_image/und/form-WgQLC20iZvv-aiGHsYch85d1EwZ-K5FPGAL-GMsz0_o 2 7677 0 0
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F/ 2 28676 2 0
+/category/soputstvuyushchie-tovary 16 185408 3 0
+/page/kontakty 15 154641 0 0
+/admin/structure/views/view/product 1 9227 0 0
+/user/223/edit 1 9424 0 0
+/file/ajax/field_promo_img/und/0/form-9Q5wgJ9aYRpT7RugGRAH9SGMts08qw1S22m_h0Xk5KA 2 5671 0 0
+/node/7/webform-results 1 6085 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/%D0%BD%D0%B0 2 1424 0 0
+/node/11/webform 3 17065 0 0
+/xmlrpc.php 9 1052002 9 9
+/admin/structure/taxonomy/category 6 34303 0 0
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.woff 27 492041 0 9
+/node/7/webform/emails 8 41812 0 0
+/aksessuar/nastroyka-oborudovaniya 1 11660 0 0
+/admin/structure/block/manage/views/nagradu-block_1/configure 2 18773 0 0
+/admin/structure/block/manage/block/1/configure 3 35206 0 0
+/node/7/webform 3 17637 0 0
+/js/admin_menu/cache/26c67a794df70bec11acbc596490db8c 1 12352 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/%D0%BD%D0%B0%D1%81 1 564 0 0
+/node/287/edit 5 116321 0 0
+/node/61/edit 6 151297 0 0
+/batch 12 24096 0 0
+/taxonomy/term/17/myoption_list/fields 3 49696 0 1
+/node/268/edit 1 13072 0 0
+/file/ajax/field_technologies_img/und/0/form-AOy-9vgxLEJTlx8Y0inBpj8MdqgbHsU47eL3TgFDamc 1 2976 0 0
+/admin/config/search/metatags 2 11513 0 0
+/file/ajax/field_technologies_img/und/0/form-pAjNzFiwfpoYt-fX-75EvP6SelEF27wUC_TeZZ9H-28 1 2973 0 0
+/node/add/page 2 21949 0 0
+/admin/appearance 3 17977 0 0
+/admin/structure/block/manage/block/4/configure 1 12127 0 0
+/colorbox/cart 16 56411 0 0
+/file/ajax/uc_product_image/und/form-xIwS6TfLdl8bGyi4LJJqk3nfgqj7QXJzFTE9siAXtXo 1 3806 0 0
+/node/60/edit 8 201012 0 0
+/admin/config/services/disqus 2 13607 0 0
+/node/7/edit 3 33923 0 0
+/js/admin_menu/cache/e4df33003964e20a873301ad038204fb 2 24489 0 0
+/admin/config/system/backup_migrate 2 1496086 0 0
+/news 12 140078 0 0
+/file/ajax/field_technologies_img/und/0/form-dE9UQbTYte9Bw5f8XDjjGeRNCJGpytga-OnJxiy4wak 1 2978 0 0
+/admin/myapi 1 3826 0 0
+/aksessuar/nastroyka-pleera 8 108823 0 0
+/admin/store/reports 1 3956 0 0
+/admin/store/settings/checkout/rules/manage/uc_checkout_customer_notification/edit/3 1 9219 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0 2 1128 0 0
+/page/nagrady-produktov 1 12868 0 0
+/taxonomy/term/17/myoption_list/fields/field_s_uhdtv 1 6553 0 0
+/product/nas-server-synology-ds213j-h2-hdd 1 15994 1 0
+/node/7/webform/emails/1 3 21879 0 0
+/admin/structure/views/view/nagradu/edit/default 1 8787 0 0
+/js/admin_menu/cache/eff3d553971eac3b52da709c39b2417d 26 318587 0 0
+/node/164/webform/emails 7 36699 0 0
+/admin/appearance/settings/mytheme 15 110378 0 0
+/image_captcha 11 16744 0 0
+/node/264/edit 3 39308 0 0
+/2015/07/31/ 1 19241 1 1
+/node/164/webform/emails/2/delete 1 4598 0 0
+/admin/structure/block/manage/block/8/configure 3 36345 0 0
+/cart/checkout 17 152147 0 0
+/file/ajax/field_promo_img/und/0/form-qTzijSxVPjcisfjinbl7xR-CtkXC3gxdpxxfH03CjDs 2 5662 0 0
+/category/setevye-hranilishcha-nas 2 54763 1 1
+/admin/store/settings/checkout/rules/manage/uc_checkout_admin_notification/edit/3 1 9274 0 0
+/admin/structure/block/manage/block/3/configure 1 12144 0 0
+/node/284/edit 18 456492 0 0
+/admin/structure/block/manage/myapi/myapi_menu_left/configure 1 9319 0 0
+//product/mediapleer-dune-hd-tv-102w 3 58968 0 0
+/node/286/edit 10 228475 0 0
+/page/iptv-prilozheniya 2 31715 0 0
+/product/nas-server-synology-ds114-x1-hdd 1 15194 0 0
+/admin/myapi/course 2 9017 0 0
+/admin/structure/types/manage/product/fields 3 57629 0 0
+/feed/ 3 9938 3 3
+/node/171/edit 4 83864 0 0
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed/ 3 3744 3 3
+/admin/structure/block/manage/block/12/delete 1 4212 0 0
+/node/181/edit 2 42727 0 0
+/admin/config/development/maintenance 15 96808 0 0
+/comments/feed/ 1 1278 1 1
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.eot 1 15202 0 1
+/category/zhestkie-diski-i-nakopiteli 3 31105 0 0
+/admin/structure/menu 4 19074 0 0
+/node/164/webform/emails/3/delete 1 4606 0 0
+/admin/structure/views/ajax/edit-details/nagradu 4 8920 0 0
+/admin/config/development/performance 1 5406 0 0
+/taxonomy/term/17/edit 8 87410 0 0
+/admin/structure/taxonomy/brand/add 2 22178 0 0
+/user/1/edit 2 19058 0 0
+/admin/structure/taxonomy 4 21504 0 0
+/admin/structure/types/manage/product/fields/field_myoption/field-settings 2 13513 0 0
+/file/ajax/field_technologies_img/und/0/form-2k_GpViD9AHBzWzN3F6v2-ln8yKSrSQMUN7tj8UxvKY 1 2979 0 0
+/admin/structure/taxonomy/category/tools 1 6479 0 0
+/admin/modules 2 78496 0 0
+/file/ajax/uc_product_image/und/form-dJd7zcqsq3DhKEP2--QYlAGDEjJihZF1zj2rP4ZNSug 2 12280 0 0
+/news/hd-fashion-i-id-fashion-na-dune-hd 2 25898 0 0
+/node/182/edit 2 42148 0 0
+/admin/structure/menu/manage/main-menu/add 1 8810 0 0
+/product/mediapleer-dune-hd-base-3d 16 307069 1 0
+/admin/structure/taxonomy/brand 2 11423 0 1
+/admin/structure/taxonomy/technologies 7 45266 0 0
+/admin/structure/field-collections 4 17457 0 0
+/page/uslugi-ustanovki-oborudovaniya 9 95543 0 0
+/myoption/38/edit 2 12918 0 0
+/admin/structure/views/ajax/display/nagradu/block_1/title 2 8344 0 0
+/node/11/edit 3 33953 0 0
+/admin/structure/block/manage/block/9/configure 7 87292 0 0
+/users/admin 6 130527 0 0
+/admin/store/settings/liqpay/list 1 4862 0 0
+/admin/structure/field-collections/field-coll-video 1 14630 0 0
+/admin/structure/types/manage/product/fields/field_myoption/widget-type 1 5235 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9 2 1152 0 0
+/admin/structure/taxonomy/category/display 1 7875 0 0
+/colorbox/webform/kupit-v-odin-klik 6 17435 0 0
+/node/288/edit 3 67572 0 0
+/node/195/edit 2 45036 0 0
+/product/mediapleer-dune-hd-solo-4k 18 329503 9 0
+/node/159/edit 1 14560 0 0
+/admin/structure/types/manage/product/display 1 22026 0 0
+/js/admin_menu/cache/7ca4dd1a896f4c68f8736e6fb8de971a 1 12244 0 0
+/taxonomy/term/17/myoption_list 4 20236 0 0
+/admin/people/simplenews 2 11699 0 0
+/users/vladgoloperov 1 12148 0 0
+/admin/store/settings/checkout/rules/manage/6 1 7035 0 0
+/js/admin_menu/cache/e07849baa47c135ac78223465e986522 5 61246 0 0
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/ 8 70913 8 3
+/admin/store 1 4854 0 0
+/node/11/webform/emails 7 36696 0 0
+/news/prilozhenie-fsto-brbto-adaptirovano-pod-serialy 3 40199 0 0
+/node/11/webform/emails/2/delete 1 4594 0 0
+/admin/structure/block 18 257645 0 0
+/admin/store/settings/store 4 27658 0 0
+/admin/structure/menu/manage/main-menu/edit 1 5150 0 0
+/node/add/promo 2 23386 0 0
+/node/261/edit 2 24328 0 0
+/admin/appearance/update 1 7382 0 0
+/admin/structure/block/manage/block/6/configure 2 24087 0 0
+/js/admin_menu/cache/b0310d897582d4827dde1c3d72401d38 2 24715 0 0
+/file/ajax/field_technologies_img/und/0/form-JjRipjhSSFEMK7sk7zLCWTjNr9TPMls37u8rJCC2gkg 1 2973 0 0
+/node/11/webform/emails/1 3 21727 0 0
+/admin/structure/taxonomy/myoption_type_settings 2 9241 0 0
+/node/277/webform/emails/1/delete 1 4638 0 0
+/admin/structure/taxonomy/technologies/add 8 89521 0 0
+/admin/structure/block/manage/block/11/configure 2 23671 0 0
+/admin/structure/field-collections/field-product-aksesuar/fields 2 29178 0 0
+/news/rti-radio-v-formate-radiotelevision 3 39470 0 0
+/node/169/edit 3 42733 0 0
+/node/7/webform/emails/2/delete 1 4587 0 0
+/node/277/edit 4 45263 0 0
+/product/mediapleer-dune-kartina-relax 2 31400 0 0
+/admin/people 10 99378 0 0
+/product/mediapleer-dune-hd-tv-102 2 39048 0 0
+/node/6/edit 2 22612 0 0
+/admin/structure/menu/item/1076/edit 1 8852 0 0
+/node/add/aksessuar 1 15282 0 0
+/node/106/edit 1 11871 0 0
+/news/prezentovan-set-top-boks-dune-hd-204-s-podderzhkoy-h265-hevc 2 28349 0 0
+/node/251/edit 2 27125 0 0
+/admin/myapi/sort-front 4 21223 0 0
+/ajax/mykomplekt/add_komplekt 2 1380 0 0
+/admin/store/settings/checkout/rules/manage/uc_checkout_admin_notification 1 7111 0 0
+/admin/structure/views/view/nagradu/preview/block_1/ajax 2 10108 0 0
+/admin/structure/block/add 1 11297 0 0
+/node/7/webform/configure 1 10338 0 0
+/admin/structure/menu/item/1073/edit 2 17393 0 0
+/system/ajax 26 65700 0 1
+/admin/structure/views/view/nagradu/edit/block_3 1 9311 0 0
+/admin/myapi/settings_contacts 18 86895 0 0
+/admin/content/webform 14 65751 0 0
+/node/194/edit 1 23852 0 0
+/product/dune-solo-4k 12 240404 1 0
+/page/o-kompanii 21 276740 2 1
+/uc_ajax_cart/add/item 14 8704 0 0
+/product/mediapleer-kartina-relax 7 150814 0 0
+/js/admin_menu/cache/5337313eeb308a295f58a0bbbddad7cc 6 73531 0 0
+/news/kartinatv-primer-internet-tv-ott 4 52553 0 0
+/node/164/edit 3 33989 0 0
+/js/admin_menu/cache/d65e7cd8eb04b3cfa8d7da5224a1f836 10 122361 0 0
+/admin/structure/types/manage/product/fields/field_myoption 2 16362 0 0
+/node/add/product 9 179323 0 0
+/2015/07/31/%d1%87%d1%82%d0%be-%d0%b4%d0%b5%d0%bb%d0%b0%d1%82%d1%8c-%d0%b5%d1%81%d0%bb%d0%b8-dune-hd-tv-102-%d0%b3%d1%80%d0%b5%d0%b5%d1%82%d1%81%d1%8f/ 3 52846 1 2
+/node/277/webform/emails 8 41997 0 0
+/node/283/edit 2 23101 0 0
+/user 23 631664 17 2
+/node/180/edit 2 43124 0 0
+/media/browser 11 56162 0 0
+/node/121/edit 1 14761 0 0
+/user/login 4 42497 2 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/yfcn 1 450 0 0
+/node/267/edit 1 13268 0 0
+/node/186/edit 1 12174 0 0
+/file/ajax/uc_product_image/und/form-6WD8hu3Rq6fHcXOnIoLf_m61Px2da5Ctr1JQ14dSHhI 2 7938 0 0
+/admin/structure/field-collections/field-coll-video/fields 2 29021 0 0
+/file/ajax/field_img/und/0/form-T78rxJ8vejfQ-IQWM5BHRiK8MCUXr5sHSdVPpZqJ_1Y 1 2596 0 0
+/uc_ajax_cart/update 2 882 0 0
+/admin/appearance/settings 4 24198 0 0
+/admin/store/settings/liqpay 1 4836 0 0
+/video/obzor-podklyucheniya-i-raboty-kartinatv-upnp-bittorrent 1 9675 0 0
+/cart/checkout/complete 11 100379 0 0
+/admin/structure/block/manage/block/2/configure 3 34938 1 0
+/admin/store/settings 1 4543 0 0
+/video 6 72415 0 0
+/wp-content/themes/simply-vision/fonts/fontawesome-webfont.eot 3 115497 0 3
+/promo/solo-4k 1 11845 0 0
+/node/37/edit 3 35036 0 0
+/video/dune-hd-base-3d-laureat-premii-pc-magazine-v-kategorii-setevoe-multimedia 1 14096 0 0
+/file/ajax/field_promo_img/und/0/form-APg8rJikt4Uj_jJ4aMbJV8GciHpp9WdLwxprfuhehuo 1 2719 0 0
+/taxonomy/term/17/myoption_list/fields/field_s_uhdtv/field-settings 1 5224 0 0
+/js/admin_menu/cache/cb4ec98c199f2961588ea9eb5d9422b1 21 259589 0 0
+/admin/people/simplenews/export 2 9273 0 0
+/actions 1 14031 0 0
+/uc_ajax_cart/show-cart-view 3 3690 0 0
+/node/285/edit 3 36381 0 1
+/admin/structure/views/view/nagradu/edit/block_2 1 9287 0 0
+/admin/structure/field-collections/field-coll-video/display 1 8274 0 0
+/admin/store/settings/liqpay/edit/UAH 1 4750 0 0
+/admin/store/settings/checkout/rules 1 4551 0 0
+/node/36/delete 1 4599 0 0
+/product/mediapleer-dune-hd-tv-102w 21 376128 3 0
+/js/admin_menu/cache/091e0b203d1c0125b1cc63cf3b49cce4 3 36715 0 0
+/admin/store/settings/checkout/rules/manage/7 1 7113 0 0
+/taxonomy/term/17/myoption_list/add 3 17191 0 0
+/file/ajax/uc_product_image/und/form-eqwQDkxuDsiN3XPpvtxxJ0vMjC7XfNuSQoU9rVVc4IQ 1 3784 0 0
+/js/admin_menu/cache/1b36f4edd4859e1d796e8f8c144d1a89 19 232507 1 2
+/admin/store/settings/payment 2 10673 0 0
+/page/dostavka 12 169620 1 0
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.svg 1 16961 1 0
+/admin/structure/block/manage/views/nagradu-block_3/configure 1 9365 0 0
+/node/164/webform/emails/1 2 14562 0 0
+/node/277/webform 4 23935 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE 1 576 0 0
+/node/277/webform/emails/1 3 22039 0 0
+/admin/appearance/settings/seven 2 11852 0 0
+/news/pervyy-muzykalnyy-zapustil-4-kanala 6 76816 0 0
+/node_reference/autocomplete/field_collection_item/field_product_aksesuar/field_k_aksesuar/y 1 781 0 0
+/admin/structure/menu/manage/main-menu 13 194770 0 0
+/product/kartina-relax 1 16026 0 0
+/page/podderzhka 1 15487 0 0
+/admin/structure/block/manage/block/5/configure 1 12003 0 0
+/admin/structure/taxonomy/category/fields 1 14737 0 0
+/admin/structure/menu/manage/menu-okompanii 2 23536 0 0
+/devel/field/info 1 123469 0 0
+/admin/config/system/site-information 3 16901 0 0
+/taxonomy/term/17/myoption_list/tools 1 7274 0 0
+/product/mesyachnyy-premiuim-abonement-kartinatv 6 84659 0 0
+/admin/structure/types 1 4851 0 0
+/node/282/edit 5 83664 0 0
+/file/ajax/field_promo_img/und/0/form-8I98N9b3ZVSnS5rRmJoPZ3koe2Yf_9TxBEwTcbu7IS8 1 3140 0 0
+/file/ajax/uc_product_image/und/form-9pWEbudRpLGivl6RoW2a8fjClxoso-3oRk2SR9YdG_g 1 3471 0 0
+/product/godovoy-premiuim-abonement-kartinatv 5 71384 0 0
+/node/165/edit 1 23946 0 0
+/admin/structure/views/view/nagradu/edit/block_1 3 28512 0 0
+/admin/config/regional/settings 1 13441 0 0
+/admin/structure/taxonomy/category/display/full 2 17395 0 1
+/node/164/webform 3 17673 0 0
+/myoption/39/edit 1 5679 0 0
+/news/pervyy-muzykalnyy-v-hd-na-mediacentrah-dune-hd 1 13165 0 0
+END_SIDER

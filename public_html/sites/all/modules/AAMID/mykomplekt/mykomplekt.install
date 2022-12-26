@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+ * Implements hook_install().
+*/
+function mykomplekt_install() {
+  db_update('system')
+    ->fields(array('weight' => 9999))
+    ->condition('name', 'mykomplekt')
+    ->execute();
+}
+

@@ -1,0 +1,8 @@
+name = mybatch
+description = mybatch.
+package = AMID
+core = 7.x
+dependencies[] = libraries
+dependencies[] = phpexcel
+
+

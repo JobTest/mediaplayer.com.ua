@@ -1,0 +1,69 @@
+<?php
+/**
+ * Implements hook_install().
+*/
+function myoption_install() {
+  db_update('system')
+    ->fields(array('weight' => 888))
+    ->condition('name', 'myoption')
+    ->execute();	
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function myoption_uninstall() {
+  $vid = variable_get('myoption_taxonomy_vid', '');
+  if ($vid) {
+	$tree = taxonomy_get_tree($vid);   
+    foreach ($tree as $term) {
+	  field_attach_delete_bundle('myoption', $term->tid);
+    }
+  }
+  variable_del('myoption_taxonomy_vid');
+}
+
+
+/**
+ * Implements hook_schema().
+ */
+function myoption_schema() {
+  $schema['myoption'] = array(
+    'description' => 'The base table for myoptions.',
+    'fields' => array(
+      'id' => array(
+        'description' => 'The primary identifier for a myoption.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'tid' => array(
+        'description' => 'The tid category myoption.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+      'uid' => array(
+        'description' => 'The {users}.uid that owns this myoption.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+      'created' => array(
+        'description' => 'The Unix timestamp when the myoption was created.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+      'changed' => array(
+        'description' => 'The Unix timestamp when the myoption was most recently saved.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ),
+    ),
+    'primary key' => array('id'),
+  );
+  
+  return $schema;
+}

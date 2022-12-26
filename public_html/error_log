@@ -1,0 +1,5 @@
+[28-Apr-2014 20:15:54 UTC] PHP Fatal error:  Call to undefined function db_query() in /home/clubchan/public_html/includes/cache.inc on line 344
+[28-Apr-2014 20:15:54 UTC] PHP Fatal error:  Call to undefined function db_query() in /home/clubchan/public_html/includes/cache.inc on line 344
+[28-Apr-2014 20:15:57 UTC] PHP Fatal error:  Call to undefined function db_query() in /home/clubchan/public_html/includes/cache.inc on line 344
+[28-Apr-2014 20:15:59 UTC] PHP Fatal error:  Call to undefined function db_query() in /home/clubchan/public_html/includes/cache.inc on line 344
+[14-May-2014 20:10:07 Europe/Kiev] PHP Fatal error:  Class name must be a valid object or a string in /home/clubchan/public_html/sites/all/modules/devel/krumo/class.krumo.php on line 609

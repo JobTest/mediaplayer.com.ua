@@ -1,0 +1,11 @@
+.memcache-storage-common-debug {
+
+}
+
+.memcache-storage-detailed-debug {
+
+}
+
+.memcache-storage-detailed-debug tr.miss td {
+  color: red;
+}

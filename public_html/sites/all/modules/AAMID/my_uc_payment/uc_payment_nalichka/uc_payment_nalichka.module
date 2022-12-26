@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * Implements hook_uc_payment_method().
+ */
+function uc_payment_nalichka_uc_payment_method() {
+  $methods['nalichka'] = array(
+    'name'       => t('nalichka'),
+    'title'      => t('nalichka'),
+    'desc'       => t('A nalichka payment method type.'),
+    'callback'   => 'uc_payment_method_nalichka',
+    'weight'     => 10,
+    'checkout'   => FALSE,
+    'no_gateway' => TRUE,
+  );
+  return $methods;
+}
+
+
+
+/**
+ * Payment method callback for the generic payment method "nalichka".
+ */
+function uc_payment_method_nalichka($op, &$order) {	
+  switch ($op) {	  
+  }
+}
+

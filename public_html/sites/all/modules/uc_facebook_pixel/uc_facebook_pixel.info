@@ -1,0 +1,12 @@
+name = Ubercart Facebook Tracking Pixel
+description = Allows your site and Ubercart Event to be tracked by Facebook Pixel.
+package = Statistics
+core = 7.x
+configure = admin/config/system/uc_facebook_pixel
+dependencies[] = uc_order
+
+; Information added by Drupal.org packaging script on 2018-05-05
+version = "7.x-1.4"
+core = "7.x"
+project = "uc_facebook_pixel"
+datestamp = "1525521495"

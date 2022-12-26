@@ -1,0 +1,7 @@
+name = myapi
+description = my API.
+package = AMID
+core = 7.x
+
+
+

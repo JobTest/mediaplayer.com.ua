@@ -1,0 +1,6 @@
+name = jqueryformstyler
+description = my jQueryFormStyler.
+package = AMID
+core = 7.x
+
+

@@ -1,0 +1,2654 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201709 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2044                
+POS_TIME 2727                
+POS_VISITOR 44344               
+POS_DAY 81345               
+POS_DOMAIN 3735                
+POS_LOGIN 3970                
+POS_ROBOT 4125                
+POS_WORMS 6091                
+POS_EMAILSENDER 6222                
+POS_EMAILRECEIVER 6365                
+POS_SESSION 82271               
+POS_SIDER 82484               
+POS_FILETYPES 6500                
+POS_DOWNLOADS 44035               
+POS_OS 6721                
+POS_BROWSER 7163                
+POS_SCREENSIZE 29378               
+POS_UNKNOWNREFERER 29452               
+POS_UNKNOWNREFERERBROWSER 30432               
+POS_ORIGIN 30573               
+POS_SEREFERRALS 30723               
+POS_PAGEREFS 31202               
+POS_SEARCHWORDS 34679               
+POS_KEYWORDS 34932               
+POS_MISC 2391                
+POS_ERRORS 35096               
+POS_CLUSTER 3826                
+POS_SIDER_404 35250               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171001000842 711 186693 24994250049366
+FirstTime 20170901000237
+LastTime 20170930233713
+LastUpdate 20171001013032 711 0 710 0 0
+TotalVisits 3064                
+TotalUnique 933                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 933                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 246 246 2476524 505 507 12417039
+1 180 180 2219592 639 645 15531913
+2 155 155 2219029 595 597 14839751
+3 142 142 1521185 397 397 11887816
+4 155 155 1785310 1304 1305 23589806
+5 1626 1626 60422237 1171 1171 17891301
+6 980 981 33633489 500 502 6129577
+7 183 183 2883000 311 313 5156675
+8 334 334 30871980 821 821 11246631
+9 259 259 2813508 1139 1145 10692150
+10 247 247 2757701 2199 2201 26213540
+11 431 432 689399685 2361 2379 27433219
+12 337 337 3445186 1618 1620 16036664
+13 233 233 3078935 1347 1349 124326093
+14 295 295 16351635 924 929 10495981
+15 253 265 103072599 919 927 11103190
+16 340 355 5409905 733 737 9145424
+17 292 292 3200483 488 492 13642737
+18 271 271 2841953 944 948 11312853
+19 313 313 4113903 1268 1273 13946246
+20 333 336 3459189 1078 1093 11066950
+21 320 320 13771119 411 422 5829206
+22 235 235 15351235 691 699 39746512
+23 282 282 27853435 480 488 5943944
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 8442 8474 1034952817
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 46
+mj12bot 3947 61462676 20170915235119 0
+MJ12bot/ 3369 54799689 20170930152655 0
+MegaIndex\.ru/ 2986 150299825 20170925203403 0
+crawl 1211 16145015 20170915055934 0
+bot[\s_+:,\.\;\/\\-] 764 14448977 20170929021551 0
+netEstate[\x20]NE[\x20]Crawler 648 8192863 20170927071436 0
+no_user_agent 439 3978221 20170927183831 0
+HubSpot[\x20]Webcrawler 345 2955610 20170928205704 0
+robot 177 2386105 20170916004711 0
+Yahoo![\x20]Slurp 167 2114112 20170930223016 0
+Googlebot\-Image/ 1 36126 20170925194745 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 115385 20170920093610 0
+AhrefsBot/ 108 8749897 20170930224323 0
+spider 2 195726 20170930064231 0
+googlebot 119 1658577 20170915233509 0
+DotBot/ 79 4268378 20170930233731 0
+AdsBot\-Google[\x20]\( 19 183408 20170930074659 0
+bingpreview 1 16958 20170929073619 0
+php 11 182399 20170929153109 0
+msie8 63 852542 20170928092119 0
+ips\-agent 10 580278 20170921144552 0
+phantom 6 68776 20170908194902 0
+YandexBot/ 1 10978 20170928220619 0
+surveybot 1 16526 20170914040818 0
+Googlebot/ 153 33835854 20170930195850 0
+Google[\x20]Web[\x20]Preview 3 34405 20170925193629 0
+wget 1 115385 20170907010109 0
+ltx71 5 74441 20170929013338 0
+GrapeshotCrawler/ 2 31912 20170930054727 0
+CCBot/ 8 97137 20170925142806 0
+ia_archiver 62 3072534 20170929063459 0
+java\/[0-9] 46 2638756 20170910104912 0
+libwww 3 193932 20170915152903 0
+MSIE[\x20]6 6 88479 20170917122358 0
+slurp 82 1023096 20170915102613 0
+SiteExplorer/ 1 16081 20170923131234 0
+DuckDuckGo\-Favicons\-Bot/ 1 16515 20170924115437 0
+python 1 16513 20170930055207 0
+java 23 1319378 20170927212125 0
+archive\.org_bot 1 115385 20170919131253 0
+favicon 32 528192 20170930214946 0
+linkdexbot/ 1 16518 20170916055258 0
+bingbot/ 90 1339326 20170930174242 0
+checker 24 330331 20170911193454 0
+netcraft 1 115385 20170907163647 0
+facebookexternalhit/ 4 43031 20170922131334 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 3 45600 0 0
+php 2642 101495172 0 0
+png 30 874876 0 0
+ttf 1 15126 0 0
+jpg 1 1688 0 0
+dff 14 866116205 0 0
+woff 585 10109858 0 0
+Unknown 5196 56260373 0 0
+svg 2 33919 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+linuxandroid 438 287
+macosx11 27 27
+winlong 318 200
+winxp 450 224
+winphone 3 3
+ios_iphone 32 32
+win2000 283 158
+winvista 281 0
+j2me 8 8
+win2003 203 104
+win8 103 102
+ios_ipad 94 94
+winnt 445 0
+linuxubuntu 4 0
+win98 1 0
+macosx12 123 110
+macosx5 25 25
+linux 86 20
+win7 3211 3198
+macosx 534 188
+macosx4 110 110
+macosx10 1 1
+Unknown 44 3
+win10 567 566
+win8.1 292 292
+win2008 791 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 945
+chrome57.5.0332.5060 1 0
+chrome56.3.8873.4145 2 0
+chrome57.5.9219.4947 2 0
+opera19.0.1326.59 5 5
+opera40.6.1607.6970 1 1
+firefox45.61.14 7 1
+opera41.9.3585.8213 2 2
+chrome55.0.5649.0376 2 0
+opera41.9.4047.9775 2 2
+firefox45.51.08 3 3
+chrome53.7.2013.8385 2 0
+opera40.6.1568.6830 2 2
+chrome56.2.6641.1479 2 0
+msie8.0 148 95
+opera40.6.1280.7552 1 1
+firefox45.68.05 3 2
+chrome11.0.696.34 7 0
+chrome57.5.0622.6994 2 0
+chrome57.5.0236.5508 1 0
+chrome55.1.5147.0875 2 0
+chrome53.6.0993.5621 2 0
+chrome57.4.9999.5262 2 2
+chrome42.0.2311.152 1 1
+firefox52.51.98 1 0
+firefox45.68.16 2 0
+chrome53.7.3813.8185 2 2
+opera42.0.5127.0855 2 2
+opera40.6.1502.6874 1 1
+firefox2.0.0.20 1 0
+opera42.9.4277.9905 2 2
+firefox40.0 4 2
+opera40.6.1709.6071 2 2
+chrome56.3.7652.2380 1 0
+chrome57.5.0158.5420 1 0
+chrome55.1.6683.1411 1 0
+firefox52.56.09 3 2
+chrome54.8.3345.9617 2 2
+firefox45.63.10 1 1
+chrome48.0.2564.82 2 0
+opera42.0.5384.9112 1 1
+opera44.6.1566.6838 2 2
+chrome54.8.3532.8804 2 0
+opera41.9.4734.9462 2 2
+firefox52.57.10 3 2
+chrome58.0.3018.4 16 8
+opera40.6.1227.7599 1 1
+chrome57.4.9053.4325 2 2
+chrome54.8.3778.9040 2 2
+opera44.5.0288.6550 1 1
+chrome51.0.2704.103 14 5
+opera42.0.5221.9959 1 1
+chrome54.8.3548.8810 2 0
+chrome57.4.9513.4241 2 0
+opera44.6.1351.6624 1 1
+chrome54.8.3174.8447 1 1
+opera44.5.0863.5136 2 2
+chrome57.5.9138.4866 1 0
+chrome57.5.0006.5734 1 1
+chrome57.5.0058.5320 2 0
+chrome57.5.0839.5567 2 2
+chrome53.6.1317.5045 2 0
+safari7.0 3 3
+opera42.1.5696.0324 2 2
+opera41.9.4703.9431 1 1
+chrome57.5.0816.5188 2 0
+chrome54.8.3466.9738 1 1
+opera42.0.5867.9595 2 2
+chrome53.7.3318.8681 2 0
+chrome57.0.2987.98 2 0
+links 2 0
+opera42.0.5070.0708 2 2
+edge16 106 105
+chrome56.1.6559.1287 2 0
+chrome56.2.7981.2619 1 0
+firefox52.53.16 2 1
+firefox52.59.07 1 1
+msie9.0 199 69
+firefox20.6.14 2223 2223
+safari4.6.1 57 33
+chrome57.4.9297.4925 1 1
+chrome59.0.3071.115 22 2
+chrome53.7.2354.8626 2 2
+opera44.5.1869.6131 2 2
+opera40.6.1636.6908 1 1
+chrome55.1.5324.0052 1 1
+chrome57.5.0547.5275 1 0
+chrome57.4.9140.5412 2 0
+opera42.0.5524.0251 2 2
+chrome57.5.0905.6277 1 0
+opera41.9.4769.9497 1 1
+chrome28.0.1500.71 1 0
+chrome57.5.9683.4311 1 1
+firefox56.0 3 3
+chrome54.8.3138.9300 1 1
+chrome45.0.2454.94 13 3
+chrome56.1.6532.1269 2 0
+firefox52.50.03 3 1
+chrome57.5.0177.4805 2 0
+opera44.5.0999.5261 2 2
+chrome57.4.9436.4164 1 1
+chrome53.6.1999.6261 2 0
+chrome55.1.5821.0559 2 0
+chrome56.3.9921.4294 2 0
+chrome54.8.3444.8716 2 0
+chrome57.5.0192.5820 1 1
+chrome54.8.3208.8570 1 1
+firefox45.60.17 3 2
+chrome54.8.3412.9784 1 1
+chrome56.1.6748.1476 2 0
+chrome57.4.9513.4240 1 1
+msie6.0 1 0
+opera41.9.4133.9861 2 2
+chrome53.8.3526.8898 1 1
+chrome57.5.0236.4963 2 2
+chrome56.3.9576.4848 1 0
+chrome55.1.6508.1236 1 0
+opera41.9.3997.8625 1 1
+chrome56.4.9874.4146 2 0
+chrome55.1.5078.0706 2 0
+chrome55.1.6179.1807 1 0
+chrome54.8.4099.9361 2 2
+firefox45.73.26 5 0
+curl 1 0
+chrome54.8.4626.9998 1 1
+chrome1.0.154.46 1 1
+chrome53.6.0792.5420 2 2
+chrome58.0.3029.110 103 16
+chrome57.4.9283.4911 2 2
+chrome55.1.5915.0742 2 0
+chrome57.4.9191.4829 2 0
+chrome55.0.5632.0460 2 0
+chrome55.1.6925.1653 2 0
+chrome53.0.2785.146 18 5
+opera40.6.1743.7015 2 2
+opera42.0.5604.9332 2 2
+opera40.6.1600.6972 2 2
+chrome57.9.2987.98 3 0
+chrome55.1.5620.0358 2 0
+opera47.0.2631.71 43 43
+firefox40.1 4 3
+chrome55.0.5124.0852 2 0
+chrome57.4.0439.5701 2 2
+opera44.6.1589.6851 1 1
+chrome56.2.6222.1950 1 0
+chrome53.6.0305.5032 2 2
+firefox45.62.15 6 6
+chrome57.5.0956.5228 2 0
+firefox52.44.91 5 3
+chrome53.7.2652.8924 1 0
+opera40.6.1879.6142 1 1
+chrome53.6.1464.7736 2 0
+chrome57.4.9860.4598 1 0
+opera44.5.0151.6423 2 2
+safari5.6.1 24 16
+chrome56.0.1750.154 1 1
+chrome53.6.1146.6419 1 0
+chrome53.7.3017.8389 2 0
+opera42.0.5392.0020 2 2
+opera44.5.0182.6454 2 2
+chrome53.7.2138.8400 2 2
+chrome54.8.3877.8149 2 2
+chrome57.4.9087.5359 2 0
+chrome57.4.9467.4195 1 1
+chrome57.4.9013.4741 2 2
+chrome55.1.6208.1935 2 0
+chrome56.3.7458.2186 2 0
+chrome57.5.0610.5982 2 0
+chrome49.0.2623.75 2 0
+firefox52.42.99 3 3
+chrome56.2.6615.1343 2 0
+chrome54.8.4551.9823 1 0
+firefox47.0 16 7
+firefox52.55.08 6 4
+opera44.6.1045.6317 1 1
+chrome56.1.6078.1706 2 0
+opera40.6.1391.7563 1 1
+chrome57.0.2987.133 18 5
+chrome54.8.4021.9393 2 2
+chrome57.5.0908.5271 2 0
+chrome54.8.3136.8408 2 2
+chrome55.1.6889.1517 1 0
+chrome53.7.2665.8937 2 0
+firefox45.68.15 3 2
+opera42.9.4189.9817 1 1
+opera38.0.2220.41 3 3
+chrome61.0.3163.98 26 26
+chrome57.5.0111.5848 1 1
+opera42.0.5296.0924 1 1
+opera44.6.1617.6980 2 2
+chrome56.4.9279.4542 1 0
+chrome57.5.0914.5287 2 0
+chrome57.6.1859.6122 1 0
+chrome57.5.9718.4446 2 2
+chrome56.1.6789.1517 1 0
+firefox52.45.92 3 2
+opera44.5.0901.5273 1 1
+chrome57.4.0969.5231 1 0
+chrome54.8.4599.9861 1 1
+opera42.0.5800.9638 2 2
+opera42.0.5266.0993 1 1
+chrome57.5.9372.4000 1 0
+chrome56.3.8365.4637 2 0
+opera42.0.5877.0505 1 1
+firefox31.0 2 0
+firefox45.65.18 13 10
+chrome53.5.0375.5003 1 0
+chrome45.0.2454.93 12 6
+firefox45.74.27 3 1
+chrome57.5.9684.4312 2 2
+firefox52.55.02 5 4
+chrome33.0.1750.154 1 1
+chrome57.5.0611.5349 2 0
+firefox52.59.12 5 1
+chrome53.6.0718.5446 1 0
+chrome38.0.819.0 2 2
+opera44.5.0774.6047 2 2
+firefox52.52.99 2 2
+chrome53.8.3913.8285 1 1
+chrome56.3.8757.4029 1 0
+chrome57.4.9283.4555 2 2
+chrome53.8.3375.8647 1 1
+chrome54.8.3442.9714 2 2
+chrome57.4.9649.4376 1 0
+chrome56.3.7018.2745 2 0
+opera42.0.5074.0702 1 1
+chrome53.7.3615.8987 1 0
+firefox52.47.94 4 3
+chrome44.0.2403.107 3 3
+firefox45.67.20 2 0
+chrome53.7.2895.8167 2 2
+chrome56.2.7632.2360 1 0
+chrome56.3.8944.4217 2 0
+chrome55.1.6027.1755 2 0
+chrome54.8.3869.8131 1 0
+chrome53.8.3666.8938 2 0
+chrome56.2.7560.1298 1 0
+chrome57.4.0625.5998 1 0
+firefox52.51.99 2 0
+safari4.7.2 89 56
+chrome57.5.0143.5416 2 0
+chrome53.8.3106.8478 3 3
+opera42.0.5779.0407 2 2
+chrome57.4.9362.4090 1 1
+chrome55.0.5187.0815 1 0
+firefox52.48.95 3 3
+opera42.1.5590.0228 2 2
+chrome53.7.3325.8697 1 0
+chrome57.4.0077.5349 1 0
+chrome55.0.5373.0001 2 0
+chrome57.4.9585.4212 1 1
+chrome50.0.2661.89 9 9
+firefox3.0.1 5 0
+chrome57.4.9899.5161 1 0
+opera42.0.5138.0866 2 2
+chrome57.4.9139.4401 1 0
+firefox54.0 50 12
+opera36.0.2130.46 3 3
+firefox45.56.03 4 2
+chrome56.3.9162.4335 2 0
+chrome54.8.4880.9153 2 0
+chrome54.8.3603.9975 1 0
+firefox45.60.07 5 1
+firefox45.61.18 3 1
+msie7.0 8 7
+chrome56.3.9165.4437 1 0
+chrome54.8.3638.8901 1 0
+opera42.9.4492.9120 1 1
+chrome55.1.6879.0507 1 0
+chrome54.9.4606.9979 2 2
+firefox52.56.93 1 1
+safari5.4.9 18 12
+chrome56.2.7143.1871 2 0
+opera41.9.3896.8524 2 2
+chrome56.2.7683.1311 2 0
+chrome57.4.0683.5955 2 0
+chrome57.4.9808.4536 2 0
+chrome55.0.5370.0007 1 0
+opera44.5.0270.6543 2 2
+firefox45.68.10 2 2
+chrome54.9.4902.9274 1 1
+firefox45.67.10 7 4
+opera42.0.5156.9883 2 2
+firefox50.0 22 14
+chrome57.5.0358.5620 1 0
+chrome54.8.3233.8505 1 1
+firefox45.55.03 2 2
+chrome55.1.5821.0558 1 1
+opera41.9.3205.8933 1 1
+opera40.6.1783.6056 2 2
+opera44.5.1178.6440 1 1
+opera41.9.4823.9551 2 2
+firefox45.57.05 1 1
+opera41.9.3894.8522 2 2
+chrome62.0.3188.0 6 0
+chrome53.7.2253.8525 2 2
+opera42.0.5400.0138 1 1
+opera41.9.4555.8383 1 1
+chrome57.5.0806.5178 2 0
+opera44.5.0712.5084 1 1
+firefox33.0 5 1
+firefox45.78.21 2 2
+chrome57.5.0396.4023 2 2
+chrome54.8.4112.9484 2 2
+chrome53.5.0014.5742 1 1
+chrome57.5.0981.5253 2 0
+firefox52.55.92 10 10
+chrome57.5.0868.5130 1 0
+firefox45.62.09 1 1
+chrome55.1.6883.0511 2 0
+firefox45.75.28 1 0
+safari 2 0
+chrome57.5.0789.4417 1 1
+opera44.6.1976.6248 2 2
+chrome55.0.5360.0098 1 0
+opera44.5.0619.6981 1 1
+chrome55.0.2892.98 1 0
+chrome54.8.3682.9954 1 0
+chrome55.0.2922.40 2 2
+opera40.6.1832.7104 2 2
+chrome38.0.1025.166 5 5
+android 11 4
+chrome56.2.7945.1773 2 0
+firefox52.0 208 147
+chrome36.0.1985.125 3 3
+opera41.9.4637.9365 2 2
+opera41.9.4184.9812 1 1
+chrome57.4.9085.4713 3 3
+safari5.3.8 93 54
+chrome53.6.1507.7879 1 0
+chrome57.4.9952.4225 2 0
+chrome57.4.9719.4447 2 2
+chrome57.5.0374.5646 2 0
+chrome53.6.0809.5537 1 0
+chrome34.0.1847.116 1 1
+chrome57.5.0526.5899 1 0
+opera40.6.1078.7340 2 2
+chrome61.0.3163.91 38 38
+chrome57.5.0730.5467 2 2
+chrome56.2.7818.1546 2 0
+firefox52.51.08 3 3
+chrome53.6.1616.6988 2 0
+chrome60.0.3112.116 183 136
+chrome57.5.0163.5436 2 0
+chrome57.5.0651.6923 1 0
+chrome55.0.5419.0147 1 0
+chrome56.2.6351.1089 2 0
+firefox32.0 1 1
+chrome39.0.2171.93 3 3
+firefox45.52.09 1 0
+chrome53.6.0446.5174 2 2
+chrome53.6.1222.6594 2 0
+firefox52.62.15 4 0
+chrome57.5.0141.5413 2 0
+opera42.0.5694.9322 2 2
+firefox52.61.14 1 1
+chrome38.0.2125.102 2 0
+chrome56.2.7803.1531 2 0
+chrome54.8.3838.8100 2 2
+chrome56.2.6574.1202 1 0
+chrome42.0.0.0 3 0
+safari4.0.4 16 16
+chrome57.4.9997.4260 2 0
+chrome56.1.6232.1960 2 0
+chrome57.4.9936.4664 2 2
+firefox52.54.02 2 0
+chrome53.6.1921.6293 2 0
+chrome57.4.0942.5214 1 0
+chrome53.7.2903.8275 2 2
+chrome57.4.0525.5898 2 0
+opera41.9.3402.8130 2 2
+chrome57.4.9982.4610 1 1
+chrome57.5.0821.4559 1 0
+safari10.1.2 21 21
+chrome57.4.9727.5099 1 0
+chrome57.4.9114.4842 1 0
+chrome53.6.1366.5194 1 1
+chrome57.4.9051.5324 1 1
+opera44.0.2510.1449 1 1
+chrome57.4.9757.4029 2 0
+chrome57.4.0145.5417 1 0
+chrome53.5.0899.5527 2 2
+firefox45.68.11 2 1
+firefox45.66.19 5 3
+chrome53.8.3591.8863 2 2
+firefox45.61.08 3 0
+chrome53.6.0588.5216 2 0
+chrome56.3.7389.2017 1 0
+opera40.6.2010.7382 1 1
+chrome60.0.3112.101 36 0
+chrome56.2.6759.1487 1 0
+chrome54.8.3782.9944 2 0
+opera42.0.5976.0604 2 2
+opera44.5.0356.5628 2 2
+chrome56.2.6331.1069 2 0
+firefox52.50.13 4 4
+opera41.9.4796.9424 2 2
+chrome49.0.2623.112 87 32
+opera44.5.0267.5539 2 2
+chrome54.8.3399.9661 2 2
+chrome41.0.2224.3 1 1
+chrome57.5.0020.6392 2 0
+opera12.16 10 10
+firefox52.49.96 1 0
+chrome57.5.0672.5944 1 0
+chrome55.1.6358.1086 2 0
+firefox52.52.09 2 1
+opera42.0.5037.0765 2 2
+firefox52.50.97 1 1
+chrome58.0.3029.83 6 0
+firefox55.0 259 87
+chrome57.4.9417.5789 2 0
+opera41.9.4076.9704 1 1
+chrome57.5.0853.5125 2 0
+chrome57.4.9061.4333 1 0
+opera42.0.4579.9207 2 2
+chrome57.5.0644.5372 2 2
+chrome57.4.9251.4523 2 2
+opera42.0.5819.0546 2 2
+opera46.0.2597.57 2 2
+opera44.5.0049.6311 2 2
+mozilla 95 0
+chrome59.0.3071.114 3 0
+opera41.9.4440.9178 1 1
+chrome57.5.0566.5838 1 0
+chrome57.5.1266.6538 2 0
+firefox52.56.03 4 2
+chrome21.0.1180.89 1 1
+chrome57.5.9818.4546 2 0
+firefox52.50.07 12 8
+chrome57.4.9910.4648 1 0
+chrome57.4.9834.4106 1 1
+chrome57.4.9702.4074 1 1
+opera41.9.4088.9715 1 1
+chrome55.0.5880.0518 2 0
+firefox45.69.22 2 0
+chrome53.8.3778.8040 1 1
+chrome56.0.2924.87 44 25
+chrome56.1.6857.1584 2 0
+chrome57.5.0895.5523 2 0
+chrome57.5.0024.6396 2 0
+chrome56.1.6157.1884 2 0
+firefox52.69.12 2 0
+opera42.0.5898.9525 2 2
+firefox45.77.29 2 0
+chrome57.4.9853.4125 2 2
+firefox45.64.17 5 5
+chrome57.4.9652.5924 1 0
+chrome56.3.8442.4714 1 0
+chrome57.4.9291.4563 2 0
+chrome53.5.0702.5430 2 2
+opera42.0.4008.9736 2 2
+chrome53.8.3508.8870 1 1
+chrome57.4.9816.4543 1 1
+chrome57.5.0910.4648 4 0
+chrome55.0.2883.75 3 0
+chrome57.4.9568.4830 2 0
+opera40.6.2435.7707 1 1
+chrome53.7.2923.8295 2 2
+chrome57.4.9433.4705 2 0
+chrome57.5.0432.5160 1 0
+chrome55.1.5247.0975 1 0
+chrome57.5.0797.4425 2 0
+opera44.5.1650.6922 1 1
+opera44.5.1098.6360 2 2
+chrome53.8.3714.8087 2 2
+chrome57.0.2987.137 5 3
+chrome57.4.9451.4189 2 0
+chrome56.1.6879.1507 1 0
+chrome55.1.6936.1664 2 0
+opera11.61 4 3
+chrome57.5.0414.5787 1 0
+chrome57.5.0860.5132 1 0
+opera42.9.4300.9038 2 2
+chrome57.4.9676.4304 1 1
+chrome55.1.5655.0383 2 0
+chrome53.7.2053.8325 2 2
+chrome57.4.0381.5654 1 0
+chrome54.8.3665.8937 1 1
+opera47.0.2631.55 5 5
+safari10.0 139 86
+chrome57.5.0304.5676 2 0
+opera44.5.0224.5596 1 1
+chrome53.6.0607.5335 2 2
+chrome56.1.6972.1600 1 0
+chrome59.0.3071.125 182 97
+firefox52.55.18 5 2
+opera42.0.5032.0760 2 2
+chrome57.5.0359.5086 1 1
+firefox45.69.06 7 6
+firefox45.69.16 5 3
+chrome54.8.3434.9706 1 1
+chrome57.5.0168.5896 2 2
+msie10.0 114 50
+safari5.1 3 3
+chrome53.0.2785.21 3 3
+chrome54.0.2840.85 9 9
+chrome53.6.1797.5425 2 0
+chrome52.0.2743.116 13 0
+opera42.9.4528.9255 2 2
+chrome57.4.9222.4950 2 2
+chrome54.8.4015.9387 2 0
+chrome57.4.9293.4565 2 2
+chrome57.6.1081.6353 2 0
+firefox45.65.28 3 2
+opera40.6.1612.6984 2 2
+chrome55.1.6058.0786 2 0
+chrome53.5.0039.5767 2 2
+edge38 2 2
+chrome57.5.0824.5552 2 0
+chrome56.3.9984.4256 2 0
+chrome55.1.5236.0964 1 0
+chrome57.5.0050.5788 2 0
+chrome57.4.9137.4499 2 2
+chrome57.5.0834.5197 2 0
+chrome57.4.0017.5389 1 0
+firefox52.57.04 6 2
+firefox52.53.90 2 1
+chrome49.0.2623.91 3 3
+opera44.5.0149.5411 2 2
+chrome53.6.1874.6146 2 0
+chrome54.8.3096.8368 2 2
+firefox45.62.19 1 1
+chrome54.8.4860.9132 1 0
+chrome57.5.0594.4222 2 2
+chrome54.8.3555.8828 1 1
+opera40.6.1704.6076 2 2
+chrome57.5.9898.4525 2 0
+chrome57.4.9693.5965 1 1
+opera48.0.2685.32 7 7
+chrome57.5.9231.4969 1 0
+chrome57.4.9873.5145 2 0
+chrome57.5.0297.5925 1 1
+chrome57.5.0050.5322 1 0
+chrome57.5.0917.5289 1 0
+chrome56.2.6830.1568 2 0
+firefox45.60.13 11 5
+opera44.6.1521.6893 1 1
+chrome54.8.3418.9781 1 0
+chrome57.4.9751.4023 1 1
+chrome53.5.0762.5490 1 0
+firefox25.0 1 1
+chrome53.7.2683.8955 2 0
+firefox52.58.11 1 1
+chrome56.3.7286.2014 2 0
+chrome57.4.9966.4694 1 0
+chrome55.1.6675.0302 1 0
+chrome60.0.3112.90 135 0
+opera44.5.0630.5902 1 1
+opera42.7.2246.114996 53 53
+chrome53.7.2535.8807 1 0
+edge36 131 131
+chrome62.0.3202.19 3 3
+chrome57.4.9605.4333 1 1
+opera44.5.0937.5209 1 1
+chrome48.0.2564.116 3 0
+chrome56.2.7161.1899 2 0
+opera41.9.3219.8947 1 1
+firefox45.79.22 4 4
+chrome57.5.9110.4848 1 0
+chrome57.5.9979.4607 2 2
+chrome46.0.2490.85 3 0
+chrome55.0.5385.0013 1 0
+firefox45.54.01 3 3
+chrome46.0.2490.76 3 3
+iphone 2 1
+chrome57.4.9999.4627 1 1
+chrome61.0.3163.100 168 168
+chrome57.4.9432.4160 2 2
+chrome55.1.5590.0228 2 0
+chrome57.4.0062.5334 2 0
+chrome54.8.4206.9578 1 1
+chrome53.0.2785.116 1 0
+chrome57.4.9986.4258 2 2
+chrome57.5.0762.6034 1 0
+firefox45.67.04 3 1
+chrome57.5.0986.4614 2 2
+chrome53.6.0211.5949 1 1
+opera49.0.2711.0 34 33
+opera42.9.4414.9142 2 2
+chrome53.8.3875.8147 1 0
+firefox45.55.02 1 1
+chrome57.5.0280.5552 2 0
+chrome55.1.6172.1800 1 0
+chrome57.4.9658.4386 2 0
+chrome57.5.0170.6442 2 0
+chrome56.2.7474.2102 2 0
+chrome53.6.1958.5686 2 0
+firefox45.65.02 4 2
+chrome53.7.2721.8093 2 2
+firefox52.58.05 14 10
+opera44.5.1113.6485 1 1
+chrome56.1.6472.1100 1 0
+chrome57.4.9303.4676 1 1
+chrome57.4.9959.4687 1 1
+firefox52.68.11 10 10
+chrome55.1.5047.0775 1 0
+opera44.5.0341.5614 1 1
+chrome54.8.4139.9401 1 0
+chrome61.0.3163.79 19 5
+chrome57.4.0441.5714 1 0
+chrome53.8.3600.8972 1 1
+safari5.2.7 59 34
+opera40.6.1690.6962 1 1
+chrome57.4.9231.5503 1 1
+firefox45.9 3 0
+firefox45.72.24 2 2
+chrome56.2.6735.1463 1 0
+chrome57.5.0964.5236 2 0
+firefox52.58.01 4 4
+firefox52.40.97 1 1
+chrome57.5.0160.5898 1 0
+chrome57.5.9248.4976 1 0
+chrome53.6.1766.6038 1 0
+firefox45.60.12 1 1
+opera42.9.4068.9796 1 1
+chrome53.5.0658.5386 2 0
+opera41.9.4744.8471 1 1
+chrome53.7.3518.8880 2 0
+chrome57.5.0220.5958 1 1
+chrome56.4.9615.4987 1 0
+chrome57.5.0073.5345 1 0
+chrome57.5.9481.4119 2 0
+chrome53.7.3298.8560 1 1
+chrome57.4.9452.4180 1 0
+chrome56.2.6808.1536 2 0
+chrome57.4.9321.4694 1 1
+firefox41.0 3 0
+chrome57.4.9191.4463 1 1
+chrome56.1.6346.1074 2 0
+chrome55.1.5539.0266 2 0
+chrome57.4.9462.4190 1 1
+chrome57.5.1493.6765 1 0
+firefox45.67.19 2 2
+chrome54.8.4819.9182 1 1
+chrome55.1.6914.1642 2 0
+chrome53.5.0446.5174 1 0
+opera44.5.0878.6141 1 1
+chrome53.6.1030.6302 2 0
+chrome57.5.0189.4817 2 2
+firefox53.0 10 4
+chrome55.0.2883.87 6 0
+chrome57.5.0303.4031 2 2
+chrome56.1.6336.1064 2 0
+chrome57.5.0771.5043 2 0
+chrome55.1.6279.1907 1 0
+chrome60.0.3112.107 23 3
+firefox52.53.00 6 1
+opera42.0.4745.9473 2 2
+chrome53.7.3735.8007 2 2
+chrome28.0.1550.1 2 2
+chrome57.5.0041.4779 2 0
+chrome56.2.6936.1664 1 0
+chrome60.0.3112.113 695 381
+opera42.0.5839.0567 1 1
+chrome56.1.6385.1012 2 0
+chrome56.2.7594.1222 2 0
+chrome57.5.0573.5201 2 2
+firefox3.5.5 1 0
+chrome55.1.6961.0799 1 0
+chrome56.3.9628.4990 1 0
+chrome57.5.0509.5871 1 0
+opera47.0.2631.80 99 99
+firefox52.57.00 7 7
+firefox45.59.06 10 6
+chrome55.0.2919.73 1 1
+chrome54.8.3067.9329 1 1
+chrome56.1.6467.1295 2 0
+chrome56.1.6011.1749 2 0
+chrome53.8.3242.8514 1 0
+chrome54.8.3718.9080 1 0
+chrome56.4.9980.4252 2 0
+chrome53.7.3094.8366 2 2
+chrome57.5.0931.5204 1 0
+chrome55.0.2883.91 6 0
+chrome57.5.0466.5738 2 0
+chrome53.7.3594.8766 1 0
+chrome57.4.0694.5966 2 0
+chrome56.2.7592.2220 2 0
+chrome55.0.5011.0748 1 0
+chrome57.5.0172.6444 2 0
+chrome57.4.9075.4347 2 2
+opera44.6.1597.6869 2 2
+opera42.0.5573.9201 2 2
+opera40.6.1079.7341 2 2
+firefox45.66.29 2 0
+firefox45.50.07 2 2
+firefox45.76.28 2 2
+chrome56.3.7013.2741 2 0
+chrome53.7.2165.8437 1 0
+chrome57.5.9757.4485 2 0
+opera40.6.1415.7787 2 2
+Unknown 10 1
+chrome57.4.9958.4220 1 0
+opera42.0.5803.0531 1 1
+chrome57.4.9440.4178 1 1
+chrome57.4.9163.4891 2 2
+chrome54.8.3496.9768 2 0
+chrome57.5.0407.4135 2 0
+safari5.4.8 19 9
+chrome34.0.1847.114 3 0
+chrome57.4.9968.4230 2 0
+chrome53.8.3826.8198 1 0
+chrome53.6.1103.5831 1 1
+opera41.9.4335.9063 2 2
+opera42.9.4295.9923 2 2
+msie11.0 74 74
+chrome57.4.9619.4981 1 1
+safari9.0 16 6
+opera40.6.2962.7234 2 2
+chrome45.0.2454.101 10 6
+chrome53.6.0655.5383 1 0
+chrome57.5.0040.6312 2 0
+chrome57.4.9330.4602 2 0
+firefox52.59.02 4 4
+chrome57.4.9627.4999 1 0
+chrome57.4.9708.4070 1 0
+edge37 5 5
+chrome54.8.4431.9703 2 2
+chrome57.4.9594.5866 1 0
+chrome53.6.1810.7183 2 0
+firefox45.69.12 7 4
+firefox45.72.25 3 3
+chrome57.4.9597.4225 2 0
+chrome53.5.0043.5771 1 1
+opera41.9.4398.9125 1 1
+safari5.0.2 3 3
+chrome53.6.1411.5149 2 0
+chrome57.5.0183.5455 2 0
+chrome56.1.6479.1107 2 0
+opera41.9.4005.8733 1 1
+chrome56.2.6465.1193 2 0
+chrome60.0.3112.78 9 0
+chrome55.1.6220.0958 1 0
+chrome54.8.4856.9128 2 2
+firefox6.0.1 1 0
+chrome54.0.2850.7 2 0
+chrome55.1.6956.0684 1 0
+chrome53.7.3655.8927 1 1
+safari5.5.1 35 11
+firefox52.51.04 13 11
+chrome57.5.0132.6404 1 0
+opera42.1.5067.0795 1 1
+chrome53.6.0788.5416 1 1
+chrome56.2.6081.1818 2 0
+chrome56.2.6536.1264 1 0
+chrome57.4.9694.4966 2 2
+firefox52.54.01 5 1
+firefox45.60.23 6 4
+opera44.5.0077.6349 2 2
+chrome53.7.3236.8508 1 1
+chrome53.6.1679.5407 1 1
+chrome55.0.5317.0045 1 0
+opera40.6.1283.6555 2 2
+chrome56.2.7559.2286 1 0
+chrome57.5.0979.6241 1 0
+firefox45.71.24 1 1
+opera42.0.5461.9199 2 2
+chrome57.5.0517.5245 1 0
+chrome55.0.5622.0350 2 0
+chrome57.4.9020.4392 1 0
+opera36.0.2130.80 6 6
+opera42.0.5143.9871 1 1
+chrome57.5.0016.4844 2 0
+chrome26.0.1410.64 3 0
+chrome52.0.2743.98 1 0
+chrome56.2.7604.1332 2 0
+safari5.3.7 25 12
+edge14 4 4
+firefox52.60.13 4 3
+chrome57.4.9069.4797 2 2
+chrome41.0.2228.0 6 4
+chrome56.2.7692.1320 1 0
+firefox45.77.20 4 0
+chrome57.4.9121.4859 1 1
+chrome56.3.8492.4764 1 0
+opera42.0.2393.94 3 3
+safari11.0 42 42
+chrome53.7.3025.8397 2 0
+chrome53.6.1963.6235 1 0
+chrome57.4.0347.5619 1 0
+opera42.9.4899.9527 1 1
+opera9.80 23 0
+firefox45.63.16 3 3
+chrome54.8.3281.8553 3 1
+chrome57.4.9494.5766 1 1
+firefox45.66.13 4 2
+firefox45.76.29 2 2
+chrome53.5.0007.5735 1 1
+chrome53.6.0628.5355 1 1
+chrome57.4.0102.5474 2 2
+chrome54.8.3341.8613 2 0
+firefox52.46.93 6 5
+opera42.0.5195.9823 2 2
+chrome57.4.9002.5374 1 1
+chrome54.8.3878.8140 1 0
+chrome57.5.0431.5703 2 0
+chrome57.4.0668.5930 1 0
+opera42.0.5679.0307 2 2
+chrome53.8.3800.8172 1 0
+opera42.9.4488.9116 2 2
+chrome54.8.4854.9126 1 0
+chrome57.5.0670.5942 2 0
+chrome54.8.3529.9891 2 2
+chrome56.4.9972.4245 2 0
+chrome57.5.9750.4488 1 1
+chrome57.5.0500.5237 2 2
+chrome51.0.2704.79 2 0
+chrome57.4.9604.4332 1 0
+chrome57.4.9430.4168 1 1
+firefox52.54.17 4 4
+opera41.9.4494.9122 2 2
+firefox52.54.07 5 3
+firefox39.0 3 3
+chrome51.0.2704.106 12 3
+opera44.5.0992.5164 1 1
+chrome56.2.7703.2431 2 0
+opera42.0.5028.0755 2 2
+opera42.0.5775.0503 1 1
+opera42.1.5251.0989 1 1
+chrome53.7.2679.8941 2 2
+chrome53.8.3179.8441 2 0
+chrome56.1.6703.1431 2 0
+chrome53.6.1220.7592 2 0
+chrome56.4.9821.4193 2 0
+chrome57.4.9444.4272 1 1
+chrome55.0.5430.0168 1 0
+chrome54.8.3520.9892 2 2
+chrome5.0.375.99 4 4
+chrome57.5.0182.5810 2 2
+chrome57.4.9743.4471 2 0
+chrome57.4.9736.4008 1 0
+chrome53.7.2303.8675 2 0
+chrome53.6.0390.5028 1 1
+firefox45.69.11 1 1
+opera42.0.5904.0632 1 1
+chrome53.7.2507.8879 2 2
+chrome57.4.9666.5938 1 1
+chrome55.1.6189.1817 1 0
+chrome55.0.5025.0753 2 0
+safari5.5.0 16 7
+chrome42.0.2311.90 1 0
+firefox52.57.94 4 2
+opera42.0.4214.9941 2 2
+chrome54.8.4746.9018 1 0
+chrome55.1.6324.1052 1 0
+chrome56.2.7089.2716 2 0
+chrome37.0.2062.120 7 3
+chrome50.0.2661.102 31 23
+safari9.1.1 11 2
+opera44.6.1460.6732 1 1
+chrome57.4.0577.5849 2 0
+chrome57.4.9483.4755 2 0
+chrome56.2.7154.2882 1 0
+chrome56.2.7583.1211 2 0
+firefox52.59.06 5 4
+edge34 132 132
+opera42.0.5082.9710 1 1
+opera45.0.2552.898 5 5
+chrome54.8.3189.8451 1 0
+opera40.6.1021.7393 1 1
+firefox45.65.12 3 3
+chrome56.1.6666.1394 2 0
+opera44.6.1115.6487 2 2
+chrome53.7.2585.8857 1 1
+firefox45.67.14 2 2
+chrome57.5.0589.5217 2 2
+chrome53.5.0986.5614 2 0
+chrome57.4.9554.5826 1 0
+opera41.9.4306.8034 1 1
+chrome56.2.7702.1430 2 0
+safari4.6.2 27 18
+chrome57.5.0251.5523 1 0
+chrome54.8.3547.8710 1 1
+chrome53.6.1115.5843 2 0
+chrome57.4.9862.4134 2 2
+chrome57.4.9670.4942 1 0
+chrome56.2.6282.1910 1 0
+chrome40.0.2214.93 1 1
+chrome57.4.9413.4141 2 2
+firefox35.0 4 0
+chrome57.4.9908.5271 2 2
+chrome53.8.3286.8558 1 1
+firefox52.63.16 2 0
+chrome53.7.3620.8992 1 0
+chrome57.4.0330.5602 2 0
+opera44.4.0588.5850 1 1
+chrome57.4.9444.5716 1 0
+chrome58.0.3029.81 9 3
+chrome55.0.5996.0624 1 0
+opera44.5.0588.6850 2 2
+chrome57.5.0023.5395 1 0
+opera44.5.1933.6205 1 1
+opera44.5.0250.5523 2 2
+chrome53.8.3662.8934 1 1
+opera41.9.4648.8376 1 1
+opera40.6.1547.6819 2 2
+chrome57.4.9969.4697 1 0
+chrome55.1.6351.1089 2 0
+firefox45.70.23 4 0
+firefox52.52.05 4 4
+opera43.0.2442.1144 3 3
+chrome55.1.6278.1906 1 0
+chrome56.1.6512.1240 2 0
+chrome57.5.9522.4250 2 2
+chrome53.7.3687.8959 2 0
+chrome56.4.9811.4183 2 0
+chrome57.4.9392.4020 1 0
+safari8.0 8 3
+chrome53.5.0269.5997 1 1
+opera44.5.0674.5946 1 1
+edge15 4 4
+chrome57.5.9670.4308 1 1
+firefox27.0 1 0
+chrome53.6.1058.6320 1 0
+chrome53.6.1848.5676 2 2
+chrome55.1.5989.0617 2 0
+chrome57.4.0219.5481 1 0
+chrome56.3.7616.2344 1 0
+opera43.0.2246.121183 3 3
+chrome54.8.3991.9263 1 1
+opera41.9.4081.9719 2 2
+chrome57.5.0697.5969 2 0
+opera44.5.0265.5437 2 2
+chrome57.4.0185.5458 2 0
+firefox46.0 2 0
+chrome55.1.6607.1335 2 0
+opera44.5.0199.6462 2 2
+firefox3.0.5 1 0
+chrome55.1.6662.1390 2 0
+chrome57.4.0550.5822 2 0
+firefox45.62.25 3 3
+firefox52.64.17 2 2
+chrome54.8.3294.9466 2 0
+firefox37.0 2 0
+chrome44.0.2403.119 3 3
+chrome57.5.0882.5154 1 0
+firefox52.53.06 3 0
+chrome53.8.3796.8069 2 2
+chrome30.0.1599.103 6 3
+chrome54.8.3153.8425 2 0
+chrome55.1.5457.0185 1 0
+chrome55.1.5323.0051 1 0
+chrome55.1.6633.0361 1 0
+opera41.9.4274.9002 1 1
+chrome55.1.5884.0512 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_()_AppleWebKit/533.00.53_(KHTML,_like_Gecko)_Chrome/53.6.1222.6594_Safari/530.71_Edge/34.77737 20170913120109
+Barkrowler_0.1.6 20170901163505
+Mozilla/5.0_()_AppleWebKit/533.08.51_(KHTML,_like_Gecko)_Chrome/53.6.1047.6319_Safari/530.79_Edge/34.75978 20170921081633
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170911072941
+Mozilla/5.0_(compatible;_Google-Youtube-Links) 20170912230307
+XML-RPC.NET 20170923042243
+Mozilla/5.0_()_AppleWebKit/533.04.57_(KHTML,_like_Gecko)_Chrome/53.6.1616.6988_Safari/530.74_Edge/34.70677 20170907041827
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/67.440;_U;_ru)_Presto/2.12.423_Version/12.16 20170914111221
+Mozilla/5.0_()_AppleWebKit/533.00.53_(KHTML,_like_Gecko)_Chrome/53.6.1146.6419_Safari/530.70_Edge/34.76972 20170915105527
+Mozilla/5.0_()_AppleWebKit/533.07.50_(KHTML,_like_Gecko)_Chrome/53.6.1833.6105_Safari/530.77_Edge/34.73844 20170916170702
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Barkrowler_0.1.6 20170901163505
+XML-RPC.NET 20170923042243
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 773 773
+From1 10 10
+From2 372 372
+From3 232 232
+From4 7055 7087
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 20
+www_google_co_uk 1 1
+google 94 94
+search 1 1
+www_google_bg 2 2
+www_google_kz 1 1
+digg 1 1
+www_google_com_lb 1 1
+www_google_ru 17 17
+www_google_de 4 4
+www_google_es 1 1
+www_google_com 6 6
+www_google_lv 1 1
+www_google_com_ua 69 69
+rambler 2 2
+www_google_com_cy 1 1
+www_google_az 2 2
+youtube 3 3
+yandex 71 71
+yandexua 4 4
+yandexru 90 90
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 69
+http://protv.net.ua/viewtopic.php 51 51
+http://ukrazom.org/partners 30 30
+http://protv.net.ua/ucp.php 16 16
+http://hotline.ua/av-mediacentry/dune-hd-duo-4k/prices/ 14 14
+http://www.protv.net.ua 11 11
+http://protv.net.ua/viewforum.php 9 9
+https://yandex.ua/clck/jsredir 6 6
+http://hotline.ua/av-mediacentry/dune-hd-tv-102/prices/ 6 6
+http://protv.net.ua/memberlist.php 6 6
+http://protv.net.ua/index.php 4 4
+http://adguard.com/referrer.html 2 2
+https://www.yandex.ua/clck/jsredir 1 1
+http://sravni.ua/dune/dune_hd_tv-102w/catc555t12m435718.html 1 1
+http://price.ua/dune/dune_hd_tv-102/catc555t4m435721.html 1 1
+http://webcache.googleusercontent.com/search 1 1
+http://price.ua/dune/dune_hd_duo_4k/catc555t2m3039356.html 2 2
+http://burger-imperia.com 2 2
+https://vseceni.ua/md/monitor-audio-bronze-br5-789867/ 1 1
+http://price.ua/dune/dune_hd_tv-102w/catc555t19m435718.html 1 1
+http://euro-ombudsman.org/wp-includes/js/jquery/jquery.js 1 1
+http://dunehd.com.ua/gde-kupit/ 3 3
+http://price.ua/inext/inext_tv/catc555t1m435795.html 3 3
+http://yandex.fr/clck/jsredir 1 1
+http://price.ua/inext/inext_4k/catc555t3m3039383.html 1 1
+http://price.ua/dune/dune_hd_solo_4k/catc555t2m1323941.html 1 1
+http://price.ua/catc5269t4/page4.html 1 1
+http://price.ua/dune/catv5537c555t13.html 1 1
+http://price.ua/dune/dune_hd_tv-102w/catc555t3m435718.html/ 1 1
+http://sravni.ua/inext/inext_hd1_w/catc555m345660.html 1 1
+http://price.ua/western_digital/western_digital_wd_tv_live_streaming_wi-fi/catc555t2m462067.html/ 1 1
+https://by.tribuna.com/stat/hockey/107/match/1217236.html 1 1
+http://protv.net.ua 2 2
+http://sravni.ua/dune/dune_hd_tv-102w/catc555t23m435718.html 1 1
+https://yellowstonesafaritours.com 1 1
+http://www.protv.net.ua/memberlist.php 1 1
+http://pizza-tycoon.com 2 2
+http://price.ua/optoma/optoma_x345/catc529t6m2663347.html 1 1
+http://iphoneroot.com/RU/page/10/ 1 1
+https://justkillingti.me 1 1
+http://www.yandex.ua/clck/jsredir 1 1
+https://www.facebook.com 1 1
+http://price.ua/inext/inext_tv/catc555t21m435795.html 1 1
+http://price.ua/search/ 2 2
+http://price.ua/dune/dune_hd_solo_4k/catc555t3m1323941.html 1 1
+http://price.ua/dune/dune_hd_base_3d/catc555m435720.html 2 2
+http://www.protv.net.ua/ucp.php 2 2
+http://price.ua/jamo/catv1287c347t12.html 1 1
+http://sravni.ua/catc555t4.html 1 1
+http://mediaplayer.ssve.ru/#www.mediaplayer.com.ua 1 1
+http://price.ua/dune/dune_hd_duo_4k/catc555t1m3039356.html/ 1 1
+http://l.facebook.com/l.php 2 2
+http://price.ua/inext/inext_hd1_w/catc555t7m345660.html/ 1 1
+http://sravni.ua/inext/catv6981c555t9.html 1 1
+https://yandex.fr/clck/jsredir 3 3
+https://www.foxweber.com 4 4
+http://protv.net.ua/search.php 1 1
+http://sravni.ua/inext/inext_hd1_w/catc555t27m345660.html 1 1
+http://pizza-imperia.com 1 1
+http://price.ua/dune/dune_hd_tv-102/catc555t1m435721.html 1 1
+http://price.ua/inext/inext_hd1_w/catc555t22m345660.html 1 1
+http://euro-ombudsman.org/license/ 1 1
+http://price.ua/yamaha/yamaha_rx-v481/catc337t4m1549523.html 1 1
+http://hotline.ua/av-mediacentry/dune-hd-solo-4k/prices/ 2 2
+http://price.ua/inext/inext_hd1_w/catc555t7m345660.html 1 1
+http://price.ua/catc555t1.html 1 1
+http://m.facebook.com 2 2
+http://price.ua/dune/dune_hd_tv-102w/catc555t1m435718.html 1 1
+http://price.ua/inext/inext_hd1_w/catc555t2m345660.html 1 1
+http://price.ua/dune/dune_hd_tv-102w/catc555t3m435718.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+mediaplayer 1
+inext+4k 1
+%d1%84%d0%b8%d0%bb%d1%8c%d0%bc+%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+4k 1
+mediaplayer 1
+inext 1
+%d1%81%d0%ba%d0%b0%d1%87%d0%b0%d1%82%d1%8c 1
+%d1%84%d0%b8%d0%bb%d1%8c%d0%bc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 38 500708
+302 2726 1784200
+500 5 18007
+404 2433 72475303
+301 2716 2065367
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 158
+/blog/wp-includes/wlwmanifest.xml 3 -
+/taxonomy/term/43%253Fpage%3D0%25252C0 6 -
+/taxonomy/term/27%253Fpage%3D0%25252C1%25252C0 4 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8 10 -
+/sites/default/files/03_dune_hd_tv_102_left_back.png 4 -
+/front%253Fpage%3D0%25252C0%25252C0 20 -
+/admin.php 6 -
+/product/mediapleer-dune-hd-solo-4k%D0%92 3 -
+/node/288 2 -
+/taxonomy/term/61%253Fpage%3D0%25252C1 2 -
+/taxonomy/term/43%253Fpage%3D1%25252C0 2 -
+/sites/all/themes/mytheme/images/assort-block-bot.png 3 http://mediaplayer.com.ua/product/mediapleer-inext-tv2
+/site/wp-includes/wlwmanifest.xml 3 -
+/product/dunehd-solo-lite 15 -
+/taxonomy/term/43%253Fpage%3D1 2 -
+/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/sites/default/files/node/product/diskstation-ds114_5.jpg 1 -
+/blog/wp-admin/setup-config.php 1 -
+/sites/default/files/02_dune_hd_tv_102_front_2.png 3 -
+/sites/default/files/node/product/duo4k_mediaplayer_rear.jpg 1 -
+/joomla/robots.txt 3 -
+/taxonomy/term/24%253Fpage%3D0%25252C0 12 -
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/front%253Fpage%3D0%25252C1%25252C1 18 -
+/tinymce_pt/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/product/dunehd-solo-4k-lite 49 -
+/taxonomy/term/52%253Fpage%3D0%25252C0 2 -
+/tinybrowser/upload.php 1 -
+//wp-login.php 2 http://www.google.com.hk
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/node/287%253Fpage%3D0%25252C0%25252C1 2 -
+/sites/default/files/node/product/proshivka/dune_firmware_tv102_140610_0131_b8.dff_.zip 1 -
+/wp-includes/Text/Tiff.php 1 -
+/taxonomy/term/43%253Fpage%3D0%25252C1%25252C0 21 -
+/product/undefined 1 http://mediaplayer.com.ua/product/mediapleer-inext-tv2
+/product/nas-server-synology-ds-214se-x1-hdd 1 -
+/taxonomy/term/43%253Fpage%3D0%25252C0%25252C0 4 -
+/joomla/administrator/index.php 2 -
+/wp-login.php 1739 -
+/wordpress/wp-admin/install.php 2 -
+/product/pult-upravleniya-kompanii-dune-hd 2 -
+/product/pult-upravleniya-dune-hd 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/projects/bilardII/resources/js/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/feed 10 -
+/taxonomy/term/24%253Fpage%3D0%25252C0%25252C0 14 -
+/taxonomy/term/27%253Fpage%3D0%25252C1 4 -
+/new/wp-admin/install.php 1 -
+/misc/,%20this.element).html(percentage%20+ 3 -
+/taxonomy/term/67%253Fpage%3D0%25252C0%25252C1 4 -
+/wp-includes/wlwmanifest.xml 3 -
+/taxonomy/term/52%253Fpage%3D0%25252C0%25252C1 4 -
+/wp-admin 6 http://mediaplayer.com.ua/wp-login.php
+/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/taxonomy/term/17%253Fpage%3D0%25252C1%25252C1 2 -
+/js/mage/cookies.js 2 mediaplayer.com.ua
+/front%253Fpage%3D0%25252C0 44 -
+/fckeditor/editor/filemanager/upload/asp/upload.asp 1 -
+/static/js/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/blog/administrator/index.php 2 -
+/product/dune-solo-4k 1 -
+/sites/default/files/node/product/duo4k_mediaplayer_rear_0.jpg 10 http://mediaplayer.com.ua/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k
+/sites/all/themes/mytheme/images/white-bg.png 3 http://mediaplayer.com.ua/product/mediapleer-inext-tv2
+/plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/wp/wp-admin/setup-config.php 2 -
+/administrator/index.php 7 -
+/components/com_content/metadata.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/taxonomy/term/27%253Fpage%3D0%25252C1%25252C1 4 -
+/taxonomy/term/24%253Fpage%3D0%25252C1%25252C0 16 -
+//blog/robots.txt 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front.png 1 -
+/sites/default/files/node/product/dsc_0135.png 1 -
+/taxonomy/term/43%253Fpage%3D1%25252C0%25252C0 2 -
+/front%253Fpage%253D0%2525252C0%2525252C1 21 -
+/taxonomy/term/43%253Fpage%3D1%25252C1%25252C1 2 -
+/taxonomy/term/67%253Fpage%3D0%25252C1 4 -
+/taxonomy/term/17%253Fpage%3D1%25252C1%25252C0 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F/feed 10 -
+/sites/default/files/05_dune_hd_tv_102_back.png 3 -
+/sites/default/files/node/product/asw6_2.pn 1 -
+/sitemap.xml 5 -
+/sites/default/files/node/product/duo4k_mediaplayer.jpg 2 -
+/product/nas-server-synology-ds114-x1-hdd 3 -
+/2015/05/30/%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%BA%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0%D0%BF%D0%BB%D0%B5%D0%B5%D1%80%D0%B0-dune 3 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front2.png 1 -
+/front%253Fpage%3D0%25252C1 34 -
+//cdn.callbackhunter.com/cbh.js 3 -
+/public/javascripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/sites/default/files/04_dune_hd_tv_102_front_up.png 3 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/taxonomy/term/61%253Fpage%3D0%25252C0%25252C1 2 -
+/fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fckeditor/editor/filemanager/connectors/aspx/upload.aspx 1 -
+/taxonomy/term/43%253Fpage%3D0%25252C1%25252C1 2 -
+/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/bitrix/admin/index.php 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front3.png 1 -
+/fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/apple-touch-icon-120x120.png 2 -
+/sites/default/files/node/product/proshivka/dune_firmware_base3d_140610_0131_b8.dff_.zip 1 -
+/sites/all/themes/views/views.php 1 -
+/cat-bin/tools/login/lib/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/wordpress2/wp-admin/install.php 1 -
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed 10 -
+/administrator 5 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/wp-includes/js/quicktags.js 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/taxonomy/term/24%253Fpage%3D0%25252C1 1 -
+/front%253Fpage%3D0%25252C0%25252C1 14 -
+/php/tinybrowser/upload.php 1 -
+/sites/default/files/node/product/dsc_0137.png 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_back.png 1 -
+/action/akcionnoe-predlozhenie-dlya-uchastnikov-proekta-ukrayinci-razom 2 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/apple-touch-icon.png 5 -
+/product/optoma-eh331 1 -
+/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/taxonomy/term/18%253Fpage%3D0%25252C0%25252C1 6 -
+/taxonomy/term/43%253Fpage%3D0%25252C1 2 -
+/old/wp-admin/setup-config.php 1 -
+/jscripts/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/js/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/wp-content/plugins/simple-forum/editors/tinymce/plugins/tinybrowser/upload.php 1 -
+/cms/wp-includes/wlwmanifest.xml 2 -
+/front%253Fpage%253D0%2525252C1 21 -
+/front%253Fpage%3D0%25252C1%25252C0 34 -
+/fckeditor/editor/filemanager/connectors/asp/upload.asp 1 -
+/taxonomy/term/27%253Fpage%3D0%25252C0%25252C1 4 -
+/taxonomy/term/52%253Fpage%3D0%25252C1%25252C0 4 -
+/apple-touch-icon-precomposed.png 3 -
+/blog/robots.txt 6 -
+/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D1%8B-%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB-%D0%91-57-4664.html 10 -
+/product/mesyachnyy-premiuim-abonement-kartinatv 2 -
+/test/wp-admin/setup-config.php 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/product/proektor-pt-ae8000ea 1 -
+/wp-content/themes/headway-165/style.css 1 http://mediaplayer.com.ua/wp-content/themes/headway-165/style.css
+/product 1 -
+/product/sondpad 4 -
+/taxonomy/term/43%253Fpage%3D1%25252C0%25252C1 2 -
+/taxonomy/term/17%253Fpage%3D1%25252C0%25252C0 1 -
+/product/godovoy-premiuim-abonement-kartinatv 2 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F 2 -
+/Association/wp-content/plugins/simple-forum/editors/tinymce/plugins/tinybrowser/upload.php 1 -
+/wp-content/uploads/2015/07/screenshot1.png 1 http://mediaplayer.com.ua/
+/taxonomy/term/43%253Fpage%3D1%25252C1%25252C0 2 -
+/taxonomy/term/24%253Fpage%3D0%25252C1%25252C1 14 -
+/taxonomy/term/24%253Fpage%3D0%25252C0%25252C1 10 -
+/taxonomy/term/43%253Fpage%3D1%25252C1 2 -
+/wp-content/themes/organizer/lib_upload/server/php 1 http://mediaplayer.com.ua/wp-content/themes/organizer/lib_upload/server/php/
+/FCKeditor/editor/filemanager/connectors/php/upload.php 1 -
+/taxonomy/term/18%253Fpage%3D0%25252C0 2 -
+END_SIDER_404
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 933
+66.70.202.183 2223 2223 87759468 20170920061414
+23.237.4.26 121 121 686235673 20170929113238
+185.12.124.66 120 120 1252772 20170930155811
+212.90.40.52 114 127 1511722 20170926161549
+81.1.242.33 85 85 728534 20170929034812
+80.93.119.42 69 69 495916 20170930083715
+183.39.47.90 67 67 2208276 20170910054724
+178.248.71.183 66 66 689414 20170930230519
+116.30.70.12 62 62 1968486 20170914085828
+83.239.95.62 62 62 647673 20170930212437
+109.187.182.143 3 3 76060 20170902063053
+37.73.212.185 3 3 34371 20170906113312
+176.38.104.50 11 11 71490 20170919193238
+37.187.121.209 2 2 33027 20170924155753
+91.236.114.33 3 3 76093 20170922081327
+202.179.25.15 1 1 115358 20170918172517
+93.72.156.206 6 6 68717 20170906075617
+37.29.35.200 6 6 62688 20170930073404
+82.193.98.113 12 12 80507 20170928114410
+37.110.112.198 2 2 24871644 20170903080659
+95.67.1.101 3 3 31486 20170929135238
+46.133.7.212 3 3 37864 20170927131239
+46.219.220.62 1 1 16502 20170927105114
+178.204.45.205 3 3 30529 20170911065037
+192.99.88.236 1 1 116167 20170905094359
+194.50.125.239 3 3 32577 20170907211446
+195.138.169.172 3 3 31485 20170930204046
+94.190.87.95 8 8 83535 20170930170620
+94.180.138.5 3 3 36996 20170925234801
+46.219.232.112 3 3 34376 20170926223936
+85.26.209.182 1 1 10406 20170929043322
+109.63.139.250 1 1 15268 20170906050523
+95.163.210.43 3 3 30548 20170918200337
+145.239.102.107 1 1 16614 20170928065423
+116.25.10.127 8 8 58092 20170908104926
+31.207.72.113 4 4 41643 20170911104825
+82.144.206.102 6 6 167631 20170921141639
+193.201.225.45 2 2 32977 20170901210516
+91.237.121.254 4 4 28304 20170904093608
+112.5.248.148 1 1 16513 20170926214611
+88.198.140.34 6 6 63184 20170908073953
+95.170.158.105 11 11 114824 20170923160328
+193.160.224.36 5 5 45060 20170917172145
+93.76.39.33 3 3 30525 20170912195711
+183.87.114.130 3 3 231144 20170930214600
+115.133.127.81 1 1 115358 20170901135331
+89.169.150.211 1 1 10409 20170913120020
+91.247.148.142 6 6 62590 20170930185036
+112.5.248.152 1 1 16510 20170913032302
+176.192.29.150 4 4 41681 20170929152520
+89.252.25.112 3 3 31140 20170930111123
+212.117.27.207 6 6 61075 20170915231959
+46.133.80.183 3 3 34398 20170917100840
+23.21.254.81 2 2 12738 20170913202116
+178.151.164.119 3 3 31493 20170917033429
+185.209.58.4 3 3 31486 20170918140559
+66.249.83.87 2 2 1273 20170921155413
+91.217.13.50 3 3 34400 20170919170440
+37.73.225.164 3 3 33487 20170913171936
+37.194.107.66 3 3 30526 20170909114314
+46.101.142.145 3 3 34374 20170904125623
+91.194.50.87 3 3 34104 20170907164642
+54.163.63.98 1 1 115385 20170909094605
+193.106.223.247 3 3 29290 20170924203331
+78.184.254.3 1 1 115358 20170922112339
+37.110.146.137 3 3 32696 20170913164847
+87.236.187.134 18 18 188047 20170929043156
+141.226.174.154 3 3 36224 20170901075300
+178.234.35.42 6 6 62739 20170929152427
+128.52.128.105 1 1 16527 20170922023950
+134.249.133.122 3 3 31489 20170929163447
+66.249.93.53 4 4 63858 20170925202830
+209.58.177.70 3 3 34386 20170904210008
+168.205.52.30 2 2 155936 20170902191635
+46.211.98.6 4 4 42905 20170901095804
+173.252.114.118 1 1 16513 20170924124335
+185.195.17.227 2 2 78317 20170902040929
+212.3.115.3 3 3 31485 20170919182533
+195.230.154.2 3 3 34400 20170917094140
+85.238.123.145 11 11 95874 20170906010958
+131.107.147.111 4 4 37528 20170928215059
+178.125.234.201 5 5 43824 20170927201534
+131.107.147.28 7 7 69715 20170925035658
+202.46.58.151 1 1 16494 20170907050337
+107.170.145.187 4 4 36173 20170923133841
+188.163.33.99 3 3 34386 20170917213810
+178.54.5.58 13 13 143073 20170918215144
+195.58.24.221 2 2 38786 20170908000304
+202.46.52.72 1 1 16499 20170916111803
+5.228.111.111 3 3 34495 20170914145307
+176.195.104.55 11 11 125783 20170901080707
+62.210.129.246 1 1 16604 20170927091050
+31.17.253.226 3 3 33816 20170904215126
+79.135.66.230 1 1 10441 20170917155039
+2.92.35.126 27 27 337831 20170920092227
+176.126.252.11 1 1 16613 20170926075105
+188.0.218.161 3 3 30575 20170913114551
+82.145.221.243 3 3 30119 20170930141728
+62.210.105.222 1 1 12701 20170927090556
+77.37.220.219 3 3 34373 20170911194340
+46.219.239.185 15 15 136540 20170923095734
+31.135.146.4 3 3 36256 20170921200146
+46.98.124.85 3 3 31486 20170924181227
+193.41.77.81 5 5 43793 20170901221535
+194.44.201.151 3 3 36950 20170923224937
+178.215.120.129 3 3 31230 20170917012127
+85.26.129.75 1 1 10438 20170910191513
+83.174.219.191 7 7 73130 20170920224044
+131.107.159.56 11 11 80009 20170919065017
+195.144.6.66 3 3 30600 20170929124427
+156.67.50.7 9 9 87161 20170921185648
+37.73.196.138 3 3 35515 20170929101104
+146.185.144.64 1 1 16520 20170923141946
+46.133.40.73 5 5 49661 20170915195617
+94.244.36.214 1 1 16507 20170910103220
+5.255.94.72 1 1 16505 20170929224908
+188.17.159.28 2 2 20862 20170915090116
+213.111.139.19 3 3 31492 20170923220827
+89.17.36.71 43 43 449491 20170930191323
+176.99.196.110 3 3 29072 20170918180453
+89.169.91.245 2 2 20973 20170930031855
+46.211.97.255 3 3 35521 20170926033735
+77.108.219.83 6 6 62638 20170927033231
+87.121.45.48 3 15 415154 20170926151555
+188.191.98.147 3 3 36953 20170920233839
+85.114.216.19 12 12 122420 20170920184838
+95.25.82.46 2 2 99836 20170911221205
+162.244.78.107 1 1 80337 20170914183617
+178.159.215.59 3 3 34472 20170911214818
+95.79.241.103 3 3 30546 20170923183536
+110.77.232.142 1 1 16534 20170928044723
+192.187.117.10 17 17 1961545 20170918164113
+91.232.158.8 3 3 34404 20170930211944
+193.227.251.76 3 3 34344 20170904084535
+95.158.63.54 2 2 16055 20170925121308
+202.46.53.41 1 1 16500 20170911154023
+31.173.68.66 13 13 135853 20170930042437
+83.69.0.59 3 3 34397 20170927212911
+217.66.105.234 5 5 47915 20170922092923
+95.158.38.7 3 3 35068 20170910205824
+80.93.119.43 2 2 10559 20170904151127
+176.109.168.111 1 1 16497 20170916060245
+94.158.71.95 6 6 33385 20170902002552
+195.184.208.4 1 1 66988 20170916094154
+185.213.209.162 3 3 172523 20170929153422
+109.232.108.62 6 6 62799 20170929053428
+85.26.212.218 1 1 10468 20170915063606
+80.92.202.101 2 2 20880 20170909030603
+171.25.193.20 1 1 16528 20170926044747
+95.135.222.238 3 3 32445 20170927173732
+205.158.57.2 1 1 37117 20170921064742
+195.16.79.114 3 3 36962 20170902173143
+188.123.231.157 6 6 61107 20170911232631
+216.247.238.145 1 1 115385 20170916175944
+171.25.193.78 1 1 16614 20170928170247
+93.77.240.136 5 5 48380 20170907133543
+46.242.73.11 3 3 30549 20170925160909
+37.190.18.103 3 3 30601 20170921213936
+46.211.5.237 3 3 36246 20170914134131
+85.172.31.124 56 56 585029 20170930145632
+88.100.29.87 1 1 16509 20170925135856
+176.37.48.12 3 3 34379 20170914130225
+185.3.44.201 2 2 17891 20170920181610
+37.53.183.204 5 5 49726 20170930131246
+90.150.146.3 3 3 30530 20170904162955
+109.86.157.137 8 8 82897 20170925233404
+188.166.76.195 3 3 30529 20170901145032
+66.102.9.2 7 7 81367 20170925181751
+79.110.131.198 4 4 50868 20170917151356
+106.120.162.109 3 3 34399 20170929121537
+85.26.209.201 1 1 10474 20170926045420
+46.133.87.115 2 2 14517 20170925191635
+95.220.108.173 2 2 11991 20170919185155
+37.214.140.61 11 11 104908 20170914160320
+54.243.143.219 2 2 12685 20170918204337
+77.252.195.79 3 3 34413 20170923115816
+90.189.164.242 7 7 73051 20170928123232
+185.137.18.145 4 4 39683 20170901172028
+85.117.106.38 4 4 47061 20170921001928
+194.44.176.116 1 1 11479 20170907043918
+195.230.154.73 7 7 71929 20170913202750
+195.238.116.182 3 3 36273 20170925004524
+31.43.217.104 5 5 52175 20170928232557
+46.98.124.9 3 3 30549 20170927190430
+95.107.6.3 3 3 31326 20170923193317
+178.54.88.135 3 3 34365 20170924194739
+46.188.107.106 2 2 11302 20170909063230
+66.102.6.181 2 2 17855 20170920021944
+37.110.100.163 24 24 262345 20170920090049
+66.102.6.183 1 1 41586 20170920021939
+107.167.109.95 1 1 12680 20170928194046
+212.232.44.247 1 1 10403 20170906234444
+46.219.33.7 5 5 46003 20170923142818
+202.46.54.210 1 1 16501 20170923220104
+91.228.59.218 3 3 29301 20170907143530
+213.179.230.119 3 3 34399 20170929113702
+46.211.127.189 3 3 34163 20170927083051
+194.54.160.13 3 3 30261 20170909203128
+35.195.147.234 1 1 16511 20170923112255
+46.56.190.189 3 3 30599 20170918093418
+107.167.108.185 3 3 30601 20170926224234
+201.16.197.219 1 1 37117 20170922202313
+95.24.11.59 3 3 30580 20170912224811
+195.225.49.114 3 3 29325 20170907220305
+178.137.83.166 3 3 36373 20170926152316
+185.23.165.237 3 3 34390 20170927203010
+131.107.174.93 3 3 34395 20170925054803
+91.189.182.50 1 1 44541 20170907215503
+94.179.147.128 3 3 29328 20170911130431
+195.178.30.62 5 5 43795 20170915172651
+94.181.45.166 2 2 33032 20170921183056
+176.120.61.119 5 5 49665 20170908172227
+131.107.174.225 5 5 56837 20170918174944
+144.217.213.237 4 4 231572 20170919224619
+31.43.56.3 3 3 34380 20170905234046
+78.152.161.122 5 5 50072 20170916120354
+37.73.226.151 3 3 34551 20170926171637
+185.105.91.231 2 2 36770 20170919083545
+37.230.238.169 1 1 10399 20170905085621
+202.46.53.54 1 1 16501 20170902014212
+95.69.229.92 3 3 34414 20170929195801
+46.185.119.37 3 3 34409 20170924103817
+185.19.177.1 60 60 626607 20170930222950
+198.96.155.3 1 1 16615 20170927204938
+78.26.162.235 7 7 58253 20170916121626
+195.5.145.142 1 1 10404 20170913075758
+193.109.128.179 5 5 52513 20170910224606
+185.162.9.233 1 1 42711 20170912042805
+195.182.134.209 8 8 83537 20170929162927
+131.107.160.58 3 3 34386 20170908024817
+95.85.21.196 1 1 115385 20170920191712
+46.216.128.140 1 1 18376 20170917101619
+131.107.160.162 4 4 37532 20170920034647
+37.28.183.67 14 14 146490 20170923035839
+94.45.154.121 3 3 31491 20170921180715
+109.202.17.76 9 9 93978 20170929154113
+159.203.118.137 3 3 35612 20170928232337
+217.145.94.8 5 5 44078 20170915163027
+178.150.218.228 21 21 173369 20170924205412
+173.252.92.114 1 1 17340 20170912155418
+82.200.237.212 1 1 12221 20170916134725
+66.102.8.55 3 3 28815 20170920022048
+131.107.160.75 3 3 34383 20170928000745
+31.43.96.62 3 3 34410 20170920001411
+5.141.81.6 3 3 31371 20170916171437
+178.150.52.132 6 6 47100 20170926003429
+128.68.34.73 3 3 34374 20170907182710
+92.211.147.11 3 3 33832 20170919152915
+37.229.217.65 7 7 65712 20170926104919
+209.90.225.210 1 1 16613 20170929061641
+188.32.7.32 3 3 30574 20170925234802
+46.147.99.21 3 3 36266 20170925160914
+150.70.188.175 1 1 50643 20170909200421
+178.216.15.3 8 8 75232 20170922145736
+46.119.93.93 47 47 265360 20170918235836
+192.42.116.16 1 1 16604 20170924045351
+185.42.60.250 21 21 219622 20170930135514
+188.162.228.10 3 3 30605 20170923155710
+109.195.19.76 6 6 62732 20170930124517
+82.145.221.127 3 3 30555 20170918214935
+176.118.50.223 1 1 14978 20170914001916
+46.211.7.74 3 3 33016 20170927190759
+54.243.143.134 2 2 12685 20170923210516
+79.135.216.60 3 3 30554 20170922200656
+109.254.29.57 3 3 30226 20170910125215
+202.46.55.12 1 1 16508 20170928130324
+94.254.167.180 3 3 34396 20170922215414
+95.213.218.202 16 16 138089 20170919151812
+66.249.88.85 1 1 17312 20170907201227
+185.137.18.129 2 2 11872 20170929093716
+128.72.45.76 2 2 16082 20170927022209
+38.145.72.124 1 1 16502 20170921161649
+95.163.114.198 2 2 230770 20170926072041
+46.39.55.74 5 5 40738 20170913093135
+185.108.128.53 2 2 78317 20170903042246
+80.93.124.235 3 3 34379 20170901123734
+37.194.236.167 3 3 29065 20170929115119
+195.162.89.190 3 3 35115 20170927112427
+186.237.53.212 1 1 16079 20170901215735
+69.197.147.130 1 1 459 20170910191341
+185.128.235.198 26 26 181146 20170908164541
+107.167.108.77 4 4 34943 20170925232210
+80.255.90.166 48 48 501878 20170930093641
+77.43.196.31 3 3 31432 20170911072741
+51.254.29.72 1 1 50643 20170905201630
+131.107.160.244 3 3 34414 20170928002812
+91.228.103.30 3 3 29049 20170912085103
+131.107.147.200 3 3 34384 20170907045241
+193.107.132.197 5 5 45850 20170924181948
+5.39.66.58 2 2 115802 20170907214405
+185.41.248.11 16 16 108936 20170920123327
+37.204.195.245 6 6 62653 20170924215337
+128.69.154.222 2 2 13250 20170926050032
+213.5.192.43 11 11 87109 20170904214331
+95.67.70.242 3 3 29077 20170922115226
+94.189.130.216 3 3 30577 20170902112257
+82.194.9.99 5 5 48595 20170928143437
+5.228.95.202 2 2 32431 20170917122359
+87.239.27.152 5 5 51385 20170903184404
+91.221.70.27 3 3 44683 20170930185332
+91.232.128.68 3 3 33015 20170929083906
+217.24.175.90 2 2 33311 20170918225043
+92.113.31.186 9 9 93120 20170928202922
+164.132.93.47 1 1 50643 20170905134846
+178.137.229.166 3 3 34378 20170923142417
+82.193.98.65 3 3 34368 20170909082610
+131.107.160.144 3 3 34392 20170907212226
+91.199.188.6 5 5 53486 20170909105209
+85.26.218.11 1 1 10478 20170924033821
+178.46.160.69 1 1 10476 20170915192310
+46.61.0.207 1 1 10738 20170903123509
+207.154.220.64 3 3 34380 20170909193632
+85.174.224.42 7 7 73190 20170930181018
+94.141.61.100 5 5 52262 20170925201900
+94.45.107.233 5 5 45810 20170905211141
+91.142.166.102 6 6 67547 20170925073358
+131.107.159.159 17 17 147617 20170924125253
+46.43.219.43 2 2 20876 20170916093942
+202.46.56.137 1 1 16508 20170915063915
+188.163.1.179 9 9 79927 20170924222746
+95.220.202.88 9 9 103902 20170901095140
+195.178.31.229 10 10 66062 20170916190512
+85.26.213.23 3 3 31309 20170917042113
+46.246.25.85 1 1 44541 20170902073224
+131.107.174.144 3 3 34373 20170912233431
+185.17.134.85 44 44 460133 20170930174718
+134.249.9.100 3 3 34368 20170901142212
+188.226.170.140 9 9 80093 20170901210400
+164.132.93.21 1 1 50643 20170905162123
+185.93.184.74 3 3 35053 20170926065409
+109.173.98.245 17 17 177743 20170930052244
+95.47.104.13 5 5 52275 20170930222703
+217.118.64.50 1 1 16675 20170926055307
+91.90.16.210 24 24 187476 20170903232003
+85.26.142.59 1 1 10431 20170909201925
+91.221.201.59 6 6 62678 20170928020755
+194.154.208.103 1 1 12708 20170920181608
+194.31.46.138 1 1 16522 20170925004934
+91.201.108.233 3 3 35503 20170910191916
+162.208.50.91 1 1 115385 20170915221123
+37.73.215.229 1 1 16536 20170911123550
+62.16.102.102 7 7 73109 20170930073418
+5.166.209.43 1 1 115385 20170930120310
+93.74.221.2 5 5 46765 20170916184109
+46.48.13.161 1 1 16503 20170915045536
+109.63.227.101 10 10 122528 20170901092726
+37.203.25.218 4 4 50032 20170904010504
+176.15.68.70 12 12 126421 20170920074422
+94.248.30.233 1 1 16675 20170927150331
+46.188.60.65 5 5 52291 20170926002443
+91.90.13.172 6 6 68104 20170907202701
+178.165.51.100 5 5 35180 20170929163157
+87.97.140.225 3 3 30572 20170927232732
+150.70.188.176 1 1 115385 20170915195532
+31.173.248.58 5 5 52131 20170921090850
+194.50.144.12 3 3 34410 20170919193004
+193.161.14.111 2 2 17941 20170918104514
+37.73.194.44 1 1 16501 20170908191121
+46.211.136.235 1 1 15539 20170903155932
+34.248.58.167 1 1 16506 20170901153216
+128.68.57.72 3 3 32670 20170920132043
+213.169.75.70 5 5 45802 20170912150533
+176.36.71.37 3 3 34364 20170916175620
+52.32.89.136 1 1 16506 20170907042928
+91.225.166.130 23 25 135350 20170905162459
+194.126.181.127 47 47 330791 20170922130239
+176.124.144.185 54 54 563865 20170930042102
+217.73.90.186 3 3 31491 20170923110406
+188.163.9.114 3 3 34397 20170917141838
+178.161.147.218 52 52 543283 20170930191327
+43.252.230.164 5 5 3985 20170923042243
+95.167.217.110 2 2 20878 20170917144215
+95.32.180.170 7 7 71565 20170909001042
+54.209.157.129 1 1 79049 20170909012227
+37.203.26.139 3 3 34160 20170919153138
+77.121.121.158 3 3 31471 20170903171621
+79.135.213.22 3 3 37554 20170918212509
+109.254.253.10 3 3 30279 20170920195550
+77.121.197.158 5 5 50587 20170922212750
+178.124.157.123 3 3 36251 20170908161101
+194.44.70.25 3 3 31443 20170911000913
+82.144.193.226 6 6 47091 20170914101756
+162.243.246.160 2 2 18103 20170917022029
+46.188.29.95 3 3 37524 20170913034724
+150.70.188.179 1 1 47612 20170903175314
+31.173.71.190 21 21 219040 20170927043549
+191.101.92.33 1 1 16517 20170918080350
+91.239.81.219 1 1 16505 20170912120946
+212.3.130.38 3 4 47556 20170928203430
+87.76.254.63 5 5 48177 20170917172112
+194.135.122.2 2 2 20826 20170918111248
+195.34.194.49 5 5 52378 20170929095453
+195.225.231.211 3 3 34378 20170910101301
+131.107.160.38 3 3 34399 20170919003040
+119.122.99.234 8 8 58228 20170922131338
+37.73.219.27 3 3 31469 20170915082425
+80.255.64.192 6 6 13636040 20170920142723
+46.98.83.200 1 1 16234 20170922001707
+8.37.235.184 4 4 34306 20170906121223
+148.74.24.77 3 3 33858 20170922042807
+128.69.210.208 3 3 33085 20170917025538
+78.36.7.176 8 8 83560 20170928153541
+176.193.177.16 1 1 12654 20170917060317
+93.74.158.28 3 3 32656 20170908140744
+85.26.142.40 2 2 20965 20170924233941
+95.79.28.144 14 14 146565 20170929050428
+195.178.30.251 3 3 30574 20170919165101
+212.154.176.213 3 3 28898 20170919072327
+94.159.40.70 16 16 167311 20170928030800
+37.25.122.66 11 11 109066 20170908085958
+188.166.94.122 3 3 35097 20170911181948
+188.255.21.253 2 2 32356 20170917122355
+188.163.74.24 3 3 32683 20170920233849
+77.189.52.99 8 8 63235 20170923214857
+178.158.236.44 3 3 31457 20170918100725
+176.36.116.46 4 4 66045 20170919133401
+66.249.88.87 1 1 538 20170907201227
+174.129.1.66 2 2 12735 20170903201408
+146.120.12.133 3 3 29344 20170928220800
+78.25.106.213 1 1 10399 20170913050514
+90.155.137.98 3 3 30549 20170924171303
+84.143.196.190 5 5 51547 20170906185152
+195.24.139.114 3 3 34106 20170911131219
+176.15.197.165 3 3 37574 20170922125705
+92.249.74.123 3 3 35093 20170916142451
+131.107.147.79 3 3 34400 20170930173221
+37.17.172.122 23 23 283760 20170902131047
+109.252.74.53 3 3 30543 20170919132313
+178.234.35.26 12 12 125167 20170928010734
+92.249.120.13 3 3 32637 20170909123215
+131.107.159.244 3 3 36987 20170924132941
+66.249.92.217 1 1 19656 20170912230257
+77.94.103.89 19 19 198330 20170930032253
+84.39.244.26 3 3 30604 20170930230134
+66.102.8.57 2 2 34652 20170907225639
+46.203.197.155 5 5 45063 20170924190609
+82.193.123.147 3 3 32629 20170929154939
+176.113.126.154 54 54 564507 20170929164315
+199.66.88.29 3 3 29266 20170908141620
+95.28.227.114 2 2 17037 20170905082019
+94.19.136.36 3 3 30504 20170905205149
+66.249.83.88 2 2 17051 20170921155252
+217.66.150.196 4 4 41842 20170921101803
+81.1.242.165 3 3 31364 20170924002223
+37.73.233.124 3 3 36251 20170915114730
+37.73.251.120 2 2 14693 20170929233936
+5.142.85.210 3 3 30530 20170915152616
+109.65.31.18 3 3 30528 20170914195151
+66.102.6.185 2 2 17850 20170907225638
+78.159.36.59 8 8 83234 20170901094557
+138.197.177.245 1 1 16495 20170903170253
+202.46.52.145 1 1 16512 20170912162418
+80.234.93.58 15 15 156581 20170928165718
+85.238.103.226 56 56 184480 20170918144309
+89.23.29.57 1 1 10479 20170909020603
+93.79.146.114 3 3 37553 20170923194716
+195.225.231.221 36 36 936673 20170927083220
+85.26.209.188 1 1 10476 20170925185525
+185.159.128.193 1 1 16513 20170921051304
+188.231.226.189 1 1 12387 20170919231338
+212.90.179.68 3 3 34375 20170905125849
+46.0.206.163 1 1 10406 20170925092300
+178.155.12.170 1 1 37117 20170922202315
+104.236.55.136 5 5 55427 20170917153250
+91.122.208.88 8 8 83640 20170930201933
+93.72.192.249 3 3 30555 20170923100445
+46.211.144.251 3 3 30576 20170912004056
+93.74.22.197 2 2 22910 20170914130349
+193.242.149.127 3 3 31344 20170921182304
+178.137.82.201 3 3 231144 20170926234726
+82.142.189.80 35 35 365713 20170923052412
+88.119.49.66 1 1 37117 20170921101951
+46.229.66.88 3 3 31392 20170930093324
+79.134.198.229 57 57 595141 20170930123127
+176.37.91.84 3 3 31467 20170905125725
+159.224.248.230 6 6 64632 20170923100324
+186.178.10.78 1 1 37113 20170914230130
+173.252.114.117 2 2 17891 20170924124339
+188.163.96.253 25 25 199018 20170909085953
+94.181.155.226 1 1 78362 20170920132901
+82.208.146.203 6 6 62883 20170912063021
+185.158.112.30 6 6 89076 20170930104949
+178.94.232.229 34 34 306541 20170921155053
+176.37.128.135 11 11 103127 20170917094910
+109.63.236.179 3 3 29497 20170926125051
+91.221.200.74 25 25 261115 20170930114404
+94.45.144.64 7 7 64778 20170913205241
+95.24.235.13 2 2 17032 20170912060824
+213.5.192.195 9 9 85464 20170924120606
+46.46.85.55 17 17 158426 20170923164508
+91.201.108.146 3 3 31669 20170909103247
+85.26.137.44 3 3 31284 20170922202040
+95.181.145.38 13 13 135753 20170928071626
+46.133.124.30 5 5 53510 20170920000915
+31.43.142.73 3 3 29344 20170924002037
+81.34.62.185 3 3 30516 20170919192827
+85.255.233.136 1 1 16633 20170921195219
+165.227.153.153 1 1 16501 20170908182714
+45.55.61.155 2 2 11839 20170916161034
+107.170.127.117 5 5 53520 20170923010017
+150.70.188.178 1 1 67609 20170925073234
+107.167.104.198 4 4 34939 20170925232210
+88.81.43.3 3 3 34162 20170918033737
+192.162.140.147 3 3 34419 20170921200818
+82.196.1.179 3 3 32825 20170903000218
+31.173.69.156 17 17 177553 20170930052326
+131.107.147.194 3 3 34402 20170917073832
+176.193.122.87 2 2 15662 20170928195319
+46.133.33.204 3 3 34377 20170907185805
+167.114.157.79 12 12 678692 20170911072943
+46.42.133.1 3 3 30604 20170920011336
+77.222.153.86 3 3 34493 20170928163953
+128.68.3.46 3 3 30511 20170926182444
+194.87.146.150 2 2 116133 20170912142954
+51.15.134.120 1 1 16609 20170925232740
+91.192.244.50 57 57 595752 20170930042200
+195.93.144.222 8 8 83532 20170928121857
+178.137.165.202 1 1 67605 20170910232013
+212.98.173.150 3 3 30561 20170927150220
+194.48.218.109 43 43 449035 20170930180843
+46.255.34.199 4 4 30176 20170907123017
+82.208.124.33 3 3 30551 20170919172951
+85.26.212.33 1 1 10431 20170912235639
+66.249.93.57 1 1 12628 20170923205418
+95.158.199.64 2 2 25405 20170901193728
+185.137.18.164 3 3 35090 20170903012430
+78.109.23.1 1 1 16624 20170930133533
+46.185.70.179 53 53 395860 20170929223755
+82.208.136.112 4 4 41928 20170921195124
+37.28.183.134 15 15 156863 20170930212436
+91.247.38.59 3 3 17969 20170920055917
+64.58.117.45 3 3 34376 20170909123554
+178.234.34.179 25 25 261252 20170930145636
+176.77.29.181 8 8 87450 20170901085013
+46.151.158.74 4 4 41789 20170927180024
+185.61.252.11 5 5 28508 20170901000800
+77.138.192.200 3 3 36268 20170929174433
+178.150.179.146 3 3 34484 20170911204259
+95.220.198.103 2 2 24855452 20170909230509
+46.109.33.142 3 3 30597 20170929233131
+37.110.70.96 1 1 18374 20170909020205
+109.233.224.6 9 9 68417 20170901144141
+66.102.8.53 4 4 18960 20170920022043
+188.163.13.8 3 3 33008 20170912002451
+41.67.139.242 2 2 38723 20170903174217
+194.183.160.11 6 6 50276 20170914121612
+34.252.106.179 1 1 16505 20170901015725
+37.193.66.39 8 8 83624 20170913043759
+91.196.122.207 4 4 54192 20170930122617
+185.8.107.162 1 1 44541 20170902115528
+89.249.134.77 6 6 62684 20170929122934
+131.107.174.174 3 3 34388 20170920051018
+78.111.187.170 3 3 31695 20170905215120
+79.110.128.26 3 3 34408 20170918121734
+77.123.177.49 10 10 104630 20170908022527
+77.120.215.224 3 3 29347 20170928225154
+85.238.117.6 3 3 62816 20170909112042
+178.151.66.193 3 3 29330 20170904235807
+92.39.66.182 35 35 365788 20170921195910
+5.188.92.2 7 7 104131 20170930124548
+195.208.166.170 8 8 83410 20170912105652
+194.28.31.25 5 5 52150 20170930133529
+79.140.2.162 3 3 36262 20170926152540
+188.166.26.119 3 3 34397 20170925221557
+92.101.14.111 3 3 30535 20170910153311
+50.112.194.65 2 2 166028 20170913085937
+130.180.218.24 4 4 30177 20170916092027
+46.211.148.85 3 3 31071 20170929145438
+37.44.88.87 6 6 59384 20170903163529
+109.254.251.9 10 10 61940 20170930155119
+51.254.29.82 1 1 50643 20170905164026
+93.73.107.68 9 9 85550 20170906233835
+46.226.108.26 1 1 16613 20170930233113
+185.105.88.240 4 4 71616 20170904223420
+31.192.140.207 3 3 30527 20170909090607
+31.43.110.118 15 15 138238 20170930222540
+193.219.163.165 3 3 36233 20170920175553
+37.229.44.239 7 7 69950 20170917175617
+80.249.178.194 1 1 52035 20170907155100
+176.193.176.123 1 1 12443889 20170923222837
+37.122.43.139 3 3 36259 20170907203738
+85.26.209.206 1 1 10514 20170910104655
+62.33.138.199 6 6 62582 20170927135622
+49.140.231.188 1 1 11295 20170906063227
+158.69.249.18 4 4 71193 20170908174701
+131.107.159.42 21 21 161635 20170909051458
+62.133.171.230 1 1 10478 20170920213408
+146.185.223.220 3 3 75998 20170903211044
+91.225.109.102 2 2 33857 20170921113905
+5.228.100.253 1 1 850446 20170903050521
+37.29.40.190 3 3 36267 20170923095519
+78.25.83.158 39 39 407598 20170930222948
+83.220.244.245 1 1 10494 20170923224242
+66.102.9.5 9 9 95577 20170928151520
+202.46.54.71 1 1 16515 20170927072016
+91.195.74.82 7 7 67730 20170907075221
+176.77.30.77 3 3 32624 20170924215753
+87.149.65.63 5 5 43827 20170924205633
+193.111.2.239 1 1 10395 20170913195143
+54.219.187.120 1 1 16511 20170928192307
+46.119.68.234 3 3 34400 20170930222153
+185.61.39.193 3 3 30531 20170909200335
+5.59.54.5 3 3 34400 20170927120134
+178.205.177.70 5 5 51434 20170925114052
+178.54.175.74 5 5 54907 20170905122942
+62.210.201.93 6 6 89036 20170929195726
+188.255.55.251 2 2 19649 20170926050035
+212.90.62.42 3 3 29335 20170916133427
+79.183.144.33 3 3 36226 20170905235206
+178.93.148.47 5 5 53488 20170909075531
+213.151.5.255 3 3 35101 20170908111634
+212.8.63.14 8 8 64368 20170905085949
+213.111.89.20 3 3 34117 20170929004328
+94.158.39.15 3 3 34116 20170924204559
+52.27.2.86 5 5 437702 20170927114547
+66.249.83.89 1 1 16526 20170921155250
+185.154.13.7 3 3 76019 20170909021128
+46.211.145.139 1 1 19094 20170913081553
+69.30.250.130 2 2 230770 20170909024045
+178.95.237.94 3 3 34384 20170908213449
+31.13.63.138 7 7 60768 20170915150859
+94.41.35.131 3 3 30122 20170917013154
+95.220.202.10 3 3 38129 20170920091333
+79.134.5.190 3 3 31383 20170912030150
+95.164.10.23 3 3 34395 20170928205359
+82.208.65.46 6 6 62661 20170930021611
+88.152.255.53 3 3 31439 20170914123700
+77.121.100.212 3 3 36256 20170903212141
+185.137.18.219 2 2 11872 20170924204701
+213.213.220.69 1 1 115358 20170927013736
+188.191.24.66 19 19 198301 20170930134828
+194.44.150.232 3 3 31441 20170913180515
+93.109.231.162 3 3 30603 20170919084348
+95.67.123.2 3 3 28478 20170925095742
+95.167.178.45 52 52 543260 20170930103834
+95.28.162.15 2 2 17763 20170921061016
+5.228.19.205 3 3 33417 20170926040042
+89.17.40.58 33 33 344992 20170930102746
+31.31.99.226 1 1 16508 20170914103648
+37.18.35.66 5 5 52243 20170928092340
+181.196.50.238 1 1 115358 20170927010628
+95.90.184.106 3 3 30258 20170907124933
+82.145.222.4 60 60 478767 20170914212543
+109.86.57.251 7 7 67600 20170927184453
+92.113.1.21 3 3 36268 20170917182159
+130.180.217.247 5 5 53654 20170917085817
+176.36.15.221 3 3 36282 20170917202444
+95.135.195.152 1 1 16504 20170916111800
+83.220.251.232 17 17 177730 20170930155800
+158.255.132.5 1 1 115385 20170921131150
+178.94.253.180 2 2 26125 20170910133318
+31.173.69.162 1 1 10408 20170922205641
+87.240.29.97 3 3 31139 20170919202518
+178.234.37.40 11 11 115235 20170921003805
+66.102.6.211 1 1 17340 20170915085058
+176.118.49.13 3 3 29348 20170919114515
+51.255.202.66 1 1 16501 20170905045208
+188.143.150.24 3 3 30577 20170906160346
+78.25.82.10 43 43 449538 20170926142416
+195.162.83.39 3 3 34399 20170914211112
+46.229.51.86 3 3 34514 20170903105253
+93.183.205.230 13 13 109798 20170912082139
+37.54.146.90 3 3 34385 20170901153847
+107.167.112.230 14 14 126774 20170914111221
+153.92.0.15 1 1 64395 20170929111002
+185.76.10.162 9 9 76931 20170903125516
+130.0.54.249 3 3 34120 20170917191713
+95.69.242.56 43 43 337080 20170925005700
+194.31.45.48 3 3 28512 20170930133912
+95.47.98.146 3 3 34401 20170911195430
+77.121.119.48 3 3 76039 20170920230029
+46.101.247.148 1 1 16521 20170923211556
+77.74.79.83 8 8 83640 20170929030640
+46.160.100.111 3 3 35511 20170923155433
+46.211.101.84 3 3 31244 20170925220530
+178.137.161.202 2 2 143192 20170928100005
+94.180.102.76 3 3 31328 20170929185102
+130.211.87.161 1 1 16496 20170902002841
+150.70.173.12 1 1 115385 20170917215218
+178.234.34.107 33 33 344620 20170928020956
+5.248.21.140 13 13 125424 20170916221649
+46.53.202.158 3 3 30103 20170912220146
+46.118.91.1 3 3 34101 20170910192343
+178.159.124.177 3 3 49459 20170902111348
+95.220.206.154 3 3 34388 20170913233149
+91.202.45.77 4 4 41810 20170930201835
+91.200.1.45 7 7 62805 20170911102340
+78.154.165.235 5 5 53505 20170916195129
+176.77.35.71 3 3 34414 20170917125727
+210.79.67.208 50 50 1468399 20170922083016
+176.193.153.162 3 3 29332 20170901012018
+37.153.34.175 19 19 161465 20170903140919
+213.87.152.191 3 3 30550 20170920015637
+195.123.8.126 7 7 60232 20170927114609
+46.211.154.14 3 3 30271 20170921140117
+176.110.21.146 1 1 10740 20170906121508
+95.220.193.14 3 3 28655 20170915224144
+171.13.14.152 3 3 34398 20170929121533
+37.204.142.23 2 2 20884 20170927122114
+195.96.76.122 11 11 114850 20170929000211
+89.178.91.242 1 1 16504 20170919055157
+83.171.108.21 4 4 41784 20170918003530
+87.237.42.3 22 22 229649 20170916113013
+188.0.216.85 3 3 30534 20170910162124
+188.42.35.214 3 3 34080 20170903124002
+176.8.160.185 10 10 95429 20170916182301
+167.114.16.163 2 2 115802 20170905022209
+31.42.161.107 3 3 34371 20170930203559
+131.107.160.156 27 28 200224 20170906064528
+65.19.167.130 1 1 16619 20170924195547
+31.184.197.41 2 2 29735 20170928185307
+158.255.132.29 4 4 191417 20170913193040
+173.252.92.117 2 2 17031 20170912155419
+131.107.147.30 8 9 56110 20170923202013
+82.208.131.180 5 5 52351 20170928110331
+128.69.231.35 6 6 63219 20170920094723
+195.238.178.221 3 3 35513 20170928203756
+176.212.58.142 1 1 850446 20170909214045
+54.92.157.31 1 1 16515 20170930081152
+46.29.197.138 7 7 73257 20170930113652
+81.162.222.81 7 7 60962 20170911211553
+78.159.42.202 3 3 36262 20170924005857
+77.52.190.10 6 6 62966 20170919201917
+37.130.246.163 6 6 61147 20170918223159
+91.79.28.47 3 3 76095 20170928081513
+194.1.195.24 3 3 34386 20170916190103
+37.205.67.16 3 3 30550 20170917092356
+141.101.20.118 3 3 31111 20170912174122
+37.215.228.162 1 1 61575 20170921084240
+89.169.155.248 27 27 282133 20170930233713
+194.1.239.244 7 7 103980 20170929143223
+91.217.5.130 11 11 76982 20170914100314
+185.23.165.17 3 3 35122 20170926131640
+193.186.9.100 3 3 34383 20170911161334
+77.244.199.229 3 3 30571 20170920002955
+185.18.112.150 7 7 73093 20170922223537
+37.110.97.85 3 3 35207 20170923130032
+131.107.147.179 1 1 16503 20170909165928
+112.5.243.176 1 1 16528 20170920050401
+150.242.125.222 1 1 115537 20170922022655
+91.218.75.176 16 16 119966 20170921200705
+5.53.117.110 3 3 31469 20170904190708
+46.211.69.230 3 3 31474 20170911201900
+46.201.70.193 6 6 45693 20170908173156
+77.82.38.14 3 3 34377 20170910082103
+91.143.38.162 38 38 397167 20170930212329
+95.135.39.2 3 3 34401 20170919232435
+178.151.152.247 3 3 35090 20170928170935
+178.215.174.154 3 3 34389 20170907144315
+94.51.253.130 3 3 32812 20170928173611
+37.204.148.172 3 3 29348 20170919114111
+176.15.231.136 3 3 35101 20170915164317
+185.194.106.22 1 1 18375 20170924134935
+46.146.203.249 12 12 125261 20170928041001
+195.110.63.229 3 3 36259 20170906174913
+130.180.209.158 3 3 34383 20170913080803
+85.172.109.18 1 1 10441 20170929142257
+109.248.252.136 24 24 250605 20170930042204
+112.5.243.138 1 1 16520 20170910083234
+77.222.106.40 3 3 29070 20170923203404
+66.102.6.171 2 2 17850 20170907201227
+93.171.67.201 5 5 48873 20170926095946
+81.163.57.203 1 1 10433 20170916082645
+217.118.78.111 1 1 19100 20170926230547
+213.138.74.85 49 49 511649 20170930103946
+195.91.224.113 5 5 49759 20170921203919
+188.166.71.248 31 31 220455 20170921161645
+93.73.113.17 5 5 41282 20170911093058
+131.107.159.155 16 16 114343 20170916094659
+46.161.27.237 1 1 14934 20170907203203
+202.46.50.16 1 1 16504 20170919141234
+77.123.187.113 3 3 31488 20170918191358
+46.201.131.162 3 3 34388 20170917105526
+195.230.115.37 3 3 31460 20170928123923
+46.31.2.188 2 2 20837 20170906032537
+5.188.94.129 9 9 79650 20170909150824
+92.60.179.210 3 3 36252 20170905200509
+91.202.75.170 2 2 36426 20170915161636
+66.102.6.209 4 4 35700 20170915190114
+176.122.119.48 18 18 175657 20170909214324
+34.253.125.121 1 1 16506 20170901163505
+212.115.253.223 3 3 34386 20170917050705
+217.65.241.9 5 5 53487 20170909122252
+95.188.102.200 1 1 10442 20170928030716
+92.55.41.22 15 15 156645 20170930082919
+194.44.148.69 3 3 29313 20170929122613
+52.51.222.70 1 1 16493 20170901035306
+188.94.227.38 40 40 417638 20170929070509
+109.95.54.163 3 3 34388 20170903190012
+31.130.95.121 3 3 30525 20170915120138
+131.107.160.28 3 3 34385 20170917003846
+176.119.18.104 18 18 187800 20170930202106
+93.170.32.24 1 1 19102 20170930085931
+45.55.239.237 1 1 16511 20170906194259
+176.108.2.88 3 3 37524 20170905150915
+195.58.30.85 6 6 62638 20170917180132
+185.79.102.81 7 7 54220 20170908071854
+82.193.99.45 7 7 60745 20170910232944
+109.66.172.47 6 6 61075 20170910183518
+52.207.248.152 1 1 16500 20170929031231
+178.54.120.61 5 5 43359 20170907095500
+112.5.243.199 1 1 16510 20170925033953
+178.137.141.12 6 6 68776 20170926032219
+85.238.99.239 3 3 30598 20170925001913
+217.117.64.201 3 3 34370 20170920101831
+31.173.68.93 4 4 41729 20170927125138
+178.62.120.74 1 1 16511 20170902202904
+95.128.43.164 1 1 16611 20170926234313
+89.200.233.69 3 3 30074 20170914113744
+148.251.154.123 6 6 267246 20170928011910
+178.135.88.58 3 3 29288 20170921135647
+192.160.102.164 1 1 16504 20170926073059
+212.220.115.230 17 17 177569 20170930123134
+176.119.100.188 2 2 22357 20170913155732
+89.162.240.123 9 9 72959 20170906160508
+95.84.250.161 3 3 32807 20170924105926
+150.70.188.172 2 2 203842 20170915195717
+188.163.5.3 3 3 34394 20170911221920
+131.107.159.185 3 3 34413 20170917042723
+46.229.131.51 21 21 219463 20170930164412
+37.144.45.223 3 3 33140 20170906045656
+37.73.209.48 54 54 311833 20170929164604
+31.173.248.50 3 3 31283 20170913103625
+46.174.66.92 3 3 34384 20170913142716
+213.149.7.76 3 3 30530 20170903100002
+202.46.51.19 1 1 16497 20170920163343
+176.97.128.37 3 3 30579 20170911145653
+213.59.206.146 2 2 20834 20170916190255
+185.8.107.159 1 1 44541 20170905100550
+176.36.148.226 20 20 193383 20170924181830
+87.97.140.85 3 3 30602 20170917234249
+194.29.62.197 3 3 31485 20170926180445
+95.220.104.237 3 3 29349 20170920022026
+112.5.248.254 1 1 16485 20170915032104
+89.162.145.131 18 18 134490 20170919174145
+178.140.6.18 5 5 45034 20170913120957
+77.37.242.34 2 2 15269 20170925192054
+193.161.14.110 8 8 88316 20170919093758
+85.26.209.173 1 1 10433 20170926032555
+66.102.6.213 1 1 536 20170915085100
+66.102.9.8 6 6 47048 20170925181751
+87.76.255.74 33 33 276996 20170909121820
+37.61.211.118 3 3 36959 20170913004452
+85.26.217.235 2 2 20985 20170922130638
+195.34.204.156 9 9 73325 20170922013629
+77.52.196.170 1 1 16521 20170928120424
+37.29.83.195 1 1 10433 20170905011957
+109.252.44.108 9 9 79028 20170912015623
+146.148.13.103 1 1 16510 20170903004445
+31.41.68.20 3 3 34397 20170914225713
+131.107.159.163 3 3 34383 20170911013722
+95.46.126.4 6 6 99930169 20170904150601
+193.239.233.236 11 11 114978 20170921180454
+82.208.140.163 1 1 10430 20170908031853
+5.165.183.5 3 3 32656 20170913164844
+194.44.253.141 3 3 30599 20170919203950
+37.54.103.131 5 5 51573 20170924004059
+194.150.142.16 3 3 31360 20170928201821
+74.220.203.54 2 2 230770 20170920135007
+202.46.57.205 1 1 16518 20170907201101
+95.220.77.115 2 2 15447 20170925051342
+37.110.146.136 3 3 34409 20170924095816
+52.31.128.23 1 1 16496 20170901122539
+109.104.221.16 3 3 30574 20170915210345
+5.228.18.204 7 7 73135 20170925183921
+37.29.37.55 2 2 20923 20170914050231
+46.219.240.137 3 3 31485 20170929165626
+195.182.89.51 3 3 30555 20170912184124
+62.210.201.88 4 4 59743 20170913123741
+31.173.68.136 5 5 52281 20170928230246
+37.130.246.248 3 3 30574 20170920224832
+80.78.49.130 7 7 62599 20170921150842
+79.139.229.153 1 1 115385 20170921102004
+93.170.175.15 3 3 34504 20170903210103
+184.73.174.17 2 2 12734 20170908201733
+164.4.17.36 3 3 30579 20170907081552
+78.83.216.111 3 3 30600 20170929184049
+66.249.93.55 6 7 72395 20170925202837
+78.24.29.252 1 1 10435 20170909051216
+94.178.226.199 3 3 35102 20170901132717
+13.56.163.235 16 16 110944 20170928193331
+90.150.87.74 18 18 188379 20170930011727
+194.0.53.170 3 3 34109 20170903063716
+201.18.18.173 3 3 231160 20170903224424
+178.94.136.85 9 9 92152 20170920164236
+95.28.184.50 12 12 117398 20170920082409
+91.222.16.169 3 3 34382 20170915103950
+185.188.182.230 1 1 16501 20170925134813
+93.191.231.87 6 6 42137 20170908064012
+178.234.35.99 18 18 187913 20170926162211
+193.93.50.194 1 1 16511 20170909190409
+212.66.34.6 3 3 30241 20170926201943
+128.75.103.78 3 3 34396 20170918173308
+178.252.107.173 3 3 30585 20170903175202
+52.73.202.157 1 1 78358 20170909185910
+185.26.193.252 1 1 10399 20170920180549
+94.178.70.68 3 3 29286 20170924200743
+131.107.147.169 3 3 36992 20170924112708
+31.202.38.238 3 3 29055 20170907111948
+95.220.109.119 1 1 9035502 20170916213550
+78.25.111.247 2 2 20970 20170930134843
+106.120.162.96 1 1 16519 20170918210455
+31.3.194.85 21 21 162509 20170909185540
+52.87.226.231 1 1 12704 20170930132459
+78.36.142.146 2 2 20915 20170916055002
+93.74.47.0 33 34 101526 20170916114019
+46.231.225.81 1 1 16499 20170906234030
+92.253.240.149 5 5 46394 20170930184331
+211.20.238.33 3 3 59240 20170930222902
+31.131.65.194 3 3 29026 20170915235520
+46.42.129.82 1 1 16627 20170914184356
+178.140.112.103 3 3 30599 20170924121657
+62.210.202.86 7 7 104419 20170928195520
+195.80.140.237 5 5 54224 20170913095544
+176.115.110.234 3 3 30549 20170919093202
+34.229.224.179 1 1 12704 20170912132152
+78.107.255.67 3 3 30550 20170918143306
+109.63.238.154 12 12 140453 20170920065602
+94.158.149.35 3 3 35100 20170915095753
+66.249.92.213 2 2 39317 20170912230307
+188.163.96.213 3 3 34379 20170909225645
+5.248.253.217 7 7 66271 20170913103313
+77.190.140.201 10 10 66119 20170928174348
+176.197.231.18 11 11 115042 20170925054417
+188.68.2.18 12 12 125430 20170927044757
+82.194.18.105 5 5 48927 20170927151011
+37.52.56.117 3 3 34368 20170907220105
+109.162.123.88 5 5 49173 20170918191307
+188.186.183.65 3 3 31266 20170917222605
+188.170.82.248 2 2 18019 20170907195140
+213.87.106.187 39 39 407643 20170930181037
+77.121.100.230 3 3 35115 20170917142809
+91.238.248.162 2 2 20804 20170915090128
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170901 158 158 1826587 55
+20170902 83 83 1350635 25
+20170903 120 120 27232323 34
+20170904 58 58 100443730 17
+20170905 174 176 2043114 91
+20170906 180 181 1754372 92
+20170907 172 172 2091125 105
+20170908 116 116 1169647 27
+20170909 304 304 29223043 133
+20170910 221 221 3892070 119
+20170911 193 193 2693265 120
+20170912 197 197 2228671 129
+20170913 193 193 2279637 126
+20170914 293 293 4315387 104
+20170915 216 216 2794315 144
+20170916 254 255 11431587 123
+20170917 174 174 2212231 98
+20170918 312 312 4523739 123
+20170919 238 238 2565935 134
+20170920 2547 2547 105040469 152
+20170921 273 273 2960884 119
+20170922 225 225 3568668 105
+20170923 207 208 14569401 117
+20170924 214 214 2148086 104
+20170925 275 276 2866409 130
+20170926 169 194 2908355 107
+20170927 158 158 1970388 108
+20170928 210 211 2344493 121
+20170929 344 344 688465477 96
+20170930 164 164 2038774 106
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 49
+15mn-30mn 49
+30s-2mn 79
+2mn-5mn 40
+0s-30s 2770
+30mn-1h 69
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 168
+/user/ 2222 87720485 0 1
+/uc_ajax_cart/show 1205 653469 18 557
+/user 789 8388270 736 734
+/user/login 772 8050820 717 715
+/user/login/user/login 647 6771819 606 609
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.woff 585 10109858 16 85
+/ 407 13767388 304 132
+/page/kontakty 114 2489056 45 38
+/video/torrent-klient-na-solo-4k 97 1325744 80 13
+/product/mediapleer-dune-hd-duo-4k 72 1382688 40 1
+/js/admin_menu/cache/5da174b4e3735c46e70cf93143c698e3 12 151624 0 0
+/category/soputstvuyushchie-tovary 14 338119 0 0
+/product/stoyki-m-26 1 50540 0 0
+/product/proekcionnyyekran-avscreen-3v106meh234h132169 1 51934 0 0
+/news/moya-kollekciya-novyy-servis-ot-kompanii-dune-hd 48 873308 45 10
+/flag/unflag/sravnenia/353 1 950 0 0
+/xmlrpc.php 11 6439 6 5
+/product/kolonkidlyadomashnegokinoteatra-jamo-s506-hcs3 9 178715 4 0
+/product/proekcionnyyekran-elite-screens-er100wh1-236-x-233-169 2 67099 0 1
+/product/proekcionnyyekran-elite-screens-er120wh1-265-h-149-169 2 67126 1 0
+/node/315/edit 1 26937 0 0
+/product/proektor-optoma-hd26lv 40 692137 33 33
+/product/hdmikabel-mt-power 17 279316 12 0
+/product/proektor-optoma-gt760 7 149702 6 6
+/product/mediapleer-dune-kartina-relax 15 291265 4 0
+/aksessuar/nastroyka-oborudovaniya 4 89712 0 0
+/product/mediapleer-inext-4k 62 893511 41 0
+/product/vinchester-western-digital-green-3tb 4 96743 2 0
+/product/karaoke-sistema-ast-50-komplekt 18 473718 6 3
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.ttf 1 15126 0 0
+/flag/flag/sravnenia/339 2 1939 0 0
+/product/proekcionnyyekran-elite-screens-skt100xhw-e24-221-h-124-169 1 54330 0 0
+/product/akusticheskiykabel-mt-power 2 68612 0 0
+/product/proektor-panasonic-pt-tw342e 1 56188 0 0
+/cart/checkout/review 1 11119 0 0
+/product/proektor-panasonic-pt-lb280e 1 55376 0 0
+/product/monitoraudio-cwt-160 4 109139 1 0
+/product/proektor-optoma-w303st 1 62714 0 0
+/action/akcionnoepredlozhenie-dlya-vladelcev-kartki-socialnogo-proekta-ukrayinci-razom 5 113175 0 0
+/webform/est-voprosy 7 181121 2 5
+/category/proektory-dlya-domashnego-kino 18 319528 0 0
+/product/mediapleer-inext-tv 9 192047 0 0
+/category/karaoke-sistemy 15 271666 1 0
+/news/musical-fidelity-encore-225-shveycarskiy-nozh-audiofila 1 46714 0 0
+/colorbox/cart 9 32035 0 4
+/product/musiccast-wx-030 11 212236 6 6
+/sites/default/files/node/news/dune_firmware_solo4k_160831_0236_r11.dff 14 866116205 6 7
+/brand/monitor-audio 1 46547 0 0
+/brand/paradigm 1 43507 0 0
+/webform/zakazat-akcionnyy-tovar 1 41677 0 0
+/flag/flag/sravnenia/284 3 2892 0 0
+/product/mediapleer-xiaomi-mi-box-3 26 508229 7 2
+/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k 7 85917 5 1
+/news/proekt-mediaplayer-prisoedinilsya-k-socialnomu-proektu-socialnoy-kartke-ukrayinci-razom 5 86327 0 2
+/product/monitoraudio-bronze-2 2 76781 0 0
+/system/ajax 7 12885 0 2
+/sravnenija 5 51588 1 0
+/product/karaoke-sistema-ast-mini-komplekt 14 387293 7 2
+/product/mediapleer-inext-3d-kid-w 6 144698 0 0
+/video/kak-skachat-film-s-resursa-fsto 36 776285 33 11
+/news 15 306056 2 0
+/product/nas-server-synology-ds115j-x1-hdd 1 64611 0 0
+/block_refresh/views/sravnenia-block_1/front/block_refresh 23 28672 0 0
+/category/av-resivery 18 332292 0 0
+/product/monitoraudio-bronze-lcr 1 61155 0 0
+/news/s-16072016-internet-magazin-mediaplayer-stal-oficialnym-partnerom-ottvod-servisa-divan-tv 1 40976 0 0
+/product/montazhnyekorobki-kompanii-paradigm 1 58936 0 0
+/block_refresh/views/sravnenia-block_1/taxonomy/term/17/block_refresh 39 48285 0 0
+/admin/structure/taxonomy/provider 4 23788 0 0
+/product/kabeldlyasabvufera-mt-power 2 65478 1 0
+/product/nas-server-synology-ds213j-h2-hdd 2 86315 1 0
+/taxonomy/term/86/edit 1 10876 0 0
+/product/paradigm-pv-60r 3 82417 0 0
+/page/o-kompanii 21 327843 1 0
+/product/proektor-optoma-eh331 1 60109 0 0
+/uc_ajax_cart/add/item 10 6190 0 0
+/product/monitoraudio-bronze-6 2 75970 0 0
+/category/vstraivaemaya-akustika 13 278195 1 1
+/product/mediapleer-dune-hd-solo-lite 22 423596 9 2
+/image_captcha 66 102125 0 16
+/news/kartinatv-primer-internet-tv-ott 10 63577 5 5
+/product/wi-fi-modul-air-dune-hd 4 130553 3 1
+/video/nachalnaya-nastroyka-mediapleera-dune-hd-na-baze-dune-hd-tv-102 6 93522 5 0
+/flag/flag/sravnenia/43 1 973 0 0
+/cart/checkout 6 58772 0 0
+/product/cifrovoykabel-mt-power 1 56117 0 0
+/category/mediapleery-i-tv-pristavki 58 1177163 6 1
+/category/setevye-hranilishcha-nas 10 225196 0 0
+/news/izgotovlenie-pylezashchitnyh-kryshek-dlya-proigryvatelya-vinilovyh-diskov-po-predzakazu 24 331267 20 3
+/product/pult-upravleniya-dlya-dune-hd 11 253822 4 3
+/product/stoyki-sp-100 1 52018 0 0
+/product/sabvufer-jamo-360-sub 16 285070 12 0
+/flag/flag/sravnenia/316 1 965 0 0
+//xmlrpc.php 2 860 2 1
+/product/ustanovochnayakorobka-russound-s1-18-r 1 51559 0 0
+/category/vinilovyy-proigryvatel 18 317879 2 2
+/video/kak-skachat-film-s-resursa-fsto-0 1 44557 0 0
+//product/mediapleer-dune-hd-tv-102w 5 176145 0 0
+/video/vozvrashchenie-izvestnogo-fayloobmennika-fsto 8 120220 4 0
+/product/proektor-panasonic-pt-lb330e 2 71560 1 0
+/product/monitoraudio-bronze-w-10 2 75479 0 0
+/product/kryshkaotpyli-pod-zakaz 12 231901 4 1
+/node/316/edit 1 26762 0 0
+/product/vinchester-western-digital-blue-1tb 3 80387 0 0
+/taxonomy/term/87/edit 1 10878 0 0
+/product/mtpower-rfw-60-rv2 3 92903 1 0
+/block_refresh/views/sravnenia-block_1/node/339/block_refresh 3 3881 0 0
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.eot 3 45600 0 2
+/uc_ajax_cart/update 6 2508 0 0
+/category/zhestkie-diski-i-nakopiteli 14 258144 0 0
+/webform/kupit-v-odin-klik 23 325487 20 8
+/product/proektor-panasonic-pt-lw321e 1 56790 0 0
+/video/kak-pravilno-rasstavit-kolonki-v-komnate 6 148931 5 0
+/category/kabelnaya-produkciya 11 260921 0 0
+/video 25 399895 0 1
+/news/karaoke-sistema-ast-50-komplekt-uzhe-v-prodazhe 1 41219 0 0
+/video/dune-hd-base-3d-laureat-premii-pc-magazine-v-kategorii-setevoe-multimedia 1 44293 0 0
+/views/ajax 6 16203 0 1
+/brand/filmoscope 1 40788 0 0
+/news/dune-solo-lite-novyy-pleer-skoro-v-prodazhe 1 41316 0 0
+/product/abonementy-divantv-na-20-deshevle 4 102844 2 1
+/actions 1 40300 0 0
+/uc_ajax_cart/show-cart-view 6 5878 0 0
+/news/sertifikat-specialista-dlya-kompanii-mediaplayer-ot-kompanii-kramer-electronics 1 43838 0 0
+/category/televizory 19 297443 3 0
+/product/kabel-audioquest-pearl-hdmi 2 61631 0 0
+/product/mediapleer-inext-hd1-w 21 437564 10 2
+/product/proekcionnyyekran-elite-screens-sk110xhw-e24-243-h-137-169 8 282341 2 1
+/product/nas-server-synology-ds216play 3 91246 0 0
+/product/av-resiver-yamaha-rx-v381 5 139861 1 0
+/category/akustika-dlya-doma 21 583843 1 1
+/category/besprovodnoy-multirum 11 245300 0 0
+/product/airscope-asw-6 3 92216 0 0
+/product/mediapleer-dune-hd-tv-102w 69 1399044 41 8
+/product/proektor-panasonic-pt-ae8000ea 5 120320 2 0
+/product/mediapleer-dune-hd-base-3d 38 912778 25 5
+/admin/structure/taxonomy/brand 2 16403 0 0
+/product/av-resiver-yamaha-rx-v481 7 179526 2 0
+/page/dostavka 16 287633 1 1
+/flag/flag/sravnenia/341 1 965 0 0
+/block_refresh/views/sravnenia-block_1/node/341/block_refresh 1 1165 0 1
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.svg 1 16961 0 0
+/flag/flag/sravnenia/353 2 1922 0 0
+/page/uslugi-ustanovki-oborudovaniya 23 375438 4 1
+/users/admin 2 46454 0 0
+/product/monitoraudio-bronze-1 1 65194 0 0
+/product/monitoraudio-bronze-fx 1 59380 0 0
+/product/sabvufer-jamo-c-660-sub 9 179235 4 0
+/video/kompaniya-dune-hd-vypustila-ocherednoy-reliz-proshivki-na-solo-4-k 4 78650 1 0
+/colorbox/webform/kupit-v-odin-klik 1 2963 0 0
+/product/proektor-optoma-x345 2 76975 1 0
+/product/mediapleer-dune-hd-solo-4k 52 1333183 23 5
+/flag/flag/sravnenia/60 1 959 0 0
+/product/fonokorrektor-avid-pellar 2 69270 0 0
+/js/admin_menu/cache/63191c524107a03e56c53a4c06649734 5 63167 0 0
+/cart 7 252116 0 0
+/product/monitoraudio-bronze-5 3 94829 1 0
+/product/televizor-lg-55uh620v 7 156768 2 1
+/block_refresh/views/sravnenia-block_1/node/284/block_refresh 6 7375 0 0
+/news/besplatnoe-kino-na-pleerah-dune-hd 39 508047 20 1
+/block_refresh/views/sravnenia-block_1/node/353/block_refresh 1 1149 0 0
+/product/proektor-optoma-w331 1 61874 0 0
+/news/prilozhenie-fsto-brbto-adaptirovano-pod-serialy 4 45581 4 0
+/product/mediapleer-inext-tv2 31 509220 11 0
+/webform/perezvonite-mne 12 208954 3 1
+/product/proektor-optoma-hd27 2 76029 0 0
+/category/proektory-dlya-ofisa 13 311449 0 2
+/category/ekrany-dlya-proektora 14 291660 0 0
+END_SIDER

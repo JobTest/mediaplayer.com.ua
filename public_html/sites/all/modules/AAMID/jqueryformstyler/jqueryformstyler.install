@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function jqueryformstyler_install() {
+  variable_set('jqueryformstyler_class', '.jqueryformstyler');
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function jqueryformstyler_uninstall() {
+  variable_del('jqueryformstyler_class');
+}

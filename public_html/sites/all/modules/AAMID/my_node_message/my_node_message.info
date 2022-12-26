@@ -1,0 +1,5 @@
+; $Id$
+name = my_node_message
+description = Settings my node message
+package = AMID
+core = 7.x

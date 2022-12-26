@@ -1,0 +1,12 @@
+name = feeds myoption processor
+description = feeds myoption processor
+package = "AMID myoption"
+dependencies[] = feeds
+dependencies[] = myoption
+core = 7.x
+
+
+files[] = FeedsMyoptionProcessor.inc
+
+
+

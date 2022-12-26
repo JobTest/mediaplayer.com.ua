@@ -1,0 +1,12 @@
+name = myoption
+description = my options.
+package = "AMID myoption"
+core = 7.x
+
+dependencies[] = entity
+dependencies[] = taxonomy
+
+files[] = includes/myoption.inline_entity_form.inc
+
+
+

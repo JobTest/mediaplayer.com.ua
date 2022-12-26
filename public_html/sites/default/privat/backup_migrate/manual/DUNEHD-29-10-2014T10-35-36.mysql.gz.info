@@ -1,0 +1,8 @@
+filename = "DUNEHD-29-10-2014T10-35-36"
+description = ""
+datestamp = "1414571741"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.32"
+sites[0][name] = "Интернет-магазин представительства DUNE HD в Украине"
+sites[0][url] = "http://test2.otdyhat.com/"

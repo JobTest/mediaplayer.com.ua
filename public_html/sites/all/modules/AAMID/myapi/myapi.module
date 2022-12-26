@@ -1,0 +1,538 @@
+<?php
+/**
+ * Implements hook_menu()
+*/
+function myapi_menu() {
+  $items = array();
+  $items['admin/myapi'] = array(
+    'title' => 'DUNE HD',
+	'description' => 'Настройки сайта '.variable_get('site_name', ''),
+    'page callback' => 'myapi_callback',
+    'access arguments' => array('administer myapi'),
+	'type' => MENU_NORMAL_ITEM,
+	'weight' => -100,
+	'file' => 'myapi.admin.inc',
+  );
+  
+  $items['admin/myapi/settings_contacts'] = array(
+    'title' => 'Контактные данные',
+	'page callback' => 'drupal_get_form',
+	'page arguments' => array('myapi_settings_contacts_form'), 
+    'access arguments' => array('administer contacts'),
+	'type' => MENU_NORMAL_ITEM,
+	'weight' => -100,
+	'file' => 'myapi.admin.inc',
+  );   
+  return $items;
+}
+
+function myapi_settings_contacts($n){
+  if (isset($_COOKIE['label']) && $_COOKIE['label']) {
+	return variable_get('myapi_settings_contacts_'.$n.'_2', '');
+  }	
+  return variable_get('myapi_settings_contacts_'.$n.'_1', '');
+}
+
+/**
+ * Implements hook_permission()
+*/
+
+function myapi_permission() {
+  return array(
+    'administer myapi' => array(
+      'title' => 'Администрування модуля myapi',
+    ),
+    'administer contacts' => array(
+      'title' => 'Администрування контактных блоков',
+    ),
+  );
+}
+
+/**
+ * Implements hook_init()
+*/
+function myapi_init () {
+	drupal_add_js(array('arg' => arg()), 'setting');
+    drupal_add_css(drupal_get_path('module', 'myapi') . '/myapi.css');	
+	drupal_add_js(drupal_get_path('module', 'jcarousel') . '/js/jquery.jcarousel.min.js');
+	drupal_add_js(drupal_get_path('module', 'jcarousel') . '/js/jcarousel.js');
+    drupal_add_css(drupal_get_path('module', 'jcarousel') . '/skins/default/jcarousel-default.css');	
+}
+
+
+/**
+ * Implements hook_form_alter()
+*/
+function myapi_form_alter(&$form, &$form_state, $form_id) {
+  // dsm($form_id);  
+  $arg = arg(); 
+  switch($form_id){	
+  
+    
+    case "webform_client_form_164":
+      if ($form['submitted']['tovar']['#default_value']) {
+		 $nid = $form['submitted']['tovar']['#default_value'];
+		 $node = node_load($nid);
+		 if ($node->nid) {
+			$form['submitted']['tovar']['#default_value'] = l($node->title, 'node/'.$nid, array('absolute' => TRUE));
+		 }
+	  }
+      break;
+    case "webform_client_form_277":
+      if ($form['submitted']['tovar']['#default_value']) {
+		 $nid = $form['submitted']['tovar']['#default_value'];
+		 $node = node_load($nid);
+		 if ($node->nid) {
+			$form['submitted']['tovar']['#default_value'] = l($node->title, 'node/'.$nid, array('absolute' => TRUE));
+		 }
+	  }
+      break;
+    case "simplenews_block_form_1":
+      //dsm($form); 
+	  $form['mail']['#title'] = 'Введите свой e-mail';
+	  $form['podtvergenie'] = array(
+        '#type' => 'checkbox', 
+        '#title' => 'Я согласен получать новости',
+		'#required' => TRUE,
+		'#weight' => 2,
+		'#default_value' => 1,
+      ); 
+      break;
+    case "simplenews_subscription_list_export":
+      if (isset($form['emails']['#value'])) {
+		$emails = $form['emails']['#value'];  
+        $emails = explode(", ", $emails);
+		if ($emails) {
+		  $array = array();	
+		  foreach ($emails as $email) {
+			  $array[][0] = $email;
+		  }
+	    }
+		$csv = 'sites/default/files/csv-export/simplenews-export.csv';
+		$mm = new CsvWriter(drupal_realpath($csv), $array);
+        $mm->GetCsv();  
+	    $form['export'] = array(
+          '#markup' => '<div class="export">'.l('Скачать файл', $csv).'</div>',
+       );
+      }	  
+      break;
+    case "comment_node_news_form":
+    case "comment_node_meroprijatija_form":
+    case "comment_node_video_form":
+    case "comment_node_product_form":
+    case "comment_node_aksessuar_form":
+	
+	  //dsm($form);
+	  $form['author']['mail']['#description'] = '';
+	  $form['author']['homepage']['#access'] = FALSE;
+	  if ($form_id == 'comment_node_product_form' || $form_id == 'comment_node_aksessuar_form') {
+	    $form['actions']['submit']['#value'] = 'Добавить отзыв';
+	  } else {
+	    $form['actions']['submit']['#value'] = 'Добавить комментарий';
+	  }
+      break;	  
+  }
+}
+
+
+
+
+
+/**
+ * Implements hook_block_info()
+*/
+function myapi_block_info() {
+  $blocks['myapi_menu_left'] = array(
+     'info' => 'Меню слева', 
+  );
+  return $blocks;
+}
+
+
+ /**
+ * Implements hook_block_view()
+*/
+function myapi_block_view($delta = '') {
+  $block = array();
+  if ($delta == 'myapi_menu_left') {
+    $block['subject'] = '';
+	$tid_category = 0;
+	if ($term = myapi_get_Term_by_Url()) {
+	  if ($term->vid == 6) {
+		 $tid_category = $term->tid;
+	  }	  
+	} elseif ($node = myapi_get_Node_by_Url()) {
+	  if ($node->type == 'product') {
+		if (isset($node->field_category['und'][0]['tid']) && $node->field_category['und'][0]['tid']){
+		  $tid_category = $node->field_category['und'][0]['tid'];
+		}
+	  }		
+	}
+
+
+	$output = '<h2 class="title-2-line"><span>Каталог </span> Товаров</h2>';
+	$terms = taxonomy_get_tree(6);
+	$query = "SELECT n.nid, n.title 
+	          FROM {node} n 
+			  INNER JOIN {field_data_field_category} c ON n.nid = c.entity_id AND (c.entity_type = 'node' AND c.deleted = '0')
+			  WHERE c.field_category_tid = :tid AND n.status = 1 AND n.type = 'product'
+			  ORDER BY n.created DESC";
+	$query_yes = "SELECT n.nid
+	          FROM {node} n 
+			  INNER JOIN {field_data_field_category} c ON n.nid = c.entity_id AND (c.entity_type = 'node' AND c.deleted = '0')
+			  WHERE c.field_category_tid = :tid AND n.status = 1 AND n.type = 'product' LIMIT 0, 1";
+    $i = 0;			   
+	foreach ($terms as $term) {
+	  $i++;	
+	  $class = '';
+	  $ul = '';
+	  if ($term->tid == $tid_category) {
+	    $class = 'active';
+	    $result = db_query($query, array(':tid' => $term->tid)); 
+        $links = array();
+	    foreach ($result as $row){
+		  $links[] = l($row->title, 'node/'.$row->nid);  
+	    }
+	    $ul = theme('item_list', array('items' => $links));
+	  }
+	 
+      $result_yes = db_query($query_yes, array(':tid' => $term->tid)); 
+	  if ($result_yes->fetchField()) {
+	    $output .= '<div class="category-wrapper category-wrapper-'.$i.' '.$class.'">'; 	
+	    $output .= '<div class="category">'.l($term->name, 'taxonomy/term/'.$term->tid).'</div>'; 
+	    $output .= $ul; 	
+	    $output .= '</div>'; 	
+	  }
+	}
+    $block['content'] = $output;
+  }
+  return $block;
+}
+
+
+
+
+
+
+
+
+/**
+Аргументы страницы рефера
+*/
+function myapi_referer() {
+  $referer = FALSE;
+  if ($_SERVER['HTTP_REFERER']) {
+	 $ex = explode('/', $_SERVER['HTTP_REFERER']);  
+	  if ($ex && in_array($_SERVER['HTTP_HOST'], $ex)) {
+		$i = 0;
+        while ($ex[0] != $_SERVER['HTTP_HOST']) {
+		  array_shift($ex);
+		  $i++;
+		  if ($i>100) break;
+		}
+		array_shift($ex);
+		if ($ex) {
+	       return implode('/', $ex);
+		}
+	 } 
+  }
+  return $referer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+Заголовок в 2 линии
+*/
+function myapi_title2line($title) {
+  if ($title) {
+	$title = trim($title); 
+	$pos = mb_strpos($title, ' ');
+	if ($pos !== FALSE && $pos > 2) {
+	   $srt1 = drupal_substr($title, 0, $pos);
+	   $srt2 = drupal_substr($title, $pos+1);
+	   $title = '<span>'.$srt1.' </span> '.$srt2;
+	} else {
+	   $title = '<span>&nbsp;</span> '.$title;
+	}
+  } 
+  return $title;  
+}
+
+
+
+/**
+Склонение слова
+*/
+function myapi_sklon($number, $suffix) {
+    $keys = array(2, 0, 1, 1, 1, 2);
+    $mod = $number % 100;
+    $suffix_key = ($mod > 7 && $mod < 20) ? 2: $keys[min($mod % 10, 5)];
+    return $suffix[$suffix_key];
+}
+
+/**
+Заголовок по nid
+*/
+function myapi_get_TitleNode_by_NidNode($nid) {
+  $title = db_query("SELECT title FROM {node} WHERE nid = :nid", array(':nid' => $nid))->fetchField();
+  return $title;
+}
+
+/**
+Тип ноды по nid
+*/
+function myapi_get_TypeNode_by_NidNode($nid) {
+  $type = db_query("SELECT type FROM {node} WHERE nid = :nid", array(':nid' => $nid))->fetchField();
+  return $type;
+}
+
+
+/**
+Название тепрмина по tid
+*/
+function myapi_get_NameTerm_by_TidTerm($tid) {
+  $name = db_query("SELECT name FROM {taxonomy_term_data} WHERE tid = :tid", array(':tid' => $tid))->fetchField();
+  return $name;
+}
+
+
+/**
+Количество опубликованых нод в типе материала
+*/
+function myapi_get_CountNid_by_Type($type) {
+  $count = db_query("SELECT COUNT(DISTINCT node.nid) AS nid
+     FROM {node} node
+     WHERE (node.type IN  (:type)) AND 
+		   (node.status = '1')", array(':type' => $type))->fetchField();
+  return $count;
+}
+
+/**
+url термин
+*/
+function myapi_get_Term_by_Url() {
+  $arg = arg();
+  $term = '';
+  if ( isset($arg[0]) && isset($arg[1]) && isset($arg[2]) && (!isset($arg[3]) || $arg[3] == 'block_refresh') && $arg[0] == 'taxonomy' && $arg[1] = 'term' && is_numeric($arg[2]) ) {
+	  $term = taxonomy_term_load($arg[2]);
+  } 
+  if ($term) {
+     return $term;
+  } else {
+     return NULL;
+  }
+}
+
+
+/**
+url node
+*/
+function myapi_get_Node_by_Url() {
+  $arg = arg();
+  $node = '';
+  if ( isset($arg[0]) && isset($arg[1]) && (!isset($arg[2]) || $arg[2] == 'block_refresh') && $arg[0] == 'node' && is_numeric($arg[1]) ) {
+	  $node = node_load($arg[1]);
+  } 
+  if ($node) {
+     return $node;
+  } else {
+     return NULL;
+  }
+}
+
+
+
+//////////////////
+
+function cp1251_to_utf8 ($txt)  {
+	    $in_arr = array (
+	        chr(208), chr(192), chr(193), chr(194),
+	        chr(195), chr(196), chr(197), chr(168),
+	        chr(198), chr(199), chr(200), chr(201),
+	        chr(202), chr(203), chr(204), chr(205),
+	        chr(206), chr(207), chr(209), chr(210),
+	        chr(211), chr(212), chr(213), chr(214),
+	        chr(215), chr(216), chr(217), chr(218),
+	        chr(219), chr(220), chr(221), chr(222),
+	        chr(223), chr(224), chr(225), chr(226),
+	        chr(227), chr(228), chr(229), chr(184),
+	        chr(230), chr(231), chr(232), chr(233),
+	        chr(234), chr(235), chr(236), chr(237),
+	        chr(238), chr(239), chr(240), chr(241),
+	        chr(242), chr(243), chr(244), chr(245),
+	        chr(246), chr(247), chr(248), chr(249),
+	        chr(250), chr(251), chr(252), chr(253),
+	        chr(254), chr(255)
+	    );  
+	 
+	    $out_arr = array (
+	        chr(208).chr(160), chr(208).chr(144), chr(208).chr(145),
+	        chr(208).chr(146), chr(208).chr(147), chr(208).chr(148),
+	        chr(208).chr(149), chr(208).chr(129), chr(208).chr(150),
+	        chr(208).chr(151), chr(208).chr(152), chr(208).chr(153),
+	        chr(208).chr(154), chr(208).chr(155), chr(208).chr(156),
+	        chr(208).chr(157), chr(208).chr(158), chr(208).chr(159),
+	        chr(208).chr(161), chr(208).chr(162), chr(208).chr(163),
+	        chr(208).chr(164), chr(208).chr(165), chr(208).chr(166),
+	        chr(208).chr(167), chr(208).chr(168), chr(208).chr(169),
+	        chr(208).chr(170), chr(208).chr(171), chr(208).chr(172),
+	        chr(208).chr(173), chr(208).chr(174), chr(208).chr(175),
+	        chr(208).chr(176), chr(208).chr(177), chr(208).chr(178),
+	        chr(208).chr(179), chr(208).chr(180), chr(208).chr(181),
+	        chr(209).chr(145), chr(208).chr(182), chr(208).chr(183),
+	        chr(208).chr(184), chr(208).chr(185), chr(208).chr(186),
+	        chr(208).chr(187), chr(208).chr(188), chr(208).chr(189),
+	        chr(208).chr(190), chr(208).chr(191), chr(209).chr(128),
+	        chr(209).chr(129), chr(209).chr(130), chr(209).chr(131),
+	        chr(209).chr(132), chr(209).chr(133), chr(209).chr(134),
+	        chr(209).chr(135), chr(209).chr(136), chr(209).chr(137),
+	        chr(209).chr(138), chr(209).chr(139), chr(209).chr(140),
+	        chr(209).chr(141), chr(209).chr(142), chr(209).chr(143)
+	    );  
+	 
+	    $txt = str_replace($in_arr,$out_arr,$txt);
+	    return $txt;
+}
+
+// Support classes
+class CsvReader
+{ 
+    private $file;
+    private $delimiter; 
+    private $length;
+    private $handle; 
+    private $csvArray; 
+    
+    public function __construct($file, $delimiter=";", $length = 8000) 
+    { 
+       $this->file = $file; 
+       $this->length = $length; 
+       $this->delimiter = $delimiter; 
+       $this->FileOpen(); 
+    } 
+    public function __destruct() 
+    { 
+       $this->FileClose(); 
+    } 
+    public function GetCsv()
+    {
+        $this->SetCsv();
+        if(is_array($this->csvArray)) {
+			return $this->csvArray;
+		 }
+    }
+    
+    private function SetCsv()
+    {
+        if($this->GetSize())
+        {
+           // while (($data = @fgetcsv($this->handle, $this->length, $this->delimiter)) !== FALSE)
+            while (!feof($this->handle) )
+            {
+				$data = explode($this->delimiter, fgets($this->handle));
+				if($data){
+					$vals = array();
+					foreach($data as $val){
+						$vals[] = cp1251_to_utf8( $val);
+					}
+					$data = $vals;
+				}
+                $this->csvArray[] = $data;
+            }
+        }
+    }
+    private function FileOpen()
+    {
+        $this->handle=($this->IsFile())?fopen($this->file, 'r'):null;
+    }
+    private function FileClose()
+    {
+        if($this->handle) 
+         @fclose($this->handle); 
+    }
+    private function GetSize()
+    {
+        if($this->IsFile())
+            return (filesize($this->file));
+        else
+            return false;
+    }
+    private function IsFile()
+    {
+        if(is_file($this->file) && file_exists($this->file))
+            return true;
+        else
+            return false;
+    }
+} 
+
+class CsvWriter
+{
+    private $file;
+    private $delimiter;
+    private $array;
+    private $handle;
+    public function __construct($file, $array, $delimiter=";")
+    {
+        $this->file = $file; 
+        $this->array = $array; 
+        $this->delimiter = $delimiter;
+        $this->FileOpen();
+    }
+    public function __destruct()
+    {
+        $this->FileClose();
+    }
+    public function GetCsv()
+    {
+        $this->SetCsv();
+    }
+    
+    private function IsWritable()
+    {
+        if(is_writable($this->file))
+            return true;
+        else
+            return false;
+    }
+    private function SetCsv() 
+    { 
+      if($this->IsWritable())
+      {
+          $content = ""; 
+          foreach($this->array as $ar) 
+          { 
+			 $ar = str_replace('&quot;', '', $ar); 
+             $content .= implode($this->delimiter, $ar);
+             $content .= "\r\n"; 
+          } 
+		  $content = iconv("UTF-8", "WINDOWS-1251", $content);
+		 
+		 
+          if (fwrite($this->handle, $content) === FALSE) 
+                 exit;
+      }
+    }
+    private function FileOpen()
+    {
+        $this->handle=fopen($this->file, 'w+');
+    }
+    private function FileClose()
+    {
+        if($this->handle) 
+         @fclose($this->handle); 
+    } 
+}
+
+
+
+//////////////////

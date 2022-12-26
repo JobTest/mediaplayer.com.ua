@@ -1,0 +1,2935 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201803 will be lost/reset.
+# Last config file used to build this data file was /home/uh357275/domains/mediaplayer.com.ua/awstats/.data/awstats.mediaplayer.com.ua.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2044                
+POS_TIME 2730                
+POS_VISITOR 28035               
+POS_DAY 88733               
+POS_DOMAIN 3796                
+POS_LOGIN 4032                
+POS_ROBOT 4187                
+POS_WORMS 6395                
+POS_EMAILSENDER 6526                
+POS_EMAILRECEIVER 6669                
+POS_SESSION 89677               
+POS_SIDER 89894               
+POS_FILETYPES 6804                
+POS_DOWNLOADS 7101                
+POS_OS 7149                
+POS_BROWSER 7573                
+POS_SCREENSIZE 11605               
+POS_UNKNOWNREFERER 11679               
+POS_UNKNOWNREFERERBROWSER 12318               
+POS_ORIGIN 12675               
+POS_SEREFERRALS 12827               
+POS_PAGEREFS 13486               
+POS_SEARCHWORDS 15671               
+POS_KEYWORDS 16449               
+POS_MISC 2394                
+POS_ERRORS 17148               
+POS_CLUSTER 3888                
+POS_SIDER_404 17314               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180401000000 2862 625757 16963538852824
+FirstTime 20180301004808
+LastTime 20180331235959
+LastUpdate 20180401012840 2862 0 2861 0 0
+TotalVisits 2680                
+TotalUnique 1526                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1526                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 5 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 295 304 5171551 2074 2095 24185908
+1 256 256 4652772 2973 2977 33648605
+2 223 223 3965530 2703 2705 142133156
+3 130 136 2461718 3172 3187 77651547
+4 137 137 2075807 3211 3221 43406624
+5 233 233 5619484 3169 3199 60615104
+6 262 267 5036842 4167 4175 116232238
+7 184 184 102908272 5404 5454 216323061
+8 341 342 4924836 4631 4651 134173109
+9 529 539 7806301 1931 1947 20852489
+10 892 1031 12124585 4311 4337 41364556
+11 811 912 11343575 2963 3002 209761400
+12 1033 1170 15713817 3280 3331 52067887
+13 1018 1088 14473964 7200 7221 44877691
+14 992 1167 15194921 2491 2524 32640047
+15 1294 1518 18088569 2739 2758 43811805
+16 1017 1161 14028640 1986 2005 23923355
+17 974 1078 13821253 3380 3409 45274708
+18 693 784 10384221 3275 3291 43450810
+19 596 611 9245683 3300 3310 37667699
+20 973 1117 112831087 2205 2228 28339500
+21 924 1028 11874134 3500 3538 49130030
+22 1036 1047 13370919 2628 2653 34979797
+23 761 767 11113020 3040 3049 140270184
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 15604 17100 428231501
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 52
+MJ12bot/ 25914 385920157 20180331235957 0
+bubing 16341 371011252 20180325230940 0
+DomainCrawler/ 5875 360584328 20180324084905 0
+crawl 3477 47494774 20180331235944 0
+Googlebot/ 1254 18431464 20180331220056 0
+AhrefsBot/ 1221 118737429 20180331234245 0
+bot[\s_+:,\.\;\/\\-] 924 57255404 20180331211423 0
+LinkpadBot/ 749 10260203 20180302105048 0
+netEstate[\x20]NE[\x20]Crawler 729 10367868 20180330092342 0
+DotBot/ 619 209992821 20180331230646 0
+Googlebot\-Image/ 98 1668680 20180327132957 0
+(firefox/)([0-9]\.|[0-1][0]\.) 38 2259625 20180328222307 0
+no_user_agent 44 3046203 20180330125412 0
+Dalvik/ 2 34362 20180306221212 0
+MSIE[\x20]5 1 123095 20180310064956 0
+AdsBot\-Google[\x20]\( 26 254925 20180331174848 0
+bingpreview 48 639057 20180331141924 0
+msie8 32 449505 20180329112148 0
+ips\-agent 10 619383 20180310224446 0
+curl 149 11877303 20180329232512 0
+FirePHP/ 1 15609 20180305055540 0
+nutch\-1\.4/ 1 17193 20180309215407 0
+Google[\x20]Web[\x20]Preview 14 143470 20180329131442 0
+ltx71 1 18876 20180311132553 0
+GrapeshotCrawler/ 12 193874 20180323054239 0
+Applebot/ 1 18802 20180301212723 0
+CCBot/ 197 2682574 20180323184702 0
+core 11 126629 20180320112238 0
+BLEXBot/ 279 3804843 20180301190620 0
+ia_archiver 119 6670542 20180331162110 0
+Wget/ 1 123095 20180308042055 0
+360Spider 43 737650 20180331163923 0
+MSIE[\x20]6 25 2755340 20180331024843 0
+SiteExplorer/ 29 398968 20180328151404 0
+DeuSu/ 30 1896572 20180319071547 0
+DuckDuckGo\-Favicons\-Bot/ 11 188657 20180329005736 0
+qwantify 8 146743 20180324064030 0
+PhantomJS 6 65021 20180318143848 0
+C\-T[\x20]bot 1 123095 20180310064955 0
+dataprovider\.com 11 602611 20180314131354 0
+link 237 3325608 20180327090917 0
+python 8 69939 20180315190036 0
+archive\.org_bot 1 122997 20180319085135 0
+java 71 4539491 20180327081933 0
+favicon 71 1017099 20180331131647 0
+linkdexbot/ 1 17191 20180311161517 0
+bingbot/ 389 5904744 20180331230531 0
+TelegramBot 1 16763 20180315163206 0
+Cliqzbot/ 1 17185 20180307124049 0
+checker 11 132707 20180329103547 0
+yandex 2 34803 20180322195322 0
+facebookexternalhit/ 1 16803 20180306224936 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+eot 16 243184 0 0
+png 280 4330696 0 0
+ttf 4 60540 0 0
+dff 2 199772896 0 0
+woff 1416 24526300 0 0
+php 661 20617976 0 0
+jpg 1182 4188711 0 0
+xml 1 720 0 0
+jpeg 4 9918 0 0
+Unknown 13505 174216241 0 0
+svg 10 169580 0 0
+gif 19 94739 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+linuxandroid 1806 1790
+macosx11 76 76
+winlong 83 83
+winxp 476 473
+winphone 4 4
+ios_iphone 331 313
+symbian 6 6
+win2000 128 128
+j2me 13 12
+win8 121 121
+macosx9 56 56
+ios_ipad 240 239
+macosx7 16 16
+winnt 584 584
+macosx12 118 117
+linuxubuntu 6 6
+linux 216 212
+win7 8276 6878
+macosx 410 410
+macosx10 12 12
+Unknown 48 48
+win8.1 460 460
+win10 3613 3559
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 188
+chrome38.0.0.0 13 13
+chrome52.0.2743.116 2 2
+firefox33.1 97 97
+firefox44.0 88 88
+chrome34.0.1847.137 2 2
+edge12 27 27
+chrome63.0.3223.8 35 35
+chrome31.0.1650.57 1 1
+lynx 3 3
+msie8.0 128 128
+chrome60.0.3112.78 23 23
+chrome11.0.696.34 3 3
+chrome62.0.3250.0 48 48
+msie7.0 1 1
+chrome49.0.2623.91 2 2
+chrome64.0.3282.137 375 374
+firefox50.0 6 6
+firefox40.0 23 23
+opera44.0.2510.857 4 4
+opera51.0.2830.55 370 366
+opera52.0.2871.37 39 39
+firefox38.0 58 58
+chrome62.0.3202.94 205 205
+opera36.0.2130.80 27 27
+opera49.0.2725.47 211 211
+chrome51.0.2704.103 3 3
+firefox33.0 43 43
+safari11.0.3 255 255
+firefox25.0 2 2
+netscape5.0 6 6
+chrome17.0.963.84 1 1
+firefox43.1 33 33
+chrome64.0.3282.186 1755 1717
+edge14 3 3
+chrome41.0.2228.0 2 2
+firefox36.0 21 21
+safari 96 95
+opera42.7.2246.114996 5 5
+safari11.0 369 351
+android 37 35
+chrome38.0.1025.166 11 11
+firefox52.0 310 310
+chrome28.0.1500.95 15 15
+chrome65.0.3325.144 3 3
+chrome36.0.1985.125 3 3
+firefox24.0 1 1
+chrome61.0.3163.128 13 13
+iphone 6 6
+chrome39.0.0.0 4 3
+chrome61.0.3163.100 284 283
+edge16 173 173
+chrome26.0.1410.65 1 1
+chrome62.0.3202.62 32 32
+chrome34.0.1847.116 1 1
+chrome51.0.2704.84 1 1
+chrome67.0.3377.1 21 21
+chrome58.0.3029.96 6 6
+opera12.13 1 1
+msie9.0 6 6
+firefox52.9 10 10
+chrome60.0.3112.116 1 1
+opera11.51 1 1
+chrome57.0.2987.132 8 8
+firefox32.0 4 4
+chrome39.0.2171.93 3 3
+chrome64.0.3282.168 4 4
+firefox30.0 62 62
+firefox56.0 79 79
+chrome45.0.2454.94 4 4
+opera10.00 5 2
+firefox39.0 2 2
+opera32.0.2254.123747 3 3
+firefox51.0 32 32
+opera50.0.2762.58 3 3
+safari11.0.1 9 9
+opera51.0.2809.0 3 3
+chrome35.0.1849.0 1 1
+chrome59.0.3071.104 3 3
+firefox34.1 33 33
+chrome64.0.3282.140 28 28
+firefox57.0 169 169
+opera51.0.2830.40 330 324
+chrome61.0.3163.114 1 1
+chrome64.0.3282.189 6 6
+chrome40.0.2214.115 1 1
+opera44.0.2510.1449 13 13
+chrome39.0.2171.95 2 2
+chrome38.0.2125.111 12 12
+firefox34.0 41 41
+opera51.0.2830.62 14 14
+chrome58.0.3029.110 52 52
+chrome63.0.3239.84 134 134
+chrome51.0.2704.81 3 3
+chrome53.0.2785.146 11 11
+chrome64.0.3282.167 95 95
+chrome43.0.2376.69 2 2
+firefox43.0 69 69
+firefox59.0 3200 2271
+firefox40.1 162 162
+chrome37.0.2062.120 26 26
+chrome50.0.2661.102 26 26
+firefox41.0 74 74
+opera52.0.2871.40 7 7
+chrome49.0.2623.112 172 172
+chrome65.0.3325.181 1264 1218
+firefox37.1 60 60
+edge17 649 630
+chrome55.0.2883.87 32 32
+firefox53.0 53 53
+opera12.16 54 50
+firefox48.0 8 8
+firefox42.0 35 35
+chrome58.0.3029.83 3 3
+firefox55.0 4 4
+chrome34.0.1847.131 1 1
+chrome64.0.3282.119 3 3
+chrome63.0.3239.132 413 404
+chrome60.0.3112.107 14 14
+safari6.0 3 3
+firefox29.0 2 2
+firefox44.1 46 46
+chrome63.0.3239.107 3 3
+chrome52.0.2766.35 1 1
+chrome60.0.3112.113 3 3
+firefox45.0 79 79
+firefox47.0 2 2
+mozilla 11 11
+chrome44.0.2403.157 4 4
+opera50.0.2762.67 2 2
+chrome40.0.2214.89 15 15
+chrome57.0.2987.133 24 24
+firefox60.0 13 13
+chrome26.0.1410.63 3 2
+firefox39.1 32 32
+opera53.0.2900.0 3 3
+chrome61.0.3163.98 25 24
+chrome40.0.2214.93 1 1
+firefox35.0 42 42
+chrome21.0.1180.89 1 1
+opera51.0.2830.34 19 19
+firefox30.1 25 25
+opera52.0.2871.30 9 9
+opera45.0.2246.125120 53 53
+chrome58.0.3029.81 10 10
+opera53.0.2880.0 1 1
+chrome56.0.2924.87 138 137
+chrome28.0.1468.0 1 1
+firefox31.0 61 61
+opera12.14 5 5
+chrome57.0.2987.108 52 52
+opera43.0.2442.1144 13 13
+chrome63.0.3205.0 3 3
+chrome45.0.2454.93 6 6
+abrowse 26 26
+chrome55.0.2883.75 5 5
+chrome43.0.2357.93 7 7
+safari8.0 14 14
+edge15 7 7
+safari11.1 3 3
+Unknown 43 43
+chrome66.0.3359.45 3 3
+chrome47.0.2526.69 3 3
+chrome30.0.0.0 6 6
+chrome57.0.2987.137 5 5
+firefox32.1 137 137
+firefox17.0 57 57
+chrome63.0.3239.111 79 79
+safari10.0 54 54
+firefox58.0 1522 1188
+safari11.0.2 1 1
+chrome59.0.3071.125 3 3
+chrome35.0.1897.2 1 1
+chrome36.0.1985.135 1 1
+msie11.0 505 428
+safari9.0 17 17
+chrome45.0.2454.101 22 22
+firefox37.0 42 42
+chrome48.0.2564.109 7 7
+chrome65.0.3325.162 177 177
+safari5.1.2 16 16
+msie10.0 72 72
+safari5.1 5 5
+opera42.9.2246.119956 3 3
+opera11.10 2 2
+opera45.1.2246.125351 113 113
+chrome65.0.3325.146 199 199
+chrome56.1.2924.93 3 3
+chrome65.0.3325.109 402 402
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+AlohaBrowser/2.3.0_(com.alohabrowser.alohabrowser;_build:10;_iOS_11.2.6)_Alamofire/4.6.0 20180308102812
+\ 20180331104246
+Disqus/1.0 20180329130205
+KOCMOHABT_(_https://kozmonavt.tk/)_Mozilla/5.0_(compatible;_Web_Explorer_2) 20180305122549
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20180313100209
+XML-RPC.NET 20180307123635
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328213625
+Go-http-client/1.1 20180309171806
+Scrapy/1.1.3_(_http://scrapy.org) 20180312105322
+Scrapy/1.3.3_(_http://scrapy.org) 20180306024225
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328213625
+\ 20180331104246
+Disqus/1.0 20180329130205
+Scrapy/1.1.3_(_http://scrapy.org) 20180312105322
+Go-http-client/1.1 20180309171806
+Scrapy/1.3.3_(_http://scrapy.org) 20180306024225
+XML-RPC.NET 20180307123635
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 870 871
+From1 15 15
+From2 923 923
+From3 345 345
+From4 13451 14946
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 28
+www_google_co_uk 1 1
+yahoo_catchall 1 1
+bing 1 1
+www_google_kz 4 4
+www_google_co_il 8 8
+www_google_fi 1 1
+www_google_com_sg 1 1
+www_google_ru 111 111
+www_google_nl 5 5
+www_google_de 9 9
+baidu 5 5
+www_google_hu 2 2
+www_google_ae 1 1
+www_google_es 2 2
+www_google_pl 1 1
+www_google_com 145 145
+duckduckgo 1 1
+www_google_lv 6 6
+www_google_no 1 1
+www_google_by 3 3
+www_google_com_ua 448 448
+www_google_lt 7 7
+search_yahoo_catchall 1 1
+www_google_se 1 1
+translate_google_com 3 3
+yandex 1 1
+yandexua 6 6
+yandexru 147 147
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 47
+http://protv.net.ua/viewtopic.php 62 62
+http://protv.net.ua/ucp.php 60 60
+http://ukrazom.org/partners 52 52
+http://protv.net.ua/viewforum.php 25 25
+http://protv.net.ua/memberlist.php 25 25
+https://hotline.ua 19 19
+http://dunehd.com.ua/gde-kupit/ 14 14
+http://protv.net.ua 10 10
+http://protv.net.ua/search.php 9 9
+http://protv.net.ua/index.php 9 9
+http://adguard.com/referrer.html 4 4
+https://shantanu.blog1989.com 1 1
+http://x6e.net/catalog30/detskie-razvivayushie-igri-4-5-let.php 1 1
+http://dune-hd.com/eng/where_to_buy/resellers 2 2
+http://price.ua/inext/inext_tv/catc555t4m435795.html 1 1
+http://protv.net.ua/viewreputation.php 1 1
+http://sravni.ua/inext/inext_tv/catc555t4m435795.html 1 1
+http://www.themeparkaccess.com/forum/viewtopic.php 1 1
+http://protv.net.ua/posting.php 2 2
+http://helpset.ru/doc/counturls.php 1 1
+http://l.facebook.com/l.php 1 1
+http://price.ua/dune/dune_hd_duo_4k/catc555t4m3039356.html 1 1
+http://price.ua/catalog555.html 1 1
+http://dune-hd.com/rus/where_to_buy/resellers 6 6
+http://medina-vera3v60.tumblr.com 1 1
+http://dunehd.com.ua/uk/%d0%b4%d0%b5-%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d0%b8/ 1 1
+https://thelma.blog1989.com 1 1
+http://price.ua/dune/dune_solo_lite/catc555t1m1921431.html 3 3
+http://sravni.ua/dune/dune_hd_solo_4k/catc555t11m1323941.html 1 1
+http://www.protv.net.ua/viewforum.php 2 2
+http://protv.net.ua/faq.php 1 1
+http://price.ua/dune/dune_hd_tv-102w/catc555t24m435718.html 1 1
+http://sravni.ua/dune/dune_hd_solo_4k/catc555t7m1323941.html 1 1
+http://googleweblight.com 1 1
+http://003.ru 2 2
+http://www.protv.net.ua/search.php 5 5
+http://www.milkscock.top/s/teen+boy+ass+fingering 1 1
+http://price.ua/dune/dune_hd_tv-102w/catc555m435718.html 1 1
+http://www.protv.net.ua/viewtopic.php 2 2
+http://rusvolvo.ru/uslugi/remont/ 3 3
+http://m.facebook.com 1 1
+http://away.vk.com/away.php 3 3
+http://www.italyticket.it/forum/showthread.php 1 1
+http://x6e.net 1 1
+http://www.cumsucking.top/s/fucking+and+shit 1 1
+http://x6e.net/catalog32/holodilniki-atlant-katalog.php 1 1
+http://www.bustynasty.top 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 12
+dune+hd+4k+pro 5
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c+%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0%d0%bf%d0%bb%d0%b5%d0%b5%d1%80+%d0%b2+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 2
+www 1
+66q 1
+mediaplayer.com.ua 1
+sqi 1
+j5n 1
+dune+4k+pro 1
+%d1%80%d0%b5%d1%81%d0%b8%d0%b2%d0%b5%d1%80%d1%8b+%d0%b4%d0%b5%d0%bd%d0%be%d0%bd+2400+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+6od 1
+%d0%ba%d0%b0%d0%ba+%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bb%d1%8c%d0%bd%d0%be+%d1%80%d0%b0%d1%81%d1%82%d0%b0%d0%b2%d0%b8%d1%82%d1%8c+%d0%b0%d0%ba%d1%83%d1%81%d1%82%d0%b8%d0%ba%d1%83+%d0%b4%d0%be%d0%bc%d0%b0 1
+media+%d0%b0%d0%ba%d1%83%d1%81%d1%82%d0%b8%d0%ba%d0%b0.com.ua 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+pro 6
+4k 6
+dune 6
+hd 5
+%d0%bc%d0%b5%d0%b4%d0%b8%d0%b0%d0%bf%d0%bb%d0%b5%d0%b5%d1%80 2
+%d0%b2 2
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 2
+%d0%ba%d1%83%d0%bf%d0%b8%d1%82%d1%8c 2
+www 1
+2400 1
+mediaplayer.com.ua 1
+%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b 1
+media 1
+%d1%80%d0%b0%d1%81%d1%82%d0%b0%d0%b2%d0%b8%d1%82%d1%8c 1
+%d1%80%d0%b5%d1%81%d0%b8%d0%b2%d0%b5%d1%80%d1%8b 1
+6od 1
+%d0%b4%d0%be%d0%bc%d0%b0 1
+%d0%b0%d0%ba%d1%83%d1%81%d1%82%d0%b8%d0%ba%d0%b0.com.ua 1
+66q 1
+sqi 1
+j5n 1
+%d0%b4%d0%b5%d0%bd%d0%be%d0%bd 1
+%d0%ba%d0%b0%d0%ba 1
+%d0%b0%d0%ba%d1%83%d1%81%d1%82%d0%b8%d0%ba%d1%83 1
+%d0%bf%d1%80%d0%b0%d0%b2%d0%b8%d0%bb%d1%8c%d0%bd%d0%be 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 690 8972397
+503 1 496
+302 14889 7147414
+500 9 3430
+404 1348 31391010
+301 4130 2229502
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 221
+/blog/wp-includes/wlwmanifest.xml 8 -
+/ 2 -
+/XAttacker.php 1 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8 10 -
+/product/portativnoe-ustroystvo-wdh200 3 -
+/front%253Fpage%3D0%25252C0%25252C0 2 -
+/sites/default/files/03_dune_hd_tv_102_left_back.png 3 -
+/components/com_foxcontact/foxcontact.php 1 -
+/modules/columnadverts/config.xml 1 -
+/sites/all/themes/mytheme/images/assort-block-bot.png 13 http://mediaplayer.com.ua/aksessuar/nastroyka-oborudovaniya
+/site/wp-includes/wlwmanifest.xml 8 -
+/product/dunehd-solo-lite 1 -
+/sites/default/files/node/product/diskstation-ds114_5.jpg 1 -
+/sites/default/files/02_dune_hd_tv_102_front_2.png 2 -
+/sites/default/files/node/product/duo4k_mediaplayer_rear.jpg 1 -
+/joomla/robots.txt 1 -
+/wp-checking.php 1 -
+/blog 1 http://mediaplayer.com.ua/blog/
+/front%253Fpage%3D0%25252C1%25252C1 2 -
+/wp-content/plugins/showbiz/css/post_settings.css 2 -
+/product/dunehd-solo-4k-lite 81 http://127.0.0.1:8888/orange.html
+/components/com_jdownloads/jdownloads.php 1 -
+/brand 1 -
+/log.php 1 -
+/product/inext-tv 1 -
+/wp-content/plugins/advanced-ajax-page-loader/reload_code.js 7 -
+/apple-touch-icon-76x76-precomposed.png 1 -
+/product/-webkit-linear-gradient(top,%20rgb(0,%20104,%20172),%20rgb(1,%2075,%20123)) 6 http://mediaplayer.com.ua/product/besprovodnyykomplekt-amphony-l1800
+/taxonomy/term/44%253Fpage%3D4%25252C1%25252C0 1 -
+/category/karaoke-sistemy/category/vinilovyy-proigryvatel 4 -
+/taxonomy/term/61%253Fpage%3D0%25252C1%25252C1 1 -
+/meniacle/wp-blog-header.php 1 -
+/taxonomy/term/61%253Fpage%3D0%25252C0%25252C0 1 -
+/product/nas-server-synology-ds-214se-x1-hdd 1 -
+/joomla/administrator/index.php 1 -
+/wp-login.php 489 -
+/wp-content/plugins/wp-support-plus-responsive-ticket-system/asset/js/admin.js 5 -
+/LICENSE.php 1 -
+/sites/default/files/node/product/319116_1.gif 1 -
+/product/pult-upravleniya-kompanii-dune-hd 1 -
+/product/monitoraudio-bronze-6/product/sabvufer-jamo-360-sub 4 -
+/upload.php 1 -
+/taxonomy/term/17%253Fpage%3D1 1 -
+/sites/default/files/styles/product-galery-big/public/node/product/canvas_2.png 1 http://mediaplayer.com.ua/product/proektoroptoma-uhd60
+/tmpe.php 1 -
+/components/com_foxcontact/js/jtext.js 2 -
+/sites/default/files/node/product/319116_6.gif 1 -
+/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/feed 10 -
+/product/usilitulimoshchnosticxa60-black 3 -
+/misc/,%20this.element).html(percentage%20+ 3 -
+/versions.php 1 -
+/category/karaoke-sistemy/product/karaoke-sistema-ast-mini 4 -
+/wp-content/plugins/gallery-plugin/css/stylesheet.css 1 -
+/wp-print.php 1 -
+/libraries/sfn.php 1 -
+/wp-includes/wlwmanifest.xml 9 -
+/blog/xmlrpc.php 1 -
+/wp-admin/admin-ajax.php 9 -
+/wp-admin 2 -
+/get.php 1 -
+/6c3feced5fe97be15edcefad3cdc76e7.php 1 -
+/license.txt 2 -
+/product/vstroennayaakusticheskayasistema-beale-street-audio-ic6-mb 1 -
+/product/proektoroptoma-w402 7 -
+/unz.php 1 -
+/front%253Fpage%3D0%25252C0 2 -
+/wp-index.php 1 -
+/product/unison-research-sh-cherry 4 -
+/blog/administrator/index.php 1 -
+/ads.txt 39 -
+/1.php 1 -
+/product/dune-solo-4k 1 -
+/install/install.php 1 -
+/sites/default/files/node/product/duo4k_mediaplayer_rear_0.jpg 2 http://mediaplayer.com.ua/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k
+/sites/all/themes/mytheme/images/white-bg.png 14 http://mediaplayer.com.ua/aksessuar/nastroyka-oborudovaniya
+/yt.php 1 -
+/wp-cache.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 8 -
+/wp-register.php 1 -
+/product/besprovodnye-komplekty-dlya-akusticheskih-sistem-amphony-l1800 2 -
+/category/vstraivaemaya-akustika/category/mediapleery-i-tv-pristavki 4 -
+/product/usilitelimoshchnostitopaz-am10-black 1 -
+/wp-info.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front.png 1 -
+/product/mediapleer-neo-4k 1 -
+/sites/default/files/node/product/dsc_0135.png 1 -
+/wp-cokd.php 1 -
+/sites/default/files/node/product/duo4k-front_mediaplayer.jpg 17 -
+/components/com_adsmanager/js/fullnoconflict.js 10 -
+/sites/default/files/node/product/319116_2.gif 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F/feed 10 -
+/theme/assets/global/plugins/jquery-file-upload/server/php 1 http://mediaplayer.com.ua/theme/assets/global/plugins/jquery-file-upload/server/php/
+/403.shtml 2 http://whois.domaintools.com/mediaplayer.com.ua
+/wp-config_bak.php 1 -
+/product/monitoraudio-bronze-6/page/o-kompanii 4 -
+/sitemap.xml 2 -
+/sites/default/files/05_dune_hd_tv_102_back.png 3 -
+/product/proektoroptoma-hd29darbee-2 4 -
+/sites/default/files/node/product/duo4k_mediaplayer.jpg 1 -
+/taxonomy/term/44%253Fpage%3D4%25252C1%25252C1 1 -
+/action 3 -
+/wp-installation.php 1 -
+/taxonomy/term/17%253Fpage%3D1%25252C1 1 -
+/product/nas-server-synology-ds114-x1-hdd 3 -
+/wp-content/plugins/formidable/css/frm_fonts.css 5 -
+/wp-content/plugins/cherry-plugin/admin/js/cherry-admin-plugin.js 6 -
+/wp-sbb.php 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front2.png 1 -
+/options.php 1 -
+/front%253Fpage%3D0%25252C1 2 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/wp-content/plugins/woocommerce-product-addon/js/nm-global.js 3 -
+/writebab.php 1 -
+/RPC2 1 -
+/category/vstraivaemaya-akustika/category/saundbary-i-zvukovye-proektory 2 -
+//cdn.callbackhunter.com/cbh.js 3 -
+/category/karaoke-sistemy/category/karaoke-sistemy 4 -
+/sites/default/files/04_dune_hd_tv_102_front_up.png 2 -
+/components/com_b2jcontact/b2jcontact.php 1 -
+/.git/config 5 -
+/product/mediapleer-dune-hd-tv-102w'A=0 1 http://mediaplayer.com.ua/product/mediapleer-dune-hd-tv-102w'A=0
+/product/proektoroptoma-w402-1 3 -
+/taxonomy/term/61%253Fpage%3D0%25252C0 1 -
+/browserconfig.xml 4 -
+/webform 7 -
+/hivcxa.php 1 -
+/category 7 -
+/wp-content/plugins/mailpress/mp-includes/js/mp_thickbox.js 7 -
+/product/sfericheskie-gromkogovoriteli-ecler-euc106bk 5 https://www.google.com.ua/
+/page 8 -
+/product/privodnye-gromkogovoriteli-stereo-komplekt-emotus5pb 4 -
+/apple-touch-icon-76x76.png 1 -
+/bgeiis.php 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_front3.png 1 -
+/cache.php 1 -
+/author/admin 1 -
+/modules/attributewizardpro/config.xml 1 -
+/wp-content/plugins/accesspress-anonymous-post-pro/js/admin-extra.js 7 -
+/category/vstraivaemaya-akustika/category/akustika-dlya-doma 4 -
+/taxonomy/term/17%253Fpage%3D1%25252C0%25252C1 1 -
+/taxonomy/term/61%253Fpage%3D0%25252C1%25252C0 1 -
+/sites/default/files/node/product/dsc_0129.png 1 -
+/2015/07/31/%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B5-dune-%D0%B2-%D0%BE%D0%B4%D0%BD%D1%83-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%8E%D1%8E-%D1%81%D0%B5/feed 10 -
+/wp-content/plugins/cardoza-facebook-like-box/admin_cardozafacebook.css 5 -
+/components/com_jce/jce.php 1 -
+/xmlrpc-activate.php 1 -
+/product/audioquest-hd-10m-hdmi-forest-3d-4k 1 -
+/product/proektoroptoma-hd29darbee-0 4 -
+/modules/fieldvmegamenu/config.xml 6 -
+/taxonomy/term/24%253Fpage%3D0%25252C1 1 -
+/modx.php 1 -
+/product/monitoraudio-bronze-6/category/ekrany-dlya-proektora 4 -
+/front%253Fpage%3D0%25252C0%25252C1 2 -
+/show.php 1 -
+/taxonomy/term/17%253Fpage%3D1%25252C0 1 -
+/sites/default/files/node/product/ic6-mb-006_7.jpg 1 -
+/xmlrpc-blog.php 1 -
+/sites/default/files/node/product/dune_hd_base_3d_wifi_back.png 1 -
+/category/vstraivaemaya-akustika/product/mediapleer-dune-hd-neo-4k-t2-plus-0 2 -
+/ytt.php 1 -
+/action/akcionnoe-predlozhenie-dlya-uchastnikov-proekta-ukrayinci-razom 1 -
+/modules/pk_flexmenu/config.xml 6 -
+/assets/images/search.php 1 -
+/apple-touch-icon.png 18 -
+/product/proektoroptoma-hd29darbee-3 4 -
+/wp-content/plugins/dzs-videogallery/admin/admin_global.js 8 -
+/product/akusticheskiykabel-mt-power/product/cifrovoykabel-mt-power 4 -
+/wp-profi1e.php 1 -
+/product/1-klipsch-reference-r-112sw-black 4 -
+/taxonomy/term/44%253Fpage%3D4%25252C0 1 -
+/modules/pk_vertflexmenu/config.xml 5 -
+/components/com_b2jcontact/css/b2jcontact.css 1 -
+/cms/wp-includes/wlwmanifest.xml 8 -
+/front%253Fpage%3D0%25252C1%25252C0 2 -
+/jm-ajax/upload_file 1 http://mediaplayer.com.ua/jm-ajax/upload_file/
+/info.php 1 -
+/product/proektor-optoma-x345 8 -
+/wp-content/plugins/website-contact-form-with-file-upload/js/nm-global.js 2 -
+/wp/wp-login.php 5 -
+/wp-content/plugins/real3d-flipbook/js/share.min.js 6 -
+/taxonomy_vocabulary//phpinfo 1 http://mediaplayer.com.ua/
+/taxonomy/term/44%253Fpage%3D4%25252C0%25252C0 1 -
+/ckupload/ckupload.php 1 -
+/wp-content/plugins/font-uploader/fontFunctions/fu_script.js 2 -
+/apple-touch-icon-precomposed.png 18 -
+/blog/robots.txt 4 -
+/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D1%8B-%D0%9A%D0%B8%D0%B5%D0%B2%D0%B0/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB-%D0%91-57-4664.html 10 -
+/product/mesyachnyy-premiuim-abonement-kartinatv 1 -
+/product/akusticheskiykabel-mt-power/category/vstraivaemaya-akustika 4 -
+/wp_honor.php 1 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/product/proektor-pt-ae8000ea 1 -
+/wp-rdf.php 1 -
+/product 9 -
+/category/karaoke-sistemy/category/proektory-dlya-ofisa 4 -
+/product/sondpad 1 -
+/wp-log-7.php 1 -
+/taxonomy/term/64%253Fpage%3D0%25252C0%25252C1 1 -
+/product/mediapleer-dune-hd-neo-4k-t2-plus 81 -
+/smiley/1.gif 1 -
+/wp-cahce.php 1 -
+/product/proektoroptoma-hd29darbee-1 4 -
+/wp-includse.php 1 -
+/2015/07/31/%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-dune-hd-tv-102-%D0%B3%D1%80%D0%B5%D0%B5%D1%82%D1%81%D1%8F 1 -
+/product/proektor-optoma-w331 5 -
+/wp-content/plugins/php-event-calendar/js/file-uploader/app.js 7 -
+/wp-content/plugins/woocommerce-catalog-enquiry/assets/frontend/css/frontend.css 8 -
+/taxonomy/term/17%253Fpage%3D1%25252C1%25252C1 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/php 2 http://mediaplayer.com.ua/wp-content/plugins/fluid_forms/file-upload/server/php/
+/product/gt1080e 4 -
+/product/usilitelimoshchnostitopaz-am5-black 3 -
+/sites/default/files/node/product/319116_7.gif 1 -
+/product/proektoroptoma-hd29darbee-4 4 -
+/missok.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 http://mediaplayer.com.ua/wp-content/plugins/formcraft/file-upload/server/php/upload.php
+/modules/homepageadvertise2/config.xml 5 -
+/components/com_sexycontactform/assets/js/index.html 8 -
+/category/vstraivaemaya-akustika/category/vinilovyy-proigryvatel 4 -
+/wp-kidmx.php 1 -
+/modules/homepageadvertise/config.xml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1526
+37.54.37.78 3135 4474 44727768 20180329140618
+212.90.40.52 369 416 3181799 20180330223946
+146.185.223.254 319 319 8790865 20180331121147
+91.217.4.66 257 264 884346 20180307180554
+146.185.223.123 187 187 5130340 20180326192023
+212.115.233.30 186 186 1571501 20180329160505
+108.170.8.186 186 193 2347281 20180328000206
+146.185.223.163 185 185 5047744 20180326193003
+146.185.223.99 183 183 5031665 20180326192544
+146.185.223.165 181 181 5011000 20180326195420
+35.187.13.247 9 9 105007 20180328091446
+77.111.244.30 7 7 64629 20180320115846
+46.191.225.155 2 2 17865 20180321092435
+46.211.123.226 3 3 35493 20180322173707
+178.95.155.146 13 13 116281 20180312165517
+104.155.58.226 6 6 53595 20180322050729
+109.237.91.157 4 4 35658 20180326121032
+37.73.234.186 15 15 162317 20180304094440
+176.115.103.101 26 28 223350 20180325162724
+91.229.216.7 1 1 17162 20180303193225
+91.243.13.9 1 1 17129 20180330075433
+37.204.155.120 3 3 35053 20180310063431
+178.136.129.238 30 30 246030 20180314084035
+78.26.188.23 9 9 85031 20180323183149
+66.102.9.53 7 7 70873 20180307150920
+145.255.10.172 1 1 39564 20180303154529
+72.66.115.14 1 1 17173 20180301191856
+191.101.54.2 6 6 162324 20180315165031
+193.227.119.23 3 3 34603 20180305171039
+95.133.238.208 3 3 34988 20180319200409
+145.255.8.198 1 1 39688 20180318122154
+78.111.19.21 3 3 34758 20180301094715
+46.242.30.83 3 3 36665 20180301171905
+77.111.244.64 1 1 17167 20180301204213
+83.61.196.197 2 2 32025 20180304203352
+185.127.224.3 3 3 30860 20180331003732
+194.44.237.38 3 3 32450 20180326132544
+85.238.106.102 6 6 65227 20180324062832
+77.111.244.58 4 4 30731 20180330165545
+212.79.122.82 3 3 38015 20180305222956
+176.105.163.234 7 7 63570 20180326142705
+131.107.160.245 9 9 84174 20180311130556
+77.219.12.219 3 3 34333 20180310204219
+91.222.1.193 3 3 34996 20180329145258
+31.135.132.6 5 5 46145 20180323135945
+213.111.129.94 3 3 31773 20180328190154
+176.38.165.158 15 15 103684 20180301180934
+93.72.196.111 3 3 32950 20180309190732
+131.107.174.94 35 37 176716 20180313113938
+77.37.131.81 1 1 13005 20180318161352
+89.237.203.226 3 3 29647 20180309140703
+188.163.96.150 3 3 35841 20180320214758
+93.75.171.150 7 7 66136 20180330003041
+92.60.179.218 3 3 29370 20180329123041
+131.107.160.76 3 3 35016 20180320061609
+178.137.95.244 4 4 120956 20180316062342
+195.9.109.230 3 3 30872 20180327162545
+95.220.195.227 3 3 30901 20180328192238
+202.46.49.78 1 1 17133 20180318064052
+188.163.46.107 3 3 30574 20180325142552
+91.196.149.51 1 1 122973 20180303153628
+183.89.6.164 1 1 122997 20180318080603
+95.90.185.98 3 3 35008 20180325120754
+213.183.255.211 7 7 62309 20180324221826
+178.150.96.11 5 5 40053 20180315130327
+95.27.241.116 2 2 30379 20180301172004
+46.211.153.118 3 3 33470 20180316160322
+37.20.217.12 11 11 488745 20180308205656
+46.98.142.211 60 60 403316 20180323111854
+95.161.221.11 3 3 81199 20180323034709
+31.43.121.175 3 3 35007 20180331093021
+95.132.56.118 11 11 107176 20180324104113
+79.110.130.145 1 1 39596 20180317130424
+157.36.244.35 3 3 35027 20180304152115
+178.69.106.127 4 4 120793 20180314122203
+37.204.104.38 2 2 33171 20180311044735
+91.244.20.160 8 8 81220 20180323141518
+94.31.133.34 3 3 30936 20180309171416
+188.163.33.54 5 5 52774 20180329213811
+91.244.7.9 12 12 105268 20180326221507
+52.37.118.25 2 2 34385 20180310204637
+188.163.58.36 9 9 79051 20180331094641
+91.201.246.20 13 13 114140 20180306024758
+178.159.37.118 3 3 81146 20180328105127
+178.62.93.49 3 3 35061 20180305182708
+77.123.20.4 5 5 53231 20180314200223
+93.79.244.104 2 2 245946 20180305025924
+35.205.71.189 6 6 53595 20180329080523
+80.252.154.233 48 48 1402633 20180331180116
+212.90.62.79 1 1 17144 20180316141705
+93.127.115.232 3 3 32928 20180314093745
+141.101.9.73 4 4 99917359 20180306201606
+45.55.90.210 4 4 33764 20180313142753
+134.249.209.201 34 34 742869 20180328165953
+195.20.130.1 13 13 115429 20180328185042
+145.255.9.239 4 4 127966 20180311163642
+188.247.217.32 3 3 29655 20180302145256
+171.25.193.20 1 1 39832 20180320091258
+37.52.197.235 3 3 30222 20180312225004
+91.204.196.40 32 32 99528 20180312131814
+131.107.147.62 1 1 17148 20180316155141
+35.205.31.210 6 6 53595 20180329082032
+89.178.18.36 1 1 17124 20180317111759
+178.127.136.206 8 8 427747 20180311171842
+109.254.93.108 3 3 34547 20180302155053
+46.37.195.69 3 3 35002 20180314172924
+46.133.214.213 5 5 49310 20180322155045
+131.107.160.96 14 14 120631 20180316091553
+46.148.186.211 10 10 88907 20180308213608
+79.164.61.252 1 1 17171 20180308083814
+85.238.103.53 5 5 52197 20180301154611
+89.135.97.156 3 3 30869 20180315180552
+37.54.192.63 3 3 32496 20180321111735
+112.5.248.182 1 1 17184 20180311213404
+18.144.50.19 3 3 35002 20180327192559
+188.163.74.59 5 5 44636 20180311093920
+5.105.36.32 3 3 29648 20180319191049
+94.158.83.3 24 24 221983 20180320225535
+178.251.108.142 3 3 35445 20180316170854
+176.14.184.66 1 1 17655 20180305190426
+150.70.188.177 1 1 61953 20180317083314
+46.133.234.200 5 6 86369 20180320122325
+84.46.250.212 3 3 36731 20180308201122
+93.76.233.155 3 3 35443 20180325133352
+5.164.205.181 4 4 204389 20180331114318
+131.107.174.28 8 8 79980 20180326150900
+159.203.98.37 5 5 50862 20180330223947
+62.210.71.205 3 3 80783 20180302001256
+31.173.86.140 3 3 30871 20180314183241
+131.107.147.155 8 8 90037 20180302211856
+89.0.194.25 8 8 90070 20180330123934
+108.170.8.170 14 14 135451 20180330222748
+176.37.100.30 5 5 53808 20180321120304
+46.211.147.51 4 4 33800 20180312224957
+91.224.97.43 20 20 193666 20180327111135
+218.102.137.69 4 4 127623 20180329142443
+104.199.52.133 6 6 53595 20180301040731
+89.252.30.54 3 3 32484 20180330062323
+82.145.222.52 3 3 35017 20180303204557
+178.120.75.91 3 3 28803 20180317220624
+93.72.168.227 3 3 35015 20180328154441
+91.89.230.158 3 3 30595 20180301225424
+35.225.41.29 3 3 31519 20180331014336
+46.219.223.118 7 7 69411 20180313005247
+178.54.9.8 21 21 156655 20180315105133
+93.79.20.192 3 3 32548 20180324181941
+92.112.41.23 3 3 32539 20180329205300
+107.167.116.119 10 11 118389 20180304180859
+188.166.44.5 1 1 39654 20180329225711
+146.120.30.38 47 47 433194 20180330160330
+176.120.53.61 3 3 34545 20180308124842
+213.110.98.161 53 53 455661 20180313115722
+195.69.222.53 3 3 32935 20180321181146
+37.55.65.59 3 3 34966 20180326142537
+93.127.106.128 5 5 49439 20180305121307
+109.200.247.113 1 1 123068 20180306142017
+35.195.177.220 9 9 105039 20180314055948
+91.237.114.70 11 11 102413 20180317201457
+91.250.61.5 3 3 33031 20180305162556
+104.221.193.150 1 1 17127 20180321124612
+37.57.209.207 140 140 1186931 20180314020040
+188.170.196.46 3 3 34325 20180311115345
+104.223.8.109 16 16 137882 20180324232812
+86.62.68.235 6 6 200118 20180320222908
+178.158.252.71 3 3 30940 20180311112629
+95.67.96.224 5 5 51792 20180304230844
+178.215.173.138 32 35 335454 20180329153649
+46.188.22.189 1 1 14418 20180307161728
+95.84.167.138 3 3 32250 20180323194806
+88.208.16.48 1 1 122997 20180314124803
+79.135.194.106 37 37 291112 20180310204714
+176.14.171.213 3 3 31799 20180316175320
+217.145.94.8 5 5 48628 20180320170416
+91.199.93.73 9 9 76975 20180328133727
+131.107.147.215 3 3 35012 20180313163313
+46.133.203.98 2 2 15448 20180329141242
+188.239.23.16 1 1 17128 20180313121342
+176.122.105.181 1 1 17142 20180329205131
+82.193.106.71 3 3 37363 20180327214232
+188.244.47.96 1 1 15199 20180330172628
+104.131.94.125 14 14 161222 20180324154249
+5.129.18.88 2 2 34717 20180309110614
+95.181.217.2 24 24 649125 20180327134439
+82.193.112.38 6 6 61865 20180316122144
+46.37.216.119 3 3 32559 20180304120616
+202.46.48.125 1 1 17140 20180328025347
+5.53.117.97 3 3 32539 20180325073935
+95.47.56.218 13 13 123663 20180305123611
+131.107.160.89 1 1 17135 20180315030152
+91.197.171.199 3 3 31903 20180311181806
+89.34.16.212 3 3 246342 20180330075432
+128.69.209.172 3 3 35027 20180304012026
+125.71.40.7 1 1 17146 20180328094506
+188.163.99.59 1 1 17134 20180327173136
+188.230.84.191 6 6 48103 20180305222312
+46.133.108.215 3 3 28806 20180323231217
+46.149.186.28 3 3 35015 20180327211259
+64.71.174.75 3 3 34839 20180328172151
+90.119.253.220 3 3 34324 20180311011039
+46.211.0.22 3 3 34670 20180315153544
+77.111.245.12 3 3 30900 20180304223546
+92.244.236.87 5 5 53036 20180307224735
+194.54.160.81 1 1 17128 20180331202849
+176.109.217.136 9 9 84665 20180319092640
+212.90.169.94 63 63 590370 20180320184330
+37.110.59.93 3 3 35833 20180324100217
+46.211.146.33 21 21 118818 20180322151833
+66.249.88.85 1 1 13211 20180328165715
+77.111.244.69 5 5 38057 20180328203610
+82.145.221.61 3 3 29580 20180310152252
+46.164.143.134 1 1 16760 20180330160512
+93.72.247.221 6 6 65228 20180329184044
+138.68.65.168 2 2 34455 20180315175315
+193.8.79.211 14 14 121593 20180321121323
+91.142.166.34 6 6 65347 20180327123326
+176.36.204.26 10 10 98444 20180329164755
+5.196.111.165 9 9 243684 20180331120322
+192.162.242.159 1 1 17131 20180331011746
+128.199.62.51 3 3 35767 20180328224924
+194.213.102.237 5 5 45640 20180313132643
+131.107.147.200 8 8 92791 20180327043335
+166.62.126.3 1 1 17139 20180313021847
+77.111.244.62 3 3 35001 20180316114047
+178.150.203.89 3 3 35797 20180318155649
+91.212.80.26 3 3 37399 20180304134552
+104.131.94.225 4 4 19074 20180310201947
+178.150.195.72 11 11 87406 20180313215545
+85.26.165.8 3 3 35829 20180312125651
+188.237.240.213 14 14 118839 20180317212235
+91.195.244.167 5 5 47388 20180305180334
+178.212.196.173 25 25 228702 20180326222946
+185.191.176.68 13 13 100158 20180301154353
+91.197.19.214 5 5 52569 20180301071714
+46.133.222.41 5 5 49946 20180314111951
+217.118.81.29 1 1 1444 20180316053237
+87.244.178.56 3 3 34971 20180316091021
+91.225.163.104 3 3 35012 20180331165237
+188.231.154.28 3 3 35016 20180302124417
+93.126.94.2 3 3 34769 20180310225330
+178.216.186.98 5 5 49200 20180311140215
+77.111.244.55 3 3 31905 20180309154807
+130.180.211.232 5 5 53369 20180307120225
+46.252.211.69 2 2 15189 20180317181111
+2.72.81.210 3 3 35828 20180330200110
+146.185.223.200 9 9 280945 20180324032655
+193.161.12.19 3 3 34633 20180302113117
+176.10.99.200 1 1 1601 20180320091255
+212.26.140.61 3 3 35013 20180323183847
+109.173.33.204 3 3 30894 20180325000758
+176.38.151.34 5 5 51090 20180309225858
+136.169.198.62 3 3 81104 20180311130215
+85.250.138.246 3 3 30859 20180322224352
+178.22.170.39 3 3 31443 20180319131734
+82.117.251.127 6 6 70111 20180329111751
+93.74.135.229 15 15 125553 20180308215732
+188.231.169.52 3 3 35002 20180322204750
+46.211.104.182 6 6 20121 20180323102615
+176.109.201.26 45 45 343998 20180331131455
+5.58.234.89 5 5 52915 20180312221020
+91.224.207.214 3 3 35842 20180329041340
+91.219.220.178 1 1 19529 20180308052931
+52.205.178.235 1 1 69893 20180318153112
+91.216.61.21 3 3 32531 20180319183643
+78.26.151.229 24 24 220164 20180328155504
+5.53.113.196 3 3 31843 20180320094847
+46.175.23.30 41 41 362663 20180312173334
+80.78.43.162 7 7 69856 20180305174812
+35.187.8.206 6 6 53595 20180322063000
+178.93.137.7 5 5 49489 20180306224931
+94.159.26.90 3 3 30878 20180307110941
+142.4.215.39 1 1 123247 20180309091600
+46.98.223.195 3 3 32506 20180305030234
+87.119.228.156 3 3 30583 20180310223422
+94.232.211.142 3 3 34551 20180323110938
+176.36.57.47 3 3 32480 20180316105812
+37.57.175.6 3 3 32546 20180310204244
+193.110.23.74 2 2 25181 20180307221034
+109.254.254.47 3 3 35838 20180331110553
+86.49.188.134 6 6 492636 20180312063248
+131.107.160.30 13 13 138721 20180328112054
+140.251.88.180 30 30 186111 20180327164343
+46.149.89.55 3 3 81056 20180328224601
+94.240.130.16 1 1 17141 20180326130118
+46.211.103.235 11 11 85637 20180306045923
+194.126.181.127 3 3 36614 20180301095434
+131.107.174.206 3 3 35010 20180327052148
+91.216.173.203 1 1 17134 20180326142808
+46.167.105.95 3 3 80950 20180301221754
+79.135.195.185 11 11 97484 20180311224704
+185.202.103.50 3 3 81090 20180307173709
+95.70.105.10 3 3 18380 20180305031154
+131.107.174.217 13 14 101483 20180321061457
+188.166.36.128 14 14 134301 20180302171441
+194.50.125.235 3 3 32490 20180323191203
+95.132.210.254 3 3 35003 20180315192308
+91.207.88.162 23 23 205880 20180301112236
+131.107.174.166 37 38 252045 20180321163259
+194.44.30.76 1 1 17141 20180327183819
+80.221.151.20 3 3 32505 20180324131034
+212.90.60.113 3 3 34672 20180301184637
+185.177.191.1 4 7 51929 20180320171119
+213.108.47.38 3 3 32544 20180330095211
+145.255.8.91 3 3 81445 20180315173401
+217.77.212.140 3 3 37987 20180321163518
+150.70.188.179 1 1 122997 20180330081521
+171.25.193.235 2 2 48056 20180326085030
+178.158.157.84 6 6 61710 20180330163316
+178.150.249.30 27 27 256040 20180310215109
+31.43.110.96 3 3 34187 20180303195617
+37.145.48.71 3 3 81247 20180326055242
+91.124.27.69 11 11 96284 20180323232411
+178.95.128.117 3 3 29426 20180307145004
+188.163.97.137 46 46 404888 20180319102629
+93.79.161.214 7 7 66903 20180317143748
+176.14.227.254 2 2 17865 20180316031933
+91.217.101.202 6 6 65284 20180324001057
+176.125.32.147 1 1 17151 20180325004932
+178.124.194.66 6 6 49898 20180306122902
+188.255.18.250 2 2 29867 20180329081203
+188.191.47.169 3 3 34705 20180311140353
+91.134.120.104 3 3 81297 20180330003646
+91.237.52.119 1 1 53673 20180319014839
+93.115.86.6 1 1 39596 20180320091254
+95.67.52.136 3 3 30576 20180322085806
+37.229.83.246 29 30 244660 20180315160706
+188.32.226.14 2 2 15888 20180307214022
+31.43.154.189 6 6 67667 20180329222031
+217.117.64.208 1 1 17202 20180307171030
+131.107.147.87 3 3 35012 20180318052114
+35.205.79.178 6 6 53595 20180308023948
+93.173.185.18 11 11 108161 20180304220616
+212.66.42.218 3 3 32487 20180319091522
+176.115.96.75 3 3 35043 20180308115629
+95.67.32.211 3 3 30539 20180323111333
+101.199.112.50 3 3 34998 20180317165359
+77.239.161.189 6 6 48035 20180322101959
+94.179.140.67 5 5 47649 20180331110347
+128.69.235.41 1 1 16418 20180313101121
+93.77.90.40 7 7 61351 20180321213248
+195.201.34.1 1 1 123095 20180309173754
+188.163.53.55 3 3 29600 20180328150604
+35.189.248.68 9 9 105155 20180307053854
+176.197.245.206 3 3 32538 20180317064800
+46.188.24.252 1 1 13003 20180322071734
+188.166.0.65 5 5 50848 20180310213758
+95.220.92.124 1 1 15553 20180323101112
+66.85.185.76 2 2 13189 20180328085518
+146.185.223.143 8 8 242051 20180307062024
+37.115.116.72 3 3 35823 20180328004825
+91.200.52.116 3 3 35015 20180314073700
+85.141.217.189 1 1 13018 20180314215110
+82.15.145.90 3 3 32939 20180322210937
+66.85.140.119 11 12 104553 20180321155231
+195.3.130.28 3 3 30881 20180320224648
+195.43.70.153 3 3 34993 20180319203537
+185.156.175.189 3 3 81286 20180318143930
+95.46.140.10 13 13 115650 20180301192240
+46.98.221.1 3 3 32538 20180331225930
+104.131.94.118 2 2 13189 20180325093314
+188.231.184.20 5 5 50560 20180306103024
+109.86.23.245 5 5 44141 20180331175910
+35.205.115.4 9 9 105001 20180328091210
+46.133.179.41 3 3 34458 20180301125441
+91.220.204.98 35 35 332728 20180319001938
+66.102.9.149 2 2 17238 20180306221313
+178.162.2.82 3 3 30875 20180322200206
+94.240.161.2 15 15 139525 20180324200021
+209.58.131.11 3 3 81188 20180321231038
+46.133.225.33 1 2 22034 20180303163110
+31.202.232.80 3 3 31818 20180302215454
+24.24.166.144 3 3 35032 20180303074141
+35.195.165.155 6 6 53595 20180315033017
+95.153.132.24 3 3 30882 20180319203524
+131.107.174.227 4 4 52144 20180317212006
+91.232.188.130 6 6 61643 20180321120802
+188.165.4.128 3 3 164289 20180314160547
+95.27.255.130 3 3 30899 20180317103731
+194.44.169.70 5 5 49324 20180329230147
+86.58.206.113 68 68 501507 20180325172405
+37.57.149.245 10 10 92823 20180314122414
+109.201.206.106 3 3 81027 20180308055918
+5.1.20.249 3 3 35064 20180305235847
+91.197.51.178 1 1 15999 20180326191436
+213.111.177.162 3 3 34986 20180323193127
+93.77.196.167 3 3 35498 20180317111705
+46.133.191.112 4 4 33972 20180314181440
+78.154.187.90 37 37 376287 20180306165724
+158.46.215.170 1 1 17158 20180302025626
+35.205.73.109 6 6 53595 20180322061424
+35.205.108.140 6 6 53595 20180301005950
+212.26.142.26 3 3 35041 20180301145458
+5.251.151.167 3 3 30584 20180311170506
+130.180.216.248 1 1 17165 20180302154230
+95.67.87.133 6 6 41521 20180301224429
+79.165.122.78 2 2 17183 20180316161852
+91.250.59.184 5 5 54257 20180331222708
+212.21.15.50 3 3 80821 20180305054243
+134.249.144.17 30 30 272382 20180302230340
+142.252.249.244 3 3 81060 20180328104811
+62.205.128.154 6 6 68194 20180331001653
+91.250.4.61 3 3 35005 20180327145644
+119.81.31.61 3 3 81263 20180330202800
+109.61.14.78 1 1 126251 20180313125953
+95.164.81.240 3 3 35010 20180318152256
+95.27.44.133 2 2 28191 20180322125709
+66.85.140.100 2 2 13189 20180328101520
+208.101.7.46 4 4 233265 20180327165252
+91.207.170.170 3 3 80974 20180302024126
+150.70.188.169 2 2 124176 20180320215811
+178.213.108.100 15 15 137033 20180324153336
+131.107.160.2 3 3 35005 20180325010954
+93.78.156.188 3 3 33399 20180327151919
+178.151.151.147 17 17 168216 20180327172002
+212.26.129.38 3 3 35038 20180304153147
+194.143.145.130 3 3 32492 20180318234735
+46.101.9.216 1 1 17144 20180326232610
+34.212.29.182 1 1 122997 20180322153817
+93.75.131.38 3 3 29603 20180330170315
+46.70.84.84 3 3 37358 20180322122102
+216.74.102.213 1 1 17192 20180309020834
+89.249.65.235 4 4 246818 20180309001812
+93.72.249.39 33 33 306665 20180308103908
+14.215.176.11 2 2 28518 20180311214615
+180.97.35.91 3 3 31987 20180311214643
+95.133.214.188 3 3 35014 20180318151332
+90.188.255.142 4 4 203990 20180328192124
+185.195.24.52 1 1 122997 20180328222309
+77.123.177.49 3 3 35000 20180303121346
+212.178.12.145 3 3 34933 20180307101909
+92.115.137.5 3 3 34957 20180313111937
+92.124.12.75 3 3 34871 20180323153156
+91.245.79.186 5 5 47276 20180303112018
+188.163.46.13 5 5 46087 20180317084818
+193.28.177.119 11 11 104691 20180326154621
+188.230.114.197 8 8 87938 20180313112627
+212.90.164.186 3 3 33502 20180326134203
+35.193.86.29 3 3 31520 20180331014343
+35.195.238.244 6 6 53595 20180329080812
+91.197.217.11 9 9 85185 20180323144318
+213.111.129.35 4 4 29545 20180331104720
+31.43.110.118 6 6 65763 20180330160531
+46.133.194.12 1 1 17350 20180314092339
+212.57.38.58 3 3 32452 20180317082059
+94.179.133.98 2 2 17865 20180305185507
+95.134.176.88 3 3 33176 20180318111739
+31.43.145.65 3 3 31086 20180328115547
+178.46.92.27 5 5 44440 20180308142042
+195.138.86.3 3 3 32541 20180314185851
+217.66.156.57 4 4 35460 20180330073236
+188.163.109.153 3 3 89463 20180328033842
+82.193.101.34 21 21 189126 20180327221559
+146.185.223.220 33 33 892457 20180331221709
+85.254.13.207 6 6 61803 20180311191008
+188.163.96.75 9 9 88339 20180319222537
+46.211.113.250 3 3 34989 20180315130443
+208.78.160.6 3 3 32541 20180331155024
+95.220.201.158 3 3 33244 20180331065413
+176.38.41.213 15 15 139703 20180328105630
+77.111.244.10 1 1 17350 20180325154221
+104.131.93.130 2 2 13189 20180323091551
+66.102.9.5 31 31 355599 20180331123453
+131.107.147.180 7 7 77946 20180316065257
+78.25.10.20 2 2 17473 20180303143756
+46.211.129.218 3 3 32907 20180330152429
+37.115.215.77 3 3 36638 20180317151213
+212.26.138.26 13 13 113519 20180319122035
+37.55.207.217 9 9 106321 20180313201436
+94.180.213.45 1 1 13010 20180309085211
+176.38.62.111 3 3 35861 20180316003847
+95.221.60.200 2 2 20684 20180305190431
+34.212.74.90 1 1 17139 20180322030007
+66.249.83.195 2 2 17704 20180330094546
+131.107.147.66 3 3 35000 20180326043106
+47.75.75.73 1 1 139195 20180318225152
+46.133.30.16 3 3 36666 20180314175407
+37.115.49.9 3 3 33561 20180317181131
+91.207.7.42 15 15 419695 20180329122910
+52.201.197.62 1 1 17128 20180314001707
+185.220.101.33 1 1 1552 20180324003157
+94.158.95.195 3 3 33067 20180301230202
+109.86.1.48 5 5 44527 20180310185656
+178.136.205.171 3 3 36689 20180329232207
+91.197.184.254 2 2 17865 20180317180021
+195.69.221.84 3 3 33054 20180310173432
+5.1.14.233 3 3 81143 20180329150433
+5.100.75.126 3 3 30923 20180306050518
+107.178.194.121 1 1 14623 20180317153319
+91.193.131.120 50 50 528968 20180314153843
+178.155.4.16 9 9 71414 20180320214355
+176.116.6.250 1 1 17139 20180322061054
+80.252.155.198 59 59 1745263 20180330190656
+91.245.73.2 3 3 32553 20180307175503
+91.108.44.67 3 3 81046 20180316091406
+5.105.176.180 9 9 86177 20180330192837
+93.79.85.88 8 8 82564 20180312145804
+89.252.17.88 33 33 77365 20180301203437
+46.39.46.163 3 3 30890 20180311185229
+91.202.134.75 3 3 34561 20180324221933
+109.87.146.63 3 3 32489 20180325150343
+131.107.160.184 15 15 134419 20180325094957
+217.20.168.153 3 3 30559 20180323160424
+196.196.200.4 4 4 120651 20180309165330
+178.165.23.137 7 7 67959 20180330180943
+91.196.151.182 5 5 55427 20180322191859
+79.110.129.186 3 3 30342 20180304150647
+131.107.174.212 7 7 82979 20180324055000
+131.107.147.93 3 3 34991 20180324132826
+91.200.80.2 18 18 487282 20180327160042
+46.149.91.79 5 5 51018 20180329195426
+77.111.244.28 3 3 32895 20180320083615
+178.92.150.231 2 2 34490 20180318233933
+145.255.11.114 3 3 81224 20180309063548
+147.75.210.229 1 1 17170 20180303224056
+176.8.69.63 3 3 30978 20180324102316
+213.108.78.75 28 39 257006 20180323104738
+188.163.45.86 5 5 45569 20180314200218
+77.111.244.65 13 13 116890 20180330165224
+37.130.229.149 13 13 124532 20180328090432
+46.175.248.215 3 3 34670 20180329010554
+178.76.243.0 3 3 81019 20180314061449
+195.20.154.40 3 3 30574 20180317092418
+212.90.45.49 3 3 32529 20180330053249
+91.186.108.172 3 3 30803 20180326213606
+185.198.167.30 1 1 17137 20180330082457
+85.167.182.70 3 3 32450 20180331194435
+91.124.115.29 3 3 34994 20180320143352
+107.167.108.141 3 3 29647 20180328172509
+46.211.1.227 3 3 35014 20180327211919
+131.107.147.250 7 7 54990 20180325202421
+35.193.81.74 3 3 31523 20180331014328
+79.182.232.191 15 15 139883 20180326230150
+178.205.18.142 6 6 61756 20180316201246
+217.118.91.84 3 3 36696 20180314114931
+91.250.30.91 3 3 35003 20180312183458
+185.103.254.226 1 1 78979 20180323210456
+91.235.247.253 3 3 31073 20180310184438
+5.188.203.40 1 1 706 20180328213625
+188.163.109.134 54 54 1196532 20180323233212
+46.219.221.48 3 3 34992 20180320190238
+212.248.20.140 3 3 30901 20180315160601
+92.112.229.81 3 3 32991 20180321094958
+185.76.69.18 5 5 46436 20180315205811
+77.138.54.184 7 7 70366 20180304174553
+131.107.174.229 1 1 19493 20180314155744
+37.57.81.16 3 3 34884 20180320161733
+94.253.90.184 3 3 31081 20180305202229
+85.90.101.194 3 3 30887 20180327161439
+109.195.23.7 3 3 30867 20180320103123
+131.107.147.30 17 17 73476 20180319215509
+46.211.123.253 5 5 51994 20180317181414
+195.114.135.163 9 9 87887 20180302114508
+31.173.241.104 7 7 64571 20180310190419
+77.52.190.10 3 3 32597 20180308015306
+94.45.152.97 3 3 32530 20180328112854
+128.70.68.104 6 6 283626 20180321013349
+202.46.58.187 1 1 17130 20180330152740
+95.85.39.110 2 2 17655 20180315175311
+94.231.132.213 3 3 30865 20180324111734
+188.32.251.230 3 3 29909 20180330112711
+18.219.181.88 2 2 34517 20180301145052
+91.226.139.5 3 3 35452 20180320132310
+5.62.41.10 4 4 120987 20180305095513
+93.185.17.238 3 3 30824 20180316232725
+37.204.36.147 3 3 34879 20180311152126
+95.132.243.138 3 3 35010 20180321141043
+79.110.128.242 11 11 98869 20180315103744
+212.3.195.53 3 3 30891 20180324224050
+75.126.28.194 2 2 116888 20180328204505
+95.153.135.129 3 3 30893 20180305133747
+178.159.37.73 3 3 81101 20180330063658
+176.113.157.137 3 3 29604 20180312075833
+37.73.146.45 5 5 49315 20180323200603
+93.76.112.33 4 4 47437 20180330002918
+46.53.181.16 6 6 47576 20180330214149
+46.211.121.121 1 1 17141 20180326145726
+188.163.41.122 4 4 120664 20180326044201
+8.37.234.72 1 1 19531 20180304141643
+193.239.153.73 2 2 17865 20180306183324
+46.201.55.90 3 3 34992 20180328154629
+109.195.100.49 3 3 31531 20180329084137
+146.185.223.177 173 173 4712808 20180326201811
+178.136.193.86 4 4 32996 20180327131455
+131.107.174.160 3 3 35010 20180328203115
+93.84.105.198 7 7 61480 20180318000236
+93.84.54.55 4 4 120718 20180320190047
+109.173.54.206 3 3 35044 20180306022713
+77.37.228.176 3 3 32584 20180310213721
+5.227.7.106 3 3 35439 20180323174521
+93.79.162.163 13 13 117012 20180318192951
+80.251.224.54 12 12 94408 20180319084304
+131.107.147.240 5 5 51226 20180315161501
+131.107.174.113 2 2 34487 20180317095919
+145.255.9.70 1 1 39686 20180311174909
+46.211.155.78 3 3 35828 20180328171332
+37.115.188.105 3 3 80861 20180329173332
+159.224.145.158 3 3 30923 20180309182359
+131.107.147.154 7 7 67553 20180328110905
+46.175.185.137 1 1 17146 20180319133322
+134.119.213.82 2 2 34274 20180318182413
+193.107.130.108 9 9 83570 20180324133134
+37.52.113.133 5 5 53306 20180325095354
+91.242.193.159 3 3 35797 20180312111632
+185.220.101.13 1 1 39628 20180308062250
+176.37.171.31 3 3 35057 20180308091751
+146.185.223.232 178 178 4995542 20180326184709
+82.202.249.240 6 6 182526 20180320170021
+178.213.13.66 3 3 30861 20180325223350
+77.111.244.14 1 1 19847 20180322222527
+77.109.35.130 3 3 35013 20180306011414
+31.129.208.152 3 3 30910 20180305204645
+193.107.3.200 6 6 161969 20180331121104
+78.90.250.118 3 3 33067 20180313154613
+46.219.241.159 3 3 32489 20180323143612
+193.32.14.169 23 23 71961 20180323174934
+178.219.88.149 2 2 34541 20180307202532
+193.41.129.65 6 6 65600 20180311125915
+31.202.205.170 3 3 31806 20180316003511
+188.190.175.130 3 3 32510 20180328224155
+66.249.83.193 2 2 34332 20180330094543
+148.251.154.123 3 3 142983 20180322120350
+193.201.207.26 7 7 67763 20180305114029
+91.105.18.199 3 3 32545 20180319080352
+46.211.116.106 13 13 121452 20180301142241
+188.190.8.210 1 1 10880 20180317193137
+77.247.181.162 1 1 39864 20180308062255
+178.94.224.231 4 4 35884 20180323165424
+178.215.245.111 3 3 34660 20180306203600
+109.184.205.60 9 9 250318 20180315224959
+188.163.74.9 23 23 195924 20180311183645
+195.114.135.3 3 3 32544 20180323101449
+84.82.113.99 3 3 32535 20180323182647
+46.98.144.20 14 14 107220 20180325082051
+184.164.146.19 18 18 191493 20180325132914
+78.158.28.10 3 3 221738 20180313100209
+46.133.24.177 9 9 105656 20180320094737
+91.225.223.72 3 3 29648 20180317105916
+37.203.24.192 3 3 31048 20180327133622
+54.67.59.131 10 10 171512 20180329041853
+89.21.89.19 19 19 149389 20180331235959
+86.57.212.72 1 1 122997 20180313115805
+146.185.223.240 6 6 492880 20180325050535
+108.168.151.15 4 4 249570 20180326212737
+193.194.107.19 3 3 34663 20180306225216
+185.41.249.211 3 3 29383 20180301144454
+131.107.159.50 3 3 35043 20180311170614
+95.24.4.177 1 1 13021 20180312174758
+2.76.123.163 3 3 34470 20180319051844
+93.171.161.231 3 3 33835 20180307223341
+66.102.9.151 4 4 35492 20180306221837
+46.42.163.25 3 3 34999 20180330171722
+188.163.58.195 11 11 97498 20180331214616
+37.145.229.225 3 3 32244 20180324020700
+184.164.146.28 2 2 13189 20180326052142
+131.107.159.142 3 3 34988 20180314230328
+82.193.109.188 4 4 47516 20180311214008
+62.219.162.91 3 3 32532 20180325172504
+2.132.85.248 3 3 37391 20180304122643
+217.118.81.20 3 3 30859 20180331082622
+37.55.188.180 4 4 120767 20180314114648
+213.160.149.50 5 5 45741 20180327142834
+185.220.101.29 3 3 88056 20180318162902
+94.130.168.232 4 4 197470 20180331161925
+178.54.64.23 11 11 105531 20180305143010
+146.185.223.252 1 1 122997 20180327020108
+195.54.42.26 3 3 32481 20180326211247
+176.118.48.37 1 1 17128 20180312154223
+198.211.126.107 1 1 14664 20180326093933
+109.65.115.24 6 6 65355 20180320161031
+46.133.179.187 5 5 48241 20180307175503
+89.19.98.25 9 9 92075 20180323231822
+128.68.23.9 2 2 28207 20180307093053
+131.107.147.52 3 3 34994 20180315072508
+94.131.223.11 3 3 35004 20180327152425
+95.132.135.224 3 3 35002 20180329165235
+185.70.131.247 1 1 17973 20180319220843
+195.16.79.83 3 3 32525 20180303215326
+131.107.174.56 3 3 35006 20180327221415
+83.139.135.187 3 3 30879 20180320201123
+146.185.223.187 171 171 4655645 20180326181117
+77.111.244.26 5 5 51581 20180318140938
+91.218.74.169 7 7 56956 20180313232658
+109.87.15.215 20 20 167462 20180330192159
+159.224.76.31 17 17 135946 20180307215843
+91.193.173.12 5 5 47931 20180322162310
+46.229.62.253 3 3 34301 20180302222809
+185.143.173.102 3 3 32511 20180304205535
+178.219.46.64 3 3 30881 20180330000557
+88.135.214.72 15 21 221520 20180303164914
+91.245.112.243 6 6 69208 20180314220050
+92.113.174.66 1 1 15336 20180315154550
+84.245.207.15 3 3 30885 20180323192528
+178.122.79.238 17 17 371349 20180327015409
+46.211.24.163 3 3 34992 20180312134142
+46.118.116.146 19 19 167577 20180309145414
+107.178.234.167 1 1 17188 20180305122549
+188.163.2.102 3 3 35045 20180305210819
+95.132.11.37 3 3 32512 20180318023203
+5.254.97.107 3 3 80841 20180302170041
+46.133.186.100 5 5 54535 20180316172702
+158.46.167.149 1 1 17149 20180315070815
+134.249.140.154 3 3 37357 20180325010257
+176.104.183.246 9 9 85788 20180311094506
+178.94.140.219 19 19 181704 20180304141422
+180.97.35.149 3 3 31357 20180311214505
+131.107.147.178 6 6 69967 20180326034124
+176.97.36.136 3 3 28918 20180330161707
+109.108.78.102 3 3 30581 20180318213010
+176.106.2.72 3 3 33126 20180312184649
+188.231.223.63 5 5 54054 20180308000944
+193.105.7.124 3 3 35323 20180319224450
+131.107.174.172 3 3 37404 20180325091213
+94.244.59.247 5 5 50839 20180312210440
+213.111.177.172 3 3 35026 20180303123136
+46.211.123.32 3 3 32543 20180322125640
+194.183.171.240 3 3 31809 20180327155806
+176.100.191.32 4 4 53781 20180328150645
+46.30.165.103 21 21 165793 20180320192235
+188.166.76.162 4 4 23223 20180306114331
+185.2.32.2 12 12 323977 20180313030500
+52.205.212.221 1 1 62223 20180310213802
+95.134.55.109 3 3 34586 20180310020758
+178.151.140.61 3 3 33040 20180323094415
+141.101.26.233 3 3 88131 20180331114052
+80.64.90.55 7 7 68486 20180329214508
+185.105.119.68 1 1 78979 20180321202124
+46.175.147.105 5 5 47922 20180324131932
+91.192.182.2 3 3 34534 20180301202421
+37.115.194.156 8 8 248131 20180328232727
+107.21.196.166 1 1 122997 20180315184423
+5.105.92.215 8 9 92595 20180327202449
+46.211.27.153 3 3 35009 20180328193745
+94.41.149.130 3 3 81070 20180303051353
+5.146.198.241 9 9 83023 20180304120959
+188.190.80.190 3 3 32529 20180323190955
+37.20.175.229 4 4 204266 20180328094643
+85.255.232.69 5 5 46545 20180321140651
+128.74.245.198 2 2 30342 20180316201451
+109.206.60.58 3 3 34976 20180323215656
+85.195.116.66 3 3 81032 20180326060914
+94.158.87.80 3 3 32548 20180327224148
+93.73.197.190 5 5 52362 20180310103117
+46.0.38.59 1 1 14337 20180317111801
+188.186.84.97 2 2 13504 20180329193526
+46.33.239.184 3 3 33115 20180327222205
+37.73.202.132 5 5 45817 20180330100946
+178.213.1.231 3 3 31902 20180305160428
+93.72.71.51 3 3 35127 20180302000750
+95.78.95.70 3 3 35832 20180313221940
+131.107.147.228 3 3 35008 20180317072417
+176.119.79.3 3 3 34558 20180320101331
+46.101.97.118 7 7 62875 20180318193240
+77.111.244.23 2 2 16229 20180326204812
+188.163.88.220 25 25 241177 20180322215001
+195.177.126.226 3 3 32590 20180309153302
+195.114.136.50 3 3 81206 20180311055053
+104.199.86.159 9 9 105138 20180307053337
+5.2.48.180 3 3 30895 20180312065214
+193.0.217.112 3 3 33211 20180312145754
+188.32.240.115 10 10 136539 20180323182745
+109.68.41.129 13 13 117993 20180321135832
+88.78.194.198 3 3 30543 20180318115556
+95.67.1.101 3 3 31851 20180323135628
+85.250.177.246 17 17 153559 20180324204535
+54.87.12.242 1 1 17180 20180309140058
+77.247.27.84 7 7 57946 20180321235429
+202.46.54.132 1 1 17139 20180325103206
+95.67.211.71 1 1 78945 20180315030948
+109.254.101.155 12 12 114165 20180309081342
+90.154.88.204 3 3 32254 20180301072354
+46.133.8.194 3 3 32978 20180327205549
+109.167.206.130 3 3 34666 20180326184844
+131.107.147.34 17 17 246940 20180322050255
+46.133.180.95 3 3 35022 20180304084005
+198.15.118.141 2 2 18083 20180313142458
+91.239.141.129 3 3 35832 20180323185837
+93.75.70.28 3 3 30880 20180309114245
+213.160.139.206 5 5 51992 20180313153409
+46.133.203.64 3 3 35513 20180309164000
+195.22.127.227 1 1 81924 20180329155745
+77.37.136.195 2 2 30543 20180312062152
+93.175.215.117 13 13 125459 20180306115425
+176.37.24.188 3 3 35066 20180318235436
+178.151.163.47 3 3 34935 20180314125332
+91.208.153.1 3 3 32536 20180313130307
+176.36.138.128 3 3 35833 20180314165137
+185.100.86.182 2 2 41639 20180305230946
+176.111.177.85 7 7 65952 20180324112439
+188.255.77.25 3 3 31381 20180305155106
+93.120.163.202 3 3 87512 20180304094714
+109.196.190.8 42 42 359540 20180325132219
+195.114.145.47 3 3 30857 20180314202908
+66.102.7.221 1 1 515 20180308225420
+35.190.201.48 6 6 53595 20180322054012
+146.185.223.160 9 9 739418 20180317055503
+93.73.144.16 6 6 69200 20180315003756
+83.7.232.154 3 3 30828 20180302153738
+93.73.206.160 28 28 256812 20180319145046
+92.113.156.101 5 5 48139 20180328223438
+146.185.223.238 179 179 4858150 20180326194350
+84.248.120.58 3 3 32544 20180329234927
+213.160.153.158 19 19 155888 20180313144840
+165.231.161.5 3 3 81454 20180321125857
+37.112.239.140 1 1 515 20180331163244
+94.103.228.48 2 2 26051 20180331225215
+131.107.174.38 6 6 68825 20180322100358
+46.211.145.188 6 6 52047 20180331175244
+128.70.33.166 5 5 132282 20180306203745
+91.202.74.158 3 3 34727 20180302123019
+77.123.18.154 9 9 105011 20180304171338
+93.78.210.231 38 38 371315 20180315103740
+91.214.208.34 3 3 35000 20180317203338
+131.107.174.162 6 6 67631 20180328104319
+176.122.100.113 31 31 281411 20180311200310
+77.111.244.35 7 7 67954 20180303131322
+37.115.191.70 4 4 127362 20180316090930
+93.120.183.197 9 9 242366 20180303212741
+188.227.125.207 23 23 216251 20180315114843
+95.42.116.178 7 7 66306 20180312184422
+46.211.150.73 5 5 52088 20180317195435
+194.44.220.195 3 3 34998 20180318075551
+131.107.159.6 3 3 35008 20180315150649
+31.129.70.115 3 3 32483 20180324080849
+145.255.3.230 3 3 81216 20180317131819
+131.107.147.16 3 3 34996 20180327053440
+95.135.149.93 5 5 49807 20180306205640
+62.64.105.58 3 3 28917 20180321181149
+109.162.3.98 1 1 13037 20180327135232
+131.107.160.70 1 1 17134 20180323084559
+147.30.75.41 4 4 120906 20180313201120
+91.243.210.27 3 3 32531 20180325185412
+79.142.204.33 52 52 447009 20180323204844
+95.67.56.124 45 63 734347 20180318153649
+193.107.130.248 12 12 117539 20180308223047
+93.72.106.181 6 6 70089 20180311154106
+159.224.13.222 3 3 36700 20180313170703
+18.188.118.147 2 2 34491 20180326185801
+128.72.151.219 3 3 37990 20180323162256
+217.66.105.234 9 9 81293 20180321101434
+178.173.121.163 6 6 42419 20180331212705
+95.220.203.140 2 2 28217 20180310032527
+37.229.186.88 6 6 65341 20180319001726
+93.73.157.214 3 3 34602 20180315204729
+93.76.125.11 3 3 34649 20180306072150
+80.77.47.161 7 7 56947 20180326165952
+185.76.10.168 3 3 30581 20180321210933
+194.247.173.10 3 3 32483 20180323120759
+77.37.181.98 3 3 30856 20180323132229
+188.69.194.149 10 10 62529 20180310193836
+131.107.160.207 11 11 83091 20180328081213
+46.149.84.68 3 3 32594 20180305134654
+188.163.65.9 3 3 32992 20180301194732
+217.66.154.124 3 3 30847 20180319101044
+5.35.11.76 1 1 39630 20180321055718
+104.193.88.243 1 1 122997 20180325122048
+104.236.195.147 5 5 52954 20180322200429
+31.148.135.8 1 1 17158 20180302131350
+193.105.62.15 9 9 71793 20180319102958
+104.155.82.164 6 6 53595 20180322055559
+131.107.160.111 5 5 52624 20180316124407
+131.107.174.186 9 9 98166 20180315215219
+77.122.199.160 7 7 60425 20180304130107
+66.102.9.2 29 29 308094 20180331122339
+5.228.16.95 3 3 33232 20180303164550
+109.86.180.151 3 3 34428 20180318103756
+5.32.175.82 3 3 30853 20180327121254
+46.133.180.148 2 2 17641 20180314080613
+137.163.19.128 1 1 19580 20180308153653
+31.43.71.215 3 3 32487 20180319225856
+46.188.23.186 3 3 34697 20180331154517
+5.188.9.90 1 1 17123 20180327130811
+37.112.188.225 3 3 35836 20180319102954
+178.136.211.197 10 11 109438 20180304132418
+131.107.160.26 15 15 112839 20180325133459
+85.238.103.28 3 3 37403 20180318182157
+159.224.223.24 3 3 36655 20180311201857
+5.9.158.75 1 1 39596 20180326085028
+37.204.185.114 1 1 12965 20180317111759
+188.242.41.6 3 3 35791 20180306230649
+77.111.244.17 4 4 28286 20180306114844
+5.188.9.80 1 1 706 20180326033836
+46.133.233.216 12 12 95082 20180324204027
+195.189.234.7 17 17 151304 20180305215634
+46.188.42.219 2 2 17865 20180317200214
+91.218.195.34 3 3 51439 20180331150837
+176.104.3.54 8 8 84301 20180326102433
+131.107.147.84 31 32 88867 20180316064728
+5.228.47.99 2 2 17701 20180308074617
+141.226.218.3 3 3 30880 20180324213134
+91.243.80.80 17 17 371330 20180314123542
+178.150.80.26 3 3 31901 20180311163936
+176.109.218.142 3 3 32491 20180321091240
+131.107.174.93 3 3 35003 20180327040050
+147.75.210.173 1 1 17350 20180303224102
+109.227.113.173 3 3 35000 20180312223408
+91.241.184.142 1 1 17160 20180302181134
+109.91.36.185 3 3 30554 20180315142723
+131.107.160.214 3 3 35008 20180321161715
+46.211.27.95 3 3 35005 20180318155445
+178.140.236.40 3 3 29625 20180307193809
+86.110.117.60 1 1 17199 20180309060925
+77.126.82.4 3 3 32486 20180322215237
+77.222.148.36 3 3 33307 20180330114624
+171.33.251.66 3 3 81272 20180310035144
+89.24.48.82 3 3 29606 20180303182418
+131.107.159.198 14 22 180145 20180320140314
+91.210.147.153 1 1 17149 20180311223753
+95.27.79.99 2 2 17694 20180310104335
+131.107.160.50 9 9 112343 20180314190220
+80.77.39.154 1 1 17108 20180331153034
+62.80.181.99 3 3 32484 20180324170206
+34.244.37.247 1 1 122973 20180302052433
+91.239.98.96 3 3 71806 20180309143507
+134.249.146.76 3 3 32549 20180311104209
+217.77.220.47 3 3 34824 20180329135718
+109.87.38.200 31 31 292281 20180322130217
+86.57.158.178 3 3 32191 20180315112531
+46.133.243.213 1 1 515 20180328170142
+54.236.229.5 1 1 17128 20180313144932
+77.111.244.50 3 3 34964 20180331162436
+85.194.243.137 3 3 32920 20180324114341
+66.249.81.246 3 3 32308 20180324062427
+78.111.17.76 7 7 67449 20180322205412
+109.104.174.201 5 5 52606 20180311060600
+93.126.86.159 11 11 104837 20180320214552
+80.83.234.73 4 4 99917276 20180325074558
+131.107.174.207 20 20 195831 20180325194608
+192.211.49.200 9 9 66054 20180305083524
+66.102.8.55 3 3 18380 20180314195306
+131.107.160.75 25 25 228942 20180328042355
+131.107.159.89 3 3 35003 20180320015548
+93.170.80.243 16 16 137020 20180317130921
+151.80.203.177 3 3 176961 20180331221933
+46.118.3.8 3 3 32480 20180314201436
+178.150.155.147 8 8 70686 20180308103937
+37.144.46.130 2 2 31752 20180331022911
+83.170.193.34 3 3 32536 20180326115144
+81.177.120.251 3 3 35398 20180302085740
+150.70.188.175 1 1 61953 20180318080525
+95.27.253.89 2 2 13503 20180301084728
+138.201.58.84 1 1 17161 20180302221621
+217.77.220.23 5 5 51171 20180306152344
+178.158.177.166 23 23 221980 20180316165129
+104.131.94.133 2 2 15587 20180313142803
+46.201.124.83 10 10 70768 20180304132024
+37.113.141.211 3 3 81175 20180325052556
+77.120.123.70 11 11 95475 20180330100926
+109.207.122.240 4 4 31684 20180331033804
+5.58.60.7 3 3 32453 20180327040729
+94.158.70.242 5 5 57655 20180304165532
+37.147.96.253 9 9 88941 20180323203641
+195.211.162.27 3 3 81371 20180327081855
+91.124.48.154 2 2 31507 20180331104246
+159.224.200.245 10 10 101860 20180319204754
+46.164.163.74 28 28 197378 20180327091740
+94.153.241.130 3 3 31852 20180315215421
+95.143.30.191 3 3 33238 20180309100138
+213.5.192.179 5 5 54262 20180325155735
+77.79.131.176 3 3 88131 20180309031423
+131.107.160.247 3 3 34999 20180321033318
+80.237.119.109 3 3 87645 20180308230300
+95.163.114.198 26 26 3197862 20180331065549
+131.107.160.54 6 6 69978 20180318112632
+66.102.6.25 2 2 17660 20180322045506
+82.117.240.23 3 3 35830 20180320154948
+37.139.25.85 1 1 17350 20180301010942
+108.170.8.175 19 19 178526 20180325180529
+178.136.196.102 20 20 190861 20180318162527
+77.111.244.21 3 3 18962 20180318191420
+31.43.229.73 3 3 32557 20180328201730
+82.145.221.177 5 5 45726 20180322214504
+128.72.37.124 3 3 32234 20180317103733
+94.242.62.132 3 3 81108 20180330063600
+192.99.55.164 2 2 34338 20180304163746
+77.90.193.116 19 19 170511 20180330134103
+89.162.139.29 3 3 34885 20180313184159
+35.190.220.195 6 6 53595 20180322052350
+91.122.27.222 3 3 31904 20180308154459
+54.85.182.120 3 3 51180 20180309153354
+37.229.88.225 5 5 50129 20180309135333
+176.38.52.9 32 32 310093 20180321180347
+178.150.160.217 3 3 32545 20180325185917
+108.168.151.16 2 2 113861 20180327205359
+89.109.239.23 2 2 30313 20180329213254
+184.164.146.27 2 2 17865 20180328170154
+37.73.232.247 6 6 86349 20180302213714
+91.142.166.102 3 3 35006 20180303112644
+95.90.250.72 4 4 43225 20180329235108
+96.20.133.190 5 5 68292 20180329054202
+146.0.81.27 5 5 50596 20180328215111
+95.27.172.52 3 3 43358 20180323160854
+176.37.241.89 9 9 84904 20180302174344
+107.170.97.37 60 62 676594 20180321142529
+193.41.186.104 5 5 54504 20180323103003
+178.151.171.212 7 7 65735 20180305164116
+81.230.137.192 8 8 86546 20180329222348
+46.53.218.55 5 5 45726 20180326071609
+188.32.52.102 3 3 34562 20180304214039
+85.159.95.254 1 1 126251 20180313130218
+195.239.107.246 3 3 30576 20180320132601
+86.57.213.118 17 17 371835 20180321224416
+85.198.141.2 14 14 129796 20180315173156
+77.222.116.170 57 57 2384897 20180330222557
+208.87.233.140 1 1 14661 20180317163549
+131.107.147.88 9 9 98107 20180324122807
+185.41.248.135 5 5 52089 20180330193022
+176.36.151.17 3 3 37390 20180302234759
+91.90.13.183 3 3 35002 20180322120543
+46.133.236.169 3 3 35022 20180305083015
+35.195.151.181 9 9 104994 20180321070011
+5.18.242.140 3 3 30824 20180331224941
+95.221.249.164 1 1 15580 20180316031922
+81.200.17.171 3 3 30975 20180326224713
+82.193.109.243 4 4 126520 20180318172703
+95.84.150.230 9 9 113970 20180323191058
+82.196.9.227 1 1 17154 20180315175720
+217.194.255.140 3 3 36662 20180320115458
+91.90.13.172 3 3 32478 20180329005746
+109.196.178.111 19 19 180882 20180328162830
+95.211.210.99 1 1 16684 20180301194128
+80.91.188.6 3 3 34999 20180322173055
+35.205.79.13 6 6 53595 20180329074805
+77.120.22.145 6 6 51358 20180329131756
+217.20.188.161 5 5 52967 20180322143655
+208.101.7.44 5 5 288641 20180328111803
+46.242.7.253 1 1 12049 20180304061409
+83.220.236.143 3 3 30854 20180316045451
+107.167.105.51 3 4 40801 20180318130642
+62.122.62.135 3 3 30894 20180306114819
+31.134.120.103 45 45 333134 20180306224920
+188.163.82.148 9 9 88219 20180319102106
+93.80.146.242 6 6 58320 20180325000753
+159.65.114.125 5 5 55013 20180309145230
+194.88.153.88 28 28 251740 20180331224024
+87.244.137.252 3 3 36687 20180310195122
+188.163.78.31 3 3 34961 20180331203134
+46.211.100.154 1 1 515 20180302140530
+46.211.0.110 5 5 52709 20180307125948
+104.45.18.178 3 3 191416 20180321151622
+95.163.107.74 4 4 220520 20180331154938
+85.140.1.14 3 3 30901 20180316211910
+46.219.219.166 3 3 34560 20180321184700
+192.40.95.25 3 3 118934 20180315013343
+131.107.147.54 10 10 122814 20180314123120
+172.245.16.71 4 4 120952 20180322145705
+168.235.195.152 3 3 51402 20180318074332
+91.102.176.115 7 7 72635 20180313064111
+109.86.199.11 3 3 32503 20180323124706
+145.255.2.70 3 3 81114 20180318143257
+91.218.195.54 3 3 32479 20180323122913
+93.73.203.100 2 2 31986 20180321143956
+178.212.196.197 24 24 184946 20180329225334
+82.193.102.49 37 37 338463 20180304225719
+91.242.55.33 1 1 17350 20180304141652
+78.111.187.196 9 9 74797 20180323103847
+93.76.64.134 9 9 100407 20180305163636
+5.83.17.228 3 3 35442 20180325161100
+46.175.185.141 1 1 19578 20180307124623
+46.211.112.255 7 7 63795 20180330172024
+95.90.227.210 3 3 30572 20180326002721
+151.80.95.227 20 20 824872 20180331141905
+91.34.182.66 3 3 30578 20180327221816
+62.122.207.32 3 3 32123 20180309202020
+130.180.211.189 3 3 34998 20180328093720
+188.239.27.122 8 9 62260 20180303164748
+213.169.75.18 2 2 17865 20180327122321
+176.100.188.166 3 3 32529 20180328005201
+217.165.51.7 17 17 132912 20180314061311
+93.183.233.82 36 36 313002 20180315021250
+134.249.147.153 4 4 51548 20180301072504
+147.75.210.231 1 1 515 20180303224102
+46.188.52.221 3 3 32545 20180313143833
+5.30.211.129 3 3 30902 20180315175308
+173.252.92.112 1 1 515 20180323100129
+66.102.7.223 1 1 515 20180319150359
+77.111.244.57 3 3 32536 20180328155520
+50.19.154.226 1 1 61953 20180317153607
+176.8.199.250 3 3 32479 20180330181400
+165.254.222.44 2 2 15623 20180321135928
+95.158.11.87 15 15 98530 20180304152619
+212.90.62.19 13 13 110631 20180328205619
+89.31.57.5 1 1 40038 20180324003208
+31.192.111.159 3 3 81350 20180328181150
+131.107.159.140 3 3 35006 20180325112658
+66.249.81.248 3 3 43561 20180331025812
+109.86.71.21 1 1 78727 20180324122812
+194.90.66.9 7 7 56517 20180326201354
+188.163.8.198 10 10 98818 20180306125745
+46.133.184.159 3 3 34694 20180319054944
+178.17.170.135 1 1 1629 20180308062252
+192.36.27.6 3 3 81093 20180328172848
+131.107.147.42 3 3 37358 20180325164553
+193.41.129.79 10 10 81678 20180319212228
+176.15.204.234 3 3 29611 20180301082826
+78.26.177.245 3 3 32951 20180311011514
+188.163.99.21 3 3 32976 20180324143856
+46.98.255.6 7 7 51586 20180326094421
+109.173.70.21 3 3 34554 20180324141925
+54.67.51.64 17 17 236830 20180327192603
+193.106.237.219 5 5 50850 20180319140931
+46.211.67.222 2 2 32597 20180301153531
+195.78.246.210 15 15 95466 20180311214440
+91.202.72.205 3 3 35036 20180303112051
+46.98.194.50 47 47 407428 20180304172338
+178.62.237.202 1 1 12760 20180308165036
+162.243.162.14 19 19 177950 20180325210621
+14.215.176.8 1 1 515 20180311214615
+173.193.17.200 5 5 301267 20180320181509
+77.111.244.60 3 3 37724 20180312213010
+193.238.132.65 5 5 45566 20180317143034
+82.193.109.66 2 2 34484 20180316225750
+212.40.45.27 11 11 110597 20180321005930
+46.98.123.250 20 20 176951 20180305172658
+145.255.9.116 1 1 39736 20180303144627
+195.211.213.1 1 1 17317 20180308165058
+46.203.213.42 21 21 200017 20180321174024
+94.244.169.129 3 3 30871 20180312100058
+109.86.221.60 1 1 17195 20180310172128
+159.224.248.230 13 13 101668 20180324150421
+176.8.165.32 3 3 32541 20180323134245
+46.53.181.109 4 4 120353 20180302071700
+80.70.64.30 12 12 94775 20180303132539
+193.0.217.132 4 4 120353 20180302233105
+91.243.201.9 3 3 32488 20180320135150
+69.12.66.254 1 2 123693 20180302102740
+178.54.193.3 59 59 540134 20180330154109
+91.232.238.14 3 3 34968 20180328131711
+95.133.48.135 3 3 34574 20180306164819
+188.191.238.0 6 6 65344 20180304133635
+131.107.160.142 6 6 70001 20180320124140
+62.244.31.86 4 4 30457 20180328135128
+37.115.209.141 3 3 35132 20180308202736
+95.221.190.67 3 3 35045 20180309232528
+94.41.113.15 3 3 88079 20180311013238
+88.71.167.67 3 3 35003 20180312223430
+195.114.136.142 3 3 36691 20180321154037
+150.70.188.178 1 1 62125 20180323143603
+107.170.127.117 6 6 56932 20180322200627
+5.228.23.44 3 3 34279 20180321042533
+188.226.148.232 5 5 46824 20180306125644
+130.211.82.42 6 6 53595 20180329075233
+37.99.2.70 3 3 29607 20180323134321
+46.185.7.100 10 10 283171 20180326195037
+109.173.61.189 1 1 17190 20180309100124
+77.222.153.86 3 3 32498 20180323151116
+46.211.155.113 2 2 17352 20180318093245
+89.208.175.243 3 3 30855 20180331211230
+95.67.23.68 6 6 65514 20180321183648
+80.246.81.149 2 2 123801 20180305172348
+176.100.21.236 3 3 31842 20180301172030
+91.208.154.11 3 3 82578 20180329144924
+46.219.239.49 3 3 31095 20180330231036
+145.255.10.128 1 1 39688 20180318133131
+103.212.43.8 1 1 126251 20180312103719
+91.250.51.152 15 24 184175 20180305105424
+95.46.104.107 3 3 29640 20180302061800
+46.98.212.73 3 3 35043 20180304171418
+78.26.255.195 13 13 121937 20180304101030
+78.154.179.163 3 3 35806 20180326194507
+128.75.51.8 4 4 120690 20180304151646
+31.43.240.7 7 7 63285 20180305213459
+77.91.175.65 6 6 64925 20180315103205
+37.110.23.186 3 3 36684 20180313190943
+37.73.206.0 3 3 30887 20180324144614
+88.81.51.120 2 2 26976 20180323145321
+46.164.158.58 3 3 37446 20180308093420
+185.38.126.21 3 3 37407 20180316134715
+178.94.173.98 4 4 52112 20180329124026
+131.0.60.98 1 1 79151 20180320124312
+79.165.190.156 3 3 51548 20180306024225
+93.72.140.105 6 6 47978 20180329164525
+109.173.34.129 8 8 93981 20180323165442
+94.154.224.64 3 3 37335 20180303101849
+178.165.43.33 3 3 35055 20180309212407
+195.138.68.162 3 3 35006 20180313163952
+128.68.108.162 2 2 17671 20180301084732
+131.107.160.205 5 5 52639 20180314032937
+134.119.218.22 3 3 81090 20180323174319
+173.249.21.80 3 3 87541 20180304050226
+37.53.71.59 2 2 34234 20180322163954
+131.107.174.42 8 14 117061 20180326033052
+145.255.9.249 3 3 88150 20180309083237
+46.147.122.26 2 2 12513 20180306065235
+37.54.112.45 3 3 32547 20180324161346
+50.112.194.65 2 2 115626 20180317153556
+176.109.218.157 10 10 93475 20180325111527
+79.110.17.2 21 21 567689 20180325094823
+134.249.142.109 3 3 34590 20180317210556
+46.133.220.254 3 3 34577 20180305175217
+66.102.9.57 2 2 15501 20180307150923
+176.120.38.254 3 3 81171 20180305180926
+194.79.21.242 3 3 32509 20180323111417
+46.119.4.25 14 14 124528 20180321233122
+131.107.147.2 3 3 35007 20180317035437
+85.192.162.173 1 1 39594 20180309171915
+37.54.30.82 1 1 17198 20180307072934
+188.123.59.177 1 1 58941 20180324193147
+195.78.252.35 15 15 96802 20180330170426
+199.83.90.71 1 1 17148 20180321103122
+186.46.94.18 2 2 202148 20180320124526
+107.167.112.111 32 34 332118 20180317141949
+37.110.127.253 10 10 95400 20180316220651
+66.102.6.23 3 3 18380 20180322045509
+46.98.225.65 1 1 17145 20180324192713
+109.106.143.209 2 2 35327 20180323000311
+93.72.46.169 21 22 186796 20180307001804
+176.36.6.241 36 36 250712 20180313181557
+92.60.190.83 2 2 76795 20180326104711
+112.74.94.30 1 1 771 20180307123635
+92.249.75.94 3 3 30883 20180311150854
+62.183.124.84 3 3 81467 20180318081512
+95.28.190.43 9 9 100197 20180323184807
+202.46.58.59 1 1 17137 20180331123341
+91.142.175.25 6 6 65016 20180328113001
+77.111.244.31 2 2 20628 20180311154815
+128.72.205.192 3 3 35836 20180321132255
+37.24.146.61 3 3 34680 20180310064740
+37.204.135.126 1 1 18000 20180311054930
+178.215.98.10 3 3 30928 20180309060237
+83.102.218.45 3 3 30884 20180315102458
+209.90.225.242 58 58 1730237 20180328185039
+37.52.111.87 26 27 356723 20180315213239
+91.76.66.59 3 3 30581 20180323144641
+91.76.190.222 6 6 162546 20180324170404
+188.163.107.237 1 1 17141 20180331183349
+217.118.91.71 3 3 34856 20180304175056
+52.27.2.86 3 3 192734 20180323144423
+185.154.13.7 3 3 81277 20180325001528
+188.163.96.251 33 33 297592 20180318201125
+93.76.15.63 15 15 132603 20180304124758
+14.215.176.12 2 2 32350 20180311214449
+62.183.124.228 3 3 81223 20180327133241
+46.98.60.42 3 3 34567 20180302103214
+188.162.245.24 4 4 204399 20180307043123
+192.241.96.60 1 1 11116 20180308092703
+95.46.161.253 3 3 35044 20180305150728
+81.7.11.176 1 1 122997 20180331123831
+185.114.139.186 13 13 117460 20180331214414
+150.70.188.168 2 2 131504 20180324231807
+89.19.125.226 109 109 191377 20180309151139
+193.111.114.165 1 1 17183 20180307220656
+81.23.102.90 3 3 30893 20180315094757
+184.94.240.92 20 20 1480242 20180329232654
+95.67.123.236 22 22 205653 20180326134122
+78.106.119.52 3 3 30888 20180323190632
+142.252.248.89 3 3 81094 20180301004814
+89.208.220.134 3 3 30854 20180331223721
+62.210.167.181 6 6 162214 20180330022814
+193.105.7.50 3 3 32491 20180323163917
+79.126.15.24 3 3 81065 20180328071532
+46.203.223.160 3 3 37792 20180322192719
+195.242.151.18 9 9 84066 20180308111613
+35.195.77.41 6 6 53595 20180315025304
+46.211.121.47 3 3 34565 20180315105632
+77.232.1.181 3 3 32485 20180327200026
+81.30.200.74 3 3 30215 20180316092727
+188.230.9.11 18 18 196126 20180330180502
+131.107.174.251 3 3 35014 20180317141453
+46.187.42.168 3 3 30896 20180320211729
+178.158.139.122 3 3 32486 20180328020949
+188.6.110.21 3 3 32537 20180328063939
+90.173.151.63 3 3 35844 20180325134825
+37.110.33.138 2 2 17703 20180309085220
+85.26.164.151 5 5 40902 20180316053238
+91.76.93.152 3 3 29423 20180308131832
+131.107.160.158 16 16 121380 20180328030150
+195.238.116.144 1 1 17123 20180323195925
+89.19.96.120 19 21 164250 20180322124120
+46.242.120.163 2 2 12034 20180326150501
+128.70.110.114 3 3 32234 20180317222026
+194.183.182.148 6 6 65147 20180327165942
+31.43.37.56 15 15 118587 20180310232637
+82.202.249.176 3 3 81292 20180306082310
+165.227.140.120 4 4 30489 20180304192604
+46.98.13.20 11 11 103047 20180307232241
+46.164.141.234 10 10 87161 20180312174352
+217.73.86.175 3 3 30542 20180321102126
+23.101.61.176 2 2 130717 20180329152358
+5.58.6.162 5 5 50003 20180323194841
+185.82.177.124 3 3 30860 20180312211208
+46.211.121.192 3 3 32552 20180307122540
+45.32.130.87 1 1 123095 20180311044913
+188.255.20.68 3 3 29601 20180326210909
+107.167.107.107 8 9 89776 20180306161459
+131.107.159.44 23 23 203745 20180325003318
+193.227.119.22 1 1 122997 20180313010116
+213.111.90.40 3 3 30543 20180318171302
+79.171.125.21 5 5 48509 20180327073606
+80.187.111.174 3 3 30582 20180315195213
+128.199.192.94 3 3 80892 20180309080728
+217.66.159.245 11 11 98292 20180329072512
+145.255.2.93 3 3 35004 20180314200017
+35.189.209.167 6 6 53595 20180308025613
+145.255.0.190 1 1 39654 20180318183719
+95.84.21.52 4 4 120610 20180312234550
+107.21.183.240 1 1 12254 20180309140329
+41.190.2.211 1 1 122997 20180312164915
+46.59.208.149 5 5 47922 20180331143149
+93.159.237.34 3 3 30832 20180313155356
+91.235.71.236 3 3 30934 20180324152751
+46.98.124.60 3 3 34523 20180327235217
+92.113.33.225 5 5 52095 20180313194545
+51.15.194.177 1 1 17181 20180309171806
+134.249.134.211 3 3 32872 20180323141945
+91.202.133.192 1 1 515 20180325111813
+88.99.194.48 8 8 395078 20180331163731
+188.255.19.4 1 1 16552 20180317082915
+185.11.28.148 3 3 36687 20180327221821
+109.206.34.199 5 5 46131 20180330091234
+109.207.123.108 2 2 34513 20180302135519
+95.158.20.80 10 10 74028 20180325161406
+213.138.83.123 3 3 35504 20180327222738
+93.127.43.253 17 17 150446 20180330151523
+109.87.181.251 6 6 26332 20180305163446
+77.37.171.145 1 1 12985 20180302091812
+85.250.173.177 3 3 30922 20180310202215
+173.193.17.201 3 3 167956 20180321134750
+77.37.221.104 3 3 38026 20180308133612
+185.234.218.246 2 2 245967 20180316071212
+95.67.223.169 1 1 78945 20180321205245
+104.155.106.111 6 6 53595 20180329082356
+78.27.186.3 3 3 32483 20180318081510
+46.242.12.141 1 1 17621 20180329020849
+178.216.15.6 3 3 35046 20180306210018
+213.160.158.63 5 5 50479 20180329095620
+46.182.80.138 9 9 81376 20180329104243
+178.159.233.219 3 3 35832 20180330111053
+173.252.92.117 2 2 34490 20180323100127
+86.120.4.46 1 1 17129 20180324123017
+37.73.249.150 3 3 31894 20180309124958
+46.150.97.92 3 3 32485 20180324111209
+77.111.244.13 7 7 60127 20180311044033
+184.164.146.16 2 2 18082 20180315130720
+178.74.193.199 11 11 94037 20180317153542
+46.133.91.239 3 3 30972 20180325212308
+66.85.164.75 7 7 82489 20180322093029
+91.207.245.244 18 18 155874 20180320065401
+185.220.101.45 3 3 81493 20180320084507
+118.122.113.100 1 1 122997 20180314012102
+46.242.27.103 3 3 35480 20180318172631
+192.211.52.86 10 10 109399 20180301124229
+178.159.235.13 15 15 118870 20180312024609
+37.115.167.144 8 9 119232 20180307085145
+204.85.191.31 2 2 79190 20180324003145
+178.165.11.103 3 3 35005 20180327132134
+159.224.42.108 4 4 47381 20180325154754
+188.186.104.40 3 3 30857 20180329111831
+109.254.254.146 19 19 171762 20180304203628
+94.244.22.176 3 3 33347 20180329020938
+178.150.97.114 4 4 37960 20180319101953
+188.115.151.156 3 3 32527 20180322231652
+85.90.221.161 3 3 32547 20180323120557
+66.249.81.244 5 5 48350 20180331025913
+195.138.84.252 13 13 117007 20180322010656
+46.133.239.55 3 3 30939 20180325142906
+193.219.160.136 3 3 32535 20180327200250
+176.108.71.167 3 3 30937 20180310205600
+37.204.87.238 3 3 30902 20180317222034
+178.151.189.6 3 3 32540 20180327074206
+178.210.149.82 9 9 86120 20180306230256
+66.85.164.52 5 5 42792 20180321221227
+91.225.227.57 3 3 34968 20180304214924
+176.122.90.222 9 10 103383 20180319205815
+91.186.108.85 3 3 30949 20180317042710
+46.46.66.164 3 3 35032 20180302135658
+78.26.151.102 5 5 47942 20180327225037
+194.44.109.182 5 5 45668 20180307151342
+194.146.189.34 21 21 175829 20180302230254
+131.107.159.164 3 3 35002 20180325174222
+5.1.25.108 3 3 30538 20180331070238
+46.250.26.145 3 3 34990 20180301205041
+77.122.18.213 3 3 32748 20180314115408
+178.140.172.215 5 5 44435 20180309112530
+87.244.159.32 5 5 58824 20180303201428
+91.197.220.46 3 3 31842 20180329145904
+178.150.223.97 15 15 139752 20180304152609
+104.223.8.11 1 1 17527 20180306172227
+40.77.167.109 1 1 17976 20180331221441
+77.120.177.252 21 21 179210 20180324222246
+128.68.102.134 1 1 13024 20180302215045
+178.213.2.50 3 3 32505 20180330195730
+62.205.159.147 3 3 29575 20180314124814
+93.76.212.118 3 3 32531 20180322002527
+77.121.254.18 3 3 32546 20180325155150
+91.232.158.4 3 3 30589 20180331233429
+78.154.171.198 3 3 35000 20180325213454
+95.135.97.7 3 3 35002 20180314163647
+176.226.151.70 3 3 81125 20180317120152
+54.234.36.94 1 1 17158 20180303062504
+108.170.8.157 7 7 75122 20180301160355
+131.107.159.174 3 3 37400 20180323085817
+77.122.36.8 3 3 32545 20180312010910
+134.249.9.126 3 3 32541 20180324184953
+77.52.178.153 5 5 49561 20180328102614
+109.69.67.17 3 3 87860 20180324062938
+131.107.174.80 6 6 70017 20180327200507
+188.115.179.65 3 3 35029 20180302142022
+106.120.162.97 3 3 35017 20180317165417
+112.5.248.249 1 1 17140 20180323135505
+131.107.174.224 3 3 35000 20180314205608
+31.43.109.99 14 14 141943 20180313092722
+213.151.4.156 5 5 41203 20180319160419
+114.143.167.198 2 2 34386 20180311133822
+208.101.7.43 6 6 363106 20180329130205
+204.13.201.139 1 1 61919 20180317153320
+178.121.213.211 3 3 81291 20180309020939
+131.107.147.208 16 16 100160 20180309150721
+83.220.236.238 3 3 33217 20180303114020
+37.112.236.105 1 1 16418 20180331163238
+188.163.26.97 3 3 34987 20180312185744
+14.215.176.4 1 1 515 20180311214449
+176.119.123.147 3 3 35021 20180309210750
+94.45.147.127 20 20 253757 20180323145702
+213.160.135.182 26 26 213598 20180315153138
+88.147.185.112 3 3 30581 20180331130021
+66.102.9.55 6 6 68995 20180307150830
+192.162.239.119 3 3 34974 20180323165853
+77.111.244.63 26 26 204584 20180330170102
+79.135.196.9 7 7 103563 20180303094123
+94.231.151.120 3 3 81027 20180330190148
+89.162.240.123 12 12 94681 20180321094630
+131.107.159.114 2 2 36883 20180312224425
+37.115.218.17 3 3 30096 20180324160744
+91.230.198.200 5 5 50802 20180313134747
+109.184.132.19 6 6 162499 20180322063510
+46.98.9.128 3 3 30538 20180316131134
+148.251.194.11 1 1 17143 20180312105322
+66.102.6.21 3 3 51632 20180322045506
+194.28.68.91 3 3 32544 20180302003651
+104.129.42.100 3 3 18565 20180311104952
+159.224.193.219 3 3 30909 20180331230238
+213.169.89.213 3 3 32979 20180330190413
+93.185.214.100 3 3 35047 20180305095813
+54.186.33.192 2 2 17661 20180322152023
+176.36.148.226 83 84 722066 20180331194336
+77.111.246.6 2 2 12081 20180309151246
+77.121.152.207 5 5 50878 20180331234714
+66.85.185.81 1 1 15063 20180313142800
+91.90.23.106 3 3 32592 20180305183706
+217.27.145.246 5 5 46922 20180326145540
+77.93.42.106 10 10 166113 20180328170056
+109.173.8.94 3 3 30899 20180303075114
+130.180.212.41 2 5 81436 20180313065708
+85.114.213.197 18 18 158623 20180315190213
+66.102.9.8 34 34 314136 20180331122327
+91.226.253.71 3 3 32589 20180307174129
+176.104.33.62 38 38 399376 20180308231553
+188.32.9.140 4 4 47858 20180316121315
+124.124.14.93 1 1 17193 20180309181514
+185.151.84.182 3 3 30591 20180330121124
+193.193.240.227 3 3 29650 20180301125946
+46.229.60.26 3 3 29551 20180330073129
+95.58.35.2 1 1 17180 20180311062140
+93.74.240.89 3 3 32491 20180312171741
+184.173.90.200 3 3 178488 20180327121310
+79.173.83.140 3 3 68802 20180326091619
+95.221.61.191 3 3 34583 20180315060540
+185.36.102.114 18 18 494778 20180330231729
+131.107.147.241 9 9 98101 20180318104507
+94.179.20.65 4 4 52113 20180322204801
+77.222.141.110 3 3 32560 20180302174426
+167.114.158.57 1 1 122997 20180314131358
+195.211.162.7 26 26 225559 20180308103512
+95.67.223.101 1 1 78979 20180320134127
+93.183.201.147 9 9 77131 20180301160946
+80.93.126.230 1 1 16430 20180314154921
+79.140.6.21 2 2 17865 20180314113353
+5.228.26.30 3 3 30871 20180326210902
+188.231.149.253 6 6 67919 20180321094201
+5.58.104.245 3 3 32530 20180325044855
+46.211.67.11 3 3 31852 20180328002922
+194.183.171.163 3 3 35473 20180301132634
+93.72.167.155 12 12 118734 20180314200717
+91.245.107.160 3 3 35007 20180326203143
+178.165.72.91 3 3 32547 20180310180627
+79.142.196.52 3 3 31903 20180306102850
+31.31.105.177 17 17 157465 20180322181535
+91.242.195.60 17 17 128972 20180302192838
+188.163.1.229 10 10 99568 20180321152744
+35.195.50.24 9 9 105018 20180321074144
+185.182.81.26 3 3 32484 20180317191025
+90.154.80.246 7 7 57848 20180326231835
+95.91.236.164 4 4 43889 20180315103843
+83.220.236.149 3 3 34988 20180304140016
+109.86.27.145 1 1 17622 20180305114725
+131.107.147.22 27 27 168656 20180315053903
+89.249.203.125 5 5 52726 20180302114016
+213.111.120.216 3 3 30837 20180318170644
+131.107.174.91 3 3 37360 20180321035925
+176.36.11.26 17 17 159378 20180321140449
+46.191.225.216 3 3 35829 20180320231723
+77.232.58.146 3 3 32536 20180328155542
+212.58.121.76 3 3 35002 20180313095210
+136.169.239.148 2 2 23513 20180328223543
+91.214.81.177 3 3 32591 20180310151427
+178.94.20.134 1 1 17129 20180324180313
+54.244.49.155 1 1 17171 20180307234311
+195.138.93.232 5 5 50876 20180325005025
+213.169.66.121 3 3 32544 20180326140826
+73.95.194.127 9 9 91865 20180318050405
+93.74.201.166 3 3 32486 20180319120808
+5.53.117.196 3 3 32544 20180308095423
+13.82.234.232 8 8 247622 20180320093033
+131.107.159.203 9 9 98069 20180318023454
+193.109.249.79 4 4 52281 20180315143738
+37.53.81.64 47 47 415329 20180323132559
+5.1.21.55 3 3 30544 20180329063951
+93.170.187.240 4 4 120718 20180317224410
+31.3.194.85 3 3 34633 20180303181728
+95.134.115.134 3 3 34619 20180307144048
+212.122.88.218 11 11 84990 20180309211808
+188.131.50.80 1 1 19483 20180320182903
+35.189.221.138 9 9 105022 20180314054937
+81.17.135.166 6 6 67484 20180305163456
+184.164.147.5 2 2 18039 20180306170602
+146.120.124.98 3 3 32493 20180318154911
+178.75.18.104 4 4 33982 20180313124627
+193.106.30.99 2 2 34277 20180326183927
+46.167.91.239 2 2 41373 20180301123158
+31.173.84.182 3 3 95976 20180324052607
+115.239.212.132 2 2 15490 20180313015527
+62.183.125.79 3 3 30820 20180327202541
+46.211.153.105 7 7 70482 20180328183959
+46.211.110.5 3 3 35004 20180329125618
+95.47.105.211 3 3 30588 20180331143604
+193.110.162.69 3 3 30836 20180316110240
+91.197.168.10 7 7 67363 20180301102146
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180301 382 382 4010851 70
+20180302 282 283 3690493 56
+20180303 327 336 5626881 76
+20180304 535 537 7724097 92
+20180305 518 536 7923632 103
+20180306 670 678 107223956 98
+20180307 376 378 5750100 84
+20180308 364 364 5779477 78
+20180309 347 347 3854131 65
+20180310 212 212 2529748 44
+20180311 322 323 4293222 67
+20180312 486 553 6060871 68
+20180313 417 430 5417771 80
+20180314 736 886 10314766 81
+20180315 766 929 10725704 81
+20180316 376 399 6021890 73
+20180317 387 389 7031114 106
+20180318 589 787 11016721 80
+20180319 733 932 9864502 62
+20180320 461 579 6894486 69
+20180321 541 563 7422022 91
+20180322 401 403 5858052 95
+20180323 642 653 10037446 150
+20180324 578 588 10135296 133
+20180325 802 838 111950108 137
+20180326 690 807 12285250 123
+20180327 819 947 10890216 81
+20180328 791 951 10722291 103
+20180329 394 430 5812079 77
+20180330 380 380 6783473 77
+20180331 280 280 4580855 80
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 36
+5mn-15mn 123
+30s-2mn 215
+2mn-5mn 103
+15mn-30mn 78
+0s-30s 2046
+30mn-1h 79
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 521
+/uc_ajax_cart/show 4047 2096522 60 1291
+/page/kontakty 1642 64585308 749 621
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.woff 1416 24526300 78 175
+/image_captcha 913 1456496 6 29
+/ 650 20613455 489 182
+/product/mediapleer-dune-hd-pro-4k 541 8812036 368 28
+/product/mediapleer-dune-hd-neo-4k 246 4184474 88 9
+/product/mediapleer-dune-hd-neo-4k-t2-plus-0 231 3974429 35 4
+/js/admin_menu/cache/dfa45b440164f22029a1aa5878ce5db1 206 2610737 0 1
+/js/admin_menu/cache/05a9022bb9c831c6f25bec87b4db0197 200 2535263 0 0
+/file/ajax/uc_product_image/und/form-aqXg40yC94n1bJzAfqn5CqOOmL1lWgqXwun2hZhltHU 3 11739 0 0
+/js/admin_menu/cache/dd3248d12d74f468e7073fd4c4efd4d8 3 38014 1 0
+/product/besprovodnyykomplekt-amphony-l1800 4 54946 3 0
+/product/univepsalnyy-pult-du-logitech-harmony-ultimate 3 87072 1 1
+/taxonomy/term/21/myoption_list/fields/field_special_properties/delete 1 4768 0 0
+/flag/unflag/sravnenia/380 1 922 0 0
+/category/soputstvuyushchie-tovary 20 300127 0 0
+/js/admin_menu/cache/6a24a9286771437e94059cfff70cd9b0 4 50665 0 0
+/brand/klipsch 12 154013 0 0
+/taxonomy/term/21/myoption_list/fields/field_colour_tv/field-settings 1 5161 0 0
+/product/proektoroptoma-hd29darbee 18 340635 1 1
+/xmlrpc.php 11 4521 3 1
+/admin/structure/taxonomy/category 2 14318 0 0
+/product/sabvufer-klipsch-reference-r-112sw-black 8 131579 1 0
+/node/445/edit 21 514042 0 0
+/product/proekcionnyyekran-elite-screens-er100wh1-236-x-233-169 12 152734 0 0
+/product/proektoroptoma-w402-0 11 220912 1 1
+/product/akusticheskiykabel-mt-power/cart 4 28305 0 0
+/taxonomy/term/21/myoption_list/fields/field_wi_fi 1 6485 0 0
+/product/povorotnyykronshteyn-wm449t 10 183714 1 1
+/file/ajax/uc_product_image/und/form-QSY7ITh5gNHPknV_gJk-Qd7l7tXHAQJPgU9dAYM7n_U 2 8279 0 0
+/product/karaoke-sistema-ast-50-komplekt 10 165379 6 3
+/taxonomy/term/21/myoption_list/fields/field_hdr/delete 1 4739 0 0
+/node/381/edit 2 52224 0 0
+/taxonomy/term/21/myoption_list/fields/field_audiosystem/delete 1 4754 0 0
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.ttf 4 60540 0 0
+/flag/flag/sravnenia/339 5 4716 0 0
+/product/proekcionnyyekran-elite-screens-skt100xhw-e24-221-h-124-169 1 13874 0 0
+/taxonomy/term/21/myoption_list/fields/field_smart_tv/field-settings 1 5177 0 0
+/product/vstraivaemayaakusticheskayasistema-beale-street-audio-bs650 2 28503 1 0
+/taxonomy/term/21/myoption_list/fields/field_screen_size 3 19293 0 0
+/product/monitoraudio-cwt-160 3 164547 0 0
+/category/proektory-dlya-domashnego-kino 33 475054 0 0
+/taxonomy/term/21/myoption_list/fields/field_update_frequency 1 6506 0 0
+/node/357/edit 2 48134 0 0
+/node/289/edit 2 48924 0 0
+/file/ajax/uc_product_image/und/form-pL0Uh0n0pA4aA7_b5uvjVjwgELV6mmRpepmmeJokzL4 10 32439 0 0
+/node/465/edit 6 148504 0 0
+/node/449/delete 1 4493 0 0
+/taxonomy/term/21/myoption_list/fields/field_screen_size/delete 1 4767 0 0
+/product/karaoke-sistema-ast-50 4 64770 0 0
+/taxonomy/term/21/myoption_list/fields/field_colour_system/delete 1 4784 0 0
+/taxonomy/term/21/myoption_list/fields/field_colour_system/field-settings 1 5203 0 0
+/file/ajax/uc_product_image/und/form-LtjfHVg6dKX_eB0X8hZ3Ch10PDaNz5JPcg0tsrOBOPo 5 23282 0 0
+/taxonomy/term/21/myoption_list/fields/field_wi_fi/field-settings 1 5154 0 0
+/video/kak-skachat-film-s-resursa-fsto 26 413626 23 4
+/node/444/edit 10 237847 0 0
+/admin/myapi 2 7670 0 0
+/news 27 346808 2 0
+/product/proektorortoma-gt760 9 152699 0 0
+/product/proektoroptoma-w402 2 29741 0 0
+/provider/ast 2 24193 0 0
+/product/unison-research-sh-cherry 4 59057 0 0
+/product/nas-server-synology-ds213j-h2-hdd 1 18109 0 0
+/product/monitoraudio-bronze-6 8 96616 1 0
+/product/mediapleer-dune-hd-solo-lite 43 751286 2 0
+/node/448/edit 1 24353 0 0
+/file/ajax/uc_product_image/und/form-i0mSJdqzb5nnhoPFbXjr11vZIxeiRRXbvVRGM5ZFCn4 1 3796 0 0
+/product/lg-43uj630v 11 202058 1 1
+/product/pult-upravleniya-dlya-dune-hd 27 354102 24 2
+/node/448/delete 1 4496 0 0
+/node/319/edit 2 50210 0 0
+/product/proektoroptoma-x345 4 67872 0 0
+/taxonomy/term/21/myoption_list/fields/field_special_properties 1 6516 0 0
+/product/sabvufer-jamo-360-sub 14 223139 9 1
+/file/ajax/uc_product_image/und/form-QpIVtB4rEx3u76--FIMkLh_ElAGLaZn7AtyGUVxDYkE 2 9851 0 0
+/product/ustanovochnayakorobka-russound-s1-18-r 10 138409 4 2
+//product/mediapleer-dune-hd-tv-102w 1 19109 0 0
+/node/443/edit 18 434449 1 0
+/file/ajax/uc_product_image/und/form-wSdmkl19ohziMepjd4W6hPdU-PwudBXWIR_gulqr4mQ 1 3790 0 0
+/file/ajax/uc_product_image/und/form-GoZfAjefnYrd3F3sbwUcnPBns3psj7SOaiJ_bsnWwPQ 1 4332 0 0
+/product/akusticheskayasistema-klipsch-reference-r-25c-black 9 185501 1 1
+/node/479/edit 16 393394 1 0
+/product/synology-ds718-vysokoproizvoditelnoe-setevoe-hranilishche 6 129696 1 1
+/taxonomy/term/21/myoption_list/fields/field_image_processor 1 6515 0 0
+/node/440/edit 9 216826 0 0
+/product/mtpower-rfw-60-rv2 4 172207 1 0
+/sites/all/themes/mytheme/fonts/Helvetica-3-Thin.eot 16 243184 1 12
+/product/proektoroptoma-w402-1 5 113021 1 1
+/product/zvukovoyproektor-yamaha-srt-1000-black 2 33362 0 0
+/category/zhestkie-diski-i-nakopiteli 14 162866 0 0
+/file/ajax/uc_product_image/und/form-w7qt86RfiDcth8YeAsEaV7yEhu0IDwhtN1oYrNnAPH0 2 11761 0 0
+/video/kak-pravilno-rasstavit-kolonki-v-komnate 40 718461 36 6
+/product/povorotnyykronshteyn-wm448t 4 62887 0 0
+/product/akusticheskayasistema-klipsch-install-speaker-ds-160-c 14 235756 0 0
+/category/kabelnaya-produkciya 19 252517 5 2
+/admin/structure/taxonomy/brand/add 11 129558 0 0
+/video/torrent-klient-na-solo-4k 95 1237577 85 8
+/node/393/edit 1 24222 0 0
+/user/1/edit 2 18886 0 0
+/ajax/sravnenija/flag/delete/377/17 1 8376 0 0
+/file/ajax/uc_product_image/und/form-dnFpajok_S9QGMqG9uJWSoIb26hQAdEoCtg23Y2RXmU 5 17771 0 0
+/product/zvukovoyproektor-yamaha-ysp-5600 1 15768 0 0
+/product/proektoroptoma-x320ust 3 92675 1 1
+/file/ajax/uc_product_image/und/form-AgSSkzJajy2SStUKOuxdxSv_q7IV2ofwpF-7317-Jbk 6 29754 1 1
+/product/abonementy-divantv-na-20-deshevle 5 77280 4 0
+/flag/flag/sravnenia/368 1 939 0 0
+/product/av-resiver-denon-avr-x3400h 3 41050 0 0
+/category/televizory 36 439906 2 0
+/taxonomy/term/21/myoption_list/fields/field_hdr/field-settings 1 5150 0 0
+/node/441/edit 1 15480 0 0
+/product/airscope-asw-6 3 154889 1 0
+/node/461/edit 16 388720 0 0
+/product/monitoraudio-radius-225 2 30955 0 0
+/node/447/delete 1 4491 0 0
+/file/ajax/uc_product_image/und/form-DO7_Mp7pLf8nTJPifO3vUD2JxHlCqW3y11yayz8IEbQ 1 6548 0 0
+/file/ajax/uc_product_image/und/form-qJXvirPXj4EODSWDSbR79vbPtF-uFQOOzXK9WzGt8lE 3 11699 0 0
+/node/472/edit 3 71079 0 0
+/file/ajax/uc_product_image/und/form-xk6ql6GXvSmCVSDut3db98VwtJlFb2No3UdcFXJsQMQ 3 10160 0 0
+/product/televizor-lg-32lj610v 21 366230 2 1
+/product/monitoraudio-bronze-fx 1 15478 0 0
+/news/category/ekrany-dlya-proektora 4 28198 0 0
+/file/ajax/uc_product_image/und/form-0xS4PKXe8Cmc4R8abp3cGWVKtR7SMVr04oHW-wd666Y 6 25366 0 0
+/users/manager 23 374596 8 0
+/product/proektor-optoma-x345 2 33945 0 0
+/node/195/edit 2 50123 0 0
+/node/483/edit 5 128342 0 0
+/taxonomy/term/21/myoption_list/fields/field_resolution 1 6492 0 0
+/product/monitoraudio-bronze-5 7 225077 0 0
+/product/av-resiver-denon-avr-x2400h 9 155462 3 1
+/product/televizor-lg-55uh620v 14 225173 1 1
+/product/nas-server-synology-ds218play 8 173719 1 1
+/node/435/edit 1 24042 0 0
+/file/ajax/uc_product_image/und/form-IToH40h9Fn-0WTDyZSln3XJ_X1yzRb4yh4F-MoKd8aU 11 40199 0 0
+/file/ajax/uc_product_image/und/form-aMfBGZ0XneikpVlJT0wWb_QuG50lyxg6G5H0X9iksLY 3 8802 0 0
+/product/proektoroptoma-hd29darbee-1 1 15709 0 0
+/admin/store 4 19831 0 0
+/product/proektor-optoma-w331 3 48486 0 0
+/file/ajax/uc_product_image/und/form-vLC6NigAeCfLb6u2Mwbz3-gwPimCvfKQGXwVlR0uzPk 1 5828 0 0
+/product/proektoroptoma-hd29darbee-4 3 50413 0 0
+/product/ecler-euc106bk 2 118468 0 2
+/file/ajax/uc_product_image/und/form-Iehw-_wf2Y6dEOK8zhL8G53qiq_WFPJtI3u8DiAbg8A 1 4265 0 0
+/product/synology-nvr1218 6 123852 1 1
+/category/ekrany-dlya-proektora 14 179460 1 0
+/product/monitoraudio-bronze-6/cart 4 30428 0 0
+/file/ajax/uc_product_image/und/form-zlnh4kcJaqQmmsAzRmQ_98TpXe6I-m80q3tF8ZzgBl0 1 3762 0 0
+/js/admin_menu/cache/92c159efd4a5ef8c895f0683b26b9e47 93 1178688 12 3
+/file/ajax/uc_product_image/und/form-rr2djsKjT8UEo8Q7UDgSyeFhrm6JNuL5cKw5CCKOtTc 7 36140 0 0
+/file/ajax/uc_product_image/und/form-PSjZEG_s7OdCOw-JM7IbPPZ-CsPe5aXH2kMs3XEOBhw 5 17585 0 0
+/taxonomy/term/21/myoption_list/fields/field_tv_tuner/field-settings 1 5162 0 0
+/file/ajax/uc_product_image/und/form-0G3eFTsqtQfn1LEEgJxle4i0ZJr_Cdmhx05cASRn5Gc 3 11750 0 0
+/flag/flag/sravnenia/310 1 948 0 0
+/product/proektoroptoma-gt1080e 14 225858 0 0
+/product/proektor-optoma-hd26lv 3 50722 0 0
+/product/proekcionnyyekran-elite-screens-er120wh1-265-h-149-169 1 13870 0 0
+/product/usilitulimoshchnosti-cxa60-black 1 15907 0 0
+/product/proektor-optoma-gt760 1 16328 0 0
+/product/kabelaudioquest-hd-15m-hdmi-pearl-pvc 1 13966 0 0
+/product/mediapleer-dune-kartina-relax 31 514277 2 0
+/product/vinchester-western-digital-green-3tb 1 14401 0 0
+/product/sabvufer-klipsch-r-112sw-black 19 298330 0 0
+/file/ajax/uc_product_image/und/form-QgKdHZU2_ykx6AW27L0l7RjxmA-fKrDJgZsY5VNCPIw 2 6313 0 0
+/file/ajax/uc_product_image/und/form-b2mojHph3QxK4fUFfKcXAvX1xTgbdCIg0CI3p6THfIo 7 24631 0 0
+/product/zvukovoyproektor-bose-soundtouch-300 13 401032 6 7
+/node/482/edit 8 246275 0 0
+/product/akusticheskiykabel-mt-power 9 100287 0 1
+/node/335/edit 3 75421 0 0
+/file/ajax/uc_product_image/und/form-pG1GXp0EETf-imAZBu5PbbehbvoAxgTIw7VGoJ9My9Y 6 33506 0 0
+/product/mediapleer-dune-hd-neo-4k-t2 88 1506506 4 0
+/file/ajax/field_img/und/0/form-n9S13F-w5TVnC7T-UgGMiYo0NrVcC0xShL4ANGKl6sQ 1 2597 0 0
+/file/ajax/uc_product_image/und/form-3N5_HjRWB6NCIMZUwHRS8uNAOxnG8UK0HUL0kSeJILc 1 2757 0 0
+/file/ajax/uc_product_image/und/form-DDTkGukoie-ZYw_eO0pYl1tmbNobyz9G56AtoMr-9SM 5 19712 0 0
+/category/karaoke-sistemy 19 193605 3 0
+/taxonomy/term/21/myoption_list 1 4748 0 0
+/file/ajax/uc_product_image/und/form-zOnW8t9HsPvdhXA0Ton7NGwdwjJPPRIDOsk5Sumc7Tg 23 94734 0 0
+/product/mediapleer-dune-hd-duo-4k 135 2407551 54 2
+/taxonomy/term/21/myoption_list/fields/field_smart_platform/field-settings 1 5173 0 0
+/product/televizor-samsung-ue65mu7000uxua 3 51522 0 0
+/file/ajax/uc_product_image/und/form-tmqxLPw6PLnAC5IhrXeGn11g9nE3uN45ok2y5Lq8nMs 1 4301 0 0
+/news/dolgozhdannoe-vozvrashchenie-dune-hd-na-rynok-premium-i-hi-end-oborudovaniya-mediapleer-duo-4k 1 12510 1 0
+/product/dvuhpolosnyy-dinamik-ic6bk 2 30941 0 0
+/file/ajax/uc_product_image/und/form-V8N7RO5lFU9HeTS8f7IARCRrRxTBgZsB6_NZ2T4qmDA 3 18248 0 0
+/system/ajax 182 545472 5 14
+/file/ajax/uc_product_image/und/form-GLCfgb9LVisNacOREdRZGIrGRjIWarlUsvmYL5iQ7oE 6 25466 0 0
+/product/akusticheskiesistemy-klipsch-install-speaker-ds-160-c 11 224281 1 1
+/node/450/delete 1 4491 0 0
+/sravnenija 15 156818 1 0
+/file/ajax/uc_product_image/und/form-tfom3S0CxuAQHkue2aG2pOCEq2-WAwtbC63pYqW8QCY 3 19337 0 0
+/product/nas-server-synology-ds115j-x1-hdd 2 33463 1 0
+/product/kronshteyndlyaelevizora-lautsenn-tva42n 1 17027 0 0
+/file/ajax/uc_product_image/und/form-yizXAEnU5ZGRbPSnB1TOJSo6k4h7u50crI6jd2Z6RsQ 1 3784 0 0
+/block_refresh/views/sravnenia-block_1/node/381/block_refresh 5 6068 0 0
+/flag/flag/sravnenia/286 1 948 0 0
+/product/premiere-rp-260f-ebony 3 92541 1 1
+/taxonomy/term/21/myoption_list/fields/field_update_frequency/delete 1 4763 0 0
+/node/476/edit 9 224169 0 0
+/taxonomy/term/21/myoption_list/fields/field_wi_fi/delete 1 4745 0 0
+/uc_ajax_cart/add/item 43 24474 0 0
+/file/ajax/field_img/und/0/form-wFf_zOmnoWcj9fEkxLUVSlUMs078xWwfDrk7GPGtfRo 1 2565 0 0
+/news/kartinatv-primer-internet-tv-ott 1 12231 1 0
+/product/lautsenn-tva42n 5 110295 1 1
+/taxonomy/term/21/myoption_list/fields/field_smart_tv/delete 1 4763 0 0
+/product/usilitelidlyanaushnikov-unison-research-sh-cherry 4 59597 0 0
+/node/446/delete 1 4495 0 0
+/admin/structure/taxonomy/provider/edit 3 14314 0 0
+/video/vozvrashchenie-izvestnogo-fayloobmennika-fsto 3 35547 0 0
+/node/add/product 80 1850015 6 2
+/product/proektoroptoma-hd29darbee-2 3 48674 0 0
+/file/ajax/field_img/und/0/form-0QlV1wmeHna6mEEcMuXbNVtKP8GKb54lMptcR6u7zxQ 1 3262 0 0
+/taxonomy/term/128/edit 2 23651 0 0
+/file/ajax/uc_product_image/und/form-P0nCP2bAuOcfPQgnrRGlttDDUc8mXugJ8Bw-40Ny-AI 3 11580 0 0
+/product/proektoroptoma-x341 13 266391 1 1
+/admin/structure/taxonomy/technologies/edit 1 5106 0 0
+/block_refresh/views/sravnenia-block_1/node/380/block_refresh 9 11074 0 1
+/taxonomy/term/125/edit 2 16446 0 0
+/taxonomy/term/87/edit 3 32552 0 1
+/flag/flag/sravnenia/382 3 2814 0 0
+/uc_ajax_cart/update 3 1262 0 0
+/product/proektor-optoma-eh500 9 157254 0 0
+/file/ajax/uc_product_image/und/form-xlBxpuhRDTqbGJycPefvpgVWnc7vY8fckMDOtl7XVRE 2 6297 0 0
+/admin/modules/update 1 7773 0 0
+/video 27 334877 3 1
+/js/admin_menu/cache/6259e9690634d38f570d82d933077142 27 342338 0 0
+/node/459/edit 10 237470 0 0
+/views/ajax 16 42634 0 2
+/category/saundbary-i-zvukovye-proektory 22 290122 4 2
+/taxonomy/term/96/edit 2 22106 0 0
+/file/ajax/field_img/und/0/form-fVSJ-ck4ARZ-_gwxj-ilE3ow3xJ-JYyBPCH3A_6FFTE 1 2277 0 0
+/product/karaoke-sistema-ast-mini 2 32085 0 0
+/file/ajax/uc_product_image/und/form-tg-fGo91QPJRvdGkXLA-FNblAw5Y-noqwVU9PHJDH9M 5 19919 0 0
+/product/zvukovoyproektor-yamaha-srt-1500-black 1 18029 1 0
+/file/ajax/uc_product_image/und/form-D71wCQwtKMFI7cokTjjEL-hjgLc4OhG1dAtHHZ8cYfo 3 11713 0 0
+/product/mediapleer-inext-hd1-w 12 202778 2 1
+/taxonomy/term/21/myoption_list/fields/field_colour_tv 1 6489 0 0
+/product/sonorous-surefix-450 11 191209 2 1
+/category/besprovodnoy-multirum 8 102940 1 0
+/taxonomy/term/21/myoption_list/fields/field_digital_tuner/delete 1 4775 0 0
+/taxonomy/term/21/myoption_list/fields/field_smart_tv 1 6504 0 0
+/js/admin_menu/cache/d9b8d1369f22e39ac86e3ce58a04bffe 124 1558392 6 2
+/node/469/edit 23 564711 0 0
+/product/proektoroptoma-eh416 4 114990 1 1
+/product/sabvufernyyusilitel-beale-street-audio-a100 1 13837 0 0
+/product/av-resiver-yamaha-rx-v481 9 221269 3 2
+/product/proektoroptoma-w331 3 50173 0 0
+/flag/flag/sravnenia/353 1 950 0 0
+/taxonomy/term/21/edit 1 11088 0 0
+/flag/flag/sravnenia/378 7 6583 0 0
+/file/ajax/uc_product_image/und/form-PHnfJLUg1jBlpVJcwW6fmcr3SqSUXcmWDcblXca_VcY 1 3764 0 0
+/node/458/delete 1 4483 0 0
+/node/449/edit 1 24349 0 0
+/product/kronshteyn-lautsenn-tva42n 1 14992 0 0
+/node/428/delete 1 4561 0 0
+/taxonomy/term/21/myoption_list/fields/field_s_warranty/edit 1 6592 0 0
+/product/televizor-lg-43uj630v 4 58764 0 0
+/node/452/edit 22 541369 0 1
+/product/mediapleer-dune-hd-sky-4k-plus 161 2890912 27 3
+/node/458/edit 1 23216 0 0
+/news/news 4 26503 0 0
+/block_refresh/views/sravnenia-block_1/node/382/block_refresh 4 4702 0 1
+/taxonomy/term/21/myoption_list/fields/field_hdr 1 6478 0 0
+/taxonomy/term/21/myoption_list/fields/field_smart_platform 1 6505 0 0
+/product/synology-ds718 1 17134 0 0
+/file/ajax/uc_product_image/und/form-443NyhyxIV7dRoF4bnLidRz4xUOj1NPm8E80gc8EPHQ 14 72916 0 0
+/file/ajax/uc_product_image/und/form-4D0FgoBcR5UNjnA2fepx4XGhG5isV8kDCXLvf49jI9A 3 11817 0 0
+/taxonomy/term/124/edit 14 165184 0 0
+/product/proekcionnyyekran-avscreen-3v106meh234h132169 2 27249 0 0
+/admin/structure/types/add 1 10437 0 0
+/taxonomy/term/21/myoption_list/fields/field_image_processor/field-settings 1 5191 0 0
+/file/ajax/uc_product_image/und/form-qKL-iZSOOKBGFlpXVqVlNjtlWxAopcJhrcM-6jjZAfE 2 6292 0 0
+/ajax/sravnenija/flag/delete/380/17 1 4598 0 0
+/product/kabelaudioquest-hd-50m-hdmi-cinnamon-pvc 2 31937 2 0
+/flag/flag/sravnenia/309 1 948 0 0
+/aksessuar/nastroyka-oborudovaniya 14 473044 3 2
+/news/category/televizory 4 28099 0 0
+/node/428/edit 1 23010 0 0
+/node/450/edit 3 74692 0 0
+/file/ajax/uc_product_image/und/form--tYXBqOvFRjfz-cVbOn7iVeBe471PdYB8G0USvl86sE 4 12384 0 0
+/node/475/edit 9 235059 0 0
+/webform/est-voprosy 136 6903487 0 114
+/action/akcionnoepredlozhenie-dlya-vladelcev-kartki-socialnogo-proekta-ukrayinci-razom 7 97862 0 0
+/product/kabelaudioquest-hd-10m-hdmi-pearl-blk-pvc-0 1 13397 0 0
+/taxonomy/term/21/myoption_list/fields/field_tv_tuner 1 6495 0 0
+/product/mediapleer-inext-tv 22 366166 5 1
+/colorbox/cart 14 48110 0 5
+/product/televizor-lg-65sj810v 8 194735 1 1
+/product/proektoroptoma-w400 11 236062 1 1
+/taxonomy/term/21/myoption_list/fields/field_tv_tuner/delete 1 4756 0 0
+/product/musiccast-wx-030 8 233875 1 0
+/sites/default/files/node/news/dune_firmware_solo4k_160831_0236_r11.dff 2 199772896 0 2
+/flag/flag/sravnenia/284 2 1886 0 0
+/product/nas-server-synology-ds218 7 168205 1 1
+/product/univepsalnyypultdu-logitech-harmony-ultimate 16 246071 2 0
+/node/447/edit 1 24350 0 0
+/node/446/edit 1 24989 0 0
+/js/admin_menu/cache/3f1086b2a1d12e57d1b49feb3e6a2559 22 278820 0 0
+/file/ajax/uc_product_image/und/form-fNJYaBehy4HkUXprCAecHGpEzmSpenz-KCGb4LMWDCA 6 23107 0 0
+/product/karaoke-sistema-ast-mini-komplekt 12 200153 9 2
+/user/password 56 2342957 0 1
+/file/ajax/field_img/und/0/form-ncbdGDnRRMSN9bj7CxJpGvydNGuYMRj18AwwoceZFx0 2 4645 0 0
+/flag/unflag/sravnenia/378 1 920 0 0
+/block_refresh/views/sravnenia-block_1/front/block_refresh 162 192247 0 0
+/node/466/edit 3 73734 0 0
+/product/monitoraudio-bronze-lcr 2 31201 2 2
+/node/474/edit 18 446508 0 0
+/block_refresh/views/sravnenia-block_1/taxonomy/term/17/block_refresh 174 249312 0 0
+/node/478/edit 25 353311 0 0
+/taxonomy/term/21/myoption_list/fields/field_s_warranty/delete 1 4752 0 0
+/admin/structure/taxonomy/provider 3 18015 0 1
+/file/ajax/field_img/und/0/form-lymTS7ykIdmuq-hbgdwfKga-nR1ZZvcF0zUZEgnPkIE 1 2566 0 0
+/product/paradigm-pv-60r 7 200096 0 0
+/product/proektor-optoma-eh331 10 155228 1 0
+/node/456/edit 3 72489 0 0
+/file/ajax/uc_product_image/und/form-PvSpUWcJzoSHq7c8_-07GXMaUFH3MPrvzAysAQNUxcE 6 29469 0 0
+/video/nachalnaya-nastroyka-mediapleera-dune-hd-na-baze-dune-hd-tv-102 15 166048 5 0
+/taxonomy/term/21/myoption_list/fields/field_image_processor/delete 1 4774 0 0
+/admin/structure/menu/parents 2 1143 0 0
+/cart/checkout 2 19646 0 0
+/product/kronshteyndlyatelevizora-lautsenn-tva42n 2 34046 0 0
+/category/mediapleery-i-tv-pristavki 155 2375214 30 2
+/category/setevye-hranilishcha-nas 22 278810 3 0
+/product/proektoroptoma-x400-0 3 99999 1 1
+/product/vstraevaemayaakusticheskayasistema-beale-street-audio-bxcw401 2 31112 0 0
+/file/ajax/uc_product_image/und/form-er3hgcTCY9IPdKa2W1i7C0vkRNzP_Ece2xP9x2SYZaU 1 4295 0 0
+/file/ajax/uc_product_image/und/form-NJQEu53sqEzsR6G1I8C4UiqXUlEDKvr6ESzOtWdYCFo 3 1652 0 0
+/file/ajax/uc_product_image/und/form-NfXXo9ayvl3oSP-AJv-5viDtEAfZpk2sK9RoW_IQ2w8 3 11860 0 0
+/taxonomy/term/21/myoption_list/fields 34 796287 0 0
+/node/460/edit 5 116241 0 0
+/taxonomy/term/21/myoption_list/fields/field_panel_sweep_frequency/field-settings 1 5194 0 0
+/product/kryshkaotpyli-pod-zakaz 29 496211 5 2
+/admin/myapi/course 2 7976 0 0
+/product/proektoroptoma-s341 15 300243 1 1
+/node/473/edit 36 900072 1 1
+/product/vinchester-western-digital-blue-1tb 1 13934 0 0
+/js/admin_menu/cache/bff25f0d6bbeb87feb59b53382b7a1a3 47 595504 0 3
+/node/362/edit 6 145580 0 0
+/node/382/edit 1 25882 0 0
+/product/nas-server-synology-nvr1218 4 67844 0 0
+/flag/flag/sravnenia/308 1 950 0 0
+/node/481/edit 15 394845 0 0
+/webform/kupit-v-odin-klik 5 56543 1 1
+/file/ajax/uc_product_image/und/form-MKFXtAY0CAjQiqvCwO8maTFxvNeq3o5FoV6ms76ftPU 1 4349 0 0
+/flag/flag/sravnenia/377 7 6582 0 0
+/taxonomy/term/21/myoption_list/fields/field_screen_size/field-settings 1 5183 0 0
+/product/nas-server-synology-ds718 18 310774 0 0
+/file/ajax/uc_product_image/und/form-f7ZcGz5EUBBq7sTGTGICx0eHe5SLt1XIpFT4HIR4SvA 2 7611 0 0
+/node/467/edit 33 822017 0 0
+/ajax/sravnenija/flag/delete/284/17 1 4777 0 0
+/product/karaoke-komplekt-ast-50-vip 2 30881 1 0
+/news/sertifikat-specialista-dlya-kompanii-mediaplayer-ot-kompanii-kramer-electronics 2 24093 2 1
+/product/proekcionnyyekran-elite-screens-sk110xhw-e24-243-h-137-169 12 392787 4 5
+/file/ajax/field_img/und/0/form-_80MxEgo-VTvqwkvVKD_7KpZEwDCZIbvqeU_yEZYhD0 1 2276 0 0
+/category/usiliteli-moshchnosti-hi-fi 25 294005 0 2
+/category/akustika-dlya-doma 34 519182 1 1
+/product/proektoroptoma-hd29darbee-0 1 17297 0 0
+/file/ajax/uc_product_image/und/form-ryBDAfDmkHdnlhsFiEkWO8dhWRi2i6rbJrXs3kfac-8 3 11764 0 0
+/admin/structure/taxonomy/brand/edit 7 35696 0 0
+/product/mediapleer-dune-hd-base-3d 112 2204967 56 9
+/node/470/edit 10 245956 0 0
+/admin/structure/taxonomy/brand 17 157343 0 0
+/admin/structure/taxonomy/technologies 1 8788 0 0
+/product/proektoroptoma-eh400 3 101021 1 0
+/file/ajax/uc_product_image/und/form-dUUcAm_RnDVtsB1hV-5nrcCCWnGwczaLn_8OBOqQyJ4 1 6333 0 0
+/node/add/news 1 12123 0 0
+/product/1-klipsch-reference-r-112sw-black 2 29253 0 0
+/page/uslugi-ustanovki-oborudovaniya 22 485278 1 2
+/imce 105 435388 0 0
+/users/admin 11 264475 0 0
+/file/ajax/uc_product_image/und/form-we5XVeWpOy8sg1mwF2TJiNS0RGTAS4mxHmGMG8l8BBE 3 11717 0 0
+/js/admin_menu/cache/022191a480351bad347605098e777acf 2 25347 0 0
+/node/360/edit 5 121242 0 0
+/product/sabvufer-jamo-c-660-sub 2 30634 1 0
+/file/ajax/uc_product_image/und/form-r3DmRuIS-0M_B1Qlus0FVaJk7RioOFneeu5nkPJhsn8 1 3768 0 0
+/file/ajax/uc_product_image/und/form-71UUk1neJyWrvQ2_560f-L60Wn9WH2eTA3UxcXkgQBE 17 84463 0 0
+/colorbox/webform/kupit-v-odin-klik 15 43887 1 5
+/node/351/edit 1 13939 0 0
+/product/mediapleer-dune-hd-solo-4k 62 1305087 15 2
+/file/ajax/uc_product_image/und/form-Olys8Hdi7siZ9sLQk1OkQZSfEx0DLXvg7Dgyek_43OM 3 10171 0 0
+/product/fonokorrektor-avid-pellar 1 14313 0 0
+/product/akusticheskayasistema-klipsch-reference-premiere-rp-260f-ebony 12 193369 0 0
+/file/ajax/uc_product_image/und/form-Cp9ehNKl70n6WA29dv9edA4o6BqMIxcD19NBFTUvBKM 1 4029 0 0
+/file/ajax/uc_product_image/und/form-RBpl6k3bVE5c-jvsp_fXroz7Qxfn_-E7MoKr9u9AFL8 1 3759 0 0
+/file/ajax/uc_product_image/und/form-1_ralNXxyJJUukS_N1Q6iMQV7eic_cC6AIhIHnSblTk 1 5847 0 0
+/taxonomy/term/21/myoption_list/fields/field_special_properties/field-settings 1 5185 0 0
+/news/besplatnoe-kino-na-pleerah-dune-hd 56 750606 46 1
+/js/admin_menu/cache/8839afb60c3893e586fb503bc9ccecb7 112 1418986 0 0
+/file/ajax/uc_product_image/und/form-n6KwmnyZTlcf0tGkEQyVs5IpM3uBZBKro2HKcy6I5Ks 3 11718 0 0
+/file/ajax/uc_product_image/und/form-OzWdTSxSkZXGtgl9OEbjv2UEQfrgmIX6tI0-YrOwOxE 7 29736 0 0
+/file/ajax/uc_product_image/und/form-hpPn7rjL936MC5pI3Jv7aaQW_Bo7qhZdF01eViWAchA 5 17804 0 0
+/news/prilozhenie-fsto-brbto-adaptirovano-pod-serialy 3 35181 3 0
+/webform/perezvonite-mne 15 287507 7 1
+/product/gt1080e 1 14268 0 0
+/product/proektoroptoma-hd27 14 274766 1 1
+/taxonomy/term/21/myoption_list/fields/field_colour_system 1 6531 0 0
+/node/361/edit 2 48589 0 0
+/node/471/edit 18 455269 0 0
+/file/ajax/uc_product_image/und/form-O4LHrsApZ4jwcKDWBBcj30iy-noY5wNQJx-8sh-ml5M 3 11726 0 0
+/js/admin_menu/cache/b15038ab296beccd9c346c5aa0d16a60 18 227955 0 0
+/node/477/edit 13 316570 0 1
+/file/ajax/field_img/und/0/form-nyWxkQYoIn3ztW1lHUlKQw4ou-8K2kXwKwsNEi3Zn5w 2 4656 0 0
+/product/proektoroptoma-w341 4 114381 1 1
+/file/ajax/uc_product_image/und/form-jNvX4P4XteYNPfw1cKbhumsbBi-up-PaRPkYn4scL8k 9 37358 0 0
+/file/ajax/uc_product_image/und/form-xq8sK8fi1SVhnW3UqHXFzFd5PmUlcWzT0G_igm4eUbU 3 11692 0 0
+/node/451/edit 15 362770 0 0
+/file/ajax/uc_product_image/und/form-hkYRqc0qSvj2eByFA79thcJ2Dh-7O0W5PGYZqJ0mmLE 1 3781 0 0
+/node/442/edit 16 388879 1 0
+/block_refresh/views/sravnenia-block_1/node/377/block_refresh 5 5802 0 0
+/news/moya-kollekciya-novyy-servis-ot-kompanii-dune-hd 40 683500 39 9
+/js/admin_menu/cache/e38d05c0b86bcdd5b03bc3600d221c98 10 77776 4 3
+/product/proektoroptoma-uhd60 14 225503 0 0
+/product/kolonkidlyadomashnegokinoteatra-jamo-s506-hcs3 2 31181 0 0
+/taxonomy/term/21/myoption_list/fields/field_update_frequency/field-settings 1 5184 0 0
+/node/457/edit 6 148454 0 0
+/product/hdmikabel-mt-power 16 336358 13 2
+/product/mediapleer-inext-4k 73 1085162 35 6
+/file/ajax/uc_product_image/und/form-JwYmqpkTJkzdXefIpJTQxrGQ14a6JbalTvjUlaxsIjU 4 19878 0 0
+/file/ajax/uc_product_image/und/form-LSdlCkuXHaYcQBZltZ7GsaptorBoXncNaqmPAcgHPNA 1 3768 0 0
+/product/usilitelimoshchnosti-topaz-am5-black 4 61205 0 0
+/node/389/edit 9 226406 0 0
+/node/464/edit 5 120116 0 0
+/ajax/sravnenija/flag/delete/60/17 1 6200 0 0
+/admin/store/products/view 26 220804 0 0
+/product/proektoroptoma-x305st 5 125852 0 1
+/file/ajax/uc_product_image/und/form-54F-Fu0avNwytLWSBFxScQTL96rkdza01wZrvA7DKJ4 2 12794 0 0
+/product/proektoroptoma-hd60 2 67673 1 1
+/node/463/edit 3 73598 0 0
+/block_refresh/views/sravnenia-block_1/node/378/block_refresh 8 9182 0 1
+/product/mediapleer-xiaomi-mi-box-3 29 522363 3 3
+/product/zvukovoyproektor-yamaha-ysp-1400-black 1 17169 0 0
+/file/ajax/uc_product_image/und/form-Bq9BrQ6a6Geq1qtYZdTDtWiL6v_wyu-JQ7_g47h_ZGA 2 1101 0 0
+/admin/structure/types/manage/news 1 10366 0 0
+/product/gt760 3 87142 1 1
+/file/ajax/uc_product_image/und/form-UqHojwImOztx88sYdllGyQOqrHP3GZRQVGYGGnEFx6A 5 23377 0 0
+/product/monitoraudio-bronze-2 2 31853 0 0
+/file/ajax/field_img/und/0/form-8V2UGRzHhL-6QYOozeoFg9MBNhMNxul0bVk3SBtiB0o 2 4668 0 0
+/product/mediapleer-inext-3d-kid-w 9 149338 3 2
+/file/ajax/field_img/und/0/form-whcw_G8GxLQXs1BQFKtw4gICZbQl5sY7txVdNOOAIiE 1 2576 0 0
+/category/av-resivery 16 214276 0 0
+/product/proektorortomagt760 1 16456 0 0
+/product/montazhnyekorobki-kompanii-paradigm 2 28542 1 0
+/product/kabeldlyasabvufera-mt-power 1 14201 0 0
+/node/460/delete 2 8974 0 0
+/flag/flag/sravnenia/381 5 4692 0 0
+/page/o-kompanii 12 122547 1 1
+/category/vstraivaemaya-akustika 19 231522 2 0
+/product/wi-fi-modul-air-dune-hd 3 42064 2 0
+/taxonomy/term/21/myoption_list/fields/field_panel_sweep_frequency/delete 1 4779 0 0
+/product/proektoroptoma-eh345 3 100341 1 1
+/news/izgotovlenie-pylezashchitnyh-kryshek-dlya-proigryvatelya-vinilovyh-diskov-po-predzakazu 30 380062 23 0
+/node/358/edit 7 170413 0 0
+/admin/content 2 30769 0 0
+/file/ajax/uc_product_image/und/form-q8-MrWHKnHAASN7qxXRwzyDQQJj8JXQWJsbw9dq3oQY 2 7698 0 0
+/colorbox/webform/perezvonite-mne 2 5648 0 2
+/node/453/edit 16 389802 0 0
+/taxonomy/term/21/myoption_list/fields/field_digital_tuner 1 6526 0 0
+/node/480/edit 29 788229 1 0
+/file/ajax/field_img/und/0/form-cH_Jd-kkrh8HjiNP4VhLE4w27twfmXYsAv1kYKlf3FE 1 2564 0 0
+/ajax/sravnenija/flag/delete/382/17 1 4564 0 1
+/product/povorotnyy-kronshteyn-wm448t 8 160846 2 1
+/product/proektoroptoma-x400 7 167592 1 1
+/category/vinilovyy-proigryvatel 8 89963 1 0
+/file/ajax/uc_product_image/und/form-B8jpz19gWwbLLCOEK6ez9qXyZhBGF5EEoUBPSMnmEe4 9 49986 0 0
+/news/novye-vozmozhnosti-hdmi-specifikacii-21 2 24834 0 0
+/taxonomy/term/21/myoption_list/fields/field_smart_platform/delete 1 4764 0 0
+/user 37 524171 8 0
+/taxonomy/term/21/myoption_list/fields/field_digital_tuner/field-settings 1 5191 0 0
+/node/462/edit 3 73524 0 0
+/user/login 8 86546 4 4
+/news/category/vstraivaemaya-akustika 4 28234 0 0
+/flag/flag/sravnenia/322 1 939 0 0
+/block_refresh/views/sravnenia-block_1/node/339/block_refresh 2 2273 0 1
+/taxonomy/term/21/myoption_list/fields/field_audiosystem 1 6496 0 0
+/category/usiliteli-dlya-naushnikov 14 159658 0 0
+/flag/unflag/sravnenia/368 1 920 0 0
+/product/televizor-65-premium-uhd-4k-flat-smart-tv-mu7000-series-7 3 83736 1 1
+/taxonomy/term/123/edit 3 33199 0 0
+/product/zvukovoyproektor-yamaha-srt-700-black 3 48828 0 0
+/ajax/sravnenija/flag/delete/310/17 1 7640 0 0
+/file/ajax/uc_product_image/und/form-H_p9XW2w-mOXBQP4ZXOBAnuGx9gCP9A1eSBhk7PG2Dw 16 81774 0 0
+/taxonomy/term/21/myoption_list/fields/field_audiosystem/field-settings 1 5171 0 0
+/taxonomy/term/21/myoption_list/fields/field_resolution/field-settings 1 5166 0 0
+/file/ajax/uc_product_image/und/form-UjRyQMn8NFiAZFR84Q_my1smtf0WqJ2pxf71H5N_q6I 1 3782 0 0
+/uc_ajax_cart/show-cart-view 2 3826 0 0
+/product/nas-server-synology-ds216play 14 232112 1 1
+/product/av-resiver-yamaha-rx-v381 10 171390 6 0
+/brand/samsung 2 24200 0 0
+/product/mediapleer-dune-hd-tv-102w 68 1713152 33 7
+/product/proektor-panasonic-pt-ae8000ea 8 124802 1 0
+/file/ajax/uc_product_image/und/form-Foyx6qI1wK2uulqcmZffJhPgHjNtOgv1ZRN7QWdoxJE 9 33050 0 0
+/node/468/edit 36 880266 0 0
+/page/dostavka 10 207644 0 0
+/product/proektoroptoma-hd29darbee-3 2 32969 0 0
+/node/455/edit 3 74435 0 0
+/product/udlinitelbesprovodnoyhdmi-optoma-whd200 3 44386 0 0
+/taxonomy/term/21/myoption_list/fields/field_panel_sweep_frequency 1 6528 0 0
+/file/ajax/uc_product_image/und/form--JfMEvJ0Lgp69svz0NnegIamciOasMJ8YR5KF_h3vrk 1 4358 0 0
+/product/kabelaudioquest-hd-50m-hdmi-carbon-white-pvc 1 14962 0 0
+/product/proektoroptoma-w355 3 100669 1 1
+/video/kompaniya-dune-hd-vypustila-ocherednoy-reliz-proshivki-na-solo-4-k 1 11895 0 0
+/flag/flag/sravnenia/60 3 2824 0 0
+/flag/flag/sravnenia/380 2 1878 0 0
+/node/454/edit 9 220884 0 0
+/product/audiousilitel-ia-1250 2 139376 0 0
+/news/novoe-pokolenie-4k-60fps-hdr-mediapleerov-ot-kompanii-dune-hd 27 365278 3 3
+/cart 2 21657 0 0
+/block_refresh/views/sravnenia-block_1/node/284/block_refresh 2 2401 0 0
+/file/ajax/uc_product_image/und/form-2y4ULIHrZWTfI6HpY0WWyZlVK-wXvGAGhSNBDclef04 1 3814 0 0
+/file/ajax/field_img/und/0/form-coqdk9_3uiykSN393us-0WJdnlMVDFwQDZIRfPt8Zu0 2 4659 0 0
+/product/mediapleer-dune-hd-neo-4k-t2-plus 16 275019 2 0
+/file/ajax/field_img/und/0/form-vBt1XHJtHD0ee527HkSr5secUhFwHUT3La_hz3RPt_g 2 4899 0 0
+/js/admin_menu/cache/1c9ff4f9a3c37750b1098dfca080a5c3 1 12674 0 0
+/block_refresh/views/sravnenia-block_1/node/60/block_refresh 3 3786 0 0
+/news/category/akustika-dlya-doma 4 28190 0 0
+/product/vstraivaemaya-akusticheskaya-sistema-beale-street-audio-plcr4-bb 1 14700 0 0
+/product/mediapleer-inext-tv2 15 237075 2 0
+/file/ajax/uc_product_image/und/form-2QGD5u4QEtDbBrzy91-cvbEChkFGJE4mq3H0q2h37uA 8 37504 0 0
+/taxonomy/term/21/myoption_list/fields/field_resolution/delete 1 4752 0 0
+/product/proektor-optoma-hd27 13 217948 0 0
+/category/proektory-dlya-ofisa 17 256568 0 0
+/admin/structure/taxonomy/category/add 2 33611 0 0
+/category/televizory-0 9 113487 0 0
+/taxonomy/term/21/myoption_list/fields/field_colour_tv/delete 1 4752 0 0
+END_SIDER

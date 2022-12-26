@@ -1,0 +1,12 @@
+name = myoption_ief
+description = my option inline entity form
+package = "AMID myoption"
+core = 7.x
+
+dependencies[] = myoption
+dependencies[] = inline_entity_form
+
+files[] = includes/myoption_ief.inline_entity_form.inc
+
+
+

@@ -1,0 +1,61 @@
+<?php
+/**
+ * Implements hook_menu().
+*/
+function mysravnenia_menu() {
+  $items = array();
+  $items['sravnenija'] = array(
+    'title' => 'Сравнения товаров',
+	'description' => 'Сравнения товаров',
+    'page callback' => 'mysravnenia_page_callback',
+    'access arguments' => array('access content'),
+	'type' => MENU_NORMAL_ITEM,
+	'file' => 'mysravnenia.page.inc',
+  ); 
+  $items['ajax/sravnenija/flag/delete/%/%'] = array(
+    'title' => 'Флаг',
+	'description' => 'Сравнения товаров',
+    'page callback' => 'mysravnenia_flag_ajax_callback',
+	'page arguments' => array(4, 5),
+    'access arguments' => array('access content'),
+	'type' => MENU_CALLBACK,
+    'delivery callback' => 'ajax_deliver',
+	'file' => 'mysravnenia.page.inc',
+
+  ); 
+  return $items;
+}
+
+
+function mysravnenia_js_alter(&$javascript) {
+  foreach($javascript['settings']['data'] as $key => $val){
+	 if (isset($val['block_refresh'])) {
+		$javascript['settings']['data'][$key]['block_refresh']['args'][] = 'block_refresh';
+	 } 
+  }	
+}
+
+
+/**
+ * Implements hook_block_view_alter().
+*/
+function mysravnenia_block_view_alter(&$data, $block) {
+  if ($block->module == 'views' && $block->delta == 'sravnenia-block_1') {
+	if (!$data['content']){ 
+      $data['content']['#markup'] = '';
+      $data['subject'] = '';
+	}
+  }
+ 
+  /*
+  // Remove the contextual links on all blocks that provide them.
+  if (is_array($data['content']) && isset($data['content']['#contextual_links'])) {
+    unset($data['content']['#contextual_links']);
+  }
+  // Add a theme wrapper function defined by the current module to all blocks
+  // provided by the "somemodule" module.
+  if (is_array($data['content']) && $block->module == 'somemodule') {
+    $data['content']['#theme_wrappers'][] = 'mymodule_special_block';
+  }
+  */
+}
